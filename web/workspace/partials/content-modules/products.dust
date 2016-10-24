@@ -1,6 +1,6 @@
 <div class="bg--light-grey bdr__top bdr__bottom bdr--bdr-grey">
   <div class="container container--divider">
-    <p class="hdr larger">Our products</p>
+    <p class="hdr larger">The DADI stack</p>
    
     <div class="grid">
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/api/">
