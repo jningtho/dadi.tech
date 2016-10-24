@@ -32,8 +32,6 @@
   </div>
 </div>
 
-{>"partials/content-modules/customers" /}
-
 <div class="container container--divider">
   <p class="hdr larger">
     DADI is a ground up reimagination of web tech, built on a breakthrough thought:<br><br>
@@ -53,6 +51,8 @@
     <li><a href="/solutions/" class="btn btn--green normal">Solutions</a></li>
   </ul>
 </div>
+
+{>"partials/content-modules/customers" /}
 
 <div class="container container--divider">
   <p class="hdr larger txt--red">DADI integrates with your existing technology</p>

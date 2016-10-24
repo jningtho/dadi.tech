@@ -4,20 +4,27 @@
 </div>
 
 <div class="container container--divider">
-  <p class="hdr larger">We help our clients benefit from becoming a data-centric business by:</p>
+  <p class="hdr larger alignauto alignc">We help our clients benefit from becoming a data-centric business by:</p>
 
-  <ul class="pad__top grid normal list--no-style">
-    <li class="col marg__bottom alignv w-1-4">Ensuring a <strong>consistent view</strong> of data across the business</li>
-    <li class="col marg__bottom alignv w-1-4">Providing a <strong>single customer view</strong> cross-channel</li>
-    <li class="col marg__bottom alignv w-1-4">Enabling personalised <strong>real-time</strong> experiences for individuals</li>
-    <li class="col marg__bottom alignv w-1-4">Making existing content <strong>work harder</strong> and <strong>perform better</strong></li>
-    <li class="col marg__bottom alignv w-1-4">Optimising content targeting with <strong>Machine Learning</strong></li>
-    <li class="col marg__bottom alignv w-1-4">Enabling a new, more <strong>scientific approach</strong> to business and marketing strategies</li>
-    <li class="col marg__bottom alignv w-1-4">Unlocking <strong>new revenue</strong> streams</li>
-  </ul>
+  <div class="grid">
+    <ul class="pad__top grid normal list--tick col w-1-2">
+      <li>Ensuring a <strong>consistent view</strong> of data across the business</li>
+      <li>Providing a <strong>single customer view</strong> cross-channel</li>
+      <li>Enabling personalised <strong>real-time</strong> experiences for individuals</li>
+      <li>Making existing content <strong>work harder</strong> and <strong>perform better</strong></li>
+    </ul>
+    <ul class="pad__top grid normal list--tick col w-1-2">
+      <li>Optimising content targeting with <strong>Machine Learning</strong></li>
+      <li>Enabling a new, more <strong>scientific approach</strong> to business and marketing strategies</li>
+      <li>Unlocking <strong>new revenue</strong> streams</li>
+    </ul>
+  </div>
 </div>
 
-{>"partials/content-modules/customers" /}
+<div class="container container--divider alignc">
+  <p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you unlock the potential of your data</p>
+  <a href="/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+</div>
 
 <div class="container container--divider">
   <p class="hdr larger">
@@ -35,9 +42,6 @@
   </div>
 </div>
 
-{>"partials/solutions/list" module-title="Solutions" /}
+{>"partials/content-modules/customers" /}
 
-<div class="container container--divider alignc">
-  <p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you unlock the potential of your data</p>
-  <a href="/contact/" class="marg__top btn btn--blue normal">Contact us</a>
-</div>
+{>"partials/solutions/list" module-title="Solutions" /}
