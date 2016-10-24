@@ -11,7 +11,7 @@
         {
           "product": "api",
           "color": "#0BA6DD",
-          "overview": "High performance RESTful API layer designed in support of API-first development and the principle of COPE",
+          "overview": "High-performance RESTful API layer designed in support of API-first development and the principle of COPE",
           "description": "You can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
           "features": [
             "Built in support for oAuth2",
@@ -31,7 +31,7 @@
         {
           "product": "web",
           "color": "#e42918",
-          "overview": "High performance schema-less templating layer for browser-based product development",
+          "overview": "High-performance schema-less templating layer for optimal browser-based product development",
           "description": "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.\n\n**DADI Web** uses [LinkedIn's Dust](http://www.dustjs.com/) templating language which provides a simple yet powerful template layer for displaying your data.",
           "features": [
             "Connect to APIs to generate data-driven pages",
@@ -48,7 +48,7 @@
         {
           "product": "publish",
           "color": "#FFBF0D",
-          "overview": "Market leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
+          "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
           "description": "",
           "features": [
             "Extendable custom fields",
@@ -104,7 +104,7 @@
         {
           "product": "people",
           "color": "#27DCE0",
-          "overview": "End to end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
+          "overview": "End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
           "description": "",
           "features": [
             ""
@@ -122,7 +122,7 @@
         {
           "product": "track",
           "color": "#2DBA7A",
-          "overview": "Real time individual-level data pipeline and aggregation service, built around the concept of events and actions",
+          "overview": "Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions",
           "description": "**DADI Track** makes use of Node's non-blocking architecture to present a 1:1 view of tracked activity within a platform.\n\nTrack is deliberately lightweight: it maintains a temporary data pipeline and provides a framework for data consumers to iterate against the pipeline. Data consumers within Track can be used for aggregation, powering real time visualization (through [DADI Visualize](/platform/visualize/)), piping your data into existing platforms or triggering events within your product interfaces.\n\nEvents can be sent to Track from a client device, from within the wider DADI stack or via an API call.",
           "features": [
             "Instant-on, real time data pipeline",
