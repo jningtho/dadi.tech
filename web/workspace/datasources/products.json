@@ -150,7 +150,7 @@
         {
           "product": "visualize",
           "color": "#EF711D",
-          "overview": "Real time data visualization and dashboarding. Plugs into [DADI Track](/platform/track/), _Google Analytics_ and many other third-party systems",
+          "overview": "Real-time data visualization and dashboarding. Plugs into [DADI Track](/platform/track/), _Google Analytics_ and many other third-party systems",
           "description": "**DADI Visualize** provides front end dashboarding functionality for the visualization of your data. It plugs into [DADI Track](/platform/track/) and can take feeds from _Google Analytics_ and almost any other source.",
           "features": [
             "Stunning data visualization",
