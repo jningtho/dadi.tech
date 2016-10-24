@@ -6,7 +6,7 @@
   <div class="grid">
     <div class="col w-2-3 marg__bottom">
       <p class="hdr kilo no-marg-i"><span class="txt--blue">Target individuals.</span><br/> Not segments.</p>
-      <p class="normal">When your website or application is powered by <strong>DADI</strong>, it adapts to create a better experience for your audience. We call this a <strong>Data Driven Experience</strong>.</p>
+      <p class="normal">When your website or application is powered by <strong>DADI</strong>, it adapts to create a better experience for your audience. We call this a <strong>Data Driven Experience</strong> – and we can help you build it.</p>
       <p class="normal pad__top"><a href="/solutions/" class="btn btn--blue">Learn how</a></p>
     </div>
     {@iter items=insights from=0 to=2}
@@ -27,7 +27,7 @@
     </div>
     <div class="col w-1-2">
       <p class="larger hdr txt--red">Data Driven Experiences</p>
-      <p class="normal">The ability to process and understand user and environmental data in real time in order to provide a customised experience for the individual across multiple touch-points.</p>
+      <p class="normal">The ability to process and understand user and environmental data in real time to provide a customised experience for the individual across multiple touch-points, improving engagement and optimising conversion.</p>
     </div>
   </div>
 </div>
