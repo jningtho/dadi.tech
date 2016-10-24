@@ -36,3 +36,8 @@
 </div>
 
 {>"partials/solutions/list" module-title="Solutions" /}
+
+<div class="container container--divider alignc">
+  <p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you unlock the potential of your data</p>
+  <a href="/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+</div>
