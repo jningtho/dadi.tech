@@ -36,7 +36,7 @@
 
 <div class="container container--divider">
   <p class="hdr larger">
-    DADI is a modern microservices framework, built specifically in support of the principles of <span class="txt--red">API</span> first and <span class="txt--red">COPE</span>.
+    DADI is a modern microservices framework, built specifically in support of the principles of <a href="/platform/concepts/api-first-and-cope/" class="txt--red">API first and COPE</a>.
   </p>
   <div class="grid">
     <div class="col w-1-2">        
