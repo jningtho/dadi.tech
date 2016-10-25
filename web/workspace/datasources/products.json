@@ -49,7 +49,7 @@
           "product": "publish",
           "color": "#FFBF0D",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
-          "description": "",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.\n\nDonec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",
           "features": [
             "Extendable custom fields",
             "Manage documents across multiple APIs",
