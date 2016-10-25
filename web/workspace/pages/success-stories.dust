@@ -1,12 +1,24 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}Success stories{/title}
 
 {<bodyClass}dark{/bodyClass}
 
-<div class="container container--pad alignc">
-  <h1 class="hdr kilo read alignauto no-marg-i">Success stories</h1>
-  <p class="alignauto normal">Customers of all sizes succeed with DADI</p>
+<div class="container container--pad">
+  <h1 class="hdr kilo read no-marg-i txt--blue">Success stories</h1>
+  <p class="no-marg pad__top--half normal marg__bottom">Customers of all sizes succeed with <strong>DADI</strong></p>
+</div>
+
+<div class="bg--black" style="background-image:url(/assets/successes/whatcar.jpg)">
+  <a href="/successes/whatcar/">
+    <div class="container">
+      <div class="w-2-3 pad__top--x2 pad__bottom--x2">
+        <p class="hdr larger" style="color:#e32116">What Car?</p>
+        <p class="medium">A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity.</p>
+        <p><span class="btn">Read more</span></p>
+      </div>
+    </div>
+  </a>
 </div>
 
 {>"partials/footer" /}

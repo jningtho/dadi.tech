@@ -49,8 +49,7 @@
           "product": "publish",
           "color": "#FFBF0D",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
-          "description": "A writer’s window to the world of content creation. DADI Publish is developed to optimise editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.
-",
+          "description": "A writer’s window to the world of content creation. DADI Publish is developed to optimise editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
           "features": [
             "Extendable custom fields",
             "Manage documents across multiple APIs",

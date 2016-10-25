@@ -21,20 +21,6 @@
 {/top}
 
 <div class="container container--pad">
-  <div class="grid pad__bottom">
-    <div class="col w-1-2 alignc">
-    <img src="/assets/img/illo-dde.jpg" width="340">
-    </div>
-    <div class="col w-1-2">
-      <p class="larger hdr txt--red">Data Driven Experiences</p>
-      <p class="normal">The ability to process and understand user and environmental data in real time to provide a customised experience for the individual across multiple touch-points, improving engagement and optimising conversion.</p>
-    </div>
-  </div>
-</div>
-
-{>"partials/content-modules/customers" /}
-
-<div class="container container--divider">
   <p class="hdr larger">
     DADI is a ground up reimagination of web tech, built on a breakthrough thought:<br><br>
     <span class="txt--blue">It's all just data.</span>
@@ -53,6 +39,8 @@
     <li><a href="/solutions/" class="btn btn--green normal">Solutions</a></li>
   </ul>
 </div>
+
+{>"partials/content-modules/customers" /}
 
 <div class="container container--divider">
   <p class="hdr larger txt--red">DADI integrates with your existing technology</p>

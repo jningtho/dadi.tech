@@ -41,7 +41,7 @@
             <li>{@soberMarkdown}{.}{/soberMarkdown}</li>
           {/iter}
         </ul>
-        <a href="#" class="marg__top btn btn--green small">And much more!</a>
+        <a href="/contact/" class="marg__top btn btn--green small">Contact us</a>
       </div>
     {/features}
   </div>

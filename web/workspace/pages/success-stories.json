@@ -2,6 +2,12 @@
   "page": {
   	"key": "successes"
   },
+  "datasources": [
+    "successes"
+  ],
+  "requiredDatasources": [
+    "successes"
+  ],
   "events": [
     "insights"
   ],
@@ -10,11 +16,11 @@
     	"path": "/successes/"
     },
     {
-      "path": "/successes/:section?",
+      "path": "/successes/:client?",
       "params": [
         {
-          "param": "section",
-          "in": ["concepts"]
+          "param": "client",
+          "fetch": "successes"
         }
       ]
     }
