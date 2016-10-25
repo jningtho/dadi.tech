@@ -1,6 +1,6 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}Success stories{/title}
 
 {<bodyClass}dark{/bodyClass}
 
@@ -10,15 +10,15 @@
 </div>
 
 <div class="bg--black" style="background-image:url(/assets/successes/whatcar.jpg)">
-<a href="/successes/whatcar/">
-  <div class="container">
-    <div class="w-2-3 pad__top--x2 pad__bottom--x2">
-      <p class="hdr larger" style="color:#e32116">What Car?</p>
-      <p class="medium">A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity.</p>
-      <p><span class="btn">Read more</span></p>
+  <a href="/successes/whatcar/">
+    <div class="container">
+      <div class="w-2-3 pad__top--x2 pad__bottom--x2">
+        <p class="hdr larger" style="color:#e32116">What Car?</p>
+        <p class="medium">A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity.</p>
+        <p><span class="btn">Read more</span></p>
+      </div>
     </div>
-  </div>
-</a>
+  </a>
 </div>
 
 {>"partials/footer" /}
