@@ -9,16 +9,18 @@
   <p class="no-marg pad__top--half normal marg__bottom">Customers of all sizes succeed with <strong>DADI</strong></p>
 </div>
 
-<div class="bg--black" style="background-image:url(/assets/successes/whatcar.jpg)">
-  <a href="/successes/whatcar/">
-    <div class="container">
-      <div class="w-2-3 pad__top--x2 pad__bottom--x2">
-        <p class="hdr larger" style="color:#e32116">What Car?</p>
-        <p class="medium">A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity.</p>
-        <p><span class="btn">Read more</span></p>
+{#successes.results}
+  <div class="bg--black" style="background-image:url(/assets/successes/{handle}.jpg)">
+    <a href="/successes/{handle}/">
+      <div class="container">
+        <div class="w-2-3 pad__top--x2 pad__bottom--x2">
+          <p class="hdr larger" style="color:{color}">{title}</p>
+          <p class="medium">{summary}</p>
+          <p><span class="btn">Read more</span></p>
+        </div>
       </div>
-    </div>
-  </a>
-</div>
+    </a>
+  </div>
+{/successes.results}
 
 {>"partials/footer" /}
