@@ -49,7 +49,8 @@
           "product": "publish",
           "color": "#FFBF0D",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
-          "description": "",
+          "description": "A writer’s window to the world of content creation. DADI Publish is developed to optimise editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.
+",
           "features": [
             "Extendable custom fields",
             "Manage documents across multiple APIs",
@@ -105,7 +106,7 @@
           "product": "people",
           "color": "#27DCE0",
           "overview": "End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
-          "description": "",
+          "description": "Know your audience: DADI People gives you the power to identify the people who use your products and give them exactly the service they want in the very moment they need it. It's the beating heart of your CRM strategy and can be extended by other microservices in the DADI product suite.",
           "features": [
             ""
           ],
