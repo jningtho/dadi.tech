@@ -1,6 +1,12 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}
+  {^params.article}
+    Insight
+  {:else}
+    {insights[0].attributes.title} / Insight
+  {/params.article}
+{/title}
 
 {^params.article}
   <div class="container pad__bottom alignc">
