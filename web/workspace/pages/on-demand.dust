@@ -15,7 +15,7 @@
     <input type="text" name="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto pad__top">By signing up, you agree to the <a href="/terms" class="txt--black">Terms of Service</a>.</p>
+  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 <div class="bg--light-grey bdr__top bdr__bottom bdr--bdr-grey">
@@ -69,7 +69,7 @@
     <input type="text" name="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto pad__top">By signing up, you agree to the <a href="/terms" class="txt--black">Terms of Service</a>.</p>
+  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 {>"partials/footer" /}
