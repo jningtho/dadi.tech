@@ -1,8 +1,9 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}On-demand{/title}
 
 <div class="container pad__bottom alignc">
+  <img src="/assets/img/logo-ondemand.png" height="45" class="alignv">
   <h1 class="hdr kilo"><span class="txt--red block">Cloud computing.</span> Designed for developers.</h1>
 </div>
 

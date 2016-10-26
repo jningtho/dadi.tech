@@ -1,6 +1,6 @@
 <div class="container container--pad">
   <div class="grid alignc">
-    <h1 class="no-marg-i kilo txt--blue marg__bottom">{title}</h1>
+    <h1 class="no-marg-i kilo txt--blue marg__bottom">{headline}</h1>
     <p class="hdr larger alignauto">{overview}</p>  
   </div>
 </div>

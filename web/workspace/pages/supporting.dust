@@ -1,6 +1,6 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}{supporting.results[0].title}{/title}
 
 <div class="container container--divider normal">
   {#supporting.results}

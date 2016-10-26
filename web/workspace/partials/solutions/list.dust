@@ -15,7 +15,7 @@
               <img src="/assets/icons/white/{icon}.svg" height="70">
             </div>
             <strong class="inline-block w-1-2 alignv">
-              {solution}
+              {title}
             </strong>
           </a>
         </li>
