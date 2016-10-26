@@ -125,6 +125,7 @@
           }
         },
         {
+          "title": "Track",
           "product": "track",
           "color": "#2DBA7A",
           "overview": "Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions",
@@ -153,6 +154,7 @@
           }
         },
         {
+          "title": "Visualize",
           "product": "visualize",
           "color": "#EF711D",
           "overview": "Real-time data visualization and dashboarding. Plugs into [DADI Track](/platform/track/), _Google Analytics_ and many other third-party systems",
@@ -167,6 +169,7 @@
           ]
         },
         {
+          "title": "Match",
           "product": "match",
           "color": "#5CC617",
           "overview": "Scalable and straightforward predictive analysis API with machine learning at its heart",
