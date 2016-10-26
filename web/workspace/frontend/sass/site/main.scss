@@ -298,9 +298,11 @@ form {
     height: 80px;
     margin: 40px 0 0px;
 }
-.product-logo-full {
-	max-width: 100%;
-	height: auto;
+@media #{$break-small} {
+	.product-logo-full {
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .zoom {
