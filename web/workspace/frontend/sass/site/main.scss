@@ -122,6 +122,7 @@ body.dark {
 @media #{$break-small} {
 	.top__promo {
 		background: $red !important;
+		color: #fff !important;
 		border-radius: 0 0 8px 8px;
 		padding: 15px 20px;
 		margin-left: -20px;
@@ -129,8 +130,8 @@ body.dark {
 		margin-bottom: 35px;
 
 		.btn {
-			background: #fff;
-			color: #E5462C;
+			background: #fff !important;
+			color: #E5462C !important;
 			float: right;
 		}
 	}
