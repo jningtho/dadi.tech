@@ -4,7 +4,11 @@
   {^params.article}
     Insight
   {:else}
-    {insights[0].attributes.title} / Insight
+    {#insights}
+      {@eq key=handle value=params.article}
+        {attributes.title} / Insight
+      {/eq}
+    {/insights}
   {/params.article}
 {/title}
 
