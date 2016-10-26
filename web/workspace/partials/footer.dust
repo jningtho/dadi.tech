@@ -1,6 +1,6 @@
 </main>
 
-<div class="bg--light-grey bdr__top bdr--bdr-grey pad--x2">
+<div class="bg--light-grey bdr__top bdr--bdr-grey pad__top--x2 pad__bottom--x2">
   <footer class="small container">
     <div class="bdr__bottom bdr--bdr-grey marg__bottom--x2 pad__bottom">
       <div class="grid feed">
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="grid">
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <ul class="list--line normal txt--blue">
           <li><a href="/contact/">Contact us</a></li>
           <li><a href="/successes/">Success stories</a></li>
@@ -38,7 +38,7 @@
           <li><a href="/privacy/">Privacy</a></li>
         </ul>
       </div>
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <p class="normal hdr"><a href="/platform/">Platform</a></p>
         <ul class="list--line">
           <li>
@@ -102,7 +102,7 @@
           </li>
         </ul>
       </div>
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <p class="normal hdr"><a href="/solutions/">Solutions</a></p>
         <ul class="list--line">
           <li><a href="/solutions/data-strategy/">Data strategy</a></li>
@@ -116,7 +116,7 @@
       </div>
     </div>
 
-    <div class="marg__top--x2 pad__top--x2 pad__bottom alignc">
+    <div class="marg__top--x2 pad__top pad__bottom alignc">
       <ul class="list--inline block marg__bottom--x2">
         <li class="fwb">© DADI+ Ltd.</li>
         <li><a href="https://twitter.com/dadi">Follow us on Twitter</a></li>
