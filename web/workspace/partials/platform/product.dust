@@ -1,5 +1,5 @@
 <div class="container container--pad alignc">
-  <img src="/assets/products/dadi-{product}-full.png" height="65" alt="DADI API">
+  <img src="/assets/products/dadi-{product}-full.png" class="product-logo-full" height="65" alt="DADI API">
   <p class="hdr larger alignauto">{@soberMarkdown}{overview}{/soberMarkdown}</p>    
   
   <div class="pad__top">
