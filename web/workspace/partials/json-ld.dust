@@ -6,8 +6,8 @@
       "@context": "http://schema.org",
       "@type": "Organization",
       "name": "DADI",
-      "url": "http://dadi.tech/",
-      "logo": "http://dadi.tech/assets/img/dadi-colour.svg",
+      "url": "{global.protocol}://{host}/",
+      "logo": "{global.protocol}://{host}/assets/img/dadi-colour.svg",
       "sameAs" : [
         "https://twitter.com/dadi",
         "https://github.com/dadi",

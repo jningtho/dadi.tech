@@ -3,6 +3,7 @@
   	"key": "insight"
   },
   "events": [
+    "globals",
     "insights"
   ],
   "routes": [
