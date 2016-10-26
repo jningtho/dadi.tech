@@ -19,27 +19,36 @@ body.dark {
 	position: relative;
 	z-index: 1;
 
+	&--pad,
 	&--divider {
-		border-top: 5px solid $light-grey;
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+	&--divider {
+		border-top: 5px solid $light-grey;
 
 		&:first-of-type() {
 			border-top: 0;
 		}
 	}
-	&--pad {
-		padding-top: 40px;
-		padding-bottom: 40px;
+}
+
+@media #{$break-small} {
+	.container--divider,
+	.container--pad {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }
 
-header {
-	margin-bottom: 60px;
+@media #{$break-large} {
+	header {
+		margin-bottom: 60px;
+	}
 }
 
 .top {
-	padding: 40px 0 50px;
+	padding-bottom: 50px;
 	position: relative;
 	overflow: hidden;
 
@@ -86,17 +95,43 @@ header {
 		left: 100%;
 		opacity: 0.3;
 	}
+}
 
-	&__promo {
+@media #{$break-large} {
+	.top {
+		padding-top: 40px;
+	}
+	.top__promo {
 		padding: 30px 0 30px 40px;
 		position: relative;
 		border-radius: 100px 0 0 100px;
+		float: right;
+
+		.btn {
+			margin: 5px 0 0 20px;
+		}
 
 		&:after {
 			position: absolute;
 			width: 100%;
 			left: 100%; top: 0; bottom: 0;
 			content: ' ';
+		}
+	}
+}
+@media #{$break-small} {
+	.top__promo {
+		background: $red !important;
+		border-radius: 0 0 8px 8px;
+		padding: 15px 20px;
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-bottom: 35px;
+
+		.btn {
+			background: #fff;
+			color: #E5462C;
+			float: right;
 		}
 	}
 }
@@ -139,17 +174,20 @@ body.dark {
 
 	li {
 		display: inline-block;
-		margin-right: 1.2em;
-		
-		&:after {
-			display: inline-block;
-			vertical-align: middle;
-			margin-top: -4px;
-			height: 17px;
-			content: ' ';
-			border-right: 1px solid rgba(255,255,255,0.19);
-			padding-left: 1.2em;
-			font-weight: bold;
+
+		@media #{$break-large} {
+			margin-right: 1.2em;
+			
+			&:after {
+				display: inline-block;
+				vertical-align: middle;
+				margin-top: -4px;
+				height: 17px;
+				content: ' ';
+				border-right: 1px solid rgba(255,255,255,0.19);
+				padding-left: 1.2em;
+				font-weight: bold;
+			}
 		}
 
 		&:last-of-type:after {
@@ -182,6 +220,19 @@ body.dark {
 	}
 }
 
+@media #{$break-small} {
+	.nav {
+		margin: 20px 0 35px;
+		a {
+			display: block;
+			margin-right: 30px;
+		}
+		li {
+			width: 50%;			
+		}
+	}
+}
+
 form {
 	.btn, .text {
 		line-height: 1.25;
@@ -207,6 +258,11 @@ form {
 		&:active,&:hover,&:focus {
 			background: darken($blue,10%);
 		}
+
+		@media #{$break-small} {
+			width: 100%;
+			border-radius: 0 0 $radius $radius;
+		}
 	}
 	.text {
 		box-shadow: none;
@@ -220,8 +276,16 @@ form {
 		&:active,&:hover,&:focus {
 			background: #fff;
 		}
+
+		@media #{$break-small} {
+			width: 100%;
+			border-radius: $radius $radius 0 0;
+			text-align: center;
+		}
 	}
 }
+
+
 .footer {
 	background: $dark-blue url(/assets/img/bg-coding.jpg) no-repeat 50%;
 	background-size: fill;

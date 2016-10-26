@@ -1,7 +1,7 @@
 <header>
-  <div class="float--right fwb top__promo">
+  <div class="fwb top__promo cf">
     <div class="float--left small">Looking for a hosted<br>technology solution?</div>
-    <a href="/on-demand/" class="alignv btn btn--fill btn--red" style="margin:5px 0 0 20px;">On demand</a>
+    <a href="/on-demand/" class="alignv btn btn--fill btn--red">On demand</a>
   </div>
 
   <h1><a href="/" class="inline-block"><img src="/assets/img/dadi-{^light}light{:else}colour{/light}.svg" width="150" alt="DADI"></a></h1>
