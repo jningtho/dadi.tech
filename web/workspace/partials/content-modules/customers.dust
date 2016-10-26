@@ -1,23 +1,23 @@
 <div class="container container--divider alignc">
   <p class="hdr larger txt--green alignauto">Businesses of all sizes succeed with DADI</p>
 
-  <ul class="list--quotes normal cf pad__top">
-    <li class="inline-block w-1-3 alignc hdr">
+  <ul class="list--quotes normal cf">
+    <li class="inline-block w-1-3 bs-w-1-1 alignc hdr">
       <img class="marg__top" src="/assets/img/logo-monocle.png" height="25" alt="Monocle">
     </li>
-    <li class="inline-block w-1-3 alignc hdr">
+    <li class="inline-block w-1-3 bs-w-1-1 alignc hdr">
       <img class="marg__top" src="/assets/img/logo-whatcar.png" height="27" alt="WhatCar?">
     </li>
-    <li class="inline-block w-1-3 alignc hdr">
+    <li class="inline-block w-1-3 bs-w-1-1 alignc hdr">
       <img class="marg__top" src="/assets/img/logo-empire.png" height="30" alt="Empire Magazine">
     </li>
-    <li class="inline-block w-1-3 alignc hdr">
+    <li class="inline-block w-1-3 bs-w-1-1 alignc hdr">
       <img class="marg__top" src="/assets/img/logo-vle.png" height="50" alt="Virgin Limited Edition">
     </li>
-    <li class="inline-block w-1-3 alignc hdr">
+    <li class="inline-block w-1-3 bs-w-1-1 alignc hdr">
       <img class="marg__top" src="/assets/img/logo-lifestyleone.png" height="48" alt="Lifestyle.one">
     </li>
   </ul>
 
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--green normal">See all customer stories</a></div>
+  <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--green normal">See all customer stories</a></div>
 </div>
