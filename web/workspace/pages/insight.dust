@@ -2,11 +2,11 @@
 
 {<title}
   {^params.article}
-    Insight
+    Latest
   {:else}
     {#insights}
       {@eq key=handle value=params.article}
-        {attributes.title} / Insight
+        {attributes.title} / Latest
       {/eq}
     {/insights}
   {/params.article}
@@ -14,15 +14,15 @@
 
 {^params.article}
   <div class="container pad__bottom alignc">
-    <h1 class="hdr kilo"><span class="txt--green block">Insight</span></h1>
+    <h1 class="hdr kilo"><span class="txt--green block">Latest</span></h1>
     <p class="hdr larger alignauto">Platform, innovation and industry insight from your friends at DADI</p>
   </div>
 
-  <div class="container container--divider marg__top--x2">
+  <div class="container container--divider marg__top">
     <div class="grid normalise">
       {#insights}
-        <div class="col w-1-2 normalise--item pad__bottom--x2">
-          <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p>
+        <div class="w-2-3 bs-w-1-1 alignauto normalise--item pad__bottom--x2">
+          {! <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
           <p class="hdr larger txt--green"><a href="/insight/{handle}/">{attributes.title}</a></p>
           <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
           <p class="small"><a href="/insight/{handle}/" class="btn btn--green">Read more</a></p>

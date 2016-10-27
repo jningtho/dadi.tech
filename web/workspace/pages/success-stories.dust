@@ -2,8 +2,6 @@
 
 {<title}{?params.client}{successes.results[0].title} / {/params.client} Success stories{/title}
 
-{<bodyClass}dark{/bodyClass}
-
 {^params.client}
   <div class="container container--pad">
     <h1 class="hdr kilo read no-marg-i txt--blue">Success stories</h1>
