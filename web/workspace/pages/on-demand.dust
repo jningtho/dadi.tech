@@ -10,9 +10,8 @@
 <div class="container container--divider alignc">
   <p class="medium hdr alignauto pad__bottom">DADI on demand will be launching soon. Let us know your email address to be the first to know.</p>
 
-  <form action="..." method="post">
-    <input type="hidden" name="formname" value="demo">
-    <input type="text" name="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
+  <form action="http://mail.dadi.tech/t/i/s/ptyhjt/" method="post">
+    <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
   <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
