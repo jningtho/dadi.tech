@@ -1,5 +1,5 @@
-<div class="bg--light-grey bdr__top bdr__bottom bdr--bdr-grey">
-  <div class="container container--divider">
+<div class="bg--light-grey marg">
+  <div class="container container--pad">
     <p class="hdr larger">The DADI stack</p>
    
     <div class="grid">
@@ -7,55 +7,46 @@
         <div class="product-logo"><img src="/assets/products/dadi-api.png" width="45"></div>
         <strong class="larger block hdr" style="color:#0BA6DD">api</strong>
         <p class="normal">High-performance <em>RESTful</em> API layer designed in support of API-first development and the principle of <em>COPE</em></p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/web/">
         <div class="product-logo"><img src="/assets/products/dadi-web.png" width="60"></div>
         <strong class="larger block hdr" style="color:#FF2812">web</strong>
         <p class="normal">High-performance schema-less templating layer for browser-based product development</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/publish/">
         <div class="product-logo"><img src="/assets/products/dadi-publish.png" width="45"></div>
         <strong class="larger block hdr" style="color:#FFBF0D">publish</strong>
         <p class="normal">Market-leading editorial interfaces for the management of content held within <strong>DADI API</strong> and other data sources</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/cdn/">
         <div class="product-logo"><img src="/assets/products/dadi-cdn.png" width="45"></div>
         <strong class="larger block hdr" style="color:#F7287B">cdn</strong>
         <p class="normal">Real-time asset manipulation and delivery application, providing a complete content distribution solution</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/people/">
         <div class="product-logo"><img src="/assets/products/dadi-people.png" width="45"></div>
         <strong class="larger block hdr" style="color:#27DCE0">people</strong>
         <p class="normal">End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/track/">
         <div class="product-logo"><img src="/assets/products/dadi-track.png" width="45"></div>
         <strong class="larger block hdr" style="color:#2DBA7A">track</strong>
         <p class="normal">Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/visualize/">
         <div class="product-logo"><img src="/assets/products/dadi-visualize.png" width="60"></div>
         <strong class="larger block hdr" style="color:#EF711D">visualize</strong>
         <p class="normal">Real-time data visualization and dashboarding. Plugs into <strong>DADI Track</strong>, <em>Google Analytics</em> and many other third-party systems</p>
-        <span class="btn small">Learn more</span>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/match/">
         <div class="product-logo"><img src="/assets/products/dadi-match.png" width="60"></div>
         <strong class="larger block hdr" style="color:#5CC617">match</strong>
         <p class="normal">Scalable and straightforward predictive analysis API with machine learning at its heart</p>
-        <span class="btn small">Learn more</span>
       </a></div>
 
       {! <div class="col w-1-1 alignc marg__top"><a class="block zoom" href="/platform/tools/">
         <strong class="larger block hdr">Tools &amp; Components</strong>
         <p class="alignauto normal">The core <strong>DADI</strong> apps are supported by a wide range of tools &amp; components that extend and enhance the platform</p>
-        <span class="btn small">Learn more</span>
       </a></div> !}
     </div>
   </div>
