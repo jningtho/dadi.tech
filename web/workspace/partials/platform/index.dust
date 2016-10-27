@@ -19,11 +19,11 @@
       <img src="/assets/img/logo-github.png" height="45" class="alignv">
       <span class="pad__top block">Github</span>
     </a></div>
-    <div class="col w-1-4"><a href="https://www.npmjs.com/org/dadi/">
+    <div class="col w-1-4"><a href="http://docs.dadi.tech/npm/">
       <img src="/assets/img/logo-npm.png" height="45" class="alignv">
       <span class="pad__top block">NPM</span>
     </a></div>
-    <div class="col w-1-4"><a href="https://docs.dadi.tech/">
+    <div class="col w-1-4"><a href="http://docs.dadi.tech/">
       <img src="/assets/img/d.svg" height="45" class="alignv">
       <span class="pad__top block">Docs</span>
     </a></div>
