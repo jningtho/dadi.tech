@@ -289,8 +289,12 @@ form {
 
 
 .footer {
-	background: $dark-blue url(/assets/img/bg-coding.jpg) no-repeat 50%;
-	background-size: fill;
+	background-image: url(/assets/img/bg-footer.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
 }
 
 
