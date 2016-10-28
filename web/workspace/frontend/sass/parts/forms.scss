@@ -88,6 +88,9 @@
 	&:active,&:hover,&:focus {
 		background: $green;
 	}
+	&.btn--fill {
+		background: $green;
+	}
 }
 .btn.btn--disabled,
 .btn.btn--disabled:hover
