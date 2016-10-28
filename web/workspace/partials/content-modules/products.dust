@@ -23,10 +23,10 @@
         <strong class="larger block hdr" style="color:#F7287B">cdn</strong>
         <p class="normal">Real-time asset manipulation and delivery application, providing a complete content distribution solution</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/people/">
-        <div class="product-logo"><img src="/assets/products/dadi-people.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#27DCE0">people</strong>
-        <p class="normal">End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space</p>
+      <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/predict/">
+        <div class="product-logo"><img src="/assets/products/dadi-predict.png" width="45"></div>
+        <strong class="larger block hdr" style="color:#27DCE0">predict</strong>
+        <p class="normal">Scalable and straightforward predictive analysis API with machine learning at its heart</p>
       </a></div>
       <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/track/">
         <div class="product-logo"><img src="/assets/products/dadi-track.png" width="45"></div>
@@ -38,10 +38,10 @@
         <strong class="larger block hdr" style="color:#EF711D">visualize</strong>
         <p class="normal">Real-time data visualization and dashboarding. Plugs into <strong>DADI Track</strong>, <em>Google Analytics</em> and many other third-party systems</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/match/">
-        <div class="product-logo"><img src="/assets/products/dadi-match.png" width="60"></div>
-        <strong class="larger block hdr" style="color:#5CC617">match</strong>
-        <p class="normal">Scalable and straightforward predictive analysis API with machine learning at its heart</p>
+      <div class="col w-1-4 pad__bottom--x2"><a class="block zoom" href="/platform/identify/">
+        <div class="product-logo"><img src="/assets/products/dadi-identify.png" width="60"></div>
+        <strong class="larger block hdr" style="color:#5CC617">identify</strong>
+        <p class="normal">End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space</p>
       </a></div>
 
       {! <div class="col w-1-1 alignc marg__top"><a class="block zoom" href="/platform/tools/">
