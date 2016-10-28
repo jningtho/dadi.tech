@@ -12,7 +12,7 @@
   <ul class="normal nav  marg__right--x2">
     <li><a href="/platform/" {@eq key=page.key value="platform"}class="active"{/eq}>Platform</a></li>
     <li><a href="/successes/" {@eq key=page.key value="successes"}class="active"{/eq}>Success stories</a></li>
-    <li><a href="/insight/" {@eq key=page.key value="insight"}class="active"{/eq}>Latest</a></li>
+    <li><a href="/latest/" {@eq key=page.key value="latest"}class="active"{/eq}>Latest</a></li>
   </ul>
   </div>
 
