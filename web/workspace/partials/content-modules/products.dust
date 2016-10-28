@@ -1,4 +1,4 @@
-<div class="bg--light-grey marg">
+<div class="bg--light-grey marg bdr-shadow">
   <div class="container container--pad">
     <p class="hdr larger">The DADI stack</p>
    
