@@ -84,9 +84,9 @@
             </a>
           </li>
           <li>
-            <a href="/platform/identify/" class="fwb">
-            <img src="/assets/products/dadi-identify.png" class="alignv float--right" width="8">
-            Identify
+            <a href="/platform/identity/" class="fwb">
+            <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
+            Identity
             </a>
           </li>
           <li><a href="/platform/concepts/">Concepts</a></li>
