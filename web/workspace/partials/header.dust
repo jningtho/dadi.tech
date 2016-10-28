@@ -12,6 +12,7 @@
 <body class="{+bodyClass}light{/bodyClass}">
 
 <div class="top {?params.section}top--{params.section}{/params.section}">
+  <div class="top__bg pattern" data-colors="#ffbf0d,#fcae0e,#f99d0f,#f68d10,#f37c11,#f06b13,#ed5b14,#ea4a15,#e73916,#e42918"></div>
   <div class="container"> 
     {>"partials/navigation" /}
     {+top}{/top}
