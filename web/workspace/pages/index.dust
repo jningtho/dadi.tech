@@ -12,25 +12,21 @@
       <p class="normal pad__top"><a href="/platform/" class="btn btn--blue">How it works</a></p>
     </div>
     <div class="col w-1-2">
-    <p class="pad__top--half hdr medium txt--grey">Get started…</p>
-    <ul class="list--line txt--white medium">
-    <li><a style="padding: 15px 0" href="https://github.com/dadi/">
-      <img src="/assets/img/logo-github-white.png" height="30" class="alignv float--right">
-      <span class="pad__top">Explore code in <strong>Github</strong></span>
-    </a></li>
-    <li><a style="padding: 10px 0" href="http://docs.dadi.tech/npm/">
-      <img src="/assets/img/logo-npm-white.png" height="25" class="alignv float--right">
-      <span class="pad__top">Integrate with <strong>NPM</strong></span>
-    </a></li>
-    <li><a style="padding: 10px 0" href="http://docs.dadi.tech/">
-      <img src="/assets/img/dadi-white.png" height="25" class="alignv float--right">
-      <span class="pad__top">Read <strong>documentation</strong></span>
-    </a></li>
-    {! <li><a style="padding: 10px 0" href="/on-demand/">
-      <img src="/assets/img/logo-ondemand.png" height="25" class="alignv float--right">
-      <span class="pad__top">On demand option</span>
-    </a></li> !}
-    </div>
+      <p class="pad__top--half hdr medium txt--grey">Dive right in…</p>
+      <ul class="list--line txt--white medium">
+        <li><a style="padding: 15px 0" href="https://github.com/dadi/">
+          <img src="/assets/img/logo-github-white.png" height="30" class="alignv float--right">
+          <span class="pad__top">Explore code in <strong>Github</strong></span>
+        </a></li>
+        <li><a style="padding: 10px 0" href="http://docs.dadi.tech/npm/">
+          <img src="/assets/img/logo-npm-white.png" height="25" class="alignv float--right">
+          <span class="pad__top">Integrate with <strong>NPM</strong></span>
+        </a></li>
+        <li><a style="padding: 10px 0" href="http://docs.dadi.tech/">
+          <img src="/assets/img/dadi-white.png" height="25" class="alignv float--right">
+          <span class="pad__top">Read <strong>documentation</strong></span>
+        </a></li>
+      </div>
   </div>  
 {/top}
 
@@ -41,7 +37,7 @@
       <div class="pad__top pad__bottom hdr txt--red larger">It's all just data.</div>
     </div>
     <div class="col w-1-2">
-    <p class="normal">The <strong>DADI</strong> platform enables the unification of disparate technologies by treating all content types in the same way, closing the gap between <em>WCM/ECM</em>, <em>CRM</em> and <em>DMP</em>, and making the implementation of cutting edge machine learning and big data theory simple.</p>
+      <p class="normal">The <strong>DADI</strong> platform enables the unification of disparate technologies by treating all content types in the same way, closing the gap between <abbr title="Web Content Management">WCM</abbr>/<abbr title="Enterprise Content Management">ECM</abbr>, <abbr title="Customer Relationship Management">CRM</abbr> and <abbr title="Data Management Platform">DMP</abbr>, and making the implementation of cutting edge machine learning and big data theory simple.</p>
       <p class="normal">With <strong>DADI</strong>, businesses of all sizes can provide data driven experience to their customers: unique and personalised interactions that drive higher engagement and increase conversion, all at a price point significantly below that of legacy platforms.</p>
     </ul>
     </div>
@@ -81,7 +77,7 @@
       </li>
       <li class="col w-1-2 pad__bottom--x2">
         <div class="block"><img src="/assets/icons/white/calendar.svg" height="70"></div>
-        <p class="hdr medium">RAD for real</p>
+        <p class="hdr medium"><abbr title="Rapid Application Development">RAD</abbr> for real</p>
         <p class="normal">“Products built with DADI are delivered in days and weeks, not weeks and months.”</p>
       </li>
     </ul>
