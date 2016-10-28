@@ -63,8 +63,11 @@
               </span>
             </a>
           </li>
-        </ul>        
-        </p>
+        </ul>
+
+        <br><br>
+
+        <a class="twitter-timeline" data-height="680" href="https://twitter.com/dadi">Tweets by dadi</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
