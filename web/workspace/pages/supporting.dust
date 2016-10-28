@@ -4,7 +4,7 @@
 
 <div class="container read normal">
   {#supporting.results}
-  	<h1 class="pad__top--x2">{title}</h1>
+  	<h1 class="pad__top--x2 pad__bottom alignc kilo">{title}</h1>
     {@markdown}{body|s}{/markdown}
   {/supporting.results}
 </div>
