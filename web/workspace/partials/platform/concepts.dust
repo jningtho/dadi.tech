@@ -21,7 +21,7 @@
         <p class="hdr larger alignauto">{@soberMarkdown}{overview}{/soberMarkdown}</p>  
       </div>
     </div>
-    <div class="container container--divider normal">
+    <div class="container read container--divider normal">
       {@markdown}{body}{/markdown}
     </div>
   {/concepts.results}

@@ -1,6 +1,6 @@
 </main>
 
-<div class="bg--light-grey bdr__top bdr--bdr-grey pad--x2">
+<div class="footer bg--light-grey bdr__top bdr--bdr-grey pad__top--x2 pad__bottom--x2">
   <footer class="small container">
     <div class="bdr__bottom bdr--bdr-grey marg__bottom--x2 pad__bottom">
       <div class="grid feed">
@@ -17,28 +17,28 @@
       <div class="grid marg__top marg__bottom">
         {@iter items=insights from=0 to=3}
           <div class="col w-1-3">
-            <p class="txt--grey hdr">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p>
-            <p class="hdr large txt--blue"><a href="/insight/{handle}/">{attributes.title}</a></p>
-            <p class="fwb small">By {attributes.author}</p>
+            {! <p class="txt--grey hdr">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
+            <p class="hdr large txt--blue"><a href="/latest/{handle}/">{attributes.title}</a></p>
+            <p class="small txt--mid-grey">By <strong>{attributes.author}</strong></p>
             <p class="small">{@soberMarkdown}{@Truncate data="{attributes.preface}" length="110" ellipsis="true"/}{/soberMarkdown}</p>
-            <p class="small"><a href="/insight/{handle}/" class="btn btn--blue">Read more</a></p>
+            <p class="small"><a href="/latest/{handle}/" class="btn btn--blue">Read more</a></p>
           </div>
         {/iter}
       </div>
     </div>
     <div class="grid">
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <ul class="list--line normal txt--blue">
           <li><a href="/contact/">Contact us</a></li>
           <li><a href="/successes/">Success stories</a></li>
-          <li><a href="/insight/">Insight</a></li>
+          <li><a href="/latest/">Latest</a></li>
           <li><a href="/on-demand/">On demand</a></li>
           <li><a href="/team/">Our team</a></li>
           <li><a href="/careers/">Careers</a></li>
           <li><a href="/privacy/">Privacy</a></li>
         </ul>
       </div>
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <p class="normal hdr"><a href="/platform/">Platform</a></p>
         <ul class="list--line">
           <li>
@@ -102,7 +102,7 @@
           </li>
         </ul>
       </div>
-      <div class="col w-1-3">
+      <div class="col w-1-3 pad__bottom">
         <p class="normal hdr"><a href="/solutions/">Solutions</a></p>
         <ul class="list--line">
           <li><a href="/solutions/data-strategy/">Data strategy</a></li>
@@ -116,7 +116,7 @@
       </div>
     </div>
 
-    <div class="marg__top--x2 pad__top--x2 pad__bottom alignc">
+    <div class="marg__top--x2 pad__top pad__bottom alignc">
       <ul class="list--inline block marg__bottom--x2">
         <li class="fwb">© DADI+ Ltd.</li>
         <li><a href="https://twitter.com/dadi">Follow us on Twitter</a></li>
@@ -128,15 +128,15 @@
   </footer>
 </div>
 
-{! Google Analytics
+{! Google Analytics !}
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','{global.protocol}www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','{global.protocol}://www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-42395806-1', 'auto');
 ga('send', 'pageview');
-</script> !}
+</script>
 
 <script src="/assets/js/main.js"></script>
 </body>

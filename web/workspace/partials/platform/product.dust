@@ -1,12 +1,12 @@
 <div class="container container--pad alignc">
-  <img src="/assets/products/dadi-{product}-full.png" height="65" alt="DADI API">
+  <img src="/assets/products/dadi-{product}-full.png" class="product-logo-full" height="65" alt="DADI API">
   <p class="hdr larger alignauto">{@soberMarkdown}{overview}{/soberMarkdown}</p>    
   
   <div class="pad__top">
     <ul class="list--inline medium" style="color:{color}">
       <li><a href="https://github.com/dadi/{product}">Github</a></li>
       <li><a href="https://www.npmjs.com/package/@dadi/{product}">NPM</a></li>
-      <li><a href="https://docs.dadi.tech/api">Documentation</a></li>
+      <li><a href="http://docs.dadi.tech/api">Documentation</a></li>
       <li><a href="/on-demand/">DADI On-demand</a></li>
     </ul>
   </div>
@@ -18,7 +18,7 @@
 
     <ul class="list--no-style grid normal">
       {#keyPoints}
-        <li class="col w-1-3">
+        <li class="col w-1-3 pad__bottom">
           <strong class="block">{title}</strong> {@soberMarkdown}{description}{/soberMarkdown}
         </li>
       {/keyPoints}

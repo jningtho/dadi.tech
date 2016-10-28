@@ -50,7 +50,8 @@ We believe that digital identity can be broken into five key layers, with increa
 4. Beliefs
 5. Values
 
-1. Core demographics
+
+## 1. Core demographics
 
 Core demographics can be loosely defined as observable characteristics, such as gender and age. It also includes social indicators, such as where a person lives, their financial status and the make up of their household.
 
@@ -58,7 +59,7 @@ This layer of identity is readily observable and generally available. We have al
 
 This is also the kind of information that must be used with care: it is a directional indicator, but does not guarantee that messaging or content based on it exclusively will connect positively with the individual. You would not expect every person who is the same age as you to be your friend. The same logic applies to core demographics.
 
-2. Actions
+## 2. Actions
 
 Actions are the things that a person does. Actions more accurately reflect who an individual is because they are instigated and directed by the individual. Actions are a core component of identity because no one else can decide on an individuals actions apart from the individual.
 
@@ -70,13 +71,13 @@ Actions influence reputation scores, such as the individuals credit score, Airbn
 
 Actions are driven by motivation, and motivation is the next layer of identity.
 
-3. Affinity
+## 3. Affinity
 
 Actions are driven by what an individual care about. Most of the time, individuals do things that they care about and don’t do things that they don’t care about. It is because of this that we consider affinity to be a deeper signifier of identity.
 
 It is important to understand that people that take the same action do not necessarily care about the same things. In order to determine differences at this level, you must look deeper still.
 
-4. Beliefs
+## 4. Beliefs
 
 With beliefs we start to see a very fundamental level of identity, and one that is almost unchanged throughout a lifetime. What a person believes in is formed by the cultural institutions that they participate in, and the narrative that they tell themselves about their lives.
 
@@ -86,7 +87,7 @@ You can see how these two individuals who start from the same position, come to 
 
 In order to understand an individual’s beliefs you have to have sight of wide array of indicators, from the magazines and newspapers that they read, to the public institutions they are affiliated with, to the types of charitable donations that they make.
 
-5. Values
+## 5. Values
 
 At the core of identity is the notion of values. An individuals values are built and reinforced by the other layers of identity and they drive the actions and decisions that the individual takes, consciously or unconsciously.
 
@@ -96,6 +97,6 @@ Managing identity
 
 Managing identity with a clarity of understanding about what constitutes identity is a central tenant of the DADI+ platform. This allows us to map data into the user record from the right sources at the right time, and to play it back in a manner that enables intelligent content decisions, from eCRM tailoring to entirely bespoke experiences.
 
--
+—
 
-We believe that understanding what constitutes an identity, and managing the individual record in order to maximise clarity through each of its component parts, is critical to creating engaging experiences. The deeper you are able to go in understanding what makes up an individual's identity, the stronger the relationship.
+**We believe that understanding what constitutes an identity, and managing the individual record in order to maximise clarity through each of its component parts, is critical to creating engaging experiences. The deeper you are able to go in understanding what makes up an individual's identity, the stronger the relationship.**

@@ -9,6 +9,7 @@
       "type": "static",
       "data": [
         {
+          "title": "API",
           "product": "api",
           "color": "#0BA6DD",
           "overview": "High-performance RESTful API layer designed in support of API-first development and the principle of COPE",
@@ -29,6 +30,7 @@
           ]
         },
         {
+          "title": "Web",
           "product": "web",
           "color": "#e42918",
           "overview": "High-performance schema-less templating layer for optimal browser-based product development",
@@ -46,6 +48,7 @@
           ]
         },
         {
+          "title": "Publish",
           "product": "publish",
           "color": "#FFBF0D",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
@@ -65,6 +68,7 @@
           ]
         },
         {
+          "title": "CDN",
           "product": "cdn",
           "color": "#e02975",
           "overview": "Just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution",
@@ -102,6 +106,7 @@
           } 
         },
         {
+          "title": "People",
           "product": "people",
           "color": "#27DCE0",
           "overview": "End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
@@ -120,6 +125,7 @@
           }
         },
         {
+          "title": "Track",
           "product": "track",
           "color": "#2DBA7A",
           "overview": "Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions",
@@ -148,6 +154,7 @@
           }
         },
         {
+          "title": "Visualize",
           "product": "visualize",
           "color": "#EF711D",
           "overview": "Real-time data visualization and dashboarding. Plugs into [DADI Track](/platform/track/), _Google Analytics_ and many other third-party systems",
@@ -162,6 +169,7 @@
           ]
         },
         {
+          "title": "Match",
           "product": "match",
           "color": "#5CC617",
           "overview": "Scalable and straightforward predictive analysis API with machine learning at its heart",

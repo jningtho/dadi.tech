@@ -72,15 +72,15 @@ h5,.small 	{ @include rem(font-size,15px); @include rem(line-height,20px); }
 
 @media #{$break-small} {
 
-	.bs-hecto 		{ @include rem(font-size,80px); @include rem(line-height,80px); }
-	.bs-giga 		{ @include rem(font-size,70px); @include rem(line-height,65px); }
-	.bs-mega 		{ @include rem(font-size,50px); @include rem(line-height,50px); }
-	.bs-kilo 		{ @include rem(font-size,40px); @include rem(line-height,45px); }
+.hecto 		{ @include rem(font-size,80px); @include rem(line-height,78px); }
+.giga 		{ @include rem(font-size,70px); @include rem(line-height,63px); }
+.mega 		{ @include rem(font-size,50px); @include rem(line-height,48px); }
+.kilo 		{ @include rem(font-size,30px); @include rem(line-height,38px); }
 
-	h1,.bs-larger	{ @include rem(font-size,28px); @include rem(line-height,34px); }
-	h2,.bs-large 	{ @include rem(font-size,24px); @include rem(line-height,31px); }
-	h3,.bs-medium 	{ @include rem(font-size,20px); @include rem(line-height,26px); }
-	h4,.bs-normal	{ @include rem(font-size,17px); @include rem(line-height,22px); }
-	h5,.bs-small 	{ @include rem(font-size,14px); @include rem(line-height,20px); }
+h1,.larger 	{ @include rem(font-size,26px); @include rem(line-height,30px); }
+h2,.large 	{ @include rem(font-size,24px); @include rem(line-height,30px); }
+h3,.medium 	{ @include rem(font-size,20px); @include rem(line-height,26px); }
+h4,.normal	{ @include rem(font-size,16px); @include rem(line-height,21px); }
+h5,.small 	{ @include rem(font-size,14px); @include rem(line-height,18px); }
 
 }

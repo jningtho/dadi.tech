@@ -11,6 +11,7 @@
         {
           "handle": "whatcar",
           "title": "What Car?",
+          "color": "#e32116",
           "summary": "A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
           "components": [
             "Content management",
@@ -23,7 +24,83 @@
           "detail": "Haymarket Media group chose to collaborate with DADI+ to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nTogether we identified key stakeholder groups for the project covering editorial, commercial, data management and the end user, before running discovery sessions to define requirements for a new, iterative product roadmap – fixing the many shortcomings of the legacy platform, and extending a 'reviews' website into a full car-buying service.\n\nWe developed a new content store and management interface matched to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end for the site designed with future content personalisation in mind – based on usage data collected by the DADI+ platform.",
           "quote": {
             "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
-            "cite": "Product Lead, Haymarket Consumer Media"
+            "cite": "Product Lead, **Haymarket Consumer Media**"
+          }
+        },
+        {
+          "handle": "monocle",
+          "title": "Monocle",
+          "color": "#fc0",
+          "summary": "A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "What Car? was built on an ageing legacy platform that presented a brittle, desktop-only user experience with multiple disconnected editorial workstreams. New systems were required so that writers could spend more time on content than admin – and users could have a seamless experience across devices.",
+          "results": "DADI technology delivers an API-first platform solution that abstracts content from presentation, meaning one pot of content and one editorial workflow can feed multiple digital products across desktop, tablet and mobile.",
+          "detail": "Haymarket Media group chose to collaborate with DADI+ to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nTogether we identified key stakeholder groups for the project covering editorial, commercial, data management and the end user, before running discovery sessions to define requirements for a new, iterative product roadmap – fixing the many shortcomings of the legacy platform, and extending a 'reviews' website into a full car-buying service.\n\nWe developed a new content store and management interface matched to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end for the site designed with future content personalisation in mind – based on usage data collected by the DADI+ platform.",
+          "quote": {
+            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
+            "cite": "Product Lead, **Haymarket Consumer Media**"
+          }
+        },
+        {
+          "handle": "empire",
+          "title": "Empire",
+          "color": "#ff0000",
+          "summary": "A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "What Car? was built on an ageing legacy platform that presented a brittle, desktop-only user experience with multiple disconnected editorial workstreams. New systems were required so that writers could spend more time on content than admin – and users could have a seamless experience across devices.",
+          "results": "DADI technology delivers an API-first platform solution that abstracts content from presentation, meaning one pot of content and one editorial workflow can feed multiple digital products across desktop, tablet and mobile.",
+          "detail": "Haymarket Media group chose to collaborate with DADI+ to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nTogether we identified key stakeholder groups for the project covering editorial, commercial, data management and the end user, before running discovery sessions to define requirements for a new, iterative product roadmap – fixing the many shortcomings of the legacy platform, and extending a 'reviews' website into a full car-buying service.\n\nWe developed a new content store and management interface matched to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end for the site designed with future content personalisation in mind – based on usage data collected by the DADI+ platform.",
+          "quote": {
+            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
+            "cite": "Product Lead, **Haymarket Consumer Media**"
+          }
+        },
+        {
+          "handle": "virgin",
+          "title": "Virgin",
+          "color": "#eee",
+          "summary": "A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "What Car? was built on an ageing legacy platform that presented a brittle, desktop-only user experience with multiple disconnected editorial workstreams. New systems were required so that writers could spend more time on content than admin – and users could have a seamless experience across devices.",
+          "results": "DADI technology delivers an API-first platform solution that abstracts content from presentation, meaning one pot of content and one editorial workflow can feed multiple digital products across desktop, tablet and mobile.",
+          "detail": "Haymarket Media group chose to collaborate with DADI+ to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nTogether we identified key stakeholder groups for the project covering editorial, commercial, data management and the end user, before running discovery sessions to define requirements for a new, iterative product roadmap – fixing the many shortcomings of the legacy platform, and extending a 'reviews' website into a full car-buying service.\n\nWe developed a new content store and management interface matched to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end for the site designed with future content personalisation in mind – based on usage data collected by the DADI+ platform.",
+          "quote": {
+            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
+            "cite": "Product Lead, **Haymarket Consumer Media**"
+          }
+        },
+        {
+          "handle": "lifestyle-one",
+          "title": "Lifestyle.one",
+          "color": "#9530bd",
+          "summary": "A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "What Car? was built on an ageing legacy platform that presented a brittle, desktop-only user experience with multiple disconnected editorial workstreams. New systems were required so that writers could spend more time on content than admin – and users could have a seamless experience across devices.",
+          "results": "DADI technology delivers an API-first platform solution that abstracts content from presentation, meaning one pot of content and one editorial workflow can feed multiple digital products across desktop, tablet and mobile.",
+          "detail": "Haymarket Media group chose to collaborate with DADI+ to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nTogether we identified key stakeholder groups for the project covering editorial, commercial, data management and the end user, before running discovery sessions to define requirements for a new, iterative product roadmap – fixing the many shortcomings of the legacy platform, and extending a 'reviews' website into a full car-buying service.\n\nWe developed a new content store and management interface matched to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end for the site designed with future content personalisation in mind – based on usage data collected by the DADI+ platform.",
+          "quote": {
+            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
+            "cite": "Product Lead, **Haymarket Consumer Media**"
           }
         }
       ]

@@ -3,6 +3,7 @@
   	"key": "on-demand"
   },
   "events": [
+    "globals",
     "insights"
   ],
   "routes": [

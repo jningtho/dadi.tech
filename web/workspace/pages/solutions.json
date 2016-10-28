@@ -9,6 +9,7 @@
     "solutions"
   ],
   "events": [
+    "globals",
     "insights"
   ],
   "routes": [

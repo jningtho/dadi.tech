@@ -1,24 +1,67 @@
 {>"partials/header" /}
 
-{<title}Success stories{/title}
+{<title}{?params.client}{successes.results[0].title} / {/params.client} Success stories{/title}
 
-{<bodyClass}dark{/bodyClass}
+{^params.client}
+  <div class="container pad__bottom alignc">
+    <h1 class="hdr kilo"><span class="txt--blue block">Success stories</span></h1>
+    <p class="hdr larger alignauto">Customers of all sizes succeed with DADI</p>
+  </div>
 
-<div class="container container--pad">
-  <h1 class="hdr kilo read no-marg-i txt--blue">Success stories</h1>
-  <p class="no-marg pad__top--half normal marg__bottom">Customers of all sizes succeed with <strong>DADI</strong></p>
-</div>
+  {#successes.results}
+    <div class="marg txt--white bg--black" style="background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%">
+      <a href="/successes/{handle}/">
+        <div class="container">
+          <div class="bl-w-2-3 pad__top--x2 pad__bottom--x2">
+            <p class="hdr larger" style="color:{color}">{title}</p>
+            <p class="medium">{summary}</p>
+            <p><span class="btn">Read more</span></p>
+          </div>
+        </div>
+      </a>
+    </div>
+  {/successes.results}
+{:else}
+  {#successes.results}
+    <div class="container container--pad alignc">
+      <h1 class="hdr kilo read alignauto no-marg-i" style="color:{color}">{title}</h1>
+      <p class="alignauto large hdr">{summary}</p>
+    </div>
 
-<div class="bg--black" style="background-image:url(/assets/successes/whatcar.jpg)">
-  <a href="/successes/whatcar/">
-    <div class="container">
-      <div class="w-2-3 pad__top--x2 pad__bottom--x2">
-        <p class="hdr larger" style="color:#e32116">What Car?</p>
-        <p class="medium">A new strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity.</p>
-        <p><span class="btn">Read more</span></p>
+    <div class="container container--divider">
+      <div class="grid">
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Requirements</h2>
+          <p class="alignauto normal">{@soberMarkdown}{requirements}{/soberMarkdown}</p>
+        </div>
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Results</h2>
+          <p class="alignauto normal">{results}</p>
+        </div>
       </div>
     </div>
-  </a>
-</div>
+
+    <div class="container container--divider">
+      <div class="grid" style="min-height: 300px">
+        Images here
+      </div>
+    </div>
+
+    <div class="container container--divider">
+      <div class="grid">
+        <div class="col w-1-2">
+          <p class="alignauto normal">{@soberMarkdown}{detail}{/soberMarkdown}</p>
+        </div>
+
+        <div class="col w-1-2">
+          <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
+          <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
+
+          <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See more customer stories</a></div>
+        </div>
+      </div>
+    </div>
+  {/successes.results}
+{/params.client}
 
 {>"partials/footer" /}

@@ -9,6 +9,7 @@
     "successes"
   ],
   "events": [
+    "globals",
     "insights"
   ],
   "routes": [

@@ -3,7 +3,7 @@
     "name": "dadi.co website - development"
   },
   "server": {
-    "host": "localhost",
+    "host": "0.0.0.0",
     "port": 4113
   },
   "api": {
@@ -15,6 +15,9 @@
     "tokenUrl":"/token",
     "clientId":"testClient",
     "secret":"superSecret"
+  },
+  "global": {
+    "description": "DADI reinvents the technology of the web. It enables real-time, personalised experiences driven by machine learning."
   },
   "paths": {
     "datasources": "./workspace/datasources",

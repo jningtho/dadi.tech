@@ -3,30 +3,23 @@
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
-<meta property="og:site_name" content="Looksgreat">
+<meta property="og:site_name" content="DADI">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{global.protocol}://{host}{pathname}">
 
 <link rel="canonical" href="{global.protocol}://{host}{pathname}">
 
-<meta property="og:title" content="">
-<meta name="description" content="">
-<meta name="og:description" content="">
-
-<meta property="og:image" content="">
-
-<meta name="author" content="">
-
-<meta property="article:published_time" content="">
+<meta property="og:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta name="description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
+<meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
+<meta property="og:image" content="{global.protocol}://{host}{pathname}/public/assets/img/og.jpg">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="">
-<meta name="twitter:title" content="">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="">
-<meta name="twitter:creator" content="">
+<meta name="twitter:site" content="@dadi">
+<meta name="twitter:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
+<meta name="twitter:image" content="{global.protocol}://{host}{pathname}/public/assets/img/og.jpg">
 
-<meta name="dcterms.publisher" content="">
 <meta name="geo.placename" content="London, UK">
 <meta name="dc.language" content="en">
 <meta name="geo.country" content="gb">
