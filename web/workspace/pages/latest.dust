@@ -68,8 +68,6 @@
       </div>
     </div>
   </div>
-
-  
 {:else}
   {#insights}
     {@eq key=handle value=params.article}
