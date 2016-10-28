@@ -1,5 +1,5 @@
 <div class="container container--pad alignc">
-  <div class="hdr kilo read alignauto no-marg-i">DADI is a modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
+  <div class="hdr kilo read alignauto no-marg-i">DADI is a modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
 </div>
 
 <div class="container container--divider">
