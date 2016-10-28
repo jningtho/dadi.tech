@@ -36,7 +36,7 @@
   </div>
 </div>
 
-{>"partials/solutions/list" /}
+{>"partials/content-modules/developers" /}
 
 <div class="container pad--x2 alignc">
   <div class="kilo hdr">“Products built with DADI are delivered in days and weeks, not weeks and months.”</div>
