@@ -106,11 +106,11 @@
           } 
         },
         {
-          "title": "Identify",
-          "product": "identify",
+          "title": "Identity",
+          "product": "identity",
           "color": "#5CC617",
           "overview": "End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
-          "description": "Know your audience: DADI Identify gives you the power to identify the people who use your products and give them exactly the service they want in the very moment they need it. It's the beating heart of your CRM strategy and can be extended by other microservices in the DADI product suite.",
+          "description": "Know your audience: DADI Identity gives you the power to identify the people who use your products and give them exactly the service they want in the very moment they need it. It's the beating heart of your CRM strategy and can be extended by other microservices in the DADI product suite.",
           "features": [
             ""
           ],
