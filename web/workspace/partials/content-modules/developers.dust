@@ -1,7 +1,6 @@
 <div class="bg--dark-blue txt--white marg">
   <div class="container pad--x2">
     <p class="hdr larger txt--yellow">Why developers love working with DADI</p>
-    <p class="normal">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
 
     <ul class="list--quotes normal cf grid pad__top--x2">
       <li class="col w-1-2 pad__bottom--x2">
