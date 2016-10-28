@@ -16,6 +16,9 @@
     "clientId":"testClient",
     "secret":"superSecret"
   },
+  "global": {
+    "description": "DADI reinvents the technology of the web. It enables real-time, personalised experiences driven by machine learning."
+  },
   "paths": {
     "datasources": "./workspace/datasources",
     "events": "./workspace/events",

@@ -1,6 +1,16 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}
+  {?params.page}
+    {concepts.results[0].title} / Platform
+  {:else}
+    {?params.product}
+      {products.results[0].title} / Platform
+    {:else}
+      Platform
+    {/params.product}
+  {/params.page}
+{/title}
 
 {?params.page}
   {>"partials/platform/{params.page}" /}
@@ -9,7 +19,6 @@
     {#products.results}
       {>"partials/platform/product" /}
     {/products.results}
-
     {>"partials/content-modules/products" /}
   {:else}
     {>"partials/platform/index" /}

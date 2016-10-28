@@ -9,6 +9,7 @@
     "supporting"
   ],
   "events": [
+    "globals",
     "insights"
   ],
   "routes": [

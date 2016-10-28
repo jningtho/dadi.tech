@@ -193,6 +193,10 @@
 	&__left--i 	{ border-radius: $radius 0 0 $radius !important; }
 }
 
+.bdr-shadow {
+	box-shadow: 0 0 9px 3px rgba(0,0,0,0.02) inset;
+}
+
 .bdr {
 	border: 1px solid;
 

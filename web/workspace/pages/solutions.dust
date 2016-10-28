@@ -1,10 +1,16 @@
 {>"partials/header" /}
 
-{<title}Welcome{/title}
+{<title}
+  {?params.section}
+    {solutions.results[0].title}
+  {:else}
+    Solutions
+  {/params.section}
+{/title}
 
 {?params.section}
   {#solutions.results}
-  	{>"partials/solutions/solution" /}
+    {>"partials/solutions/solution" /}
   {/solutions.results}
 {:else}
   {>"partials/solutions/index" /}

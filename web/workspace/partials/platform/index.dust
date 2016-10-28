@@ -1,56 +1,21 @@
-<div class="container container--pad">
-  <div class="grid">
-    <div class="col w-1-2">
-      <h1 class="hdr kilo txt--red no-marg-i">The technology of the web, reinvented.</h1>
-      <p class="medium alignauto"><strong>DADI</strong> is a powerful, API-first development stack for products of all sizes and scale. It enables real-time, personalised experiences driven by machine learning.</p>
-    </div>
-    <div class="col w-1-2">
-      <p class="alignauto larger hdr no-marg-i pad__top--half">“Products built with DADI are delivered in days and weeks, not weeks and months.”</p>
-      <p class="alignauto txt--mid-grey">Chief Technology Officer, <strong>Bauer Media</strong></p>
-
-      <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See all customer stories</a></div>
-    </div>
-  </div>
-</div>
-
-<div class="container container--divider alignc">
-  <div class="grid normal fwb">
-    <div class="col w-1-4"><a href="https://github.com/dadi/">
-      <img src="/assets/img/logo-github.png" height="45" class="alignv">
-      <span class="pad__top block">Github</span>
-    </a></div>
-    <div class="col w-1-4"><a href="https://www.npmjs.com/org/dadi/">
-      <img src="/assets/img/logo-npm.png" height="45" class="alignv">
-      <span class="pad__top block">NPM</span>
-    </a></div>
-    <div class="col w-1-4"><a href="https://docs.dadi.tech/">
-      <img src="/assets/img/d.svg" height="45" class="alignv">
-      <span class="pad__top block">Docs</span>
-    </a></div>
-    <div class="col w-1-4"><a href="/on-demand/">
-      <img src="/assets/img/logo-ondemand.png" height="45" class="alignv">
-      <span class="pad__top block">On demand</span>
-    </a></div>
-  </div>
+<div class="container container--pad alignc">
+  <div class="hdr kilo read alignauto no-marg-i">DADI is a modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
 </div>
 
 <div class="container container--divider">
-  <p class="hdr larger">
-    DADI is a modern microservices framework, built specifically in support of the principles of <a href="/platform/concepts/api-first-and-cope/" class="txt--red">API first and COPE</a>.
-  </p>
   <div class="grid">
     <div class="col w-1-2">        
       <p class="normal"><strong>DADI</strong> is architected to facilitate cross-functional teams organised around discrete capability, in stark contrast to traditional monolithic approaches to system architecture.</p>
 
-      <p class="normal"><strong>DADI</strong> is built on Node.JS and RethinkDB and provides a series of self-contained service layers which can be run independently or as a whole.</p>
+      <p class="normal"><strong>DADI</strong> is built on <em>Node.JS</em> and <em>MongoDB</em> and provides a series of self-contained service layers which can be run independently or as a whole.</p>
     </div>
     <div class="col w-1-2">
-      <p class="normal"><strong>DADI</strong> is unique in its approach to data: the entire platform is built to facilitate Data Driven Experiences. It puts the concept of the individual at the heart of the platform, creating real-time, person-level taxonomies of interest, and providing multiple actionable data points to enable the construction of individual-specific experiences.</p>
+      <p class="normal"><strong>DADI</strong> is unique in its approach to data: the entire platform is built to facilitate <a href="/platform/concepts/data-driven-experiences/" class="txt--red fwb">Data Driven Experiences™</a>. It puts the concept of the individual at the heart of the platform, creating real-time, person-level taxonomies of interest, and providing multiple actionable data points to enable the construction of individual-specific experiences.</p>
     </div>
   </div>
 
   <ul class="list--inline marg__bottom pad__top">
-    <li><a href="/platform/concepts/" class="btn btn--red normal">Read more</a></li>
+    <li><a href="/platform/concepts/" class="btn btn--red normal">Read about the core concepts</a></li>
   </ul>
 </div>
 
@@ -72,6 +37,13 @@
 </div>
 
 {>"partials/solutions/list" /}
+
+<div class="container pad--x2 alignc">
+  <div class="kilo hdr">“Products built with DADI are delivered in days and weeks, not weeks and months.”</div>
+  <div class="txt--mid-grey">Chief Technology Officer, <strong>Bauer Media</strong></div>
+
+  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all customer stories</a></div>
+</div>
 
 {! <div class="container container--pad alignc">
   <p class="alignauto hdr larger txt--red">Licensing</p>

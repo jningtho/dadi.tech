@@ -1,0 +1,19 @@
+{
+  "page": {
+  	"key": "latest"
+  },
+  "events": [
+    "globals",
+    "insights"
+  ],
+  "datasources": [
+    "github-api",
+    "github-web",
+    "github-cdn"
+  ],
+  "routes": [
+    {
+      "path": "/latest/:article?"
+    }
+  ]
+}	
