@@ -22,11 +22,10 @@
     <div class="grid">
       <div class="col w-2-3 bs-w-1-1">
         {#insights}
-          
-            {! <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
-            <p class="hdr larger txt--green"><a href="/insight/{handle}/">{attributes.title}</a></p>
-            <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
-            <p class="small pad__bottom--x2"><a href="/insight/{handle}/" class="btn btn--green">Read more</a></p>
+          {! <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
+          <p class="hdr larger txt--green"><a href="/latest/{handle}/">{attributes.title}</a></p>
+          <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
+          <p class="small pad__bottom--x2"><a href="/latest/{handle}/" class="btn btn--green">Read more</a></p>
         {/insights}
       </div>
       <div class="col w-1-3">

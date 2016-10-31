@@ -10,7 +10,7 @@
       <p class="normal"><strong>DADI</strong> is built on <em>Node.JS</em> and <em>MongoDB</em> and provides a series of self-contained service layers which can be run independently or as a whole.</p>
     </div>
     <div class="col w-1-2">
-      <p class="normal"><strong>DADI</strong> is unique in its approach to data: the entire platform is built to facilitate <a href="/platform/concepts/data-driven-experiences/" class="txt--red fwb">Data Driven Experiences™</a>. It puts the concept of the individual at the heart of the platform, creating real-time, person-level taxonomies of interest, and providing multiple actionable data points to enable the construction of individual-specific experiences.</p>
+      <p class="normal"><strong>DADI</strong> is unique in its approach to data: the entire platform is built to facilitate <a href="/platform/concepts/data-driven-experiences/" class="txt--red fwb">Data Driven Experiences</a>. It puts the concept of the individual at the heart of the platform, creating real-time, person-level taxonomies of interest, and providing multiple actionable data points to enable the construction of individual-specific experiences.</p>
     </div>
   </div>
 
@@ -42,7 +42,7 @@
   <div class="kilo hdr">“Products built with DADI are delivered in days and weeks, not weeks and months.”</div>
   <div class="txt--mid-grey">Chief Technology Officer, <strong>Bauer Media</strong></div>
 
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all customer stories</a></div>
+  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all success stories</a></div>
 </div>
 
 {! <div class="container container--pad alignc">

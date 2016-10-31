@@ -1,6 +1,6 @@
 <header class="grid">
   <div class="col w-1-4">
-    <h1 style="margin-top: 27px;"><a href="/" class="inline-block"><img src="/assets/img/dadi-{^light}light{:else}colour{/light}.svg" width="150" alt="DADI"></a></h1>
+    <h1><a href="/" class="inline-block"><img src="/assets/img/dadi-{^light}light{:else}colour{/light}.svg" width="150" alt="DADI"></a></h1>
   </div>
   
   <div class="col w-1-4">
