@@ -19,6 +19,27 @@
   </ul>
 </div>
 
+<div class="container container--divider alignc">
+  <div class="grid normal fwb">
+    <div class="col w-1-4"><a href="https://github.com/dadi/">
+      <img src="/assets/img/logo-github.png" height="45" class="alignv">
+      <span class="pad__top block">Github</span>
+    </a></div>
+    <div class="col w-1-4"><a href="https://www.npmjs.com/org/dadi/">
+      <img src="/assets/img/logo-npm.png" height="45" class="alignv">
+      <span class="pad__top block">NPM</span>
+    </a></div>
+    <div class="col w-1-4"><a href="https://docs.dadi.tech/">
+      <img src="/assets/img/d-dark.png" height="45" class="alignv">
+      <span class="pad__top block">Docs</span>
+    </a></div>
+    <div class="col w-1-4"><a href="/on-demand/">
+      <img src="/assets/img/logo-ondemand.png" height="45" class="alignv">
+      <span class="pad__top block">On demand</span>
+    </a></div>
+  </div>
+</div>
+
 {>"partials/content-modules/products" /}
 
 <div class="container container--pad marg__bottom">
