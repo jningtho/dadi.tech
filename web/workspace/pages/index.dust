@@ -70,7 +70,7 @@
   <div class="kilo hdr">“Moving <a href="http://whatcar.com" class="txt--red">whatcar.com</a> to DADI significantly reduced our infrastructure costs”</div>
   <div class="txt--mid-grey">Product Lead, <strong>Haymarket Consumer Media</strong></div>
 
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all customer stories</a></div>
+  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all success stories</a></div>
 </div>
 
 {>"partials/solutions/list" /}

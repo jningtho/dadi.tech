@@ -57,7 +57,7 @@
           <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
           <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
 
-          <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See more customer stories</a></div>
+          <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See more success stories</a></div>
         </div>
       </div>
     </div>
