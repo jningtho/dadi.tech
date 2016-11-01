@@ -1,13 +1,14 @@
-<div class="container container--pad">
-  <div class="grid alignc">
-    <h1 class="no-marg-i kilo txt--blue marg__bottom">{headline}</h1>
-    <p class="hdr larger alignauto">{overview}</p>  
-  </div>
+<div class="container container--pad alignc">
+  <img src="/assets/icons/{icon}.svg" class="marg__bottom" height="70">
+  <h1 class="no-marg-i kilo txt--blue marg__bottom">{headline}</h1>
+  <p class="hdr medium alignauto read pad__top--half">{overview}</p>  
 </div>
 
-<div class="container container--divider read normal"> 
+<div class="container container--divider normal"> 
   {?description}
-    {@markdown}{description}{/markdown}
+    <div class="read alignauto">
+      {@markdown}{description}{/markdown}
+    </div>
   {/description}
 </div>
 
