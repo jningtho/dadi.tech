@@ -1,19 +1,19 @@
 {>"partials/header" /}
 
 {<title}
-  {?params.section}
+  {?params.solution}
     {solutions.results[0].title}
   {:else}
     Solutions
-  {/params.section}
+  {/params.solution}
 {/title}
 
-{?params.section}
+{?params.solution}
   {#solutions.results}
     {>"partials/solutions/solution" /}
   {/solutions.results}
 {:else}
   {>"partials/solutions/index" /}
-{/params.section}
+{/params.solution}
 
 {>"partials/footer" /}
