@@ -3,16 +3,16 @@
 {<title}{?params.client}{successes.results[0].title} / {/params.client} Success stories{/title}
 
 {^params.client}
-  <div class="container pad__bottom alignc">
-    <h1 class="hdr kilo"><span class="txt--blue block">Success stories</span></h1>
-    <p class="hdr larger alignauto">Customers of all sizes succeed with DADI</p>
+  <div class="container container--pad alignc">
+    <p class="hdr larger alignauto read no-marg-i">We have helped organisations both large and small succeed with our platform</p>
   </div>
 
+  <div class="container">
   {#successes.results}
-    <div class="marg txt--white bg--black" style="background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%">
+    <div class="marg__bottom txt--white bg--black" style="background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%">
       <a href="/successes/{handle}/">
         <div class="container">
-          <div class="bl-w-2-3 pad__top--x2 pad__bottom--x2">
+          <div class="bl-w-2-3 pad--x2">
             <p class="hdr larger" style="color:{color}">{title}</p>
             <p class="medium">{summary}</p>
             <p><span class="btn">Read more</span></p>
@@ -21,6 +21,7 @@
       </a>
     </div>
   {/successes.results}
+  </div>
 {:else}
   {#successes.results}
     <div class="container container--pad alignc">
@@ -57,7 +58,7 @@
           <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
           <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
 
-          <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See more customer stories</a></div>
+          <div class="pad__top marg__top pad__bottom"><a href="/successes/" class="btn btn--red small">See more success stories</a></div>
         </div>
       </div>
     </div>

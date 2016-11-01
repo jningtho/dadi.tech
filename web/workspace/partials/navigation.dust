@@ -1,30 +1,23 @@
 <header class="grid">
-{!   <div class="fwb top__promo cf">
-    <div class="float--left small">Looking for a hosted<br>technology solution?</div>
-    <a href="/on-demand/" class="alignv btn btn--fill btn--red">On demand</a>
-  </div> !}
-
   <div class="col w-1-4">
-  <h1 style="margin-top: 27px;"><a href="/" class="inline-block"><img src="/assets/img/dadi-{^light}light{:else}colour{/light}.svg" width="150" alt="DADI"></a></h1>
+    <h1><a href="/" class="inline-block"><img src="/assets/img/dadi-{^light}light{:else}colour{/light}.svg" width="150" alt="DADI"></a></h1>
   </div>
   
   <div class="col w-1-4">
-  <ul class="normal nav  marg__right--x2">
-    <li><a href="/platform/" {@eq key=page.key value="platform"}class="active"{/eq}>Platform</a></li>
-    <li><a href="/successes/" {@eq key=page.key value="successes"}class="active"{/eq}>Success stories</a></li>
-    <li><a href="/latest/" {@eq key=page.key value="latest"}class="active"{/eq}>Latest</a></li>
-  </ul>
+    <ul class="normal nav  marg__right--x2">
+      <li><a href="/platform/" {@eq key=page.key value="Platform"}class="active"{/eq}>Platform</a></li>
+      <li><a href="/successes/" {@eq key=page.key value="Success stories"}class="active"{/eq}>Success stories</a></li>
+      <li><a href="/latest/" {@eq key=page.key value="Latest"}class="active"{/eq}>Latest</a></li>
+    </ul>
   </div>
 
   <div class="col w-1-4">
     <p class="fwb small">Looking for a hosted technology solution?</p>
-      <a href="/on-demand/" class="btn btn--fill btn--red">On demand</a>
+    <a href="/on-demand/" class="btn btn--fill btn--red">On demand</a>
+  </div>
 
-    </div>
-
-   <div class="col w-1-4">
+  <div class="col w-1-4">
     <p class="fwb small">Need help integrating or customising our platform?</p>
-      <a href="/solutions/" class="btn btn--fill btn--blue">Solutions</a>
-
-    </div>
+    <a href="/solutions/" class="btn btn--fill btn--green">Solutions</a>
+  </div>
 </header>

@@ -78,15 +78,15 @@
             </a>
           </li>
           <li>
-            <a href="/platform/people/" class="fwb">
-            <img src="/assets/products/dadi-people.png" class="alignv float--right" width="15">
-            People
+            <a href="/platform/predict/" class="fwb">
+            <img src="/assets/products/dadi-predict.png" class="alignv float--right" width="15">
+            Predict
             </a>
           </li>
           <li>
-            <a href="/platform/match/" class="fwb">
-            <img src="/assets/products/dadi-match.png" class="alignv float--right" width="19">
-            Match
+            <a href="/platform/identity/" class="fwb">
+            <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
+            Identity
             </a>
           </li>
           <li><a href="/platform/concepts/">Concepts</a></li>

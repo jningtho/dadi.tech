@@ -91,15 +91,28 @@
 			padding-left: 0.8em;
 			font-weight: bold;
 		}
+		&:last-of-type {
+			margin-right: 0;
+		}
 		&:last-of-type:after {
-			content: '';
-			padding-left: none;
+			display: none;
 		}
 	}
 }
 .list--breadcrumb {
+	border-top: 1px solid #122A3A;
+	text-align: left;
+	padding-top: 20px;
+	top: -40px;
+    position: relative;
+
 	li:after {
-		content: '›';
+		content: '';
+		background: url(/assets/icons/white/chevron-right.svg);
+		background-size: 100% auto;
+		background-repeat: no-repeat;
+		background-position: 100% 50%;
+		margin-left: 12px;
 	}
 }
 .list--pipe {

@@ -1,6 +1,6 @@
 {
   "page": {
-    "key": "solutions"
+    "key": "Solutions"
   },
   "datasources": [
     "solutions"
@@ -17,7 +17,7 @@
       "path": "/solutions/"
     },
     {
-      "path": "/solutions/:section",
+      "path": "/solutions/:solution",
       "in": "solutions"
     }
   ]

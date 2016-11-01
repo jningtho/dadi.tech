@@ -16,12 +16,14 @@ h1,h2,h3,h4,h5,.hdr {
 strong {
 	font-weight: bold;
 }
-p, .read {
-	max-width: 680px;
+p {
 	margin: 1.2em 0;
 }
 .read {
 	max-width: 680px;
+}
+.hdr.read {
+	max-width: 720px;
 }
 ul, ol, li, dl, dd, dt, blockquote {
 	margin: 0;

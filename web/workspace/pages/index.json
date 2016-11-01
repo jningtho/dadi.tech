@@ -1,6 +1,6 @@
 {
   "page": {
-    "key": "Homepage"
+    "key": "home"
   },
   "datasources": [
     "solutions"
