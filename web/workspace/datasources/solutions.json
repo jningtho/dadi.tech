@@ -3,7 +3,7 @@
     "key": "solutions",
     "name": "List of DADI solutions offered",
     "requestParams": [{
-      "param": "section", "field": "handle"
+      "param": "solution", "field": "handle"
     }],
     "source": {
       "type": "static",

@@ -1,6 +1,6 @@
 {
   "page": {
-    "key": "platform"
+    "key": "Platform"
   },
   "datasources": [
     "products",
