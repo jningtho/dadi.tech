@@ -29,6 +29,12 @@ body.dark {
 			border-top: 0;
 		}
 	}
+
+	&--pad {
+		&:first-of-type {
+			padding-top: 30px;
+		}
+	}
 }
 
 @media #{$break-small} {
@@ -43,7 +49,7 @@ body.dark {
 
 @media #{$break-large} {
 	header {
-		margin-bottom: 70px;
+		margin-bottom: 55px;
 		h1 {
 			margin-top: 22px;
 		}
@@ -54,8 +60,8 @@ body.dark {
 	padding-bottom: 70px;
 	position: relative;
 	overflow: hidden;
-	position: fixed;
-	top: 0; right: 0; left: 0;
+	// position: fixed;
+	// top: 0; right: 0; left: 0;
 
 	background-color: #21262D;
 	background-size: cover;
@@ -117,17 +123,17 @@ body.dark {
 main {
 	position: relative;
 	background: #fff;
-	margin-top: 270px;
+	// margin-top: 320px;
 	padding-bottom: 1px;
 	-webkit-transform: translate3d(0, 0, 0);
 
 	body.home & {
-		margin-top: 640px;
+		// margin-top: 640px;
 	}
 
 	&:before {
 		position: absolute;
-		top: -50px;
+		top: -60px;
 		left: 0; right: 0;
 		transform: skewY(-3deg);
 		content: ' ';

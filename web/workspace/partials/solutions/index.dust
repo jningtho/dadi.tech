@@ -1,10 +1,4 @@
-<div class="container container--pad alignc">
-  <h1 class="hdr kilo read alignauto no-marg-i txt--blue">Heavy lifting, when you need it</h1>
-  <p class="alignauto normal">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
-  <p class="alignauto"><a href="/successes/" class="btn btn--blue normal">See success stories</a></p>
-</div>
-
-<div class="container container--divider">
+<div class="container pad__bottom--x2">
   <ul class="list--quotes normal cf pad__top--x2">
     {#solutions.results}
       <li class="pad__bottom--x2 pad__top grid">

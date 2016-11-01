@@ -15,7 +15,7 @@
   </div>
 {:else}
   {#concepts.results}
-    <div class="container container--pad">
+    <div class="container pad__bottom--x2">
       <div class="alignc read alignauto">
         <h1 class="no-marg-i kilo txt--blue  marg__bottom">{title}</h1>
         <p class="hdr medium">{@soberMarkdown}{overview}{/soberMarkdown}</p>  

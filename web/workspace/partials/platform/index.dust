@@ -1,8 +1,4 @@
-<div class="container container--pad alignc">
-  <div class="hdr kilo read alignauto no-marg-i">DADI is a modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
-</div>
-
-<div class="container container--divider">
+<div class="container pad__bottom--x2">
   <div class="grid">
     <div class="col w-1-2">        
       <p class="normal"><strong>DADI</strong> is architected to facilitate cross-functional teams organised around discrete capability, in stark contrast to traditional monolithic approaches to system architecture.</p>
@@ -14,9 +10,7 @@
     </div>
   </div>
 
-  <ul class="list--inline marg__bottom pad__top">
-    <li><a href="/platform/concepts/" class="btn btn--red normal">Read about the core concepts</a></li>
-  </ul>
+  <p><a href="/platform/concepts/" class="btn btn--red normal">Read about the core concepts</a></p>
 </div>
 
 <div class="container container--divider alignc">
@@ -63,7 +57,7 @@
   <div class="kilo hdr">“Products built with DADI are delivered in days and weeks, not weeks and months.”</div>
   <div class="txt--mid-grey">Chief Technology Officer, <strong>Bauer Media</strong></div>
 
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/successes/" class="btn btn--red normal">See all success stories</a></div>
+  <div class="pad__top--x2 marg__top pad__bottom"><a href="/success-stories/" class="btn btn--red normal">See all success stories</a></div>
 </div>
 
 {! <div class="container container--pad alignc">

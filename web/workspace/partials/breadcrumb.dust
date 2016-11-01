@@ -1,21 +1,36 @@
 {?params}
-  <div class="container alignc marg__bottom small">
-    <ul class="list--breadcrumb titlecase">
-      <li><a href="/">home</a></li>
-      <li><a href="/{{page.key}/">{page.key}</a></li>
-      {?params.product}
-        <li class="fwb">{products.results[0].title}</li>
-      {/params.product}
-      {?params.solution}
-        <li class="fwb">{solutions.results[0].title}</li>
-      {/params.solution}
-      {?params.page}
-        <li class="fwb"><a href="/concepts/">Concepts</a></li>
-      {/params.page}
-      {?params.concept}
-        <li>{concepts.results[0].title}</li>
-      {/params.concept}
-    </ul>
-  </div>
+  {@ne key=page.key value="supporting"}
+    <div class="alignc marg__bottom small">
+      <ul class="list--breadcrumb titlecase">
+        <li><a href="/">home</a></li>
+        <li><a href="/{title}/">{page.key}</a></li>
+        {?params.product}
+          <li class="fwb">{products.results[0].title}</li>
+        {/params.product}
+        {?params.solution}
+          <li class="fwb">{solutions.results[0].title}</li>
+        {/params.solution}
+        {?params.page}
+          {?params.concept}
+            <li><a href="/platform/concepts/">Concepts</a></li>
+            <li class="fwb">{concepts.results[0].title}</li>
+          {:else}
+            <li class="fwb"><a href="/platform/concepts/">Concepts</a></li>
+          {/params.concept}
+        {/params.page}
+        {?params.client}
+          <li class="fwb">{successes.results[0].title}</li>
+        {/params.client}
+      </ul>
+    </div>
+  {/ne}
+{:else}
+  {@ne key=page.key value="home"}
+    <div class="small">
+      <ul class="list--breadcrumb">
+        <h1 class="medium no-marg-i txt--grey">{page.key}</h1>
+      </ul>
+    </div>
+  {/ne}
 {/params}
 
