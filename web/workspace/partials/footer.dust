@@ -33,8 +33,8 @@
           <li><a href="/success-stories/">Success stories</a></li>
           <li><a href="/latest/">Latest</a></li>
           <li><a href="/on-demand/">On demand</a></li>
-          <li><a href="/team/">Our team</a></li>
-          <li><a href="/careers/">Careers</a></li>
+          {! <li><a href="/team/">Our team</a></li>
+          <li><a href="/careers/">Careers</a></li> !}
           <li><a href="/privacy/">Privacy</a></li>
         </ul>
       </div>
@@ -65,7 +65,7 @@
             CDN
             </a>
           </li>
-          <li>
+          {! <li>
             <a href="/platform/track/" class="fwb">
             <img src="/assets/products/dadi-track.png" class="alignv float--right" width="15">
             Track
@@ -88,14 +88,14 @@
             <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
             Identity
             </a>
-          </li>
+          </li> !}
           <li><a href="/platform/concepts/">Concepts</a></li>
           {! <li><a href="/platform/tools/">Tools &amp; Components</a></li> !}
           <li><a href="/platform/security/">Security</a></li>
           <li><a href="/platform/roadmap/">Roadmap</a></li>
           {! <li><a href="/platform/licensing/">Licensing</a></li> !}
           <li>
-            <a href="http://docs.dadi.tech">
+            <a href="http://docs.dadi.tech" target="_blank">
             <img src="/assets/icons/pop-out.svg" class="alignv float--right" width="15">
             Documentation
             </a>
