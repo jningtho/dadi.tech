@@ -12,7 +12,7 @@
           "handle": "whatcar",
           "title": "What Car?",
           "color": "#e32116",
-          "summary": "A fresh strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "summary": "A fresh platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
           "components": [
             "Content management",
             "User data management",
@@ -50,7 +50,7 @@
           "handle": "empire",
           "title": "Empire",
           "color": "#ff0000",
-          "summary": "Rebuilt website and content management solution to streamline user experience and editorial workflow – all delivered against the clock",
+          "summary": "Rebuilt website and content management to streamline user experience and editorial workflow – all delivered against the clock",
           "components": [
             "Content management",
             "API first",
@@ -79,7 +79,7 @@
           "results": "DADI technology delivers flexible content management and premium user experience, plus a lightweight CRM  that acts as the glue between booking engine, digital communication and face-to-face customer service.",
           "detail": "Virgin Limited Edition uses DADI technology to power content management and manage relationships with its users. It's an API-first build assembled and managed by the DADI solutions team.\n\nFirst priority was presentation – the site was planned, designed and built to immerse the user in property detail – but the DADI platform also allows flexible control over the way the content is presented, so the team can build individual templates without developer intervention.\n\nBehind the scenes, a single user data store mixes information from multiple sources and provides a single version of the truth – vital for being able to tune a customer contact strategy for a demanding demographic.",
           "quote": {
-            "body": "The most flexible content management interface we have ever used",
+            "body": "DADI brings flexible content and user data management",
             "cite": "Director of Marketing, **Virgin Limited Edition**"
           }
         },
@@ -97,8 +97,8 @@
           "results": "The DADI platform drives all three titles from a single codebase, making small presentational adjustments for each brand requirement. Years of content was migrated into a single location with both advertising and editorial workstreams significantly enhanced.",
           "detail": "DADI worked closely with Bauer’s design team to quickly build and iterate on a front-end solution to accommodate various commercial and editorial requirements across the titles.\n\nWith content migrated we turned to content management, extending the DADI technology employed for Empire magazine bringing advantages in combined released and updates across four titles in the wider portfolio.\n\nThe result is a leaner digital product that is less hungry for resource in technical, commercial and editorial maintenance. It fosters cross-promotion and gathers an audience around the content portfolio with greater revenue opportunity.",
           "quote": {
-            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
-            "cite": "Product Lead, **Haymarket Consumer Media**"
+            "body": "Products built with DADI are delivered in days and weeks, not weeks and months",
+            "cite": "Chief Technology Officer, **Bauer Media**"
           }
         }
       ]
