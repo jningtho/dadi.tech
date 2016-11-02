@@ -12,7 +12,7 @@
           "handle": "whatcar",
           "title": "What Car?",
           "color": "#e32116",
-          "summary": "A fresh strategy for platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
+          "summary": "A fresh platform and product to optimise editorial workflow, increase user engagement and support new commercial opportunity",
           "components": [
             "Content management",
             "User data management",
@@ -50,7 +50,7 @@
           "handle": "empire",
           "title": "Empire",
           "color": "#ff0000",
-          "summary": "Rebuilt website and content management solution to streamline user experience and editorial workflow – all delivered against the clock",
+          "summary": "Rebuilt website and content management to streamline user experience and editorial workflow – all delivered against the clock",
           "components": [
             "Content management",
             "API first",
