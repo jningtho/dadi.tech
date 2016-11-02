@@ -104,6 +104,10 @@
 	text-align: left;
 	padding-top: 20px;
 
+	@media #{$break-small} {
+		margin-top: 30px;
+	}
+
 	li:after {
 		content: '';
 		background: url(/assets/icons/white/chevron-right.svg);
@@ -118,3 +122,5 @@
 		content: '|';
 	}
 }
+
+    

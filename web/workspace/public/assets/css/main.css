@@ -1504,6 +1504,9 @@ select {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   text-align: left;
   padding-top: 20px; }
+@media handheld, only screen and (max-width: 50em) {
+    .list--breadcrumb {
+      margin-top: 30px; } }
 .list--breadcrumb li:after {
     content: '';
     background: url(/assets/icons/white/chevron-right.svg);
@@ -1536,8 +1539,7 @@ body.dark main {
 .container--pad:first-of-type {
     padding-top: 30px; }
 @media handheld, only screen and (max-width: 50em) {
-  .container--divider,
-  .container--pad {
+  .container {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 8%;
@@ -1663,12 +1665,12 @@ body.dark .container--divider {
               transform: scaleX(1); }
 @media handheld, only screen and (max-width: 50em) {
   .nav {
-    margin: 20px 0 35px; }
+    margin: 0 0 25px; }
     .nav a {
-      display: block;
-      margin-right: 10px; }
+      display: block; }
     .nav li {
-      width: 50%; } }
+      display: inline-block;
+      margin: 0 20px 0 0; } }
 form .btn, form .text {
   line-height: 1.25;
   font-weight: bolder;
