@@ -25,6 +25,7 @@
     "autoprefixer": "^6.5.0",
     "browserify": "^13.1.0",
     "cheerio": "^0.20.0",
+    "chroma-js": "^1.2.1",
     "clean-css": "^3.4.20",
     "domready": "^1.0.8",
     "exorcist": "^0.4.0",

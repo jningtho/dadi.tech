@@ -65,7 +65,9 @@ body.dark {
 
 	background-color: #21262D;
 	background-size: cover;
-	background-image: url(/assets/img/bg-dark.jpg);
+	.mzr-no-svg & {
+		background-image: url(/assets/img/bg-dark.jpg);
+	}
 	color: #fff;
 	
 	.grid {
@@ -76,6 +78,15 @@ body.dark {
 		top: 0;
 		left: 100%;
 		opacity: 0.3;
+	}
+}
+.pattern {
+	svg {
+		opacity: 0;
+		transition: opacity 0.4 ease-out;
+	}
+	&--loaded svg {
+		opacity: 1;
 	}
 }
 
@@ -141,7 +152,7 @@ main {
 		height: 100px;
 		display: block;
 		z-index: -1;
-		box-shadow: 0 -15px 20px 0 #080E17;
+		box-shadow: 0 -15px 20px 0 rgba(8, 14, 23, 0.3);
 	}
 }
 
