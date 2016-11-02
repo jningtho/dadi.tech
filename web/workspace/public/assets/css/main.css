@@ -1736,30 +1736,30 @@ form .text:active, form .text:hover, form .text:focus {
 .zoom:hover .btn {
       background: #2C3B3D;
       color: #fff; }
-.read p {
+.read {
   margin-left: auto;
   margin-right: auto; }
-.read p h1, .read p h2, .read p h3, .read p h4 {
+.read h1, .read h2, .read h3, .read h4 {
     margin: 2em auto 0;
     max-width: 680px; }
-.read p h1:first-of-type(), .read p h2:first-of-type(), .read p h3:first-of-type(), .read p h4:first-of-type() {
+.read h1:first-of-type(), .read h2:first-of-type(), .read h3:first-of-type(), .read h4:first-of-type() {
       margin-top: 0; }
-.read p img {
+.read img {
     max-width: 140%;
     height: auto;
     margin-left: -20%; }
-.read p ul,
-  .read p ol {
+.read ul,
+  .read ol {
     margin: 1.5em auto;
     max-width: 680px; }
-.read p ul li,
-  .read p ol li {
+.read ul li,
+  .read ol li {
     margin: 0.5em 1em; }
-.read p a {
+.read a {
     border-bottom: 1px solid;
     font-weight: bold;
     color: #2C85E5; }
-.read p.hdr a {
+.read.hdr a {
     font-weight: normal;
     color: inherit; }
 abbr {

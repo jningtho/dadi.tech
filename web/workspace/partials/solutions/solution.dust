@@ -7,7 +7,7 @@
 <div class="container container--divider normal"> 
   <div class="grid">
     {?description}
-      <div class="col w-2-3">
+      <div class="col w-2-3 read">
         {@markdown}{description}{/markdown}
       </div>
     {/description}
