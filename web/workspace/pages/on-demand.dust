@@ -34,7 +34,7 @@
       <li class="col w-1-2 pad__bottom--x2">
         <div class="block"><img src="/assets/icons/group.svg" height="70"></div>
         <p class="hdr medium txt--blue">Built for teams</p>
-        <p class="normal no-marg-i">Easily manage your team’s cloud with customisable access permissions, invites and user profiles.</p>
+        <p class="normal no-marg-i">Easily manage your team’s cloud with customizable access permissions, invites and user profiles.</p>
       </li>
     </ul>
     <ul class="list--quotes normal cf grid">

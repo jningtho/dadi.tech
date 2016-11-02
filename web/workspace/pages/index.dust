@@ -8,7 +8,7 @@
   <div class="grid">
     <div class="col w-1-2 marg__bottom--x2 pad__top">
       <p class="hdr kilo no-marg-i txt--blue">The technology of the web, reinvented.</p>
-       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> development stack for products of all sizes and scale. It enables real-time, personalised experiences driven by machine learning.</p>
+       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> development stack for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.</p>
       <p class="normal pad__top"><a href="/platform/" class="btn btn--blue">How it works</a></p>
     </div>
     <div class="col w-1-2">
@@ -38,7 +38,7 @@
     </div>
     <div class="col w-1-2">
       <p class="normal">The <strong>DADI</strong> platform enables the unification of disparate technologies by treating all content types in the same way, closing the gap between <abbr title="Web Content Management">WCM</abbr>/<abbr title="Enterprise Content Management">ECM</abbr>, <abbr title="Customer Relationship Management">CRM</abbr> and <abbr title="Data Management Platform">DMP</abbr>, and making the implementation of cutting edge machine learning and big data theory simple.</p>
-      <p class="normal">With <strong>DADI</strong>, businesses of all sizes can provide data driven experience to their customers: unique and personalised interactions that drive higher engagement and increase conversion, all at a price point significantly below that of legacy platforms.</p>
+      <p class="normal">With <strong>DADI</strong>, businesses of all sizes can provide data driven experience to their customers: unique and personalized interactions that drive higher engagement and increase conversion, all at a price point significantly below that of legacy platforms.</p>
     </ul>
     </div>
   </div>
