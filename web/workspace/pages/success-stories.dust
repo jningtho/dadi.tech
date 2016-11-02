@@ -39,8 +39,13 @@
     </div>
 
     <div class="container container--divider">
-      <div class="grid" style="min-height: 300px">
-        Images here
+      <div class="grid bs-grid">
+        <div class="col w-1-2 bs-w-1-2 overflow-hidden">
+          <img style="width:auto;height:350px" src="/assets/successes/{handle}-1.png">
+        </div>
+        <div class="col w-1-2 bs-w-1-2 overflow-hidden">
+          <img style="width:auto;height:350px" src="/assets/successes/{handle}-2.png">
+        </div>
       </div>
     </div>
 
