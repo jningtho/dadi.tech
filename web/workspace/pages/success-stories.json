@@ -4,7 +4,8 @@
     "color": "#02140C"
   },
   "datasources": [
-    "successes"
+    "successes",
+    "solutions"
   ],
   "requiredDatasources": [
     "successes"

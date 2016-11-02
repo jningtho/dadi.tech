@@ -73,6 +73,4 @@
   <div class="pad__top--x2 marg__top pad__bottom"><a href="/success-stories/" class="btn btn--red normal">See all success stories</a></div>
 </div>
 
-{>"partials/solutions/list" /}
-
 {>"partials/footer" /}
