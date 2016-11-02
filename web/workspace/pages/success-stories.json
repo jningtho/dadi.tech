@@ -1,6 +1,7 @@
 {
   "page": {
-  	"key": "Success stories"
+  	"key": "Success stories",
+    "color": "#0B1902"
   },
   "datasources": [
     "successes"
