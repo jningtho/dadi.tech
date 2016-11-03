@@ -2,24 +2,24 @@
 
 {<title}{?params.client}{successes.results[0].title} / {/params.client} Success stories{/title}
 
-{^params.client}  
-  {#successes.results}
-    <div class="marg txt--white bg--black" style="background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%">
-      <a href="/success-stories/{handle}/">
-        <div class="container">
-          <div class="read inline-block bl-w-2-3 pad__top--x2 pad__bottom--x2">
-            <p class="hdr larger" style="color:{color}">{title}</p>
-            <p class="medium">{summary}</p>
-            <p><span class="btn">Read more</span></p>
-          </div>
+{^params.client} 
+  <div class="container container--pad">
+    <div class="grid">
+      {#successes.results}
+        <div class="col w-1-1 marg__bottom">
+          <a href="/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+            <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}" >
+              <p class="hdr large">{title}</p>
+              <p class="normal">{summary}</p>
+              <p><span class="btn">Read more</span></p>
+            </div>
+          </a>
         </div>
-      </a>
+      {/successes.results}
     </div>
+  </div>
 
-    {@eq key="{$idx}" value="2"}
-      {>"partials/solutions/list" /}
-    {/eq}
-  {/successes.results}
+  {>"partials/solutions/list" /}
 {:else}
   {#successes.results}
     <div class="container container--pad alignl">
