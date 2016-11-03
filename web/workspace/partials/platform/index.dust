@@ -41,12 +41,12 @@
     <div class="col w-1-2">
       <p class="hdr larger txt--red">Secure by default</p>
       <p class="normal"><strong>DADI</strong> is a proven, secure platform that stands up to the most critical vulnerabilities to prevent the worst from happening. Organizations rely on <strong>DADI</strong> for mission-critical sites and applications, testing its security against the most stringent standards.</p>
-      <a href="/platform/security/" class="btn btn--red">Find out more</a>
+      <p><a href="/platform/security/" class="btn btn--red">Find out more</a></p>
     </div>
     <div class="col w-1-2">
       <p class="hdr larger txt--red">Always moving forward</p>
       <p class="normal"><strong>DADI</strong> has been in active development since 2014. There are an average of 22 commits every single day, ranging from minor bug fixes to incremental steps towards the creation of major new functionality. We welcome community direction on all features.</p>
-      <a href="/platform/roadmap/" class="btn btn--red">Our roadmap</a>
+      <p><a href="/platform/roadmap/" class="btn btn--red">Our roadmap</a></p>
     </div>
   </div>
 </div>
