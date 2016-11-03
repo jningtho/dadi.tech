@@ -22,9 +22,9 @@
   {/successes.results}
 {:else}
   {#successes.results}
-    <div class="container container--pad alignc">
-      <h1 class="hdr kilo read alignauto no-marg-i" style="color:{color}">{title}</h1>
-      <p class="alignauto large hdr">{summary}</p>
+    <div class="container container--pad alignl">
+      <h1 class="inline-block hdr kilo read no-marg-i" style="color:{color}">{title}</h1>
+      <p class="inline-block large hdr">{summary}</p>
     </div>
 
     <div class="container container--divider">
