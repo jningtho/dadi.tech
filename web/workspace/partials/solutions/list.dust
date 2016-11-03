@@ -21,5 +21,7 @@
         </li>
       {/solutions.results}
     </ul>
+
+    <p><a href="/solutions/" class="btn btn--blue">Learn more about solutions we offer</a></p>
   </div>
 </div>
