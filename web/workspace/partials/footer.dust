@@ -33,8 +33,7 @@
           <li><a href="/success-stories/">Success stories</a></li>
           <li><a href="/latest/">Latest</a></li>
           <li><a href="/on-demand/">On demand</a></li>
-          {! <li><a href="/team/">Our team</a></li>
-          <li><a href="/careers/">Careers</a></li> !}
+          <li><a href="/about/">Working with DADI</a>
           <li><a href="/privacy/">Privacy</a></li>
         </ul>
       </div>
