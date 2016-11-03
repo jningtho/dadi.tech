@@ -1,0 +1,6 @@
+<ul class="list--line pad__top--half">
+<li><a href="/platform/concepts/data-driven-experiences/" {@eq key=params.concept value="data-driven-experiences"}class="fwb txt--blue"{/eq}>Data Driven Experiences</a></li>
+<li><a href="/platform/concepts/api-first-and-cope/" {@eq key=params.concept value="api-first-and-cope"}class="fwb txt--blue"{/eq}>API First &amp; COPE</a></li>
+<li><a href="/platform/concepts/microservices/" {@eq key=params.concept value="microservices"}class="fwb txt--blue"{/eq}>Microservices</a></li>
+<li><a href="/platform/concepts/machine-learning/" {@eq key=params.concept value="machine-learning"}class="fwb txt--blue"{/eq}>Machine Learning</a></li>
+</ul>

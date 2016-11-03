@@ -15,16 +15,20 @@
   </div>
 {:else}
   {#concepts.results}
-    <div class="container container--pad">
+    <div class="container pad__bottom--x2">
       <div class="alignc read alignauto">
         <h1 class="no-marg-i kilo txt--blue  marg__bottom">{title}</h1>
         <p class="hdr medium">{@soberMarkdown}{overview}{/soberMarkdown}</p>  
       </div>
     </div>
     <div class="container container--divider normal">
-      <div class="read alignauto">
-        {@markdown}{body}{/markdown}
-      </div>
+      <div class="grid">
+        <div class="col w-2-3 read">
+          {@markdown}{body}{/markdown}
+        </div>
+        <div class="col w-1-3">
+          {>"partials/platform/sidebar" /}
+        </div>
     </div>
   {/concepts.results}
 {/params.concept}

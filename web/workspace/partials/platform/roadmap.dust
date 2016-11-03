@@ -10,11 +10,94 @@
       <p class="larger hdr txt--green marg__bottom">You can help us improve DADI (or change this roadmap)</p>
 
       <p class="normal">Want to contribute to the work on this roadmap, or suggest new ideas? Volunteer your time, or Propose an initiative. To contribute as an organization or business, consider joining one of our supporter programs that fund this work.</p>
+
+      <p class="normal fwb">Your support can make a difference.</p>
+      <a href="/contact/" class="btn btn--blue small">Contact us</a><br><br>
+      <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
     </div>
     <div class="col w-1-2">
-      <p class="hdr larger">Your support can make a difference.</p>
-      <a href="/contact/" class="btn btn--green small">Contact us</a><br><br>
-      <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
+      
+
+      <h3>Q4 2016</h3>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/platform/api/">
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
+            API
+          </a>
+        </div>
+        <div class="col w-2-3">
+          Migration to ReThinkDB
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/platform/api/">
+            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="19">
+            Web
+          </a>
+        </div>
+        <div class="col w-2-3">
+          MVP isomorphic release integrating React
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/platform/publish/">
+            <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
+            Publish
+          </a>
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
+            Predict
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-track.png" class="alignv float--right" width="15">
+            Track
+          </a>
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-visualize.png" class="alignv float--right" width="18">
+            Visualize
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/platform/api/">
+            <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
+            Identity
+          </a>
+        </div>
+        <div class="col w-2-3">
+          SAS build complete and available under identity.dadi.tech
+        </div>
+      </div>
     </div>  
   </div>
 </div>

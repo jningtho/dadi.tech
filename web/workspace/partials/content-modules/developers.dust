@@ -39,6 +39,6 @@
       </li>
     </ul>
 
-    <div class="pad__bottom"><a href="/platform/" class="btn btn--yellow normal">Learn more about our platform</a></div>
+    {@ne key=page.key value="Platform"}<div class="pad__bottom"><a href="/platform/" class="btn btn--yellow normal">Learn more about our platform</a></div>{/ne}
   </div>
 </div>

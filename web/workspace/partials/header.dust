@@ -12,10 +12,21 @@
 <body class="{+bodyClass}light{/bodyClass}">
 
 <div class="top {?params.section}top--{params.section}{/params.section}">
+  {?params.product}
+    {>"partials/pattern" primary=products.results[0].dark-color /}
+  {:else}
+    {?page.color}
+      {>"partials/pattern" primary=page.color /}
+    {:else}
+      {>"partials/pattern" primary="#041628" /}
+    {/page.color}
+  {/params.product}
+
   <div class="container"> 
     {>"partials/navigation" /}
-    {>"partials/breadcrumb" /}
-    {+top}{/top}
+    {>"partials/breadcrumb" /}    
+    {>"partials/titles" placement=page.key /}
+    {+top/}
   </div>
 </div>
 
