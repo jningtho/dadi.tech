@@ -8,10 +8,12 @@
       <div class="inline-block hdr kilo read no-marg-i pad__bottom">We have helped organisations both large and small succeed with our platform.</div>
     {/eq}
     {@eq value="On demand"}
-      <div class="inline-block hdr kilo no-marg-i read">Launching soon. Let us know your email address to be the first to know.</div>
+      <h1 class="kilo hdr inline-block no-marg-i pad__bottom"><span class="txt--red block">Cloud computing.</span> Designed for developers.</h1>
+      <br>
+      <p class="cf inline-block normal read no-marg-i">Launching soon.</p>
     {/eq}
     {@eq value="Solutions"}
-      <h1 class="inline-block hdr kilo read  no-marg-i txt--blue">Heavy lifting, when you need it</h1>
+      <h1 class="inline-block hdr kilo read no-marg-i txt--blue">Heavy lifting, when you need it</h1>
       <p class="inline-block normal read">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
       <p><a href="/success-stories/" class="btn btn--blue normal">See success stories</a></p>
     {/eq}
