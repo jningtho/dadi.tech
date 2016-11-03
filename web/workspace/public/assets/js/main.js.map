@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "sources": [
+    "node_modules/browser-pack/_prelude.js",
+    "workspace/frontend/src/normalise_grid.js",
+    "workspace/frontend/src/pattern.js"
+  ],
+  "names": [],
+  "mappings": "AAAA;ACAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AC5CA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA",
+  "file": "generated.js",
+  "sourceRoot": "",
+  "sourcesContent": [
+    "(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require==\"function\"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error(\"Cannot find module '\"+o+\"'\");throw f.code=\"MODULE_NOT_FOUND\",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require==\"function\"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})",
+    "// $ = require('jquery');\n// domready = require('domready');\n\n// var target = '.normalise .normalise--item';\n\n// domready(function () {\n\n//   equalheight = function(container){\n//     var currentTallest = 0,\n//         currentRowStart = 0,\n//         rowDivs = [],\n//         $el,\n//         topPosition = 0;\n\n//     $(container).each(function() {\n//       $el = $(this);\n//       $el.height('auto');\n//       topPostion = $el.position().top;\n\n//       if (currentRowStart != topPostion) {\n//         for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {\n//           rowDivs[currentDiv].height(currentTallest);\n//         }\n//         rowDivs.length = 0; // empty the array\n//         currentRowStart = topPostion;\n//         currentTallest = $el.height();\n//         rowDivs.push($el);\n//       } else {\n//         rowDivs.push($el);\n//         currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);\n//       }\n//       for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {\n//         rowDivs[currentDiv].height(currentTallest);\n//       }\n//     });\n//   };\n\n//   $(window).on('load', function() {\n//     equalheight(target);\n//   });\n\n//   $(window).on('resize', function(){\n//     equalheight(target);\n//   });\n// });",
+    "// $ = require('jquery');\n// domready = require('domready');\n// Pattern = require('../lib/dadi-pattern');\n\n\n// domready(function () {\n//   pattern('#pattern');\n// });\n\n\nvar els = document.querySelectorAll('.pattern');\nArray.prototype.forEach.call(els, function(el) {\n  var sizes = getComputedStyle(el);\n  var colors = el.getAttribute('data-colors').split(',');\n  var drawing = new Pattern(el);\n  drawing.init({\n    width: parseInt(sizes.width, 10),\n    height: parseInt(sizes.height, 10),\n    size: 170,\n    colors: colors,\n    spread: {\n      x: 0.8,\n      y: 0.8\n    }\n  });\n  el.classList.add('pattern--loaded');\n});"
+  ]
+}

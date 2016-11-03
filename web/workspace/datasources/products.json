@@ -12,6 +12,7 @@
           "title": "API",
           "product": "api",
           "color": "#0BA6DD",
+          "dark-color": "#02181E",
           "overview": "High-performance RESTful API layer designed in support of API-first development and the principle of COPE",
           "description": "You can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
           "features": [
@@ -33,6 +34,7 @@
           "title": "Web",
           "product": "web",
           "color": "#e42918",
+          "dark-color": "#490b08",
           "overview": "High-performance schema-less templating layer for optimal browser-based product development",
           "description": "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.\n\n**DADI Web** uses [LinkedIn's Dust](http://www.dustjs.com/) templating language which provides a simple yet powerful template layer for displaying your data.",
           "features": [
@@ -51,6 +53,7 @@
           "title": "Publish",
           "product": "publish",
           "color": "#FFBF0D",
+          "dark-color": "#231A02",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
           "description": "A writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
           "features": [
@@ -71,6 +74,7 @@
           "title": "CDN",
           "product": "cdn",
           "color": "#e02975",
+          "dark-color": "#280816",
           "overview": "Just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution",
           "description": "You can consider a full installation of DADI CDN as being analogous to a traditional CDN (Content Distribution Network) such as Akamai and Limelight. It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.\n\nCDN has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis.",
           "features": [
@@ -109,6 +113,7 @@
           "title": "Identity",
           "product": "identity",
           "color": "#5CC617",
+          "dark-color": "#0F2104",
           "overview": "End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space",
           "description": "Know your audience: DADI Identity gives you the power to identify the people who use your products and give them exactly the service they want in the very moment they need it. It's the beating heart of your CRM strategy and can be extended by other microservices in the DADI product suite.",
           "features": [
@@ -128,6 +133,7 @@
           "title": "Track",
           "product": "track",
           "color": "#2DBA7A",
+          "dark-color": "#0A281A",
           "overview": "Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions",
           "description": "**DADI Track** makes use of Node's non-blocking architecture to present a 1:1 view of tracked activity within a platform.\n\nTrack is deliberately lightweight: it maintains a temporary data pipeline and provides a framework for data consumers to iterate against the pipeline. Data consumers within Track can be used for aggregation, powering real time visualization (through [DADI Visualize](/platform/visualize/)), piping your data into existing platforms or triggering events within your product interfaces.\n\nEvents can be sent to Track from a client device, from within the wider DADI stack or via an API call.",
           "features": [
@@ -157,6 +163,7 @@
           "title": "Visualize",
           "product": "visualize",
           "color": "#EF711D",
+          "dark-color": "#261205",
           "overview": "Real-time data visualization and dashboarding. Plugs into [DADI Track](/platform/track/), _Google Analytics_ and many other third-party systems",
           "description": "**DADI Visualize** provides front end dashboarding functionality for the visualization of your data. It plugs into [DADI Track](/platform/track/) and can take feeds from _Google Analytics_ and almost any other source.",
           "features": [
@@ -172,6 +179,7 @@
           "title": "Predict",
           "product": "predict",
           "color": "#27DCE0",
+          "dark-color": "#062323",
           "overview": "Scalable and straightforward predictive analysis API with machine learning at its heart",
           "description": "**Match** is an API that simplifies customer-based predictions by leverage specific machine learning techniques.\n\nVery basically, events go into **DADI Match** - our machine learning product - and predictions about future events come out.\n\nIt uses the concepts of events - familiar to anyone that has used _Google Analytics_ - to allow for the simple collection of data points to model against.",
           "features": [

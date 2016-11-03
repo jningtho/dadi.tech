@@ -25,6 +25,7 @@
     "autoprefixer": "^6.5.0",
     "browserify": "^13.1.0",
     "cheerio": "^0.20.0",
+    "chroma-js": "^1.2.1",
     "clean-css": "^3.4.20",
     "domready": "^1.0.8",
     "exorcist": "^0.4.0",
@@ -39,6 +40,7 @@
     "postcss-cli": "^2.6.0",
     "postcss-import": "^8.1.2",
     "require-globify": "^1.4.1",
+    "sendgrid": "^4.7.1",
     "uglify-js": "^2.7.3",
     "watch": "^1.0.1"
   },

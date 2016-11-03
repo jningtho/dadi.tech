@@ -1,6 +1,7 @@
 {
   "page": {
-    "key": "Platform"
+    "key": "Platform",
+    "color": "#1D0309"
   },
   "datasources": [
     "products",

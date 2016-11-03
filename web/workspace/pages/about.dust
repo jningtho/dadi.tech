@@ -1,0 +1,49 @@
+{>"partials/header" /}
+
+{<title}Working with…{/title}
+  
+<div class="container container--pad">
+  <div class="grid">
+    <div class="col w-1-2">
+    <h1 class="no-marg-i txt--blue">Who we are</h1>
+      <h2>We're a seasoned team of analysts, strategists, creatives and technologists. DADI HQ is in London and we've also got offices in San Francisco, Melbourne and Dubai.</h2>
+      <p class="normal">We're a finely tuned machine. The way we work, our team, our technical approach and our processes are all carefully calibrated to construct the right data strategy for you. So you can get better acquainted with your customers online and in person.</p>
+      <p class="normal">In short, we're here to help you <strong>grow your business by making the most of your data</strong>.</p>
+    </div>
+    <div class="col w-1-2">
+      <h1 class="no-marg-i txt--red">The way we work</h1>
+      <h2>We're masters in the art of collaboration. Whether we're dealing directly with your team or another of your agencies, we're always positive and proactive.</h2>
+      <p class="normal">We like to get up-close with your personnel. Don't be surprised if we ask to come and work alongside your tech or marketing teams so we can get a feel for your day-to-day.</p>
+      <p class="normal">Too often people observe data in isolation. We prefer to get a true understanding of your business, so we can make your data truly useful to you.</p>
+    </div>
+  </div>
+</div>
+  
+<div class="container container--divider">
+  <div class="grid">
+    <div class="col w-1-2">
+      <h1 class="txt--green">Our team</h1>
+      <h2>From hybrid designer/developers to hyper-intelligent data scientists; from heavyweight project managers to heavy-lifting technologists: we only hire senior, talented team players with impressively hefty skill sets.</h2>
+      <p class="normal">But with high standards come hard choices. And in assembling the ideal team for our data-focussed agency, we've learnt a few things:</p>
+      <div class="read">
+      <ul class="list__line normal">
+        <li>The best talent doesn't always live within an hour of central London</li>
+        <li>The brightest people aren't necessarily in it for the 9 to 5</li>
+        <li>Inspiration can strike at any time – we need the tools to record and deploy when it does</li>
+      </ul>
+      </div>
+      <p class="normal">Hence a <a href="/insights/how-we-work">radical way of working for DADI</a>: a flexible attitude and unique approach to recruitment that make us quite the draw for great talent (even if we say so ourselves).</p>
+    </div>
+    <div class="photos col w-1-2 marg__top pad__top--half" style="line-height:0">
+      <p style="line-height:normal" class="small bg--black no-marg-i pad--half txt--white fwb delta">Our founders – Joseph Denne, Will Lebens &amp; Christopher Mair</p>
+
+      <img style="max-width:100%" src="/assets/img/about/directors.jpg" alt="Photograph of the DADI directors - Joseph Denne, Will Lebens and Christopher Mair" />
+
+      <img class="inline-block w-1-2" src="/assets/img/about/1.jpg" />
+      <img class="inline-block w-1-2" src="/assets/img/about/2.jpg" />
+      <img class="inline-block w-1-2" src="/assets/img/about/4.jpg" />
+      <img class="inline-block w-1-2" src="/assets/img/about/3.jpg" />
+    </div>
+  </div>
+
+{>"partials/footer" /}

@@ -1,22 +1,23 @@
-<div class="container container--pad alignc">
-  <h1 class="hdr kilo read alignauto no-marg-i txt--blue">Heavy lifting, when you need it</h1>
-  <p class="alignauto normal">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
-  <p class="alignauto"><a href="/successes/" class="btn btn--blue normal">See success stories</a></p>
-</div>
-
-<div class="container container--divider">
-  <ul class="list--quotes normal cf pad__top--x2">
+<div class="container pad__bottom--x2">
+  <div class="normal cf grid">
     {#solutions.results}
-      <li class="pad__bottom--x2 pad__top grid">
+      <div class="pad__bottom--x2 pad__top grid col w-1-2">
         <div class="col w-1-4">
           <img class="float--right" src="/assets/icons/{icon}.svg" height="70">
         </div>
-        <div class="col w-2-3">
+        <div class="col w-3-4">
           <p class="large hdr no-marg-i"> {title}</p>
           <p class="pad__top--half alignauto normal no-marg-i">{overview}</p>
           <p><a href="/solutions/{handle}/" class="btn btn--blue small">Learn more</a></p>
         </div>
-      </li>
+      </div>
+
+      {@math key=$idx method="mod" operand=2}
+    {@eq value=1}
+        </div>
+<div class="grid normal cf">
+    {/eq}
+ {/math}
     {/solutions.results}
   </ul>
 </div>
