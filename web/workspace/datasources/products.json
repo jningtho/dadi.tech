@@ -47,7 +47,24 @@
             "Cache by mime-type",
             "URL rewriting support",
             "Database-backed sessions"
-          ]
+          ],
+          "highlights": {
+            "title": "Obviously, we build our own site with this. Here are some highlights.",
+            "keyPoints": [
+              {
+                "title": "Flexible events",
+                "description": "Easily manipulate data with events. The [contact form](https://github.com/dadi/dadi.tech/blob/master/web/workspace/events/contact.js) integrates with [Sendgrid](http://sendgrid.com)'s API."
+              },
+              {
+                "title": "Help from Helpers",
+                "description": "Reusable snippets speed up development. We use [Markdown with Smartypants](https://github.com/dadi/dadi.tech/blob/master/web/workspace/utils/helpers/markdown.js) to easily format text."
+              },
+              {
+                "title": "Use external data",
+                "description": "Datasources can not only be from [API](/platform/api/). They can also be static or from [a third-party](https://github.com/dadi/dadi.tech/blob/master/web/workspace/datasources/github-api.json)."
+              }
+            ]
+          } 
         },
         {
           "title": "Publish",
