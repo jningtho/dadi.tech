@@ -96,15 +96,18 @@
             "keyPoints": [
               {
                 "title": "Connect",
-                "description": "Tell DADI CDN where your files are (no re-uploading required)"
+                "description": "Tell DADI CDN where your files are (no re-uploading required)",
+                "image": "cdn-1.png"
               },
               {
                 "title": "Transform",
-                "description": "Enhance and adapt your images by building URLs with simple parameters"
+                "description": "Enhance and adapt your images by building URLs with simple parameters",
+                "image": "cdn-2.png"
               },
               {
                 "title": "Deliver",
-                "description": "Get images to customers fast with CDN’s intelligent caching and routing"
+                "description": "Get images to customers fast with CDN’s intelligent caching and routing",
+                "image": "cdn-3.png"
               }
             ]
           } 
