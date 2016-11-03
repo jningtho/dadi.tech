@@ -45,7 +45,7 @@
     </div>
     <div class="col w-1-2">
       <p class="hdr larger txt--red">Always moving forward</p>
-      <p class="normal"><strong>DADI</strong> has been in active development since 2014. There are an average of 22 commits every single day, ranging from minor bug fixes to incremental steps towards the creation of major new functionality.</p>
+      <p class="normal"><strong>DADI</strong> has been in active development since 2014. There are an average of 22 commits every single day, ranging from minor bug fixes to incremental steps towards the creation of major new functionality. We welcome community direction on all features.</p>
       <a href="/platform/roadmap/" class="btn btn--red">Our roadmap</a>
     </div>
   </div>
