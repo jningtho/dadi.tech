@@ -58,6 +58,4 @@
   </div>
 </div>
 
-{@contextDump/}
-
 {>"partials/footer" /}
