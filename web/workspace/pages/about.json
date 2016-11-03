@@ -1,0 +1,14 @@
+{
+  "page": {
+    "key": "Working with DADI",
+    "color": "#031A07"
+  },
+  "events": [
+    "globals"
+  ],
+  "routes": [
+    {
+      "path": "/about/"
+    }
+  ]
+}   
