@@ -8,9 +8,12 @@
       <div class="inline-block hdr kilo read no-marg-i pad__bottom">We have helped organisations both large and small succeed with our platform.</div>
     {/eq}
     {@eq value="On demand"}
-      <h1 class="kilo hdr inline-block no-marg-i pad__bottom"><span class="txt--red block">Cloud computing.</span> Designed for developers.</h1>
-      <br>
-      <p class="cf inline-block normal read no-marg-i">Launching soon.</p>
+      <div class="alignc">
+        <img src="/assets/img/logo-ondemand-white.png" class="block alignauto marg__bottom" height="45">
+        <p class="kilo hdr inline-block no-marg-i pad__bottom"><span class="txt--red block">Cloud computing.</span> Designed for developers.</p>
+        <br>
+        <p class="cf inline-block normal read no-marg-i">Launching soon.</p>
+      </div>
     {/eq}
     {@eq value="Solutions"}
       <h1 class="inline-block hdr kilo read no-marg-i txt--blue">Heavy lifting, when you need it</h1>

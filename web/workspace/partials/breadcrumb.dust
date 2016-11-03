@@ -25,12 +25,14 @@
     </div>
   {/ne}
 {:else}
-  {@ne key=page.key value="home"}
-    <div class="small">
-      <ul class="list--breadcrumb">
+  {@select key=page.key}
+    {@eq value="home" /}
+    {@eq value="On demand" /}
+    {@none}
+      <div class="list--breadcrumb">
         <h1 class="medium no-marg-i txt--grey">{page.key}</h1>
-      </ul>
-    </div>
-  {/ne}
+      </div>
+    {/none}
+  {/select}
 {/params}
 
