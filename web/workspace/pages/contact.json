@@ -1,0 +1,14 @@
+{
+  "page": {
+    "key": "Contact"
+  },
+  "events": [
+    "globals",
+    "contact"
+  ],
+  "routes": [
+    {
+      "path": "/contact/"
+    }
+  ]
+}   

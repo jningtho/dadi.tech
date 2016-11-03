@@ -23,6 +23,10 @@
     {@eq value="Latest"}
       <p class="inline-block hdr kilo read no-marg-i">Platform, innovation and industry insight from your friends at DADI</p>
     {/eq}
+    {@eq value="Contact"}
+      <div class="inline-block hdr kilo read no-marg-i pad__bottom">Get in touch with the team</div>
+    {/eq}
     {@any}</div>{/any}
   {/select}
+
 {/params}
