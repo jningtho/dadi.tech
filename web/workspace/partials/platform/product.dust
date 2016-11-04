@@ -47,3 +47,9 @@
     {/features}
   </div>
 </div>
+
+{?example}
+  <div class="container container--divider">
+    {>"partials/code-examples/{product}" /}
+  </div>
+{/example}
