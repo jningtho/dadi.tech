@@ -1,23 +1,26 @@
-<div class="container container--divider">
-<a href="/success-stories/" class="btn btn--fill txt--white btn--blue normal float--right">See all success stories</a>
-<h2 class="hdr larger txt--blue no-marg-i">Used by businesses of all sizes</h2>
-</div>
-
 <div class="marg__bottom bg--light-grey pad--x2 bdr-shadow">
-  <ul class="container list--quotes normal cf">
-    <li class="inline-block alignv w-1-5 bs-w-1-1 hdr">
-      <img class="alignv" src="/assets/img/logo-lifestyleone.png" height="39" alt="Lifestyle.one">
-    </li>
-    <li class="inline-block alignv alignc w-1-5 bs-w-1-1 hdr">
-      <img class="alignv" src="/assets/img/logo-whatcar.png" height="25" alt="WhatCar?">
-    </li>
-    <li class="inline-block alignv alignc w-1-5 bs-w-1-1 hdr">
-      <img class="alignv" src="/assets/img/logo-empire.png" height="25" alt="Empire Magazine">
-    <li class="inline-block alignv alignc w-1-5 bs-w-1-1 hdr">
-      <img class="alignv" src="/assets/img/logo-vle.png" height="40" alt="Virgin Limited Edition">
-    </li>
-    <li class="inline-block alignv alignr w-1-5 bs-w-1-1 hdr">
-      <img class="alignv" src="/assets/img/logo-monocle.png" height="21" alt="Monocle">
-    </li>
-  </ul>
+  <div class="container">
+    <div class="grid">
+      <div class="col w-1-3">
+        <h2 class="hdr larger no-marg-i txt--blue">Used by businesses of all sizes</h2>
+        <a href="/success-stories/" class="marg__top alignv btn btn--fill txt--white btn--blue small inline-block">See all success stories</a>
+      </div>
+      <ul class="col w-2-3 list--quotes normal cf alignc">
+        <li class="inline-block alignv w-1-3 bs-w-1-1 hdr">
+          <img class="alignv" src="/assets/img/logo-lifestyleone.png" height="39" alt="Lifestyle.one">
+        </li>
+        <li class="inline-block alignv alignc w-1-3 bs-w-1-1 hdr">
+          <img class="alignv" src="/assets/img/logo-whatcar.png" height="25" alt="WhatCar?">
+        </li>
+        <li class="inline-block alignv alignc w-1-3 bs-w-1-1 hdr">
+          <img class="alignv" src="/assets/img/logo-empire.png" height="25" alt="Empire Magazine">
+        <li class="inline-block alignv alignc w-1-3 bs-w-1-1 hdr">
+          <img class="alignv" src="/assets/img/logo-vle.png" height="40" alt="Virgin Limited Edition">
+        </li>
+        <li class="inline-block alignv alignr w-1-3 bs-w-1-1 hdr">
+          <img class="alignv" src="/assets/img/logo-monocle.png" height="21" alt="Monocle">
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
