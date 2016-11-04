@@ -31,6 +31,7 @@
           "handle": "monocle",
           "title": "Monocle",
           "color": "#fc0",
+          "text-color": "#000",
           "summary": "A new platform built in support of single user and subscriber view – and to power a full suite of digital product from browser to app",
           "components": [
             "User data management",
@@ -67,7 +68,7 @@
         {
           "handle": "virgin",
           "title": "Virgin Limited Edition",
-          "color": "#eee",
+          "color": "#333",
           "summary": "A premium digital product worthy of exclusive luxury holiday islands and properties selected personally by Richard Branson",
           "components": [
             "Content management",
