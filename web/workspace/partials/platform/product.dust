@@ -31,7 +31,7 @@
   <div class="grid">
     {?description}
       <div class="col w-1-2 normal read">
-        {@markdown}{description}{/markdown}
+        {@markdown}{description|s}{/markdown}
       </div>
     {/description}
     
