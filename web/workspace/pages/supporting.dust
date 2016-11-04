@@ -2,10 +2,12 @@
 
 {<title}{supporting.results[0].title}{/title}
 
-<div class="container read normal">
+<div class="container pad__bottom--x2 marg__bottom normal cf">
   {#supporting.results}
-  	<h1 class="pad__top--x2 pad__bottom alignc kilo">{title}</h1>
-    {@markdown}{body|s}{/markdown}
+    <h1 class="alignc kilo marg__bottom--x2">{title}</h1>
+    <div class="read ">
+      {@markdown}{body|s}{/markdown}
+    </div>
   {/supporting.results}
 </div>
 
