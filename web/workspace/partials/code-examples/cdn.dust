@@ -4,6 +4,8 @@
     <p>Delivery Recipes enable a predefined set of image manipulation parameters to be mapped to a URL.</p>
     <p><a href="http://docs.dadi.tech/cdn/recipes" class="btn btn--fill small ">Find out more</a></p>
 
+    <h2 class="pad__top">Example recipe.json</h2>
+
     <code class="small"><pre>{~lb}{~n}
     {~s}{~s}"recipe": "example-recipe-name",{~n}
     {~s}{~s}"settings": {~lb}{~n}
@@ -30,7 +32,7 @@
 
     <h2 class="pad__top">Example route.json</h2>
 
-    <code class="small"><pre>{
+    <code class="small"><pre>{{~n}
     {~s}{~s}"route": "sample-route",{~n}
     {~s}{~s}"branches": [{~n}
     {~s}{~s}{~s}{~s}{{~n}
