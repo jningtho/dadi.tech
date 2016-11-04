@@ -12,13 +12,13 @@
 <meta property="og:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
 <meta name="description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
-<meta property="og:image" content="{global.protocol}://{host}{pathname}/public/assets/img/og.jpg">
+<meta property="og:image" content="{global.protocol}://{host}{pathname}/assets/img/og.jpg">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@dadi">
 <meta name="twitter:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
 <meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
-<meta name="twitter:image" content="{global.protocol}://{host}{pathname}/public/assets/img/og.jpg">
+<meta name="twitter:image" content="{global.protocol}://{host}{pathname}/assets/img/og.jpg">
 
 <meta name="geo.placename" content="London, UK">
 <meta name="dc.language" content="en">
