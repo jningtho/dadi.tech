@@ -47,21 +47,17 @@
 {>"partials/content-modules/customers" /}
 
 <div class="container container--pad">
-  <p class="hdr larger txt--red">Integrates with your existing technology</p>
 
-  <ul class="list--quotes medium cf grid pad__top">
-    <li class="col w-1-3 hdr">Salesforce</li>
-    <li class="col w-1-3 hdr">Sugar CRM</li>
-    <li class="col w-1-3 hdr">Adobe Marketing Cloud</li>
-    <li class="col w-1-3 hdr">Google Analytics</li>
-    <li class="col w-1-3 hdr">Campaign Monitor</li>
-    <li class="col w-1-3 hdr">Mailchimp</li>
-    <li class="col w-1-3 hdr">Krux</li>
-    <li class="col w-1-3 hdr">Alchemetrics</li>
-    <li class="col w-1-3 hdr">Retail Pro</li>
-  </ul>
 
-  <p class="pad__top txt--grey hdr medium">And many more…</p>
+  <div class="grid normal">
+    <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Next-generation content management</strong> Get your content into the hands of your users, whether on mobile, tablet, games console, television or desktop.</div>
+
+    <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Hyper-personalization</strong> Stop treating all users the same – give them editorial you know they will read and products you know they will buy.</div>
+
+    <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Know your product</strong> Take the guess work out of development with market-leading analytics driven by fact not averages.</div>
+
+    <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Succeed faster</strong> The pace to get to MVP quickly and the tools to properly measure performance as you iterate.</div>
+  </div>
 </div>
 
 {>"partials/content-modules/developers" /}
