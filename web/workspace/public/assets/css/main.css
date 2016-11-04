@@ -1747,6 +1747,8 @@ form .text:active, form .text:hover, form .text:focus {
 .read img {
     max-width: 100%;
     height: auto; }
+.read iframe {
+    max-width: 100%; }
 .read ul,
   .read ol {
     margin: 1.5em auto;
