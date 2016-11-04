@@ -47,15 +47,10 @@
 {>"partials/content-modules/customers" /}
 
 <div class="container container--pad">
-
-
   <div class="grid normal">
     <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Next-generation content management</strong> Get your content into the hands of your users, whether on mobile, tablet, games console, television or desktop.</div>
-
     <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Hyper-personalization</strong> Stop treating all users the same – give them editorial you know they will read and products you know they will buy.</div>
-
     <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Know your product</strong> Take the guess work out of development with market-leading analytics driven by fact not averages.</div>
-
     <div class="col w-1-2 marg__bottom--x2"><strong class="hdr medium block">Succeed faster</strong> The pace to get to MVP quickly and the tools to properly measure performance as you iterate.</div>
   </div>
 </div>
