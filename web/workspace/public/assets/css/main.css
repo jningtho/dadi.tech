@@ -1745,9 +1745,10 @@ form .text:active, form .text:hover, form .text:focus {
 .read h1:first-of-type(), .read h2:first-of-type(), .read h3:first-of-type(), .read h4:first-of-type() {
       margin-top: 0; }
 .read img {
-    max-width: 140%;
-    height: auto;
-    margin-left: -20%; }
+    max-width: 100%;
+    height: auto; }
+.read iframe {
+    max-width: 100%; }
 .read ul,
   .read ol {
     margin: 1.5em auto;

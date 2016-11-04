@@ -14,7 +14,7 @@
           "color": "#0BA6DD",
           "dark-color": "#02181E",
           "overview": "High-performance RESTful API layer designed in support of API-first development and the principle of COPE",
-          "description": "You can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
+          "description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NOnhPjp5KEg\" frameborder=\"0\" allowfullscreen></iframe>\n\nYou can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
           "features": [
             "Built in support for oAuth2",
             "Provides native document versioning at collection level",
@@ -47,7 +47,24 @@
             "Cache by mime-type",
             "URL rewriting support",
             "Database-backed sessions"
-          ]
+          ],
+          "highlights": {
+            "title": "Obviously, we build our own site with this. Here are some highlights.",
+            "keyPoints": [
+              {
+                "title": "Flexible events",
+                "description": "Easily manipulate data with events. The [contact form](https://github.com/dadi/dadi.tech/blob/master/web/workspace/events/contact.js) integrates with [Sendgrid](http://sendgrid.com)'s API."
+              },
+              {
+                "title": "Help from Helpers",
+                "description": "Reusable snippets speed up development. We use [Markdown with Smartypants](https://github.com/dadi/dadi.tech/blob/master/web/workspace/utils/helpers/markdown.js) to easily format text."
+              },
+              {
+                "title": "Use external data",
+                "description": "Datasources can not only be from [API](/platform/api/). They can also be static or from [a third-party](https://github.com/dadi/dadi.tech/blob/master/web/workspace/datasources/github-api.json)."
+              }
+            ]
+          } 
         },
         {
           "title": "Publish",
@@ -55,7 +72,7 @@
           "color": "#FFBF0D",
           "dark-color": "#231A02",
           "overview": "Market-leading editorial interfaces for the management of content held within [DADI API](/platform/api/) and other data sources",
-          "description": "A writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
+          "description": "![Screenshot of DADI Publish](/assets/illustrations/publish.png)\n\nA writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
           "features": [
             "Extendable custom fields",
             "Manage documents across multiple APIs",
@@ -96,15 +113,18 @@
             "keyPoints": [
               {
                 "title": "Connect",
-                "description": "Tell DADI CDN where your files are (no re-uploading required)"
+                "description": "Tell DADI CDN where your files are (no re-uploading required)",
+                "image": "cdn-1.png"
               },
               {
                 "title": "Transform",
-                "description": "Enhance and adapt your images by building URLs with simple parameters"
+                "description": "Enhance and adapt your images by building URLs with simple parameters",
+                "image": "cdn-2.png"
               },
               {
                 "title": "Deliver",
-                "description": "Get images to customers fast with CDN’s intelligent caching and routing"
+                "description": "Get images to customers fast with CDN’s intelligent caching and routing",
+                "image": "cdn-3.png"
               }
             ]
           } 
