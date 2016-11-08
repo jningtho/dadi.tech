@@ -1,38 +1,37 @@
-{?params}
-  {@ne key=page.key value="supporting"}
-    <div class="alignc marg__bottom small">
-      <ul class="list--breadcrumb titlecase">
-        <li><a href="/">home</a></li>
-        <li><a href="/{title}/">{page.key}</a></li>
-        {?params.product}
-          <li class="fwb">{products.results[0].title}</li>
-        {/params.product}
-        {?params.solution}
-          <li class="fwb">{solutions.results[0].title}</li>
-        {/params.solution}
-        {?params.page}
-          {?params.concept}
-            <li><a href="/platform/concepts/">Concepts</a></li>
-            <li class="fwb">{concepts.results[0].title}</li>
-          {:else}
-            <li class="fwb"><a href="/platform/concepts/">Concepts</a></li>
-          {/params.concept}
-        {/params.page}
-        {?params.client}
-          <li class="fwb">{successes.results[0].title}</li>
-        {/params.client}
-      </ul>
-    </div>
-  {/ne}
-{:else}
-  {@select key=page.key}
-    {@eq value="home" /}
-    {@eq value="On demand" /}
-    {@none}
+{@select key=page.key}
+  {@eq value="home" /}
+  {@eq value="On demand" /}
+  {@none}
+    {?params}
+      {@ne key=page.key value="supporting"}
+        <div class="alignc marg__bottom small">
+          <ul class="list--breadcrumb titlecase">
+            <li><a href="/">home</a></li>
+            <li><a href="/{title}/">{page.key}</a></li>
+            {?params.product}
+              <li class="fwb">{products.results[0].title}</li>
+            {/params.product}
+            {?params.solution}
+              <li class="fwb">{solutions.results[0].title}</li>
+            {/params.solution}
+            {?params.page}
+              {?params.concept}
+                <li><a href="/platform/concepts/">Concepts</a></li>
+                <li class="fwb">{concepts.results[0].title}</li>
+              {:else}
+                <li class="fwb"><a href="/platform/concepts/">Concepts</a></li>
+              {/params.concept}
+            {/params.page}
+            {?params.client}
+              <li class="fwb">{successes.results[0].title}</li>
+            {/params.client}
+          </ul>
+        </div>
+      {/ne}
+    {:else}  
       <div class="list--breadcrumb">
         <h1 class="medium no-marg-i txt--grey">{page.key}</h1>
       </div>
-    {/none}
-  {/select}
-{/params}
-
+    {/params}
+  {/none}
+{/select}
