@@ -34,6 +34,7 @@ var Event = function (req, res, data, callback) {
 
         sg.API(request, function(error, response) {
           if (error) {
+            console.log(error)
             data.mailResult = 'There was a problem sending the email.'
           } else {
             data.mailResult = 'Thank you for your message, you will hear back from us soon.'
