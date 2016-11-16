@@ -10,7 +10,7 @@
     <div class="container container--divider marg__top">
       <div class="grid">
         <div class="read normal col w-2-3">
-          {@markdown}{body}{/markdown}
+          {@markdown}{body|s}{/markdown}
         </div>
         <div class="col w-1-3">
           {>"partials/latest/sidebar" /}
