@@ -1,9 +1,6 @@
 // You need a Sendgrid.com API key for this
 var sg = require('sendgrid')(process.env['SENDGRID_API'])
 
-console.log('Sendgrid API:')
-console.log(process.env['SENDGRID_API'])
-
 var Event = function (req, res, data, callback) {
 
   // On form post
@@ -36,9 +33,6 @@ var Event = function (req, res, data, callback) {
         })
 
         sg.API(request, function(error, response) {
-          console.log(error)
-          console.log(response)
-
           if (error) {
             data.mailResult = 'There was a problem sending the email.'
           } else {
