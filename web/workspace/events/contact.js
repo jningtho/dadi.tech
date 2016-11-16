@@ -1,5 +1,7 @@
 // You need a Sendgrid.com API key for this
-var sg = require('sendgrid')(process.env['SENDGRID_API']);
+var sg = require('sendgrid')(process.env['SENDGRID_API'])
+
+console.log('Sendgrid API: '+process.env['SENDGRID_API'])
 
 var Event = function (req, res, data, callback) {
 
