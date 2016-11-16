@@ -1808,6 +1808,8 @@ form .text:active, form .text:hover, form .text:focus {
     max-width: 680px; }
 .read h1:first-of-type, .read h2:first-of-type, .read h3:first-of-type, .read h4:first-of-type {
       margin-top: 0; }
+.read > h2:first-child {
+    margin-top: 0.5em auto 0; }
 .read img {
     max-width: 100%;
     height: auto; }
