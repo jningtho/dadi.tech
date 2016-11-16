@@ -133,13 +133,8 @@ body.dark {
 main {
 	position: relative;
 	background: #fff;
-	// margin-top: 320px;
 	padding-bottom: 1px;
 	-webkit-transform: translate3d(0, 0, 0);
-
-	body.home & {
-		// margin-top: 640px;
-	}
 
 	&:before {
 		position: absolute;
@@ -151,7 +146,6 @@ main {
 		height: 100px;
 		display: block;
 		z-index: -1;
-		box-shadow: 0 -15px 20px 0 rgba(8, 14, 23, 0.3);
 	}
 }
 
