@@ -2,7 +2,7 @@
 
 {<title}Contact us{/title}
 
-{! <div class="container container--pad">
+<div class="container container--pad">
   {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
 
   <form action="/contact/" method="post" class="grid">
@@ -30,7 +30,7 @@
       </li>
     </ul>
   </form>
-</div> !}
+</div>
 
 <div class="container container--divider normal read">
   <div class="grid">
