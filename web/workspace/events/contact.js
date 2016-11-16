@@ -1,5 +1,11 @@
+<<<<<<< HEAD
+// This is DADI Sendgrid.com API key and will not work outside our infrastructure.
+// You should replace this with your own key.
+var sg = require('sendgrid')('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');
+=======
 // You need a Sendgrid.com API key for this
 var sg = require('sendgrid')(process.env['SENDGRID_API']);
+>>>>>>> a4480af62d5004f6f27dd9e2eb066f124ce8f3ff
 
 var Event = function (req, res, data, callback) {
 
