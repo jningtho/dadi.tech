@@ -9,6 +9,11 @@ preface: Release notes
 
 https://github.com/dadi/web/releases/tag/v1.7.1
 
+### Downloads
+
+- [Source code (zip)](https://github.com/dadi/web/archive/v1.7.1.zip)
+- [Source code (tar.gz)](https://github.com/dadi/web/archive/v1.7.1.tar.gz)
+
 ## Release notes
 
 ### Cache-Control headers for redirects
