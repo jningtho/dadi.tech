@@ -1,5 +1,5 @@
 ---
-date: 2015-05-10
+date: 2016-05-10
 title: Identity management
 author: Joseph Denne
 preface: Identities are complicated and constantly evolving things. We believe that understanding the layers of identity is critical to creating engaging experiences.
