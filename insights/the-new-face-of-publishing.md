@@ -1,5 +1,5 @@
 ---
-date: 2015-16-07
+date: 2016-07-16
 title: "Data: the new face of publishing"
 author: Joseph Denne
 preface: If you’ve read a newspaper recently, chances are you’ve already read an article written by a computer. Automated news reporting is big business and just one way that data is changing the face of publishing.

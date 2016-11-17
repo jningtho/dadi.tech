@@ -1,11 +1,22 @@
 ---
 date: 2016-11-15
-title: DADI Web 1.7.0
+title: DADI Web 1.7.0 available now
 author: James Lambie
-preface: Release notes for DADI Web 1.7.0
+preface: Release notes
 ---
 
-## Cache-Control headers for redirects
+## Tagged release
+
+https://github.com/dadi/web/releases/tag/v1.7.1
+
+### Downloads
+
+- [Source code (zip)](https://github.com/dadi/web/archive/v1.7.1.zip)
+- [Source code (tar.gz)](https://github.com/dadi/web/archive/v1.7.1.tar.gz)
+
+## Release notes
+
+### Cache-Control headers for redirects
 
 A `cache-control` header can be added to a 301/302 redirect by adding to the `headers` configuration block:
 
@@ -17,11 +28,11 @@ A `cache-control` header can be added to a 301/302 redirect by adding to the `he
 }
 ```
 
-## Dust Helpers
+### Dust Helpers
 
 Version 1.7.0 sees the completion of the extraction of the built-in Dust helpers. These are no longer available in the core Web product and must be loaded separately, see https://www.npmjs.com/package/@dadi/dustjs-helpers for usage information.
 
-## Preloaded Data
+### Preloaded Data
 
 The Web configuration file now has provision for specifying datasources that should be loaded at startup. Add preload datasources by adding a block to the configuration file:
 
@@ -43,7 +54,7 @@ The preloader stores the contents of the inner results property of the data that
 
 > **Note:** There is no refresh of this preloaded data, yet. Refresh support will be added in a future release.
 
-## Page Route Specification
+### Page Route Specification
 
 DADI Web 1.7.0 introduces a more explicit way of specifying multiple routes per page . The `route` property has been replaced with `routes` which should be an Array of route objects.
 
@@ -65,18 +76,18 @@ In this example, the same page (and therefore it's template) will be loaded for 
 ]
 ```
 
-## Route Validation/Constraints 
+### Route Validation/Constraints 
 DADI Web 1.7.0 introduces several new ways to ensure the correct route is loaded for a particular request, hopefully reducing the hacky workarounds we've implemented for some projects.
 
 See the documentation here: xxx/routing.md.
 
 > For assistance with routing changes, please add an issue to your project and assign it to `jimlambie`.
 
-## Integration of @dadi/cache
+### Integration of @dadi/cache
 
 The DADI Cache module has replaced the caching code in Web 1.7.0. DADI Cache includes better failover support for when Redis connections fail. Datasources now require a caching configuration similar the main config. See the next section, **Migration to Version 1.7.0**.
 
-## Migrating to Version 1.7.0
+### Migrating to Version 1.7.0
 
 To help you migrate your Web installation to v1.7.0, the router will inform you of any changes required to page specifications if the existing `route` property has not yet been modified.
 
@@ -105,7 +116,7 @@ Please modify the route property for page 'movies_news'. The schema should chang
 }
 ```
 
-### Migration datasource specifications
+#### Migrating datasource specifications
 
 > Note that it isn't a requirement to specify caching for datasources, as they will use the main configuration settings if none are specified.
 
@@ -135,4 +146,3 @@ In 1.7.0 this has changed. If you want your datasources to be cached differently
   }
 }
 ```
-
