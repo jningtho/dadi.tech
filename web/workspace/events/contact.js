@@ -18,7 +18,7 @@ var Event = function (req, res, data, callback) {
           body: {
             personalizations: [{
               to: [{
-                email: 'dl@dadi.co',
+                email: 'hello@dadi.tech',
               }],
               subject: '[dadi.tech] Contact form message',
             }],
