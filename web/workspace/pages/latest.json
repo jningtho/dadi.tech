@@ -1,6 +1,6 @@
 {
   "page": {
-  	"key": "Latest",
+    "key": "Latest",
     "color": "#191502"
   },
   "events": [
@@ -17,4 +17,4 @@
       "path": "/latest/:article?"
     }
   ]
-}	
+}
