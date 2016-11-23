@@ -134,7 +134,6 @@ main {
 	position: relative;
 	background: #fff;
 	padding-bottom: 1px;
-	-webkit-transform: translate3d(0, 0, 0);
 
 	&:before {
 		position: absolute;
@@ -145,7 +144,7 @@ main {
 		background: #fff;
 		height: 100px;
 		display: block;
-		z-index: -1;
+		z-index: 1;
 	}
 }
 
@@ -363,4 +362,50 @@ abbr {
 }
 .skew--reverse {
 	transform: skewY(3deg);
+}
+
+.documentation {
+	a {
+		border-bottom: 1px solid;
+		font-weight: bold;
+		color: #2C85E5;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a {
+		font-weight: normal;
+	}
+	h2, h3 {
+		margin-top: 1.5em;
+	}
+	pre, table {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	table {
+		display: block;
+		width: 100%;
+		//overflow: auto;
+		word-break: normal;
+		word-break: keep-all;
+		border-spacing: 0;
+		border-collapse: collapse;	
+
+		th {
+			font-weight: bold;
+		}
+		th,
+		td {
+			padding: 6px 13px;
+			border: 1px solid #ddd;
+		}
+		tr {
+			background-color: #fff;
+			border-top: 1px solid #ccc;
+		}
+		tr:nth-child(2n) {
+			background-color: #f8f8f8; 
+		}
+		tr:hover {
+			background-color: lighten($blue,40%);
+		}
+	}
 }
