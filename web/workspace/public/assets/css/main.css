@@ -1845,8 +1845,18 @@ abbr {
   color: #2C85E5; }
 .documentation h1 a, .documentation h2 a, .documentation h3 a, .documentation h4 a, .documentation h5 a {
   font-weight: normal; }
+.documentation ol, .documentation ul {
+  margin-left: 15px; }
 .documentation h2, .documentation h3 {
   margin-top: 1.5em; }
+.documentation code {
+  padding: 3px 5px;
+  background-color: #fafafa;
+  border: 1px solid #ebebeb;
+  border-radius: 5px; }
+.documentation pre code {
+  display: block;
+  padding: 20px; }
 .documentation pre, .documentation table {
   font-size: 16px;
   line-height: 20px; }

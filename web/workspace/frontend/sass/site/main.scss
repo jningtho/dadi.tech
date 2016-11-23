@@ -373,8 +373,21 @@ abbr {
 	h1 a, h2 a, h3 a, h4 a, h5 a {
 		font-weight: normal;
 	}
+	ol, ul {
+		margin-left: 15px; 
+	}
 	h2, h3 {
 		margin-top: 1.5em;
+	}
+	code {
+		padding: 3px 5px;
+		background-color: #fafafa;
+		border: 1px solid #ebebeb;
+		border-radius: 5px;
+	}
+	pre code {
+		display: block;
+		padding: 20px;
 	}
 	pre, table {
 		font-size: 16px;
