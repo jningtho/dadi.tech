@@ -6,6 +6,7 @@
   <div class="col w-1-4 bs-w-1-1">
     <ul class="normal nav  marg__right--x2">
       <li><a href="/platform/" {@eq key=page.key value="Platform"}class="active"{/eq}>Platform</a></li>
+      <li><a href="http://docs.dadi.tech/">Documentation</a></li>
       <li><a href="/success-stories/" {@eq key=page.key value="Success stories"}class="active"{/eq}>Success stories</a></li>
       <li><a href="/latest/" {@eq key=page.key value="Latest"}class="active"{/eq}>Latest</a></li>
     </ul>

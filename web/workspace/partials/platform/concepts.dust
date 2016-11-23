@@ -1,6 +1,7 @@
 {^params.concept}
-  <h1 class="kilo alignc">Platform concepts</h1>
-  <div class="container container--divider marg__top--x2">
+  <div class="container container--divider">
+    <h1 class="kilo alignc no-marg-i pad__bottom--x2">Platform concepts</h1>
+
     <div class="grid">
       {#concepts.results}
         <div class="col w-1-2 marg__bottom--x2">
