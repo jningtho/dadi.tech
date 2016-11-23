@@ -1,4 +1,7 @@
 // You need a Sendgrid.com API key for this
+// For this script to work DADI Web should be started with an ENV variable for the SendGrid API key
+// The IP address of the box it is hosted on also needs to be whitelisted within SendGrid's dashboard
+
 var sg = require('sendgrid')(process.env['SENDGRID_API'])
 
 var Event = function (req, res, data, callback) {

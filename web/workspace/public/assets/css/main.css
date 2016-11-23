@@ -1670,8 +1670,7 @@ body.dark main {
 main {
   position: relative;
   background: #fff;
-  padding-bottom: 1px;
-  -webkit-transform: translate3d(0, 0, 0); }
+  padding-bottom: 1px; }
 main:before {
     position: absolute;
     top: -60px;
@@ -1683,7 +1682,7 @@ main:before {
     background: #fff;
     height: 100px;
     display: block;
-    z-index: -1; }
+    z-index: 1; }
 .top__bg {
   position: absolute;
   top: 0;
@@ -1840,6 +1839,37 @@ abbr {
 .skew--reverse {
   -webkit-transform: skewY(3deg);
           transform: skewY(3deg); }
+.documentation a {
+  border-bottom: 1px solid;
+  font-weight: bold;
+  color: #2C85E5; }
+.documentation h1 a, .documentation h2 a, .documentation h3 a, .documentation h4 a, .documentation h5 a {
+  font-weight: normal; }
+.documentation h2, .documentation h3 {
+  margin-top: 1.5em; }
+.documentation pre, .documentation table {
+  font-size: 16px;
+  line-height: 20px; }
+.documentation table {
+  display: block;
+  width: 100%;
+  word-break: normal;
+  word-break: keep-all;
+  border-spacing: 0;
+  border-collapse: collapse; }
+.documentation table th {
+    font-weight: bold; }
+.documentation table th,
+  .documentation table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd; }
+.documentation table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc; }
+.documentation table tr:nth-child(2n) {
+    background-color: #f8f8f8; }
+.documentation table tr:hover {
+    background-color: #e2eefb; }
 /*
 
 Atom One Light by Daniel Gamage
