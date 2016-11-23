@@ -1846,7 +1846,7 @@ abbr {
 .documentation h1 a, .documentation h2 a, .documentation h3 a, .documentation h4 a, .documentation h5 a {
   font-weight: normal; }
 .documentation ol, .documentation ul {
-  margin-left: 15px; }
+  margin-left: 20px; }
 .documentation h2, .documentation h3 {
   margin-top: 1.5em; }
 .documentation code {
@@ -1857,8 +1857,22 @@ abbr {
 .documentation pre code {
   display: block;
   padding: 20px; }
-.documentation pre, .documentation table {
-  font-size: 16px;
+.documentation pre {
+  position: relative; }
+.documentation pre:after {
+    content: ' ';
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 50px;
+    bottom: 1px;
+    border-radius: 0 5px 5px 0;
+    background: -webkit-linear-gradient(left, rgba(250, 250, 250, 0), #fafafa);
+    background: linear-gradient(to right, rgba(250, 250, 250, 0), #fafafa); }
+.documentation code, .documentation table {
+  font-size: 15px;
   line-height: 20px; }
 .documentation table {
   display: block;
@@ -1880,6 +1894,14 @@ abbr {
     background-color: #f8f8f8; }
 .documentation table tr:hover {
     background-color: #e2eefb; }
+.documentation img {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #ddd;
+  border: 3px solid #fff; }
 /*
 
 Atom One Light by Daniel Gamage

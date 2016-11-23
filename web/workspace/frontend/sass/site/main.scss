@@ -374,7 +374,7 @@ abbr {
 		font-weight: normal;
 	}
 	ol, ul {
-		margin-left: 15px; 
+		margin-left: 20px; 
 	}
 	h2, h3 {
 		margin-top: 1.5em;
@@ -389,8 +389,24 @@ abbr {
 		display: block;
 		padding: 20px;
 	}
-	pre, table {
-		font-size: 16px;
+	pre {
+		position: relative;
+
+		&:after {
+			content: ' ';
+			pointer-events: none;
+			display: block;
+			position: absolute;
+			top: 1px;
+			right: 1px;
+			width: 50px;
+			bottom: 1px;
+			border-radius: 0 5px 5px 0;
+			background: linear-gradient(to right, rgba(#fafafa,0), #fafafa);
+		}
+	}
+	code, table {
+		font-size: 15px;
 		line-height: 20px;
 	}
 	table {
@@ -420,5 +436,14 @@ abbr {
 		tr:hover {
 			background-color: lighten($blue,40%);
 		}
+	}
+	img {
+		position: relative;
+		max-width: 100%;
+		height: auto;
+		display: block;
+		border-radius: 5px;
+		box-shadow: 5px 5px 10px #ddd;
+		border: 3px solid #fff;
 	}
 }
