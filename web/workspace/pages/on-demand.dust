@@ -5,7 +5,7 @@
 <div class="container pad__bottom--x2 marg__top alignc">
   <p class="medium hdr alignauto pad__bottom">Let us know your email address to be the first to know.</p>
   
-  <form action="http://mail.dadi.tech/t/i/s/ptyhjt/" method="post">
+  <form action="https://dadi.createsend.com/t/i/s/ptyhjt/" method="post">
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
@@ -58,7 +58,7 @@
 <div class="container container--pad alignc">
   <p class="medium hdr alignauto pad__bottom">DADI on demand will be launching soon. Let us know your email address to be the first to know.</p>
 
-  <form action="http://mail.dadi.tech/t/i/s/ptyhjt/" method="post">
+  <form action="https://dadi.createsend.com/t/i/s/ptyhjt/" method="post">
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
