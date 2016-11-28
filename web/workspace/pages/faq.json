@@ -1,0 +1,13 @@
+{
+  "page": {
+    "key": "FAQ"
+  },
+  "events": [
+    "globals"
+  ],
+  "routes": [
+    {
+      "path": "/faq/"
+    }
+  ]
+}   
