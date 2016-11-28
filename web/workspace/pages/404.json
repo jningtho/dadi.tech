@@ -1,0 +1,9 @@
+{
+  "page": {
+    "key": "404",
+    "color": "#031A07"
+  },
+  "events": [
+    "globals"
+  ]
+}   
