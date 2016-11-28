@@ -1,6 +1,6 @@
 <div class="container pad__top marg__top">
   <div class="grid">
-    <div class="col w-2-3 bs-w-1-1">
+    <div class="col w-2-3">
       {#insights}
         {! <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
         <p class="hdr larger txt--green"><a href="/latest/{handle}/">{attributes.title}</a></p>
