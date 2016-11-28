@@ -5,7 +5,7 @@ author: James Lambie
 preface: Our core apps haven't moved far in the last two weeks as our focus has been on bug fixing on the back of some at-scale client implementations.
 ---
 
-## :jack_o_lantern: DADI API
+## 🎃 DADI API
 
 ### In progress
 
@@ -14,7 +14,7 @@ exact match or case insensitive matching. Raised by Viktor due to a slower-than-
 * Switch to new extracted cache module @dadi/cache
 * Investigation into alternative datastores and the abstraction of the connection module
 
-## :ghost: DADI CDN
+## 👻 DADI CDN
 
 ### In progress
 
@@ -23,7 +23,7 @@ exact match or case insensitive matching. Raised by Viktor due to a slower-than-
 * Test suite extension to cover image upload
 * Testing of new extracted cache module @dadi/cache
 
-## :spider: DADI Web
+## 🕷 DADI Web
 
 Still being tested against client projects. Results of testing so far are good and Version 1.7.0 will be released this week. It is essential that anyone not yet ready to upgrade their workspace files should modify their project's package.json file to load the specific version of Web that they need, for example:
 
@@ -31,7 +31,7 @@ Still being tested against client projects. Results of testing so far are good a
 
 Release notes for Version 1.7.0 RC 1 can be found here: https://github.com/dadi/web/releases/tag/v1.7.0-rc.1.
 
-## :coffin: DADI Core (working title)
+## ⚰ DADI Core (working title)
 
 ### In progress
 
