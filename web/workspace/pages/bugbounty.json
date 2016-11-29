@@ -1,0 +1,14 @@
+{
+  "page": {
+    "key": "Bug bounty",
+    "color": "#031A07"
+  },
+  "events": [
+    "globals"
+  ],
+  "routes": [
+    {
+      "path": "/bounty/"
+    }
+  ]
+}   
