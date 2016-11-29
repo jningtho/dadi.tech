@@ -2,33 +2,36 @@
 
 <ul class="list--line">
   <li>
-    <a href="https://github.com/{github-api[0].link}">
-      <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
-      <span class="fwb marg__right">API</span>
+    <a href="https://github.com/{github-api[0].link}" class="cf">
+      <div class="col w-1-4 fwb">API</div>
+      <div class="col w-3-4">
+        <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
         {@iter items=github-api from=0 to=1}
           {title}
         {/iter}
-      </span>
+      </div>
     </a>
   </li>
   <li>
-    <a href="https://github.com/{github-web[0].link}">
-      <img src="/assets/products/dadi-web.png" class="alignv float--right" width="19">
-      <span class="fwb marg__right">Web</span>
+    <a href="https://github.com/{github-web[0].link}" class="cf">
+      <div class="col w-1-4 fwb">Web</div>
+      <div class="col w-3-4">
+        <img src="/assets/products/dadi-web.png" class="alignv float--right" width="19">
         {@iter items=github-web from=0 to=1}
           {title}
         {/iter}
-      </span>
+      </div>
     </a>
   </li>
   <li>
-    <a href="https://github.com/{github-cdn[0].link}">
-      <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="15">
-      <span class="fwb marg__right">CDN</span>
+    <a href="https://github.com/{github-cdn[0].link}" class="cf">
+      <div class="col w-1-4 fwb">CDN</div>
+      <div class="col w-3-4">
+        <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="15">
         {@iter items=github-cdn from=0 to=1}
           {title}
         {/iter}
-      </span>
+      </div>
     </a>
   </li>
 </ul>

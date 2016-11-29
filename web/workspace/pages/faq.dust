@@ -1,0 +1,95 @@
+{>"partials/header" /}
+
+{<title}Frequently asked questions{/title}
+
+<div class="container container--pad normal">
+<div class="documentation">
+<h2 class="txt--red no-marg-i pad__bottom">About DADI</h2>
+<ol>
+<li><a href="#why">There are a lot of platform choices. Why choose DADI?</a></li>
+<li><a href="#contribute">How can I help and contribute to DADI?</a></li>
+<li><a href="#features">Why does DADI have some features but not others?</a></li>
+<li><a href="#releases">When and how are new versions released?</a></li>
+</ol>
+
+<h3 id="why">1. There are a lot of platform choices. Why choose DADI?</h3>
+
+<p>DADI does things differently. It is a microservices framework with data at its heart, enabling the creation of real time, individually targeted experiences driven by machine learning. No other technology stack, framework or content management system provides this functionality.</p>
+
+<p>It&#8217;s Open Source; and it powers some of the largest and most popular products on the Web.</p>
+
+<p>With DADI you can easily create versatile, content centric products. To see why others have chosen DADI, check out our <a href="/success-stories/">success stories</a>.</p>
+
+<h3 id="contribute">2. How can I help and contribute to DADI?</h3>
+
+<p>Contributing guidelines for all of the apps in our stack can be found at the top level of their respective repositories in Git:</p>
+
+<ul>
+<li><a href="https://github.com/dadi/api/blob/master/CONTRIBUTING.md">DADI API</a></li>
+<li><a href="https://github.com/dadi/web/blob/master/CONTRIBUTING.md">DADI Web</a></li>
+<li><a href="https://github.com/dadi/cdn/blob/master/CONTRIBUTING.md">DADI CDN</a></li>
+</ul>
+
+<h3 id="features">3. Why does DADI have some features but not others?</h3>
+
+<p>We value innovation and stability. We are careful about sacrificing one for the other, so we work on balance. Because DADI is used widely in production, every single line of code that goes into DADI&#8217;s core is meticulously scrutinized. Most changes to core go through dozens, if not hundreds, of revisions before being included.</p>
+
+<p>We&#8217;re also aware of the time great software design, development, translation, and testing takes. Because DADI is a set of microservices, and because our focus is on keeping the core app set to essential functionality, encouraging contributed modules to extend it, our version release cycle happens a far greater pace than alternative solutions.</p>
+
+<h3 id="releases">4. When and how are new versions released?</h3>
+
+<p>DADI&#8217;s release cycle schedule uses Semantic Versioning 2.0.0:</p>
+
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+
+<ul>
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ul>
+
+<p><em>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.</em></p>
+
+<h2 class="txt--red">Working with DADI</h2>
+
+<ol>
+<li><a href="#migrate">Can I migrate a WordPress/Drupal/whatever site to DADI?</a></li>
+<li><a href="#mobile">How can I use DADI in my mobile app?</a></li>
+<li><a href="#conventions">Does DADI use any code conventions or styles?</a></li>
+<li><a href="#core">May I change DADI&#8217;s core files to make changes to my site or application?</a></li>
+<li><a href="#workwith">Where can I get help working with DADI?</a></li>
+</ol>
+
+<h3 id="migrate">1. Can I migrate a WordPress/Drupal/whatever site to DADI?</h3>
+
+<p>Yes. And given the development pace achievable with DADI, doing so does not usually represent a significant amount of work. Data mappings to import your content into DADI API will be required and your templates will need to be moved to DADI web. And that&#8217;s about it.</p>
+
+<p><em>&#8220;Products built with DADI are delivered in days and weeks, not weeks and months.&#8221;</em></p>
+
+<h3 id="mobile">2. How can I use DADI in my mobile app?</h3>
+
+<p>At the heart of DADI is <a href="/platform/api">API</a>, a high-performance RESTful API layer that is perfect for powering mobile applications. You can use with DADI Publish to provide a CMS for iOS/Android/Windows Phone. And when chained with DADI Predict and DADI Track, you can start to make real time content decisions based on data intelligence.</p>
+
+<h3 id="conventions">3. Does DADI use any code conventions or styles?</h3>
+
+<p>Yes. Follow the DADI Coding Standards found within the Contributing Guidelines for each DADI app when submitting any code for inclusion in the DADI project.</p>
+
+<p>To ensure consistency throughout the source code, keep these rules in mind as you are working:</p>
+
+<ul>
+<li>Please use <em>two-space indentation</em>, as used in Node.JS itself</li>
+<li>All features or bug fixes <em>must be tested</em> by one or more tests. Browse our test suites for examples</li>
+<li>All public API methods <em>must be documented</em> with <a href="http://usejsdoc.org">JSDoc</a></li>
+</ul>
+
+<h3 id="core">4. May I change DADI&#8217;s core files to make changes to my site or application?</h3>
+
+<p>We strongly recommend that you don&#8217;t. Hacking the core means that you won&#8217;t be able to take advantage of DADI updates - including any security updates - without losing your changes. It also makes it much less likely that bugs you create will be fixed by the community. Instead, make use of the data sources, events and hooks framework within the individual DADI apps.</p>
+
+<h3 id="workwith">5. Where can I get help working with DADI?</h3>
+
+<p>Check out the <a href="/solutions/">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
+</div>
+</div>
+
+{>"partials/footer" /}

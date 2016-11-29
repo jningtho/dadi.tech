@@ -19,7 +19,7 @@
                 <li><a href="/platform/concepts/">Concepts</a></li>
                 <li class="fwb">{concepts.results[0].title}</li>
               {:else}
-                <li class="fwb"><a href="/platform/concepts/">Concepts</a></li>
+                <li class="fwb"><a href="/platform/concepts/">{params.page}</a></li>
               {/params.concept}
             {/params.page}
             {?params.client}

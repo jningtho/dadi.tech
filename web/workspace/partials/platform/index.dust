@@ -8,7 +8,7 @@
       <img src="/assets/img/logo-npm.png" height="45" class="alignv">
       <span class="pad__top block">NPM</span>
     </a></div>
-    <div class="col w-1-4"><a href="https://docs.dadi.tech/">
+    <div class="col w-1-4"><a href="http://docs.dadi.tech/">
       <img src="/assets/img/d-dark.png" height="45" class="alignv">
       <span class="pad__top block">Docs</span>
     </a></div>
