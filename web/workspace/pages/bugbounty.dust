@@ -6,15 +6,15 @@
 <h1 class="txt--green kilo">Help make the DADI platform<br>more secure for everyone</h1>
 {/top}
   
-<div class="container pad__bottom--x2 documentation">
+<div class="container pad__bottom--x2">
   <div class="grid">
-    <div class="col w-1-2">
+    <div class="col w-1-2 documentation">
       <p class="normal">Software security researchers are increasingly engaging with Internet companies to hunt down vulnerabilities. Programs by <a href="https://www.google.com/about/appsecurity/reward-program/">Google</a>, <a href="https://www.facebook.com/whitehat">Facebook</a>, <a href="https://www.mozilla.org/en-US/security/bug-bounty/">Mozilla</a>, and others have helped to create a strong bug-hunting community. Our bounty program gives a tip of the hat to these researchers and provides some prizes and cold hard cash for their efforts.</p>
     </div>
     <div class="col w-1-2">
-      <p class="medium fwb">If you’ve found a vulnerability, <a href="https://hackerone.com/dadi">submit it here</a>. You can find more information in the <a href="#rules">rules</a> and <a href="#faqs">FAQs</a>.</p>
+      <p class="medium fwb documentation">Happy bug hunting! You can find more information in the <a href="#rules">rules</a> and <a href="#faqs">FAQs</a>. If you’ve found a vulnerability, submit it with HackOne below:</p>
       
-      <p class="normal">Happy bug hunting!</p>
+      <p class="medium"><a class="btn btn--fill btn--green txt--white" href="https://hackerone.com/dadi">Submit a vulnerability</a></p>
     </div>
   </div>
 </div>
