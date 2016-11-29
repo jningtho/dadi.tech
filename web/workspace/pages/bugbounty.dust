@@ -1,0 +1,134 @@
+{>"partials/header" /}
+
+{<title}Bug bounty{/title}
+
+{<top}
+<h1 class="txt--green kilo">Help make the DADI platform<br>more secure for everyone</h1>
+{/top}
+  
+<div class="container pad__bottom--x2">
+  <div class="grid">
+    <div class="col w-1-2 documentation">
+      <p class="normal">Software security researchers are increasingly engaging with Internet companies to hunt down vulnerabilities. Programs by <a href="https://www.google.com/about/appsecurity/reward-program/">Google</a>, <a href="https://www.facebook.com/whitehat">Facebook</a>, <a href="https://www.mozilla.org/en-US/security/bug-bounty/">Mozilla</a>, and others have helped to create a strong bug-hunting community. Our bounty program gives a tip of the hat to these researchers and provides some prizes and cold hard cash for their efforts.</p>
+    </div>
+    <div class="col w-1-2">
+      <p class="medium fwb documentation">Happy bug hunting! You can find more information in the <a href="#rules">rules</a> and <a href="#faqs">FAQs</a>. If you’ve found a vulnerability, submit it with HackOne below:</p>
+      
+      <p class="medium"><a class="btn btn--fill btn--green txt--white" href="https://hackerone.com/dadi">Submit a vulnerability</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="container container--divider documentation normal">
+  <div class="grid">
+    <div class="col w-1-2">
+      <h2 class="txt--mid-grey pad__bottom--x2 no-marg-i">Rules for you</h2>
+      <ul>
+      <li>Don’t attempt to gain access to user accounts or user data</li>
+      <li>Don’t perform any attack that could harm the reliability/integrity of our services or data. DDoS/spam attacks are not allowed</li>
+      <li>Don’t publicly disclose a bug before it has been fixed</li>
+      <li>Only test for vulnerabilities on properties and software you know to be operated by DADI and listed under <a href="#open-bounties">Open bounties</a>. Some products hosted on subdomains of Dadi.tech are operated by third parties and should not be tested</li>
+      <li>Do not impact other users with your testing. We may suspend your DADI account if you do so</li>
+      <li>Don’t use scanners or automated tools to find vulnerabilities. They’re noisy and we may suspend your DADI account</li>
+      <li>Never attempt non-technical attacks such as social engineering, phishing, or physical attacks against our employees, users, or infrastructure</li>
+      <li>When in doubt, <a href="https://dadi.tech/contact/">contact us</a></li>
+      </ul>
+
+      <h2 class="txt--mid-grey pad__bottom--x2 no-marg-i pad__top--x2">Rules for us</h2>
+      <ul>
+      <li>We will respond as quickly as possible to your submission</li>
+      <li>We will keep you updated as we work to fix the bug you submitted</li>
+      <li>We will not take legal action against you if you play by the rules</li>
+      </ul>
+    </div>
+    <div class="col w-1-2">
+      <h2 class="txt--mid-grey pad__bottom--x2 no-marg-i">What does not qualify?</h2>
+
+      <ul>
+      <li>Bugs that don’t affect the latest version of modern browsers (Chrome, Firefox, Edge, Safari). Bugs related to browser extensions are also out of scope</li>
+      <li>Bugs requiring exceedingly unlikely user interaction</li>
+      <li>Insecure cookie settings for non-sensitive cookies</li>
+      <li>Disclosure of public information and information that does not present significant risk</li>
+      <li>Bugs that have already been submitted by another user, that we are already aware of, or that have been <a href="/ineligible/">classified as ineligible</a></li>
+      <li>Bugs in apps not listed under <a href="#open-bounties">Open bounties</a> are generally not eligible. Look at individual bounties for details on scope</li>
+      <li>Bugs in content/services/products that are not owned/operated by DADI. This includes our users’ code and third party services operating within our infrastructure</li>
+      <li>Vulnerabilities that DADI determines to be an accepted risk will not be eligible for a paid bounty or listing on the site</li>
+      <li>Scripting or other automation and brute forcing of intended functionality</li>
+      <li>For guidance, we have listed the <a href="/classifications/">vulnerability classifications</a> we use to organize submissions made to the Bounty program</li>
+      <li>When in doubt, <a href="https://dadi.tech/contact/">contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container container--divider">
+  <h2 class="txt--red larger marg__bottom--x2">Open bounties</h2>
+  <div class="grid normal alignl">
+    <div class="col w-1-2">
+      <h3><img src="http://dadi.tech/assets/products/dadi-api-full.png" height="40" alt="DADI API"></h3>
+
+      <p class="fwb">DADI API is a high performance RESTful API layer designed in support of API-first development and the principle of COPE.</p>
+
+      <p>Because API sits at the heart of the DADI platform, security has always been a high priority.</p>
+
+      <p>Rewards range from $200 up to $5,000 and are determined at our discretion based on a number of factors.</p>
+
+      <p>You can find the app on <a class="fwb txt--blue underline" href="https://github.com/dadi/api">GitHub</a> and can find the API documentation on <a class="fwb txt--blue underline" href="http://docs.dadi.tech/api/">our docs</a> site.</p>
+    </div>
+    <div class="col w-1-2">
+      <h3><img src="http://dadi.tech/assets/products/dadi-cdn-full.png" height="40" alt="DADI CDN"></h3>
+
+      <p class="fwb">DADI CDN is a JIT asset manipulation and delivery application, providing a complete content distribution solution.</p>
+
+      <p>DADI CDN provides content manipulation for many high profile businesses, making security of utmost importance.</p>
+
+      <p>Rewards range from $100 up to $2,500 and are determined at our discretion based on a number of factors.</p>
+
+      <p>You can find the app on <a class="fwb txt--blue underline" href="https://github.com/dadi/cdn">GitHub</a> and can find the CDN documentation on <a class="fwb txt--blue underline" href="http://docs.dadi.tech/cdn/">our docs</a> site.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container container--divider documentation normal marg__bottom">
+  <h2 class="txt--red larger marg__bottom--x2">FAQs</h2>
+
+  <h3>How are bounty payments made?</h3>
+
+  <p>All bounties are currently paid via PayPal.</p>
+
+  <h3>Can I donate my reward to a charity?</h3>
+
+  <p>Yes. We know that some of you would prefer your bounty reward go toward helping someone else. If you choose, we will donate your reward to an established charitable organization of your choice. DADI will also match your donation - subject to our discretion. Any rewards that go unclaimed after 12 months will be donated to a charity of our choosing.</p>
+
+  <h3>I don&#8217;t live in the United Kingdom, or I&#8217;m under 18, am I eligible?</h3>
+
+  <p>Yes, international researchers are eligible. Researchers between 13 and 18 years of age are also eligible, however, those in the United Kingdom will need to provide guardian consent before any payment can be made.</p>
+
+  <h3>I reported a vulnerability but have not received a response!</h3>
+
+  <p>Please allow up to 24 hours for an initial response. Also realize that spam filters and email in general can sometimes be problematic. If you ever feel we are not communicating in a timely fashion, definitely <a href="https://dadi.tech/contact/">let us know</a>.</p>
+
+  <h3>How is the bounty reward determined?</h3>
+
+  <p>Our engineering team take many factors into account when determining a reward. These factors include the complexity of successfully exploiting the vulnerability, the potential exposure, as well as the percentage of impacted users and platform layers. Sometimes an otherwise critical vulnerability has a very low impact simply because it is mitigated by some other component, e.g. requires user interaction, an obscure web browser, or would need to be combined with another vulnerability that does not currently exist.</p>
+
+  <h3>What are points?</h3>
+
+  <p>In addition to giving researchers money and/or prizes, we are trying to make this fun. We assign a point value to each vulnerability and list it on this site. The researchers with the most points are listed on our leaderboard. While we use many of the same metrics when determining point value as for dollar value, other non-tangible factors are considered as well. For example, if you provide an awesome write-up of a vulnerability with a functional POC, that will be factored in.</p>
+
+  <h3>What if I do not want my submission published on the bounty website?</h3>
+
+  <p>Please still send us your vulnerability! We will only publish your submission after your approval. To be visible within the leaderboard you must provide us with a name and your GitHub username. This allows us to link submissions to your Git profile.</p>
+
+  <h3>What are the legal terms of the Bug Bounty program?</h3>
+
+  <p>By participating in DADI&#8217;s Bug Bounty program (the “Program”), you acknowledge that you have read and agree to DADI&#8217;s <a href="https://dadi.tech/terms-of-service/">Terms of Service</a> as well as the following:</p>
+
+  <ul>
+  <li>Your participation in the Program will not violate any law applicable to you, or disrupt or compromise any data that is not your own</li>
+  <li>You are solely responsible for any applicable taxes, withholding or otherwise, arising from or relating to your participation in the Program, including from any bounty payments</li>
+  <li>DADI reserves the right to terminate or discontinue the Program at its discretion</li>
+  </ul>
+</div>
+
+{>"partials/footer" /}

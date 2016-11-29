@@ -1806,10 +1806,7 @@ form .text:active, form .text:hover, form .text:focus {
     margin: 2em auto 0;
     max-width: 680px; }
 .read h1:first-of-type, .read h2:first-of-type, .read h3:first-of-type, .read h4:first-of-type {
-      margin-top: 0; }
-.read > h1:first-child,
-  .read > h2:first-child {
-    margin-top: 0.5em; }
+      margin-top: 0.6em; }
 .read img {
     max-width: 100%;
     height: auto; }
@@ -1843,6 +1840,8 @@ abbr {
   border-bottom: 1px solid;
   font-weight: bold;
   color: #2C85E5; }
+.documentation h2:first-of-type {
+  margin-top: 0.6em; }
 .documentation h1 a, .documentation h2 a, .documentation h3 a, .documentation h4 a, .documentation h5 a {
   font-weight: normal; }
 .documentation ol, .documentation ul {
