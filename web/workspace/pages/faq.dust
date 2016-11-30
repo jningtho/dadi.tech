@@ -13,11 +13,11 @@
 <li><a href="#releases">When and how are new versions released?</a></li>
 </ol>
 
-<h3 id="meaning">1. There are a lot of platform choices. Why choose DADI?</h3>
+<h3 id="meaning">1. What does "DADI" mean?</h3>
 
 <p>DADI is an acronym for Development Architecture for Data Intelligence.</p>
 
-<h3 id="why">1. There are a lot of platform choices. Why choose DADI?</h3>
+<h3 id="why">2. There are a lot of platform choices. Why choose DADI?</h3>
 
 <p>DADI does things differently. It is a microservices framework with data at its heart, enabling the creation of real time, individually targeted experiences driven by machine learning. No other technology stack, framework or content management system provides this functionality.</p>
 
@@ -25,7 +25,7 @@
 
 <p>With DADI you can easily create versatile, content centric products. To see why others have chosen DADI, check out our <a href="/success-stories/">success stories</a>.</p>
 
-<h3 id="contribute">2. How can I help and contribute to DADI?</h3>
+<h3 id="contribute">3. How can I help and contribute to DADI?</h3>
 
 <p>Contributing guidelines for all of the apps in our stack can be found at the top level of their respective repositories in Git:</p>
 
@@ -35,13 +35,13 @@
 <li><a href="https://github.com/dadi/cdn/blob/master/CONTRIBUTING.md">DADI CDN</a></li>
 </ul>
 
-<h3 id="features">3. Why does DADI have some features but not others?</h3>
+<h3 id="features">4. Why does DADI have some features but not others?</h3>
 
 <p>We value innovation and stability. We are careful about sacrificing one for the other, so we work on balance. Because DADI is used widely in production, every single line of code that goes into DADI&#8217;s core is meticulously scrutinized. Most changes to core go through dozens, if not hundreds, of revisions before being included.</p>
 
 <p>We&#8217;re also aware of the time great software design, development, translation, and testing takes. Because DADI is a set of microservices, and because our focus is on keeping the core app set to essential functionality, encouraging contributed modules to extend it, our version release cycle happens a far greater pace than alternative solutions.</p>
 
-<h3 id="releases">4. When and how are new versions released?</h3>
+<h3 id="releases">5. When and how are new versions released?</h3>
 
 <p>DADI&#8217;s release cycle schedule uses Semantic Versioning 2.0.0:</p>
 
