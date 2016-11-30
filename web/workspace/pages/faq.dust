@@ -6,11 +6,16 @@
 <div class="documentation">
 <h2 class="txt--red no-marg-i pad__bottom">About DADI</h2>
 <ol>
+<li><a href="#meaning">What does "DADI" mean?</a></li>
 <li><a href="#why">There are a lot of platform choices. Why choose DADI?</a></li>
 <li><a href="#contribute">How can I help and contribute to DADI?</a></li>
 <li><a href="#features">Why does DADI have some features but not others?</a></li>
 <li><a href="#releases">When and how are new versions released?</a></li>
 </ol>
+
+<h3 id="meaning">1. There are a lot of platform choices. Why choose DADI?</h3>
+
+<p>DADI is an acronym for Development Architecture for Data Intelligence.</p>
 
 <h3 id="why">1. There are a lot of platform choices. Why choose DADI?</h3>
 
