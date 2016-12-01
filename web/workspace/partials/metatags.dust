@@ -1,5 +1,5 @@
 <title>{+title}DADI{/title}{?title} / DADI{/title}</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1480443383">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1480596378">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
