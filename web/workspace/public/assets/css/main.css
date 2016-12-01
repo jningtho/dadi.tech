@@ -1818,7 +1818,7 @@ form .text:active, form .text:hover, form .text:focus {
     max-width: 680px; }
 .read ul li,
   .read ol li {
-    margin: 0.5em 1em; }
+    margin: 0.3em 2em; }
 .read a {
     border-bottom: 1px solid;
     font-weight: bold;
