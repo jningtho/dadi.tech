@@ -2,7 +2,7 @@
 
 {<title}Page not found{/title}
   
-<div class="container container--pad">
+<div class="container container--pad cf">
 <h1>Page not found</h1>
 <p class="col w-2-3 medium">Unfortunately that page does not exist. Try going to the <a class="txt--blue fwb" href="/">homepage</a> to find what you were looking for or <a href="/contact/" class="txt--blue fwb" >get in touch</a>.</p>
 </div>
