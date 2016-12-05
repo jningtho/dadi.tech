@@ -2,9 +2,10 @@
 
 {<title}Page not found{/title}
   
-<div class="container container--pad cf">
-<h1>Page not found</h1>
-<p class="col w-2-3 medium">Unfortunately that page does not exist. Try going to the <a class="txt--blue fwb" href="/">homepage</a> to find what you were looking for or <a href="/contact/" class="txt--blue fwb" >get in touch</a>.</p>
+<div class="container container--pad cf alignc">
+  <img src="/assets/icons/alert.svg" class="marg__bottom" height="70">
+  <h1 class="txt--red">Page not found</h1>
+  <p class=" medium alignauto w-2-3">Unfortunately that page does not exist. Try going to the <a class="txt--blue fwb" href="/">homepage</a> to find what you were looking for or <a href="/contact/" class="txt--blue fwb" >get in touch</a>.</p>
 </div>
 
 {>"partials/footer" /}

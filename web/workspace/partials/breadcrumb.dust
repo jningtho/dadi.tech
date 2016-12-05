@@ -1,6 +1,7 @@
 {@select key=page.key}
   {@eq value="home" /}
   {@eq value="On demand" /}
+  {@eq value="404" /}
   {@none}
     {?params}
       {@ne key=page.key value="supporting"}
