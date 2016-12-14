@@ -14,7 +14,7 @@
 <meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta property="og:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@dadi">
 <meta name="twitter:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
 <meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
