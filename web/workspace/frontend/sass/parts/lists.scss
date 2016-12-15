@@ -20,6 +20,10 @@
 .list--line.txt--white {
 	li {
 		border-bottom: 1px solid #122A3A;
+
+		&:last-of-type {
+			border-bottom: 0;
+		}
 	}
 }
 .footer .list--line {
@@ -57,6 +61,21 @@
 
 		&:last-of-type {
 			border-bottom: none;
+		}
+	}
+}
+
+.list--gridtick {
+	li {
+		background: url(/assets/img/tick.svg) 30px 17px no-repeat;
+		list-style: none;
+		background-size: 20px auto;
+		padding-left: 65px !important;
+		margin-bottom: 20px;
+
+		@media #{$break-small} {
+			background-position: 5px 5px;
+			padding-left: 50px !important;
 		}
 	}
 }

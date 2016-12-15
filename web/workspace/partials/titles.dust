@@ -1,16 +1,16 @@
 {^params}
   {@select key=placement}
-    {@any}<div class="pad__top pad__bottom alignl">{/any}
+    {@any}<div class="pad__top alignl">{/any}
     {@eq value="Platform"}
-      <div class="inline-block hdr kilo read no-marg-i pad__bottom">A modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
+      <div class="inline-block hdr kilo read no-marg-i">A modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
     {/eq}
     {@eq value="Success stories"}
-      <div class="inline-block hdr kilo read no-marg-i pad__bottom">We have helped organisations both large and small succeed with our platform.</div>
+      <div class="inline-block hdr kilo read no-marg-i">We have helped organisations both large and small succeed with our platform.</div>
     {/eq}
     {@eq value="On demand"}
       <div class="alignc">
         <img src="/assets/img/logo-ondemand-white.png" class="block alignauto marg__bottom" height="45">
-        <p class="kilo hdr inline-block no-marg-i pad__bottom"><span class="txt--red block">Cloud computing.</span> Designed for developers.</p>
+        <p class="kilo hdr inline-block no-marg-i"><span class="txt--red block">Cloud computing.</span> Designed for developers.</p>
         <br>
         <p class="cf inline-block normal read no-marg-i">Launching soon.</p>
       </div>
@@ -24,12 +24,12 @@
       <p class="inline-block hdr kilo read no-marg-i">Platform, innovation and industry insight from your friends at DADI</p>
     {/eq}
     {@eq value="Contact"}
-      <div class="inline-block hdr kilo read no-marg-i pad__bottom">Get in touch with the team</div>
+      <div class="inline-block hdr kilo read no-marg-i">Get in touch with the team</div>
     {/eq}
     {@eq value="Working with DADI"}
       <div class="grid">
         <div class="col w-1-2">
-          <p class="inline-block hdr larger read no-marg-i pad__bottom">We believe that technology can solve real business problems by enabling integrated experiences that drive growth.</p>
+          <p class="inline-block hdr larger read no-marg-i">We believe that technology can solve real business problems by enabling integrated experiences that drive growth.</p>
         </div>
         <div class="col w-1-2">
           <p class="medium no-marg-i">We integrate all disciplines — strategy, user experience and technology — throughout every engagement, from beginning to end. We work across devices and channels, focusing on your entire digital ecosystem, with content, mobile and commerce at its core.</p>

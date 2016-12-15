@@ -1033,10 +1033,10 @@ h5, .small {
     line-height: 38px;
     line-height: 2.375rem; }
   h1, .larger {
-    font-size: 26px;
-    font-size: 1.625rem;
-    line-height: 30px;
-    line-height: 1.875rem; }
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 32px;
+    line-height: 2rem; }
   h2, .large {
     font-size: 24px;
     font-size: 1.5rem;
@@ -1048,13 +1048,13 @@ h5, .small {
     line-height: 26px;
     line-height: 1.625rem; }
   h4, .normal {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 21px;
-    line-height: 1.3125rem; }
+    font-size: 17px;
+    font-size: 1.0625rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
   h5, .small {
-    font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 18px;
     line-height: 1.125rem; } }
 .table {
@@ -1451,6 +1451,8 @@ select {
     display: block; }
 .list--line.txt--white li {
   border-bottom: 1px solid #122A3A; }
+.list--line.txt--white li:last-of-type {
+    border-bottom: 0; }
 .footer .list--line li {
   border-bottom: 1px solid #E0E0E0; }
 .list--quotes {
@@ -1473,6 +1475,16 @@ select {
         border-bottom-color: #88C24C; }
 .list--tick li:last-of-type {
       border-bottom: none; }
+.list--gridtick li {
+  background: url(/assets/img/tick.svg) 30px 17px no-repeat;
+  list-style: none;
+  background-size: 20px auto;
+  padding-left: 65px !important;
+  margin-bottom: 20px; }
+@media handheld, only screen and (max-width: 50em) {
+    .list--gridtick li {
+      background-position: 5px 5px;
+      padding-left: 50px !important; } }
 .list--native li {
   list-style: disc;
   margin-left: 25px; }
@@ -1615,7 +1627,7 @@ body.dark main {
     header h1 {
       margin-top: 22px; } }
 .top {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   position: relative;
   overflow: hidden;
   background-color: #21262D;
@@ -1623,8 +1635,6 @@ body.dark main {
   color: #fff; }
 .mzr-no-svg .top {
     background-image: url(/assets/img/bg-dark.jpg); }
-.top .grid {
-    position: relative; }
 .top .col--pull {
     position: absolute;
     top: 0;
@@ -1638,7 +1648,8 @@ body.dark main {
   opacity: 1; }
 @media handheld, only screen and (min-width: 50em) {
   .top {
-    padding-top: 30px; }
+    padding-top: 30px;
+    padding-bottom: 110px; }
   .top__promo {
     padding: 30px 0 30px 40px;
     position: relative;
@@ -1683,6 +1694,10 @@ main:before {
     height: 100px;
     display: block;
     z-index: 1; }
+@media handheld, only screen and (max-width: 50em) {
+    main:before {
+      top: -11px;
+      height: 25px; } }
 .top__bg {
   position: absolute;
   top: 0;
@@ -1728,12 +1743,13 @@ body.dark .container--divider {
               transform: scaleX(1); }
 @media handheld, only screen and (max-width: 50em) {
   .nav {
-    margin: 0 0 25px; }
+    margin: 10px 0 25px 15px;
+    line-height: 10px; }
     .nav a {
-      display: block; }
+      display: block;
+      padding-bottom: 5px; }
     .nav li {
-      display: inline-block;
-      margin: 0 20px 0 0; } }
+      display: inline-block; } }
 form .btn, form .text {
   line-height: 1.25;
   font-weight: bolder;
@@ -1901,6 +1917,37 @@ abbr {
   border-radius: 5px;
   box-shadow: 5px 5px 10px #ddd;
   border: 3px solid #fff; }
+@media handheld, only screen and (max-width: 50em) {
+  .promos {
+    text-align: right;
+    margin-top: 20px; }
+    .promos p {
+      width: 200px;
+      display: inline-block;
+      vertical-align: middle;
+      float: left;
+      text-align: left;
+      margin: 0;
+      font-weight: normal; }
+  .intro {
+    border-top: 1px solid #122A3A;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-top: 25px; } }
+@media handheld, only screen and (min-width: 50em) {
+  .customers {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+@media handheld, only screen and (max-width: 50em) {
+  .customers {
+    text-align: center; }
+    .customers ul {
+      margin-top: 30px; }
+    .customers li {
+      min-height: 33px; }
+    .customers img {
+      width: auto;
+      max-height: 32px; } }
 /*
 
 Atom One Light by Daniel Gamage
