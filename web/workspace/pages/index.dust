@@ -1,6 +1,6 @@
 {>"partials/header" /}
 
-{<title}The technology of the web, reinvented.{/title}
+{<title}The technology of data driven experiences.{/title}
 
 {<bodyClass}home{/bodyClass}
 
