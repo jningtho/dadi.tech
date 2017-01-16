@@ -28,7 +28,8 @@
     </div>
 
     <div class="container container--divider">
-      <img class="fill" src="/assets/successes/{handle}/1.jpg">   
+      <img class="fill" src="/assets/successes/{handle}/1.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[0]}</p>
     </div>
 
     <div class="container container--divider">
@@ -45,7 +46,8 @@
     </div>
 
     <div class="container container--divider">
-      <img class="fill" src="/assets/successes/{handle}/2.jpg">
+      <img class="fill" src="/assets/successes/{handle}/2.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[1]}</p>
     </div>
 
     <div class="container container--divider">
@@ -62,11 +64,13 @@
     </div>
 
     <div class="container container--divider">
-      <img class="fill" src="/assets/successes/{handle}/3.jpg">     
+      <img class="fill" src="/assets/successes/{handle}/3.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[2]}</p>     
     </div>
 
     <div class="container container--divider">
-      <img class="fill" src="/assets/successes/{handle}/4.jpg">  
+      <img class="fill" src="/assets/successes/{handle}/4.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[3]}</p>  
     </div>
   {/successes.results}
 
