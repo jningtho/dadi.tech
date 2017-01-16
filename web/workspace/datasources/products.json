@@ -95,6 +95,7 @@
           "overview": "Just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution",
           "description": "You can consider a full installation of DADI CDN as being analogous to a traditional CDN (Content Distribution Network) such as Akamai and Limelight. It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.\n\nCDN has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis.",
           "example": true,
+          "demo": "http://docs.dadi.tech/examples/cdn/variables/",
           "features": [
             "Built in support for oAuth2",
             "Provides native document versioning at collection level",
