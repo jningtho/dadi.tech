@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="grid marg__top">
-        {#latest.results}
+        {#latest-footer.results}
           <div class="col w-1-3 pad__bottom">
             {! <p class="txt--grey hdr">{@formatDate data=metadata.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
             <p class="hdr large txt--blue"><a href="/latest/{handle}/">{metadata.title}</a></p>
@@ -23,7 +23,7 @@
             <p class="small">{@soberMarkdown}{@Truncate data="{metadata.preface}" length="110" ellipsis="true"/}{/soberMarkdown}</p>
             <p class="small"><a href="/latest/{metadata.handle}/" class="btn btn--blue">Read more</a></p>
           </div>
-        {/latest.results}
+        {/latest-footer.results}
       </div>
     </div>
     <div class="grid">

@@ -1,6 +1,6 @@
 {
   "datasource": {
-    "key": "latest",
+    "key": "latest-footer",
     "name": "Footer placement of latest insights and weekly updates.",
     "source": {
       "type": "markdown",
