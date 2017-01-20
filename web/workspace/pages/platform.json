@@ -6,11 +6,11 @@
   "datasources": [
     "products",
     "solutions",
-    "concepts"
+    "concepts",
+    "latest-footer"
   ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "requiredDatasources": [
     "products"

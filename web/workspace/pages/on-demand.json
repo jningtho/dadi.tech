@@ -2,9 +2,11 @@
   "page": {
   	"key": "On demand"
   },
+  "datasources": [
+    "latest-footer"
+  ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "routes": [
     {

@@ -3,14 +3,14 @@
     "key": "supporting"
   },
   "datasources": [
-    "supporting"
+    "supporting",
+    "latest-footer"
   ],
   "requiredDatasources": [
     "supporting"
   ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "routes": [
     {

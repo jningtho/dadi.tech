@@ -3,6 +3,9 @@
     "key": "Bug bounty",
     "color": "#031A07"
   },
+  "datasources": [
+    "latest-footer"
+  ],
   "events": [
     "globals"
   ],

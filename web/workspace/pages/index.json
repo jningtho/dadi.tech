@@ -3,11 +3,11 @@
     "key": "home"
   },
   "datasources": [
-    "solutions"
+    "solutions",
+    "latest-footer"
   ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "routes": [
     {
