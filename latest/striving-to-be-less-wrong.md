@@ -1,6 +1,7 @@
 ---
 date: 2016-05-10
 title: Striving to be less wrong
+handle: striving-to-be-less-wrong
 author: Joseph Denne
 preface: How Bayesian Strategy, the newest weapon in the heavily depleted arsenal of the data analysis movement, is taking over.
 ---

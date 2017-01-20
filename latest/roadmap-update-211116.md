@@ -1,6 +1,7 @@
 ---
 date: 2016-11-21
 title: Roadmap Update (No.33)
+handle: roadmap-update-211116
 author: James Lambie
 preface: CDN Version 1.7.0 is almost ready for release.
 ---

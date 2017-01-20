@@ -1,6 +1,7 @@
 ---
 date: 2016-11-3
 title: How we work
+handle: how-we-work
 author: Joseph Denne
 preface: At DADI+ we've ripped up everything we thought we knew about work and have started again, structuring the business around how we want to live.
 ---

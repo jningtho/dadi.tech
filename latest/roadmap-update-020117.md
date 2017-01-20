@@ -1,6 +1,7 @@
 ---
 date: 2017-01-02
 title: Roadmap Update (No.33)
+handle: roadmap-update-020117
 author: James Lambie
 preface: API, CDN and Web are now all running continuous integration builds on [Travis CI](http://travis-ci.org/dadi) and are being tested against each of the latest major Node versions.
 ---

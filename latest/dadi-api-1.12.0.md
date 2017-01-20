@@ -1,6 +1,7 @@
 ---
 date: 2016-10-12
 title: DADI API 1.12.0 available now
+handle: dadi-api-1.12.0
 author: James Lambie
 preface: Release notes
 ---

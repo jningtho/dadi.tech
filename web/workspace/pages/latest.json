@@ -4,13 +4,10 @@
     "color": "#191502"
   },
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "datasources": [
-    "github-api",
-    "github-web",
-    "github-cdn"
+    "latest"
   ],
   "routes": [
     {

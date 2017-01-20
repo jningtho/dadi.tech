@@ -1,6 +1,7 @@
 ---
 date: 2016-12-05
 title: Roadmap Update (No.34)
+handle: roadmap-update-051216
 author: James Lambie
 preface: API and Web have been stable in the last few weeks, with only one or two issues identified. This week will see some improvements in the SSL module for all products, with resource available to revisit the SSL setup beginning Tuesday 6th December. The release of CDN Version 1.7.0 was delayed until this week, to allow the bundling in of more resolved issues. With image upload, external image support and the integration of @dadi/cache, Version 1.7.0 is a significant upgrade.
 ---
