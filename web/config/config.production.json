@@ -4,7 +4,10 @@
   },
   "server": {
     "host": "0.0.0.0",
-    "port": 80
+    "port": 443,
+    "protocol": "https",
+    "sslPrivateKeyPath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.key",
+    "sslCertificatePath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.crt"
   },
   "api": {
     "host": "127.0.0.1",
@@ -17,7 +20,7 @@
     "secret":"superSecret"
   },
   "global": {
-    "description": "DADI reinvents the technology of the web. It enables real-time, personalised experiences driven by machine learning."
+    "description": "DADI is a powerful, API-first content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning."
   },
   "paths": {
     "datasources": "./workspace/datasources",
@@ -32,7 +35,8 @@
     "filters": "./workspace/utils/filters"
   },
   "rewrites": {
-    "forceTrailingSlash": true
+    "forceTrailingSlash": true,
+    "forceLowerCase": true
   },
   "virtualDirectories": [
     { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }

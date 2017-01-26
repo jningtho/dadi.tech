@@ -1,14 +1,14 @@
 {>"partials/header" /}
 
-{<title}The technology of data driven experiences.{/title}
+{<title}The Next Generation of Content Management.{/title}
 
 {<bodyClass}home{/bodyClass}
 
 {<top}
   <div class="grid">
     <div class="col w-1-2 pad__top intro">
-      <p class="hdr kilo no-marg-i txt--blue">The technology of data driven experiences.</p>
-       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> suite of microservices for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.</p>
+      <p class="hdr kilo no-marg-i txt--blue">The Next Generation of Content Management.</p>
+       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.</p>
       <p class="normal pad__top"><a href="/platform/" class="btn btn--blue">How it works</a></p>
     </div>
     <div class="col w-1-2">

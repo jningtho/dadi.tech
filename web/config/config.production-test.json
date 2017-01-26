@@ -1,11 +1,13 @@
 {
   "app": {
-    "name": "dadi.co website - development"
+    "name": "dadi.co website - Live"
   },
   "server": {
     "host": "0.0.0.0",
-    "port": 80,
-    "server.protocol": "https"
+    "port": 443,
+    "protocol": "https",
+    "sslPrivateKeyPath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.key",
+    "sslCertificatePath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.crt"
   },
   "api": {
     "host": "127.0.0.1",
@@ -35,7 +37,6 @@
   "rewrites": {
     "forceTrailingSlash": true
   },
-  "allowJsonView": true,
   "virtualDirectories": [
     { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }
   ]
