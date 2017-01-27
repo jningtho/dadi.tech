@@ -24,7 +24,7 @@
     <div class="col w-1-2">        
       <p class="normal"><strong>DADI</strong> is architected in stark contrast to traditional monolithic systems. It's designed to support your digital product, not force you to fold your requirements into it – and to improve workflow for engineers, editorial staff, production teams and product managers alike. It's fast to market, too.</p>
 
-      <p class="normal"><strong>DADI</strong> is built on Node.JS and MongoDB and provides a series of self-contained service layers which can be run independently or as a whole. You can also think of it as a shopping list – use the services you want alongside your existing tech, or take everything wholesale. We publish our roadmap so you can see what's coming up to extend the platform capability.</p>
+      <p class="normal"><strong>DADI</strong> is built on <em>Node.JS</em> and <em>MongoDB</em> and provides a series of self-contained service layers which can be run independently or as a whole. You can also think of it as a shopping list – use the services you want alongside your existing tech, or take everything wholesale. We publish our roadmap so you can see what's coming up to extend the platform capability.</p>
     </div>
     <div class="col w-1-2">
       <p class="normal"><strong>DADI</strong> is unique in its approach to data: the entire platform is built to facilitate Data Driven Experiences. It enables the concept of the individual at the heart of the platform, creating real-time, person-level taxonomies of interest, and providing multiple actionable data points to enable the construction of individual-specific experiences.</p>
