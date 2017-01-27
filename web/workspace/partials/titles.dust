@@ -2,7 +2,7 @@
   {@select key=placement}
     {@any}<div class="pad__top alignl">{/any}
     {@eq value="Platform"}
-      <div class="inline-block hdr kilo read no-marg-i">A modern microservices framework, built specifically in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
+      <div class="inline-block hdr kilo read no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
     {/eq}
     {@eq value="Success stories"}
       <div class="inline-block hdr kilo read no-marg-i">We have helped organisations both large and small succeed with our platform.</div>

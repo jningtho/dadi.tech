@@ -33,12 +33,12 @@
 <div class="container pad__bottom">
   <div class="grid">
     <div class="col w-1-2">
-      <p class="hdr larger">A ground up reimagination of web tech, built on a breakthrough thought:</p>
+      <p class="hdr larger">A ground up reimagination of content management, built on a breakthrough thought:</p>
       <div class="pad__top pad__bottom hdr txt--red larger">It's all just data.</div>
     </div>
     <div class="col w-1-2">
-      <p class="normal">The <strong>DADI</strong> platform enables the unification of disparate technologies by treating all content types in the same way, closing the gap between <abbr title="Web Content Management">WCM</abbr>/<abbr title="Enterprise Content Management">ECM</abbr>, <abbr title="Customer Relationship Management">CRM</abbr> and <abbr title="Data Management Platform">DMP</abbr>, and making the implementation of cutting edge machine learning and big data theory simple.</p>
-      <p class="normal">With <strong>DADI</strong>, businesses of all sizes can provide data driven experience to their customers: unique and personalized interactions that drive higher engagement and increase conversion, all at a price point significantly below that of legacy platforms.</p>
+      <p class="normal">The CMS is dead. Brittle, two-dimensional platforms have for too long imposed awkward workflow and same-content-for-all-users technology on the internet. But <strong>DADI</strong> is different.</p>
+      <p class="normal">It's a scalable, open source, API-first platform built to get digital product live in weeks, not months. It supports COPE to power myriad products across multiple devices and bring efficiency to editorial workflow. Plus, it builds in intelligence to decide who gets what – and when – to support improved audience retention, conversion and experience.</p>
     </ul>
     </div>
   </div>
