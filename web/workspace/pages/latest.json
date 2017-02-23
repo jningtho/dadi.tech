@@ -13,8 +13,9 @@
   "routes": [
     {
       "path": "/latest/"
-    }, {
-      "path": "/latest/:category?/:article?",
+    },
+    {
+      "path": "/latest/:category/:article?",
       "params": [
         {
           "param": "category",
