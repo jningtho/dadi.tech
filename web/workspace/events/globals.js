@@ -15,7 +15,7 @@ var Event = function (req, res, data, callback) {
   data.global.protocol = req.protocol
 
   // Override page meta description (latest section)
-  if (data.params.article && data.latest && data.latest.results) {
+  if (data.params && data.params.article && data.latest && data.latest.results) {
     data.page.description = data.latest.results[0].attributes.meta
   }
  
