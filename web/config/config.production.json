@@ -9,6 +9,7 @@
     "sslPrivateKeyPath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.key",
     "sslCertificatePath": "/etc/ssl/STAR.dadi.tech/STAR.dadi.tech.crt"
   },
+  "cluster": false,
   "api": {
     "host": "127.0.0.1",
     "port": 4111,

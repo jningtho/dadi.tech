@@ -7,6 +7,7 @@
     "port": 80,
     "server.protocol": "https"
   },
+  "cluster": false,
   "api": {
     "host": "127.0.0.1",
     "port": 4111,
