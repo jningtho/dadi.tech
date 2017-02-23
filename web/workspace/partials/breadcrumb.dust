@@ -15,14 +15,14 @@
             {?params.solution}
               <li class="fwb">{solutions.results[0].title}</li>
             {/params.solution}
-            {?params.page}
+            {?params.section}
               {?params.concept}
                 <li><a href="/platform/concepts/">Concepts</a></li>
                 <li class="fwb">{concepts.results[0].title}</li>
               {:else}
-                <li class="fwb"><a href="/platform/concepts/">{params.page}</a></li>
+                <li class="fwb"><a href="/platform/concepts/">{params.section}</a></li>
               {/params.concept}
-            {/params.page}
+            {/params.section}
             {?params.client}
               <li class="fwb">{successes.results[0].title}</li>
             {/params.client}

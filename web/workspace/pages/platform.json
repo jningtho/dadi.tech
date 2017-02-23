@@ -24,16 +24,16 @@
       "fetch": "products"
     },
     {
-      "path": "/platform/:page",
+      "path": "/platform/:section",
       "params": [
         {
-          "param": "page",
+          "param": "section",
           "in": ["security", "licensing", "roadmap", "concepts"]
         }
       ]
     },
     {
-      "path": "/platform/:page/:concept",
+      "path": "/platform/:section/:concept",
       "params": [
         {
           "param": "concept",
