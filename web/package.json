@@ -1,8 +1,12 @@
 {
-  "name": "dadico_v3",
+  "name": "dadi.tech",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadi/dadi.tech.git"
+  },
   "scripts": {
     "start": "NODE_ENV=development node main.js",
     "test": "./node_modules/mocha/bin/_mocha test/unit && ./node_modules/cucumber/bin/cucumber.js test/browser/features",
