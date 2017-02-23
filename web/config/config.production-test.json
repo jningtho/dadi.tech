@@ -35,7 +35,8 @@
     "filters": "./workspace/utils/filters"
   },
   "rewrites": {
-    "forceTrailingSlash": true
+    "forceTrailingSlash": true,
+    "path": "./workspace/routes/rewrites.txt"
   },
   "virtualDirectories": [
     { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }

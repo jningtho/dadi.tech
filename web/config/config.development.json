@@ -33,7 +33,8 @@
     "filters": "./workspace/utils/filters"
   },
   "rewrites": {
-    "forceTrailingSlash": true
+    "forceTrailingSlash": true,
+    "path": "./workspace/routes/rewrites.txt"
   },
   "allowJsonView": true,
   "virtualDirectories": [

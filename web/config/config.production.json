@@ -36,7 +36,8 @@
   },
   "rewrites": {
     "forceTrailingSlash": true,
-    "forceLowerCase": true
+    "forceLowerCase": true,
+    "path": "./workspace/routes/rewrites.txt"
   },
   "virtualDirectories": [
     { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }
