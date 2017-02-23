@@ -12,7 +12,15 @@
   ],
   "routes": [
     {
-      "path": "/latest/:article?"
+      "path": "/latest/"
+    }, {
+      "path": "/latest/:category?/:article?",
+      "params": [
+        {
+          "param": "category",
+          "in": ["articles", "roadmap", "releases"]
+        }
+      ]
     }
   ]
 }

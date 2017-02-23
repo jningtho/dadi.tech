@@ -15,6 +15,9 @@
             {?params.solution}
               <li class="fwb">{solutions.results[0].title}</li>
             {/params.solution}
+            {?params.category}
+              <li class="fwb">{params.category}</li>
+            {/params.category}
             {?params.section}
               {?params.concept}
                 <li><a href="/platform/concepts/">Concepts</a></li>

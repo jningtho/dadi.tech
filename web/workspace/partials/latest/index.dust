@@ -1,9 +1,9 @@
-<div class="container ">
+<div class="container">
   <div class="grid">
     <div class="col w-2-3">
       {#latest.results}
         <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
-        <p class="hdr larger txt--green"><a href="/latest/{attributes.handle}/">{attributes.title}</a></p>
+        <p class="hdr larger txt--green"><a href="/latest/{attributes.category}/{attributes.handle}/">{attributes.title}</a></p>
         <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
         <p class="small pad__bottom--x2"><a href="/latest/{handle}/" class="btn btn--green">Read more</a></p>
       {/latest.results}
