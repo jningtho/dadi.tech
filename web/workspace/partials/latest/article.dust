@@ -1,9 +1,9 @@
 {#latest.results}
   <div class="container pad__bottom alignc">
-    <p class="txt--grey hdr normal alignauto">{@formatDate data=metadata.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
-    <h1 class="hdr kilo"><span class="txt--green block">{metadata.title}</span></h1>
-    <p class="medium alignauto">{@soberMarkdown}{metadata.preface}{/soberMarkdown}</p>
-    <p class="normal alignauto">By <strong>{metadata.author}</strong></p>
+    <p class="txt--grey hdr normal alignauto">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
+    <h1 class="hdr kilo"><span class="txt--green block">{attributes.title}</span></h1>
+    <p class="medium alignauto">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
+    <p class="normal alignauto">By <strong>{attributes.author}</strong></p>
   </div>
 
   <div class="container container--divider marg__top">
