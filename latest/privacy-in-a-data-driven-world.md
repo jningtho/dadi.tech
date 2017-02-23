@@ -4,6 +4,7 @@ title: Privacy in a data driven world
 handle: privacy-in-a-data-driven-world
 author: Joseph Denne
 preface: At the heart of the debate about data and privacy today, there lies a false premise. An assumption that there are sides to be taken and battle lines to be drawn.
+category: articles
 ---
 
 This perceived division largely pits the individual against the interests of businesses.

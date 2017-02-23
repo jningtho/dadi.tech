@@ -4,6 +4,7 @@ title: Roadmap Update (No.31)
 handle: roadmap-update-311016
 author: James Lambie
 preface: Our core apps haven't moved far in the last two weeks as our focus has been on bug fixing on the back of some at-scale client implementations.
+category: roadmap
 ---
 
 ## 🎃 DADI API

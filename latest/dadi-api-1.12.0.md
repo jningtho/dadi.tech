@@ -4,6 +4,7 @@ title: DADI API 1.12.0 available now
 handle: dadi-api-1.12.0
 author: James Lambie
 preface: Release notes
+category: releases
 ---
 
 ## Tagged release

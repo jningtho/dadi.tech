@@ -4,6 +4,7 @@ title: Identity management
 handle: identity-management
 author: Joseph Denne
 preface: Identities are complicated and constantly evolving things. We believe that understanding the layers of identity is critical to creating engaging experiences.
+category: articles
 ---
 
 Individual identity is a complicated, ever evolving thing. Identities are at the same time personal, social, public and private. They frequently resist definition, seeming knowable at first glance, they break apart with further inspection.
