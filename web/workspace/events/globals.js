@@ -13,10 +13,14 @@ var Event = function (req, res, data, callback) {
 
   // Url stuff
   data.global.protocol = req.protocol;
+
+  // Override page meta description (latest section)
+  if (data.params.article && data.latest && data.latest.results) {
+    data.page.description = data.latest.results[0].attributes.meta;
+  }
  
   // Fin
   callback();
-
 }
 
 module.exports = function (req, res, data, callback) {
