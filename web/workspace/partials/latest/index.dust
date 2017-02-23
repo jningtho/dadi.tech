@@ -7,6 +7,13 @@
         <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
         <p class="small pad__bottom--x2"><a href="/latest/{handle}/" class="btn btn--green">Read more</a></p>
       {/latest.results}
+
+      <div class="cf pad__top--x2 pad__bottom--x2 alignc">
+        {>"partials/pagination" 
+          $page=latest.metadata.page 
+          $totalPages=latest.metadata.totalPages 
+        /}
+      </div>
     </div>
     <div class="col w-1-3">
       {>"partials/latest/sidebar" /}
