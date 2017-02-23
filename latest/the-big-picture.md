@@ -1,8 +1,10 @@
 ---
 date: 2016-03-08
 title: "The big picture: we feel the need for big data, but can we touch it?"
+handle: the-big-picture
 author: Joseph Denne
 preface: "Big Data is the hottest technology buzzword today: the data that we spread and store is reaching superabundant amounts. But is this data explosion all that it is hyped up to be?"
+category: articles
 ---
 
 ![](http://52.50.38.122/workspace/uploads/images/insights/big-data-5509835f606cc.jpg)

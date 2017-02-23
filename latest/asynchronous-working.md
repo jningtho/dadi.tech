@@ -1,8 +1,10 @@
 ---
 date: 2016-05-10
 title: On asynchronous working
+handle: on-asynchronous-working
 author: Joseph Denne
 preface: Ever shared and worked on a Google doc with your colleagues? You may have been working asynchronously.
+category: articles
 ---
 
 Synchronous working is where team members regularly drop what they’re doing to meet and discuss next steps. They then get back to work, each spending 15 minutes trying to remember what they were doing before they stopped.

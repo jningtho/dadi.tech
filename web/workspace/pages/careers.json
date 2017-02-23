@@ -2,6 +2,9 @@
   "page": {
     "key": "Careers"
   },
+  "datasources": [
+    "latest-footer"
+  ],
   "events": [
     "globals"
   ],

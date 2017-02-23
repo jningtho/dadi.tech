@@ -2,6 +2,9 @@
   "page": {
     "key": "FAQ"
   },
+  "datasources": [
+    "latest-footer"
+  ],
   "events": [
     "globals"
   ],

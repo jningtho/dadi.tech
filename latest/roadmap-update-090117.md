@@ -1,8 +1,10 @@
 ---
 date: 2017-01-09
 title: Roadmap Update (No.34)
+handle: roadmap-update-090117
 author: James Lambie
 preface: Focus is on DADI Track this week, and has been for the much of the past week. The codebase has been simplified and brought into line with the same approach used by the other products. The current test coverage is around 85%.
+category: roadmap
 ---
 
 ## DADI API

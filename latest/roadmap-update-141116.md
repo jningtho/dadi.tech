@@ -1,8 +1,10 @@
 ---
 date: 2016-11-14
 title: Roadmap Update (No.32)
+handle: roadmap-update-141116
 author: James Lambie
 preface: The focus returns to DADI Track and Visualise this week (week commencing 14th November 2016). The existing core apps are largely static and isolated; Track chnges this by providing data points around user behaviour, enabling the rest of the stack to receive and act on actions, objects and individuals.
+category: roadmap
 ---
 
 ## DADI API

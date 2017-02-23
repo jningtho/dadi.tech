@@ -5,14 +5,14 @@
   },
   "datasources": [
     "successes",
-    "solutions"
+    "solutions",
+    "latest-footer"
   ],
   "requiredDatasources": [
     "successes"
   ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "routes": [
     {

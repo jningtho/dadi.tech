@@ -3,14 +3,14 @@
     "key": "Solutions"
   },
   "datasources": [
-    "solutions"
+    "solutions",
+    "latest-footer"
   ],
   "requiredDatasources": [
     "solutions"
   ],
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "routes": [
     {

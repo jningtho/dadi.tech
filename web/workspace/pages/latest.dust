@@ -4,11 +4,11 @@
   {^params.article}
     Latest
   {:else}
-    {#insights}
+    {#latest.results}
       {@eq key=handle value=params.article}
         {attributes.title} / Latest
       {/eq}
-    {/insights}
+    {/latest.results}
   {/params.article}
 {/title}
 

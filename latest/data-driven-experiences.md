@@ -1,8 +1,10 @@
 ---
 date: 2016-02-10
 title: Building Relationships in a Data-Driven World
+handle: data-driven-experiences
 author: Christopher Mair
 preface: Brands who put customer data at the heart of their business have the potential to deliver what we call 'data-driven experiences’. Data driven experiences present users with content which is more likely to appeal to them, based on what is known about them individually. The more compelling it is, the better it will perform. 
+category: articles
 ---
 
 Data-driven experiences can occur in a multitude of places, providing the possibility exists to identify an individual - most commonly through the device they are using - and there is an active Internet connection.

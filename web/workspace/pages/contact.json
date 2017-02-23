@@ -2,6 +2,9 @@
   "page": {
     "key": "Contact"
   },
+  "datasources": [
+    "latest-footer"
+  ],
   "events": [
     "globals",
     "contact"

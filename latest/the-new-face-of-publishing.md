@@ -1,8 +1,10 @@
 ---
 date: 2016-07-16
 title: "Data: the new face of publishing"
+handle: the-new-face-of-publishing
 author: Joseph Denne
 preface: If you’ve read a newspaper recently, chances are you’ve already read an article written by a computer. Automated news reporting is big business and just one way that data is changing the face of publishing.
+category: articles
 ---
 
 Leading the charge is American company Automated Insights, whose patented Wordsmith platform produces plain English articles directly from their clients data. It’s not perfected and journalists shouldn’t be heading for the Job Centre quite yet, but already the platform is producing billions of articles for its clients including Yahoo! and Associated Press (AP).

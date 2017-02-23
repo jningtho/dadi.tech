@@ -4,17 +4,23 @@
     "color": "#191502"
   },
   "events": [
-    "globals",
-    "insights"
+    "globals"
   ],
   "datasources": [
-    "github-api",
-    "github-web",
-    "github-cdn"
+    "latest",
+    "latest-footer"
   ],
   "routes": [
     {
-      "path": "/latest/:article?"
+      "path": "/latest/"
+    }, {
+      "path": "/latest/:category?/:article?",
+      "params": [
+        {
+          "param": "category",
+          "in": ["articles", "roadmap", "releases"]
+        }
+      ]
     }
   ]
 }

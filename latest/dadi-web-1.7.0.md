@@ -1,8 +1,10 @@
 ---
 date: 2016-11-15
 title: DADI Web 1.7.0 available now
+handle: dadi-web-1.7.0
 author: James Lambie
 preface: Release notes
+category: releases
 ---
 
 ## Tagged release
