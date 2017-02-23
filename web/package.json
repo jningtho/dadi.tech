@@ -28,6 +28,7 @@
     "chroma-js": "^1.2.1",
     "clean-css": "^3.4.20",
     "domready": "^1.0.8",
+    "dustjs-linkedin": "^2.7.5",
     "exorcist": "^0.4.0",
     "front-matter": "^2.1.0",
     "highlight.js": "^9.8.0",
@@ -44,6 +45,7 @@
     "sendgrid": "^4.7.1",
     "sticky-kit": "github:leafo/sticky-kit",
     "uglify-js": "^2.7.3",
+    "underscore": "^1.8.3",
     "watch": "^1.0.1"
   },
   "devDependencies": {
