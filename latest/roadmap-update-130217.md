@@ -3,6 +3,7 @@ date: 2017-02-13
 title: Roadmap Update (No.36)
 author: James Lambie
 preface: Version 2.0 of API is the focus this week, introducing the ability to specify the datastore to use for both authentication and content. Version 1.0 uses MongoDB exclusively and the view is that perhaps not all projects require the power and expense of a MongoDB installation.
+category: roadmap
 ---
 
 ## High level notes

@@ -3,6 +3,7 @@ date: 2017-01-24
 title: Roadmap Update (No.35)
 author: James Lambie
 preface: Most of the DADI modules have had Semantic Release added to them, making new versions automatically available via NPM. Proper use of Semantic Release requires special attention to commit messages (which we have been following for the best part of twelve months).
+category: roadmap
 ---
 
 Contributors to core product development should read the following guidelines: http://docs.dadi.tech/contributing/#-git-commit-guidelines
