@@ -18,10 +18,10 @@
         {#latest-footer.results}
           <div class="col w-1-3 pad__bottom">
             {! <p class="txt--grey hdr">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}</p> !}
-            <p class="hdr large txt--blue"><a href="/latest/{attributes.handle}/">{attributes.title}</a></p>
+            <p class="hdr large txt--blue"><a href="/latest/{attributes.category}/{attributes.handle}/">{attributes.title}</a></p>
             <p class="small txt--mid-grey">By <strong>{attributes.author}</strong></p>
             <p class="small">{@soberMarkdown}{@Truncate data="{attributes.preface}" length="110" ellipsis="true"/}{/soberMarkdown}</p>
-            <p class="small"><a href="/latest/{attributes.handle}/" class="btn btn--blue">Read more</a></p>
+            <p class="small"><a href="/latest/{attributes.category}/{attributes.handle}/" class="btn btn--blue">Read more</a></p>
           </div>
         {/latest-footer.results}
       </div>
