@@ -1441,13 +1441,14 @@ select {
 .list--no-style {
   list-style: none; }
 .list--buttons li {
-  padding: 7px 0; }
+  padding: 7px 0;
+  list-style: none; }
 .list--buttons a {
   display: block;
   background: #031323;
   border-radius: 5px;
   padding: 15px;
-  border: 1px solid 293547; }
+  border: 1px solid #293547; }
 .list--line {
   list-style: none; }
 .list--line li {
