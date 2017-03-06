@@ -13,16 +13,16 @@
     </div>
     <div class="col w-1-2">
       <p class="pad__top--half hdr medium txt--grey bs-hide">Dive right in…</p>
-      <ul class="list--line txt--white medium">
-        <li><a style="padding: 15px 0" href="https://github.com/dadi/">
+      <ul class="list--buttons txt--white medium">
+        <li><a href="https://github.com/dadi/">
           <img src="/assets/img/logo-github-white.png" height="30" class="alignv float--right">
           <span class="pad__top">Explore code in <strong>Github</strong></span>
         </a></li>
-        <li><a style="padding: 10px 0" href="http://docs.dadi.tech/npm/">
+        <li><a href="http://docs.dadi.tech/npm/">
           <img src="/assets/img/logo-npm-white.png" height="25" class="alignv float--right">
           <span class="pad__top">Integrate with <strong>NPM</strong></span>
         </a></li>
-        <li><a style="padding: 10px 0" href="http://docs.dadi.tech/">
+        <li><a href="http://docs.dadi.tech/">
           <img src="/assets/img/dadi-white.png" height="25" class="alignv float--right">
           <span class="pad__top">Read <strong>documentation</strong></span>
         </a></li>
