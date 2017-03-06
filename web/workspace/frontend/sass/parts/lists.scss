@@ -5,13 +5,14 @@
 .list--buttons {
 	li {
 		padding: 7px 0;
+		list-style: none;
 	}
 	a {
 		display: block;
 		background: #031323;
 		border-radius: 5px;
 		padding: 15px;
-		border: 1px solid 293547;
+		border: 1px solid #293547;
 	}
 }
 .list--line {
