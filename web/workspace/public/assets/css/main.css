@@ -1449,6 +1449,8 @@ select {
   border-radius: 5px;
   padding: 15px;
   border: 1px solid #293547; }
+.list--buttons a:hover {
+  border: 1px solid #2C85E5; }
 .list--line {
   list-style: none; }
 .list--line li {
