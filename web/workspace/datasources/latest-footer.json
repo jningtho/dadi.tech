@@ -9,6 +9,9 @@
     "count": 3,
     "sort": {
       "date": -1
-    } 
+    },
+    "fields": [
+      "attributes"
+    ]
   }
 }
