@@ -3,7 +3,7 @@ date: 2017-01-23
 title: Roadmap Update
 handle: roadmap-update-230117
 author: James Lambie
-preface:  Most of the DADI modules have had Semantic Release added to them, making new versions automatically available via NPM.
+preface: Most of the DADI modules have had Semantic Release added to them, making new versions automatically available via NPM.
 category: roadmap
 ---
 
