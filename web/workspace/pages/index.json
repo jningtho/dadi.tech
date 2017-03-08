@@ -3,7 +3,6 @@
     "key": "home"
   },
   "datasources": [
-    "solutions",
     "latest-footer"
   ],
   "routes": [
