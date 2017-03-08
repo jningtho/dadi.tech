@@ -11,9 +11,6 @@
   "requiredDatasources": [
     "successes"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
     	"path": "/success-stories/"
@@ -28,4 +25,4 @@
       ]
     }
   ]
-}	
+}

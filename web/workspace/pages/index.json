@@ -6,9 +6,6 @@
     "solutions",
     "latest-footer"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
       "path": "/"

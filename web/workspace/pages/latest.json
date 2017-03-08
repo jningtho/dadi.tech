@@ -3,9 +3,6 @@
     "key": "Latest",
     "color": "#191502"
   },
-  "events": [
-    "globals"
-  ],
   "datasources": [
     "latest",
     "latest-footer"

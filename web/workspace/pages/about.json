@@ -6,9 +6,6 @@
   "datasources": [
     "latest-footer"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
       "path": "/about/"

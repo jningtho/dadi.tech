@@ -9,9 +9,6 @@
     "concepts",
     "latest-footer"
   ],
-  "events": [
-    "globals"
-  ],
   "requiredDatasources": [
     "products"
   ],

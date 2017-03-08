@@ -9,9 +9,6 @@
   "requiredDatasources": [
     "solutions"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
       "path": "/solutions/"

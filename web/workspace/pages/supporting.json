@@ -9,9 +9,6 @@
   "requiredDatasources": [
     "supporting"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
       "path": "/:section/",

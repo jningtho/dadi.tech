@@ -5,8 +5,5 @@
   },
   "datasources": [
     "latest-footer"
-  ],
-  "events": [
-    "globals"
   ]
 }   

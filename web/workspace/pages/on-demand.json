@@ -5,9 +5,6 @@
   "datasources": [
     "latest-footer"
   ],
-  "events": [
-    "globals"
-  ],
   "routes": [
     {
     	"path": "/on-demand/"
