@@ -23,6 +23,26 @@
   "global": {
     "description": "DADI is a powerful, API-first content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning."
   },
+  "globalEvents": [
+    "globals"
+  ],
+  "headers": {
+    "useGzipCompression": true,
+    "cacheControl": {
+      "301": "no-cache",
+      "302": "no-cache",
+      "307": "no-cache",
+      "text/css": "public, max-age=2592000",
+      "text/javascript": "public, max-age=2592000",
+      "image/jpeg": "public, max-age=2592000",
+      "image/png": "public, max-age=2592000",
+      "image/svg+xml": "public, max-age=2592000",
+      "application/javascript": ""
+    },
+    "cors": {
+      "Access-Control-Allow-Origin": "*"
+    }
+  },
   "paths": {
     "datasources": "./workspace/datasources",
     "events": "./workspace/events",
