@@ -37,7 +37,7 @@
       "image/jpeg": "public, max-age=2592000",
       "image/png": "public, max-age=2592000",
       "image/svg+xml": "public, max-age=2592000",
-      "application/javascript": ""
+      "application/javascript": "public, max-age=2592000"
     },
     "cors": {
       "Access-Control-Allow-Origin": "*"
