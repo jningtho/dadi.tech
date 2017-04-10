@@ -15,36 +15,69 @@
       <a href="/contact/" class="btn btn--blue small">Contact us</a><br><br>
       <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
     </div>
-    <div class="col w-1-2">
-      
+    <div class="col w-1-2 normal">
+      <h3>Q2 2017</h3>
 
-      <h3>Q4 2016</h3>
-
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
           <a href="/platform/api/">
-            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
             API
           </a>
-        </div>
-        <div class="col w-2-3">
-          Migration to ReThinkDB
-        </div>
+        </h3>
+      
+        <strong>Next release 1:</strong>
+        <ul>
+        <li>Multiple data store support, removes dependency on MongoDB</li>
+        <li><a href="https://github.com/dadi/api/issues/182" class="txt--blue">Smart Reference fields</a></li>
+        </ul>
+        <br>
+        <strong>Next release 2:</strong>
+        <ul>
+        <li>Plugin support</li>
+        </ul>
       </div>
 
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
           <a href="/platform/api/">
-            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="19">
+            <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
+            CDN
+          </a>
+        </h3>
+        
+        <strong>Next release 1:</strong>
+        <ul>
+        <li>Plugin support</li>
+        </ul>
+        <br>
+        <strong>Next release 2:</strong>
+        <ul>
+        <li><a href="https://github.com/dadi/cdn/issues/173">Dynamic test compositing</a></li>
+        </ul>
+      </div>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/platform/api/">
+            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
             Web
           </a>
-        </div>
-        <div class="col w-2-3">
-          MVP isomorphic release integrating React
-        </div>
+        </h3>
+
+        <strong>Next release 1:</strong>
+        <ul>
+        <li><a class="txt--blue" href="https://github.com/dadi/web/issues/103">Rewrite of template system, allowing choice of templating language</a></li>
+        <li>100% test coverage</li>
+        </ul>
+        <br><strong>Next release 2:</strong>
+        <ul>
+        <li>Plugin Support</li>
+        <li><a class="txt--blue" href="https://github.com/dadi/web/issues/64">Built-in routes &amp; redirects testing tool</a></li>
+        </ul>
       </div>
 
-      <div class="grid pad__top">
+      {! <div class="grid pad__top">
         <div class="col w-1-3 fwb">
           <a href="/platform/publish/">
             <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
@@ -97,7 +130,7 @@
         <div class="col w-2-3">
           SAS build complete and available under identity.dadi.tech
         </div>
-      </div>
+      </div> !}
     </div>  
   </div>
 </div>
