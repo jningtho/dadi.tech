@@ -26,15 +26,10 @@
           </a>
         </h3>
       
-        <strong>Next release 1:</strong>
         <ul>
-        <li>Multiple data store support, removes dependency on MongoDB</li>
-        <li><a href="https://github.com/dadi/api/issues/182" class="txt--blue">Smart Reference fields</a></li>
-        </ul>
-        <br>
-        <strong>Next release 2:</strong>
-        <ul>
-        <li>Plugin support</li>
+          <li>Multiple data store support, removes dependency on MongoDB</li>
+          <li><a href="https://github.com/dadi/api/issues/182" class="txt--blue">Smart Reference fields</a></li>
+          <li>Plugin support</li>
         </ul>
       </div>
 
@@ -46,14 +41,9 @@
           </a>
         </h3>
         
-        <strong>Next release 1:</strong>
         <ul>
-        <li>Plugin support</li>
-        </ul>
-        <br>
-        <strong>Next release 2:</strong>
-        <ul>
-        <li><a href="https://github.com/dadi/cdn/issues/173">Dynamic test compositing</a></li>
+          <li>Plugin support</li>
+          <li><a href="https://github.com/dadi/cdn/issues/173">Dynamic test compositing</a></li>
         </ul>
       </div>
 
@@ -65,15 +55,11 @@
           </a>
         </h3>
 
-        <strong>Next release 1:</strong>
         <ul>
-        <li><a class="txt--blue" href="https://github.com/dadi/web/issues/103">Rewrite of template system, allowing choice of templating language</a></li>
-        <li>100% test coverage</li>
-        </ul>
-        <br><strong>Next release 2:</strong>
-        <ul>
-        <li>Plugin Support</li>
-        <li><a class="txt--blue" href="https://github.com/dadi/web/issues/64">Built-in routes &amp; redirects testing tool</a></li>
+          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/103">Rewrite of template system, allowing choice of templating language</a></li>
+          <li>100% test coverage</li>
+          <li>Plugin Support</li>
+          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/64">Built-in routes &amp; redirects testing tool</a></li>
         </ul>
       </div>
 
