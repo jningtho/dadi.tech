@@ -1,7 +1,7 @@
 ---
-date: 2017-03-04
+date: 2017-04-17
 title: Roadmap Update
-handle: roadmap-update-030417
+handle: roadmap-update-170417
 author: James Lambie
 preface: With media upload and Reference field pre-composition largely complete, focus is returning to the datastore plugins for API.
 category: roadmap

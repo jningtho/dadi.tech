@@ -1,7 +1,7 @@
 ---
-date: 2017-03-04
+date: 2017-03-20
 title: Roadmap Update
-handle: roadmap-update-030417
+handle: roadmap-update-200317
 author: James Lambie
 preface: Some time was spent this week updating dependencies in API and Web to ensure we are using the latest versions.
 category: roadmap
