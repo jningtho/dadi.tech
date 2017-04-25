@@ -358,6 +358,14 @@
       animation-fill-mode: forwards;
     }
 
+    .explainer__window:after,
+    .explainer__connect:after,
+    .explainer__connect:before {
+       opacity: 0;
+      animation: fadein 0.2s;
+      animation-delay: 1.5s;
+      animation-fill-mode: forwards;
+    }
 
     /* Animations */
 
@@ -532,7 +540,7 @@
     <div class="container container--divider normal">
         <div class="grid">
             <div class="col w-1-2 pad__bottom">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/industry.svg" height="30"> API-centric</p>
+                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-centric</p>
                 <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
             </div>
             <div class="col w-1-2 pad__bottom">
