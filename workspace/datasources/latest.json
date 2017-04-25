@@ -4,7 +4,7 @@
     "name": "Latest insights and weekly updates.",
     "source": {
       "type": "markdown",
-      "path": "../latest"
+      "path": "./latest"
     },
     "paginate": true,
     "count": 10,
@@ -13,7 +13,7 @@
     },
     "requestParams": [
       {
-        "param": "article", "field": "handle"
+        "param": "article", "field": "_id"
       },
       {
         "param": "category", "field": "category"

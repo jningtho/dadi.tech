@@ -4,7 +4,7 @@
     "name": "Footer placement of latest insights and weekly updates.",
     "source": {
       "type": "markdown",
-      "path": "../latest"
+      "path": "./latest"
     },
     "count": 3,
     "sort": {
