@@ -227,6 +227,10 @@
     font-size: 14px;
     padding: 10px;
     }
+    .w-api .explainer__wrap {
+          overflow: scroll;
+    height: 100%;
+    }
 
 
     /* CDN */
@@ -425,14 +429,7 @@
         <div class="explainer__window w-api">
             <div class="explainer__wrap">
                 <pre><code class="hljs bash">
-<span class="txt--grey">$</span> npm install @dadi/api —save<br><br>
-<span class="txt--grey">$</span> node index.js<br><br>
-<span class="txt--grey">$</span> curl -X GET<br><br>
-&nbsp;&nbsp;-H "Content-Type: application/json"<br>
-&nbsp;&nbsp;-H "Authorization: Bearer 4172bbf1-0890-41c7-b0db-477095a288b6"<br><br>
-
-&nbsp;&nbsp;"https://api.dadi.tech/1.0/dadi/homepage"<br>
-</code></pre>
+                </code></pre>
             </div>
         </div>
 
