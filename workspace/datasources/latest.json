@@ -13,7 +13,7 @@
     },
     "requestParams": [
       {
-        "param": "article", "field": "_id"
+        "param": "article", "field": "handle"
       },
       {
         "param": "category", "field": "category"
