@@ -11,7 +11,6 @@ It uses a mix of [static](https://github.com/dadi/dadi.tech/blob/master/web/work
 ## Install
 
 ```
-cd ./web
 npm install
 ```
 
