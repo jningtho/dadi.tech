@@ -1,71 +1,542 @@
-{>"partials/header" /}
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {>"partials/metatags" /}
 
-{<title}The Next Generation of Content Management.{/title}
+  {<title}Smarter content management.{/title}
 
-{<bodyClass}home{/bodyClass}
+  <style type="text/css">
+    main {
+      background: none;
+    }
+    main:before {
+      display: none;
+    }
+    nav.container, nav {
+      z-index: 100;
+      position: relative;
+      padding: 0 3%;
+      background: #f9f9f9;
+    }
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+    }
+    nav ul li a {
+      display: block;
+      font-weight: bold;
+      padding: 2px 10px;
+      margin: 7px;
+    }
+    nav ul li a.on {
+      border-radius: 100px;
+      background: #E5462C;
+      color: #fff;
+    }
 
-{<top}
-  <div class="grid">
-    <div class="col w-1-2 pad__top intro">
-      <p class="hdr kilo no-marg-i txt--blue">The Next Generation of Content Management.</p>
-       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.</p>
-      <p class="normal pad__top"><a href="/platform/" class="btn btn--blue">How it works</a></p>
+    .explainer {
+      padding: 0 0 0 3%;
+      position: relative;
+      height: 720px;
+      overflow: hidden;
+      background: #f9f9f9;
+      border-bottom: 1px solid #E0E0E0;
+    }
+    .explainer__intro {
+      width: 23%;
+      margin: 5px;
+    }
+    .explainer__window {
+      background: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+      border-radius: 6px;
+      position: absolute;
+      z-index: 1;
+    }
+
+    .explainer__window code {
+      background: #fff;
+    }
+    .explainer .w-api {
+      width: 35%;
+      height: 230px;
+      left: 32.5%;
+      top: 30px;
+    }
+    .explainer .w-web {
+      width: 38%;
+      height: 240px;
+      left: 3%;
+      top: 380px;
+    }
+    .explainer .w-publish {
+      width: 28%;
+      height: 260px;
+      left: 75%;
+      top: 130px;
+    }
+    .explainer .w-cdn {
+      width: 38%;
+      height: 240px;
+      left: 50%;
+      top: 500px;
+    }
+    .explainer__connect {
+      position: absolute;
+      z-index: 0;
+    }
+    .explainer__window:after,
+    .explainer__connect:after,
+    .explainer__connect:before {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      width: 10px; height: 10px;
+      display: block;
+      background: #B2B2B2;
+      content: ' ';
+      border-radius: 10px;
+    }
+    .explainer__window:after {
+      z-index: -100;
+    }
+
+    .explainer .c-1 {
+      top: 143px;
+      left: 26%;
+    }
+    .explainer .c-2 {
+      top: 143px;
+      left: 61%;
+    }
+    .explainer .c-3 {
+      top: 339px;
+      left: 76%;
+    }
+    .explainer .c-4 {
+      top: 523px;
+      left: 33.5%;
+    }
+
+    .explainer .c-1:after {
+      left: -3px;
+      top: 232px;
+    }
+    .explainer .c-1:before {
+      right: -4px;
+      top: 112px;
+    }
+
+    .explainer .c-3:after {
+          left: 55px;
+    top: 156px;
+    }
+    .explainer .c-3:before {
+         left: 55px;
+    top: 46px;
+    }
+
+    .explainer .w-api:after {
+          right: -5px;
+    top: 109px;
+    z-index: -1;
+
+    }
+
+    .explainer .w-publish:after {
+              left: -5px;
+    top: 145px;
+    z-index: -1;
+
+    }
+
+    .explainer .w-web:after {
+       right: -5px;
+    top: 138px;
+    }
+    .explainer .w-cdn:after {
+         left: -5px;
+    top: 155px;
+
+    }
+    
+
+
+    /* Publish */
+    .w-publish__header {
+      padding: 11px 20px;
+      border-radius: 6px 0 0 0;
+         background-image: -webkit-linear-gradient(top,#020406 16%,#17273F 100%);
+      background-image: linear-gradient(-180deg,#020406 16%,#17273F 100%);
+      box-shadow: 0 1px 3px rgba(0,0,0,.2);
+       height: 18px;
+    }
+    .w-publish__header img {
+      display: block;
+
+    }
+    .w-publish__body {
+      padding: 20px 10px;
+    }
+    .w-publish__field {
+          border: 1px solid #ECEAEA;
+    background: #fff;
+    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.05);
+    border-radius: 3px;
+    position: relative;
+    margin: 0 10px 20px;
+    color: #777;
+    }
+    .w-publish__field label {
+          position: absolute;
+    pointer-events: none;
+    display: block;
+    left: 15px;
+    top: 13px;
+    font-size: 13px;
+    }
+    .w-publish__field input,
+    .w-publish__field textarea {
+          background: 0 0;
+    font-size: 17px;
+    line-height: 23px;
+    display: block;
+    padding: 30px 15px 13px;
+    border: none;
+    outline: 0;
+    width: 100%;
+    color: #000;
+    box-sizing: border-box;
+    font-family: Karla,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    }
+
+
+    /* API */
+    .w-api pre  {
+          margin: 0;
+    white-space: normal;
+    font-size: 14px;
+    padding: 10px;
+    }
+
+
+    /* CDN */
+    .w-cdn__header {
+      padding: 20px;
+      border-bottom: 1px solid #E5E5E5;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    .w-cdn__body {
+      padding: 20px;
+    }
+    .w-cdn__body img {
+      max-width: 100%;
+      height: auto;
+    }
+
+
+    /* Web */
+    .w-web__tabs {
+      border-bottom: 1px solid #e5e5e5;
+      font-size: 14px;
+    }
+    .w-web__tab {
+      display: inline-block;
+      width: 33.333%;
+    }
+    .w-web__tab a {
+      display: block;
+      padding: 10px 15px;
+    }
+    .w-web__tab a:hover {
+      background: #F2F2F2;
+    }
+    .w-web__tab a.u-active {
+      background: #F2F2F2;
+    }
+
+    .w-web__num {
+      font-family: monospace;
+      width: 12px;
+      padding: 10px 12px 0 12px;
+      line-height: 16px;
+      border-right: 1px solid #e5e5e5;
+      color: #aaa;
+      float: left;
+    }
+
+    .w-web pre  {
+          margin: 0;
+    white-space: normal;
+    font-size: 14px;
+    
+    }
+
+    .w-web__body {
+          overflow: scroll;
+    height: 203px;
+    }
+
+
+    .explainer__blurb {
+          width: 220px;
+    position: absolute;
+    color: #43595F;
+    }
+    .explainer__blurb p {
+      margin: 8px 0 0;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .explainer__blurb img {
+      float: left;
+    margin: 10px 17px 0 0;
+    }
+
+    .b-api {
+     left: 37%;
+    top: 274px;
+    }
+
+    .b-web {
+      left: 3%;
+    top: 637px;
+    }
+
+    .b-cdn {
+     left: 50%;
+    top: 436px;
+    }
+
+    .b-publish {
+         left: 75%;
+    top: 65px;
+    }
+    
+  </style>
+</head>
+
+<body class="home">
+
+<nav class="alignc pad__top--x2 pad__bottom">
+  <ul class="small float--left">
+    <li><a href="/" class="on">Technology</a></li>
+    <li><a href="/on-demand">On demand</a></li>
+    <li><a href="/solutions">Solutions</a></li>
+  </ul>
+
+  <ul class="small float--right">
+    <li><a href="https://github.com/dadi/">Find us on Github</a></li>
+    <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a></li>
+  </ul>
+
+  <a href="/" class="inline-block">
+    <img src="/assets/img/dadi-colour.svg" width="150" alt="DADI">
+  </a>
+</nav>
+
+<main>
+
+
+<div class="explainer">
+  <div class="explainer__intro">
+    <h2 class="kilo">Smarter content management.</h2>
+    <p class="normal">DADI is <strong>open-source</strong>, headless content management technology. It’s built to make <strong>developers</strong> and <strong>editors</strong> happy.</p>
+  </div>
+
+    <div class="explainer__blurb b-api">
+  <img src="/assets/products/dadi-api.png" width="22">
+  <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+  </div>
+
+  <div class="explainer__window w-api">
+  <div class="explainer__wrap">
+    <pre><code class="hljs bash">
+  <span class="txt--grey">$</span> npm install @dadi/api —save<br><br>
+  <span class="txt--grey">$</span> node index.js<br><br>
+  <span class="txt--grey">$</span> curl -X GET<br><br>
+  &nbsp;&nbsp;-H "Content-Type: application/json"<br>
+  &nbsp;&nbsp;-H "Authorization: Bearer 4172bbf1-0890-41c7-b0db-477095a288b6"<br><br>
+
+  &nbsp;&nbsp;"https://api.dadi.tech/1.0/dadi/homepage"<br>
+  </code></pre>
+  </div>
+  </div>
+
+    <div class="explainer__blurb b-web">
+  <img src="/assets/products/dadi-web.png" width="26">
+  <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+  </div>
+
+  <div class="explainer__window w-web">
+  <ul class="w-web__tabs">
+    <li class="w-web__tab"><a href="#" class="u-active">datasource.json</a></li>
+    <li class="w-web__tab"><a href="#">index.json</a></li>
+    <li class="w-web__tab"><a href="#">index.dust</a></li>
+  </ul>
+
+
+  <div class="w-web__body">
+    <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12</div>
+
+  <pre><code class="hljs json">
+{<br>
+&nbsp;&nbsp;"page": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"name": "post",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"description": "An individual post view.",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"language": "en"<br>
+&nbsp;&nbsp;},<br>
+&nbsp;&nbsp;"routes": [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"path": "/post/:handle",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"params": [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"param": "handle",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fetch": "posts"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;],<br>
+&nbsp;&nbsp;"requiredDatasources": [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"posts"<br>
+&nbsp;&nbsp;],<br>
+&nbsp;&nbsp;"datasources": [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"posts"<br>
+&nbsp;&nbsp;]<br>
+}</code></pre>
+  </div>
+  </div>
+
+  <div class="explainer__blurb b-publish">
+  <img src="/assets/products/dadi-publish.png" width="22">
+  <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+  </div>
+
+  <div class="explainer__window w-publish">
+    <div class="w-publish__header">
+      {! <img src="/assets/explainer/dadi-publish.png" width="120"> !}
     </div>
-    <div class="col w-1-2">
-      <p class="pad__top--half hdr medium txt--grey bs-hide">Dive right in…</p>
-      <ul class="list--buttons txt--white medium">
-        <li><a href="https://github.com/dadi/">
-          <img src="/assets/img/logo-github-white.png" height="30" class="alignv float--right">
-          <span class="pad__top">Explore code in <strong>Github</strong></span>
-        </a></li>
-        <li><a href="http://docs.dadi.tech/npm/">
-          <img src="/assets/img/logo-npm-white.png" height="25" class="alignv float--right">
-          <span class="pad__top">Integrate with <strong>NPM</strong></span>
-        </a></li>
-        <li><a href="http://docs.dadi.tech/">
-          <img src="/assets/img/dadi-white.png" height="25" class="alignv float--right">
-          <span class="pad__top">Read <strong>documentation</strong></span>
-        </a></li>
+
+    <div class="w-publish__body">
+      <div class="w-publish__field">
+        <label>Title</label>
+        <input type="text" value="Smarter content management.">
       </div>
-  </div>  
-{/top}
+      <div class="w-publish__field">
+        <label>Intro</label>
+        <textarea>DADI is open-source, headless content management technology. It’s built to make developers and editors happy.</textarea>
+      </div>
+    </div>
+  </div>
 
-<div class="container pad__bottom">
+
+    <div class="explainer__blurb b-cdn">
+  <img src="/assets/products/dadi-cdn.png" width="22">
+  <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+  </div>
+
+  <div class="explainer__window w-cdn">
+  <div class="w-cdn__header">
+  <div class="url txt--grey"><span style="color:#000">http://52.213.165.8:8001/samples/mountain.png</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">saturate</span>=<span style="color:#E02975">-0.8</span></div>
+  </div>
+
+  <div class="w-cdn__body">
+  <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=16-9&resizeStyle=aspectfill&saturate=-0.8">
+  </div>
+  </div>
+
+  <div class="explainer__connect c-1"><img src="/assets/explainer/connect-1.svg"></div>
+  <div class="explainer__connect c-2"><img src="/assets/explainer/connect-2.svg"></div>
+  <div class="explainer__connect c-3"><img src="/assets/explainer/connect-3.svg"></div>
+  <div class="explainer__connect c-4"><img src="/assets/explainer/connect-2.svg"></div>
+
+</div> 
+
+<div class="container container--pad normal alignc">
+  <img src="/assets/img/clients.png" style="max-width:90%">
+</div>
+
+<div class="container container--divider normal">
   <div class="grid">
-    <div class="col w-1-2">
-      <p class="hdr larger">A ground up reimagination of content management, built on a breakthrough thought:</p>
-      <div class="pad__top pad__bottom hdr txt--red larger">It's all just data.</div>
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/industry.svg" height="30"> API-centric</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
     </div>
-    <div class="col w-1-2">
-      <p class="normal">The CMS is dead. Brittle, two-dimensional platforms have for too long imposed awkward workflow and same-content-for-all-users technology on the internet. But <strong>DADI</strong> is different.</p>
-      <p class="normal">It's a scalable, open source, API-first platform built to get digital product live in weeks, not months. It supports COPE to power myriad products across multiple devices and bring efficiency to editorial workflow. Plus, it builds in intelligence to decide who gets what – and when – to support improved audience retention, conversion and experience.</p>
-    </ul>
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
     </div>
   </div>
-</div>
 
-<div class="container container--divider normal marg__top marg__bottom--x2">
-  <div class="grid list--gridtick">
-    <li class="col w-1-3"><strong class="hdr medium block">Next-generation CMS</strong> Get your content into the hands of your users, whether on mobile, tablet, games console, television or desktop.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Hyper-personalize</strong> Stop treating all users the same – give them editorial you know they will read and products you know they will buy.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Know your product</strong> Take the guess work out of development with market-leading analytics driven by facts and not averages.</li>
+  <div class="grid">
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices architecture</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+    </div>
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> High performance</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+    </div>
   </div>
-  <div class="grid list--gridtick">
-    <li class="col w-1-3"><strong class="hdr medium block">Succeed faster</strong> DADI gives you the pace to get to MVP quickly and the tools to measure product performance as you iterate.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Open Source end to end</strong> Enterprise muscle without the fat – or the greedy licence fees.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Your product as CRM</strong> Manage (and target) every interaction with your users. Never miss a moment to build a positive relationship.</li>
+
+  <div class="grid">
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+    </div>
+    <div class="col w-1-2 pad__bottom">
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p><p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+    </div>
   </div>
 </div>
 
-{>"partials/content-modules/customers" /}
+{>"partials/content-modules/products" /}
 
-{>"partials/content-modules/developers" /}
+<div class="bdr__bottom" style="border-color:#f2f2f2">
+<div class="container cf">
 
-<div class="container pad--x2 alignc">
-  <div class="kilo hdr">“Moving <a href="http://whatcar.com" class="txt--red">whatcar.com</a> to DADI significantly reduced our infrastructure costs”</div>
-  <div class="txt--mid-grey">Product Lead, <strong>Haymarket Consumer Media</strong></div>
-
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/success-stories/" class="btn btn--red normal">See all success stories</a></div>
+<div class="col w-1-2 alignr">
+<div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
+<img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
+<h2 class="txt--blue larger">Got a forward thinking engineering team?</h2>
+<p class="normal">Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.</p>
+<p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">Find us on Github</a></p>
 </div>
+</div>
+
+<div class="col w-1-2">
+<div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#f2f2f2">
+<img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
+<h2 class="txt--green larger">Need a hand? Meet our solutions team</h2>
+<p class="normal">We offer a range of services from product strategy to full support to deliver our technology. </p>
+<p class="normal"><a href="/solutions/" class="btn btn--green small">Our solutions</a></p>
+</div>
+</div>
+
+</div>
+</div> 
+
+
+<div class="container container--pad">
+<h2 class="larger alignc">Success stories</h2>
+<p class="alignc normal">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>elit. Aenean commodo ligula eget dolor amet. </p>
+
+<div class="grid marg__top--x2">
+  {#successes.results}
+    <div class="col w-1-1 marg__bottom">
+      <a href="/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+        <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}" >
+          <p class="hdr large">{title}</p>
+          <p class="normal">{summary}</p>
+          <p><span class="btn">Read more</span></p>
+        </div>
+      </a>
+    </div>
+  {/successes.results}
+</div>
+
+</div> 
 
 {>"partials/footer" /}

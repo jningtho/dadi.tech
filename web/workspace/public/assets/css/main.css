@@ -1253,13 +1253,11 @@ h5, .small {
   word-wrap: break-word;
   border: 2px solid;
   letter-spacing: -0.02em;
-  -webkit-transition: background 0.1s;
   transition: background 0.1s;
   position: relative;
   outline: none;
   cursor: pointer;
   background: transparent;
-  -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
 .btn.small, .btn.bs-small {
     padding: 4px 10px;
@@ -1383,11 +1381,9 @@ select,
           appearance: none;
   outline: none;
   border: 1px solid #E0E0E0;
-  -webkit-transition: border-color .05s;
   transition: border-color .05s;
   border-radius: 4px;
   box-sizing: border-box;
-  -webkit-transition: box-shadow 0.3s;
   transition: box-shadow 0.3s; }
 textarea.invalid, textarea.error,
   input[type=password].invalid,
@@ -1581,7 +1577,6 @@ select {
     background-size: 100%;
     background-size: cover;
     opacity: 0.3;
-    -webkit-transition: all 0.1s ease-in-out;
     transition: all 0.1s ease-in-out;
     -webkit-filter: blur(2px);
             filter: blur(2px); }
@@ -1653,7 +1648,6 @@ body.dark main {
     opacity: 0.3; }
 .pattern svg {
   opacity: 0;
-  -webkit-transition: opacity 0.4 ease-out;
   transition: opacity 0.4 ease-out; }
 .pattern--loaded svg {
   opacity: 1; }
@@ -1744,7 +1738,6 @@ body.dark .container--divider {
       visibility: hidden;
       -webkit-transform: scaleX(0);
               transform: scaleX(0);
-      -webkit-transition: all 0.2s ease-in-out 0s;
       transition: all 0.2s ease-in-out 0s;
       -webkit-transform-origin: 0% 50%;
               transform-origin: 0% 50%; }
@@ -1772,7 +1765,6 @@ form .btn, form .text {
   border: 0;
   color: #fff;
   letter-spacing: -0.02em;
-  -webkit-transition: background 0.1s;
   transition: background 0.1s;
   position: relative;
   outline: none;
@@ -1818,7 +1810,6 @@ form .text:active, form .text:hover, form .text:focus {
     max-width: 100%;
     height: auto; } }
 .zoom {
-  -webkit-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out; }
 .zoom:hover {
     -webkit-transform: scale(1.05);
@@ -1895,7 +1886,6 @@ abbr {
     width: 50px;
     bottom: 1px;
     border-radius: 0 5px 5px 0;
-    background: -webkit-linear-gradient(left, rgba(250, 250, 250, 0), #fafafa);
     background: linear-gradient(to right, rgba(250, 250, 250, 0), #fafafa); }
 .documentation code, .documentation table {
   font-size: 15px;

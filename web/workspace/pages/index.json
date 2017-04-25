@@ -3,6 +3,7 @@
     "key": "home"
   },
   "datasources": [
+    "successes",
     "latest-footer"
   ],
   "routes": [
