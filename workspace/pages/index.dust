@@ -32,9 +32,12 @@
       font-weight: bold;
       padding: 2px 10px;
       margin: 7px;
+      border-radius: 100px;
+    }
+    nav ul li a:hover {
+      background: #ddd;
     }
     nav ul li a.on {
-      border-radius: 100px;
       background: #E5462C;
       color: #fff;
     }
