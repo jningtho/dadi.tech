@@ -558,11 +558,11 @@
         </div>
 
         <div class="grid">
-            <div class="col w-1-2 pad__bottom">
+            <div class="col w-1-2">
                 <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
                 <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
             </div>
-            <div class="col w-1-2 pad__bottom">
+            <div class="col w-1-2">
                 <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
                 <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
             </div>
