@@ -1,632 +1,618 @@
 <!doctype html>
 <html lang="{params.lang}">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  {>"partials/metatags" /}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+{>"partials/metatags" /}
 
-  {<title}{@i18n}Smarter content management.{/i18n}{/title}
+{<title}{@i18n}Smarter content management.{/i18n}{/title}
 
-  <style type="text/css">
-    main {
-      background: none;
-    }
-    main:before {
-      display: none;
-    }
-    nav.container, nav {
-      z-index: 100;
-      position: relative;
-      padding: 0 3%;
-      background: #f9f9f9;
-    }
-    nav ul li {
-      list-style: none;
-      display: inline-block;
-    }
-    nav ul li a {
-      display: block;
-      font-weight: bold;
-      padding: 2px 10px;
-      margin: 7px;
-      border-radius: 100px;
-    }
-    nav ul li a:hover {
-      background: #ddd;
-    }
-    nav ul li a.on {
-      background: #E5462C;
-      color: #fff;
-    }
-
-    .explainer {
-      padding: 0 0 0 3%;
-      position: relative;
-      height: 720px;
-      overflow: hidden;
-      background: #f9f9f9;
-      border-bottom: 1px solid #E0E0E0;
-    }
-    .explainer__intro {
-      width: 23%;
-      margin: 5px;
-    }
-    .explainer__window {
-      background: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
-      border-radius: 6px;
-      position: absolute;
-      z-index: 1;
-    }
-
-    .explainer__window code {
-      background: transparent;
-    }
-    .explainer .w-api {
-      width: 35%;
-      height: 230px;
-      left: 32.5%;
-      top: 30px;
-    }
-    .explainer .w-web {
-      width: 38%;
-      height: 240px;
-      left: 3%;
-      top: 380px;
-    }
-    .explainer .w-publish {
-      width: 28%;
-      height: 260px;
-      left: 75%;
-      top: 130px;
-    }
-    .explainer .w-cdn {
-      width: 38%;
-      height: 240px;
-      left: 50%;
-      top: 500px;
-    }
-    .explainer__connect {
-      position: absolute;
-    }
-    .explainer__window:after,
-    .explainer__connect:after,
-    .explainer__connect:before {
-      position: absolute;
-      z-index: 1;
-      top: 0;
-      width: 7px; height: 7px;
-      display: block;
-      background: #B2B2B2;
-      content: ' ';
-      border-radius: 10px;
-    }
-    .explainer__window:after {
-      z-index: -100;
-    }
-
-    .explainer .c-1 {
-      top: 143px;
-      left: 26%;
-    }
-    .explainer .c-2 {
-      top: 143px;
-      left: 61%;
-    }
-    .explainer .c-3 {
-      top: 339px;
-      left: 76%;
-    }
-    .explainer .c-4 {
-      top: 523px;
-      left: 35.5%;
-    }
-
-    .explainer .c-1:after {
-      left: -2px;
-      top: 232px;
-    }
-    .explainer .c-1:before {
-      right: -2px;
-      top: 114px;
-    }
-
-    .explainer .c-3:after {
-          left: 57px;
-    top: 158px;
-    }
-    .explainer .c-3:before {
-         left: 57px;
-    top: 48px;
-    }
-
-    .explainer .c-4:before,
-    .explainer .c-4:after,
-    .explainer .c-2:before,
-    .explainer .c-2:after { display: none }
-
-    .explainer .w-api:after {
-          right: -4px;
-    top: 111px;
-    z-index: -1;
-
-    }
-
-    .explainer .w-publish:after {
-              left: -4px;
-    top: 147px;
-    z-index: -1;
-
-    }
-
-    .explainer .w-web:after {
-       right: -4px;
-    top: 140px;
-    }
-    .explainer .w-cdn:after {
-         left: -4px;
-    top: 157px;
-
-    }
-    
-
-
-    /* Publish */
-    .w-publish__header {
-      padding: 11px 20px;
-      border-radius: 6px 0 0 0;
-         background-image: -webkit-linear-gradient(top,#020406 16%,#17273F 100%);
-      background-image: linear-gradient(-180deg,#020406 16%,#17273F 100%);
-      box-shadow: 0 1px 3px rgba(0,0,0,.2);
-       height: 18px;
-    }
-    .w-publish__header img {
-      display: block;
-
-    }
-    .w-publish__body {
-      padding: 20px 10px;
-    }
-    .w-publish__field {
-          border: 1px solid #ECEAEA;
-    background: #fff;
-    box-shadow: 2px 2px 10px 0 rgba(0,0,0,.05);
-    border-radius: 3px;
+<style type="text/css">
+  main {
+    background: none;
+  }
+  main:before {
+    display: none;
+  }
+  nav.container, nav {
+    z-index: 100;
     position: relative;
-    margin: 0 10px 20px;
-    color: #777;
-    }
-    .w-publish__field label {
-          position: absolute;
-    pointer-events: none;
+    padding: 0 3%;
+    background: #f9f9f9;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  nav ul li a {
     display: block;
-    left: 15px;
-    top: 13px;
-    font-size: 13px;
-    }
-    .w-publish__field input,
-    .w-publish__field textarea {
-          background: 0 0;
-    font-size: 17px;
-    line-height: 23px;
-    display: block;
-    padding: 30px 15px 13px;
-    border: none;
-    outline: 0;
-    width: 100%;
-    color: #000;
-    box-sizing: border-box;
-    font-family: Karla,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
-    }
+    font-weight: bold;
+    padding: 2px 10px;
+    margin: 7px;
+    border-radius: 100px;
+  }
+  nav ul li a:hover {
+    background: #ddd;
+  }
+  nav ul li a.on {
+    background: #E5462C;
+    color: #fff;
+  }
 
-
-    /* API */
-    .w-api pre  {
-          margin: 0;
-    white-space: normal;
-    font-size: 14px;
-    padding: 10px;
-    }
-    .w-api .explainer__wrap {
-          overflow: scroll;
-    height: 100%;
-    }
-
-
-    /* CDN */
-    .w-cdn__header {
-      padding: 20px;
-      border-bottom: 1px solid #E5E5E5;
-      font-family: monospace;
-      font-size: 14px;
-    }
-
-    .w-cdn__body {
-      padding: 20px;
-    }
-    .w-cdn__body img {
-      max-width: 100%;
-      height: auto;
-    }
-
-
-    /* Web */
-    .w-web__tabs {
-      background: #F2F2F2;
-      border-bottom: 1px solid #e5e5e5;
-      font-size: 14px;
-      overflow: hidden;
-      border-radius: 6px 6px 0 0;
-      white-space: nowrap;
-    }
-    .w-web__tab {
-      display: inline-block;
-      width: 33.333%;
-    }
-    .w-web__tab a {
-      display: block;
-      padding: 10px 15px;
-      border-right: 1px solid #e5e5e5;
-      color: #888;
-    }
-    .w-web__tab:last-of-type a {
-      border-right: 0;
-    }
-    .w-web__tab a:hover {
-      color: #000;
-      background: linear-gradient(to top, #f9f9f9, #fff);
-    }
-    .w-web__tab a.u-active {
-      background: #ffffff;
-      color: #000;
-    }
-
-    .w-web__num {
-      font-family: monospace;
-      width: 12px;
-      padding: 9px 12px 0 12px;
-      font-size: 14px;
-      line-height: 16px;
-      border-right: 1px solid #e5e5e5;
-      color: #aaa;
-      float: left;
-    }
-
-    .w-web pre  {
-          margin: 0;
-    font-size: 14px;
-    
-    }
-
-    .w-web__body {
-          overflow: scroll;
-    height: 203px;
-    }
-
-
-    .explainer__blurb {
-          width: 220px;
+  .explainer {
+    padding: 0 0 0 3%;
+    position: relative;
+    height: 720px;
+    overflow: hidden;
+    background: #f9f9f9;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  .explainer__intro {
+    width: 23%;
+    margin: 5px;
+  }
+  .explainer__window {
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+    border-radius: 6px;
     position: absolute;
-    color: #43595F;
-    }
-    .explainer__blurb p {
-      margin: 8px 0 0;
-      font-size: 14px;
-      line-height: 18px;
-    }
-    .explainer__blurb img {
-      float: left;
-    margin: 10px 17px 0 0;
-    }
+    z-index: 1;
+  }
 
-    .b-api {
-     left: 37%;
-    top: 274px;
-    }
+  .explainer__window code {
+    background: transparent;
+  }
+  .explainer .w-api {
+    width: 35%;
+    height: 230px;
+    left: 32.5%;
+    top: 30px;
+  }
+  .explainer .w-web {
+    width: 38%;
+    height: 240px;
+    left: 3%;
+    top: 380px;
+  }
+  .explainer .w-publish {
+    width: 28%;
+    height: 260px;
+    left: 75%;
+    top: 130px;
+  }
+  .explainer .w-cdn {
+    width: 38%;
+    height: 240px;
+    left: 50%;
+    top: 500px;
+  }
+  .explainer__connect {
+    position: absolute;
+  }
+  .explainer__window:after,
+  .explainer__connect:after,
+  .explainer__connect:before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 7px; height: 7px;
+    display: block;
+    background: #B2B2B2;
+    content: ' ';
+    border-radius: 10px;
+  }
+  .explainer__window:after {
+    z-index: -100;
+  }
 
-    .b-web {
-      left: 3%;
-    top: 637px;
-    }
+  .explainer .c-1 {
+    top: 143px;
+    left: 26%;
+  }
+  .explainer .c-2 {
+    top: 143px;
+    left: 61%;
+  }
+  .explainer .c-3 {
+    top: 339px;
+    left: 76%;
+  }
+  .explainer .c-4 {
+    top: 523px;
+    left: 35.5%;
+  }
 
-    .b-cdn {
-     left: 50%;
-    top: 436px;
-    }
+  .explainer .c-1:after {
+    left: -2px;
+    top: 232px;
+  }
+  .explainer .c-1:before {
+    right: -2px;
+    top: 114px;
+  }
 
-    .b-publish {
-         left: 75%;
-    top: 65px;
-    }
+  .explainer .c-3:after {
+        left: 57px;
+  top: 158px;
+  }
+  .explainer .c-3:before {
+       left: 57px;
+  top: 48px;
+  }
 
+  .explainer .c-4:before,
+  .explainer .c-4:after,
+  .explainer .c-2:before,
+  .explainer .c-2:after { display: none }
 
-    .w-api, .b-api {
-      animation: popin 0.2s;
-      animation-fill-mode: forwards;
-    }
+  .explainer .w-api:after {
+        right: -4px;
+  top: 111px;
+  z-index: -1;
 
-    .w-publish, .b-publish {
-      opacity: 0;
-      animation: popin 0.2s;
-      animation-delay: 0.3s;
-      animation-fill-mode: forwards;
-    }
+  }
 
-    .w-web, .b-web {
-      opacity: 0;
-      animation: popin 0.2s;
-      animation-delay: 0.6s;
-      animation-fill-mode: forwards;
-    }
+  .explainer .w-publish:after {
+            left: -4px;
+  top: 147px;
+  z-index: -1;
 
-    .w-cdn, .b-cdn {
-      opacity: 0;
-      animation: popin 0.2s;
-      animation-delay: 0.9s;
-      animation-fill-mode: forwards;
-    }
+  }
 
-    .explainer__connect {
-      opacity: 0;
-      animation: popin 0.2s;
-      animation-delay: 1.2s;
-      animation-fill-mode: forwards;
-    }
+  .explainer .w-web:after {
+     right: -4px;
+  top: 140px;
+  }
+  .explainer .w-cdn:after {
+       left: -4px;
+  top: 157px;
 
-    .explainer__window:after,
-    .explainer__connect:after,
-    .explainer__connect:before {
-       opacity: 0;
-      animation: fadein 0.2s;
-      animation-delay: 1.5s;
-      animation-fill-mode: forwards;
-    }
-
-    /* Animations */
-
-    @keyframes popin {
-      0% { opacity: 0; transform: scale(1) }
-      80%   { opacity: 1; transform: scale(1.1) }
-      100%   { opacity: 1; transform: scale(1) }
-    }
-
-    @keyframes fadein {
-      0% { opacity: 0; }
-      100%   { opacity: 1; }
-    }
+  }
+  
 
 
-    
-  </style>
+  /* Publish */
+  .w-publish__header {
+    padding: 11px 20px;
+    border-radius: 6px 0 0 0;
+       background-image: -webkit-linear-gradient(top,#020406 16%,#17273F 100%);
+    background-image: linear-gradient(-180deg,#020406 16%,#17273F 100%);
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+     height: 18px;
+  }
+  .w-publish__header img {
+    display: block;
+
+  }
+  .w-publish__body {
+    padding: 20px 10px;
+  }
+  .w-publish__field {
+        border: 1px solid #ECEAEA;
+  background: #fff;
+  box-shadow: 2px 2px 10px 0 rgba(0,0,0,.05);
+  border-radius: 3px;
+  position: relative;
+  margin: 0 10px 20px;
+  color: #777;
+  }
+  .w-publish__field label {
+        position: absolute;
+  pointer-events: none;
+  display: block;
+  left: 15px;
+  top: 13px;
+  font-size: 13px;
+  }
+  .w-publish__field input,
+  .w-publish__field textarea {
+        background: 0 0;
+  font-size: 17px;
+  line-height: 23px;
+  display: block;
+  padding: 30px 15px 13px;
+  border: none;
+  outline: 0;
+  width: 100%;
+  color: #000;
+  box-sizing: border-box;
+  font-family: Karla,"Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+  }
+
+
+  /* API */
+  .w-api pre  {
+        margin: 0;
+  white-space: normal;
+  font-size: 14px;
+  padding: 10px;
+  }
+  .w-api .explainer__wrap {
+        overflow: scroll;
+  height: 100%;
+  }
+
+
+  /* CDN */
+  .w-cdn__header {
+    padding: 20px;
+    border-bottom: 1px solid #E5E5E5;
+    font-family: monospace;
+    font-size: 14px;
+  }
+
+  .w-cdn__body {
+    padding: 20px;
+  }
+  .w-cdn__body img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* Web */
+  .w-web__tabs {
+    background: #F2F2F2;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 14px;
+    overflow: hidden;
+    border-radius: 6px 6px 0 0;
+    white-space: nowrap;
+  }
+  .w-web__tab {
+    display: inline-block;
+    width: 33.333%;
+  }
+  .w-web__tab a {
+    display: block;
+    padding: 10px 15px;
+    border-right: 1px solid #e5e5e5;
+    color: #888;
+  }
+  .w-web__tab:last-of-type a {
+    border-right: 0;
+  }
+  .w-web__tab a:hover {
+    color: #000;
+    background: linear-gradient(to top, #f9f9f9, #fff);
+  }
+  .w-web__tab a.u-active {
+    background: #ffffff;
+    color: #000;
+  }
+
+  .w-web__num {
+    font-family: monospace;
+    width: 12px;
+    padding: 9px 12px 0 12px;
+    font-size: 14px;
+    line-height: 16px;
+    border-right: 1px solid #e5e5e5;
+    color: #aaa;
+    float: left;
+  }
+
+  .w-web pre  {
+        margin: 0;
+  font-size: 14px;
+  
+  }
+
+  .w-web__body {
+        overflow: scroll;
+  height: 203px;
+  }
+
+
+  .explainer__blurb {
+        width: 220px;
+  position: absolute;
+  color: #43595F;
+  }
+  .explainer__blurb p {
+    margin: 8px 0 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .explainer__blurb img {
+    float: left;
+  margin: 10px 17px 0 0;
+  }
+
+  .b-api {
+   left: 37%;
+  top: 274px;
+  }
+
+  .b-web {
+    left: 3%;
+  top: 637px;
+  }
+
+  .b-cdn {
+   left: 50%;
+  top: 436px;
+  }
+
+  .b-publish {
+       left: 75%;
+  top: 65px;
+  }
+
+
+  .w-api, .b-api {
+    animation: popin 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  .w-publish, .b-publish {
+    opacity: 0;
+    animation: popin 0.2s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  .w-web, .b-web {
+    opacity: 0;
+    animation: popin 0.2s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+  }
+
+  .w-cdn, .b-cdn {
+    opacity: 0;
+    animation: popin 0.2s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+  }
+
+  .explainer__connect {
+    opacity: 0;
+    animation: popin 0.2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+  }
+
+  .explainer__window:after,
+  .explainer__connect:after,
+  .explainer__connect:before {
+     opacity: 0;
+    animation: fadein 0.2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  /* Animations */
+
+  @keyframes popin {
+    0% { opacity: 0; transform: scale(1) }
+    80%   { opacity: 1; transform: scale(1.1) }
+    100%   { opacity: 1; transform: scale(1) }
+  }
+
+  @keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+  }
+</style>
 </head>
 <body class="home">
 
-<nav class="alignc pad__top--x2 pad__bottom">
-    <ul class="small float--left">
-        <li><a href="/{params.lang}/" class="on">Technology</a>
-        </li>
-        <li><a href="/{params.lang}/on-demand">On demand</a>
-        </li>
-        <li><a href="/{params.lang}/solutions">Solutions</a>
-        </li>
-    </ul>
+<nav class="alignc pad__top--x2 pad__bottom cf">
+  <a href="/{params.lang}/" class="inline-block">
+    <img src="/assets/img/dadi-colour.svg" width="150" alt="DADI">
+  </a>
+  <ul class="small float--left">
+    <li><a href="/{params.lang}/" class="on">Technology</a>
+    </li>
+    <li><a href="/{params.lang}/on-demand">On demand</a>
+    </li>
+    <li><a href="/{params.lang}/solutions">Solutions</a>
+    </li>
+  </ul>
 
-    <ul class="small float--right">
-        <li><a href="https://github.com/dadi/">Find us on Github</a>
-        </li>
-        <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
-        </li>
-    </ul>
-
-    <a href="/{params.lang}/" class="inline-block">
-        <img src="/assets/img/dadi-colour.svg" width="150" alt="DADI">
-    </a>
+  <ul class="small float--right">
+    <li><a href="https://github.com/dadi/">Find us on Github</a>
+    </li>
+    <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
+    </li>
+  </ul>
 </nav>
 
 <main>
+  <div class="explainer">
+    <div class="explainer__intro">
+      <h2 class="kilo">{@i18n}Smarter content management.{/i18n}</h2>
+      <p class="normal">{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</p>
+    </div>
 
+    <div class="explainer__blurb b-api">
+      <img src="/assets/products/dadi-api.png" width="22">
+      <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
+    </div>
 
-    <div class="explainer">
-        <div class="explainer__intro">
-            <h2 class="kilo">{@i18n}Smarter content management.{/i18n}</h2>
-            <p class="normal">{@i18n}DADI is <strong>open-source</strong>, headless content management technology. It’s built to make <strong>developers</strong> and <strong>editors</strong> happy.{/i18n}</p>
-        </div>
+    <div class="explainer__window w-api">
+      <div class="explainer__wrap">
+        <pre><code class="hljs bash">
+        </code></pre>
+      </div>
+    </div>
 
-        <div class="explainer__blurb b-api">
-            <img src="/assets/products/dadi-api.png" width="22">
-            <p class="small">Developers can start an API in 30 seconds via NPM.</p>
-        </div>
+    <div class="explainer__blurb b-web">
+      <img src="/assets/products/dadi-web.png" width="26">
+      <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
+    </div>
 
-        <div class="explainer__window w-api">
-            <div class="explainer__wrap">
-                <pre><code class="hljs bash">
-                </code></pre>
-            </div>
-        </div>
+    <div class="explainer__window w-web">
+      <ul class="w-web__tabs">
+        <li class="w-web__tab"><a href="#" class="u-active">datasource.json</a>
+        </li>
+        <li class="w-web__tab"><a href="#">index.json</a>
+        </li>
+        <li class="w-web__tab"><a href="#">index.dust</a>
+        </li>
+      </ul>
 
-        <div class="explainer__blurb b-web">
-            <img src="/assets/products/dadi-web.png" width="26">
-            <p class="small">Developers can start an API in 30 seconds via NPM.</p>
-        </div>
+      <div class="w-web__body">
+        <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12</div>
 
-        <div class="explainer__window w-web">
-            <ul class="w-web__tabs">
-                <li class="w-web__tab"><a href="#" class="u-active">datasource.json</a>
-                </li>
-                <li class="w-web__tab"><a href="#">index.json</a>
-                </li>
-                <li class="w-web__tab"><a href="#">index.dust</a>
-                </li>
-            </ul>
-
-
-            <div class="w-web__body">
-                <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12</div>
-
-                <pre><code class="hljs json">{
-  "datasource": {
-    "key": "atricles",
-    "source": {
-      "endpoint": "1.0/site/articles"
-    },
-    "paginate": true,
-    "count": 10,
-    "sort": {
-      "date": -1
-    },
-    "fields": {},
-    "filter": {
-      "state": "published"
-    },
-    "requestParams": [
-      {
-        "param": "handle",
-        "field": "handle"
-      }
-    ]
-  }
+        <pre><code class="hljs json">{
+"datasource": {
+  "key": "atricles",
+  "source": {
+    "endpoint": "1.0/site/articles"
+  },
+  "paginate": true,
+  "count": 10,
+  "sort": {
+    "date": -1
+  },
+  "fields": {},
+  "filter": {
+    "state": "published"
+  },
+  "requestParams": [
+    {
+      "param": "handle",
+      "field": "handle"
+    }
+  ]
+}
 }</code></pre>
-            </div>
-        </div>
-
-        <div class="explainer__blurb b-publish">
-            <img src="/assets/products/dadi-publish.png" width="22">
-            <p class="small">Developers can start an API in 30 seconds via NPM.</p>
-        </div>
-
-        <div class="explainer__window w-publish">
-            <div class="w-publish__header">
-                {! <img src="/assets/explainer/dadi-publish.png" width="120"> !}
-            </div>
-
-            <div class="w-publish__body">
-                <div class="w-publish__field">
-                    <label>Title</label>
-                    <input type="text" value="Smarter content management.">
-                </div>
-                <div class="w-publish__field">
-                    <label>Intro</label>
-                    <textarea>DADI is open-source, headless content management technology. It’s built to make developers and editors happy.</textarea>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="explainer__blurb b-cdn">
-            <img src="/assets/products/dadi-cdn.png" width="22">
-            <p class="small">Developers can start an API in 30 seconds via NPM.</p>
-        </div>
-
-        <div class="explainer__window w-cdn">
-            <div class="w-cdn__header">
-                <div class="url txt--grey"><span style="color:#000">http://52.213.165.8:8001/samples/mountain.png</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">saturate</span>=<span style="color:#E02975">-0.8</span>
-                </div>
-            </div>
-
-            <div class="w-cdn__body">
-                <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=16-9&resizeStyle=aspectfill&saturate=-0.8">
-            </div>
-        </div>
-
-        <div class="explainer__connect c-1"><img src="/assets/explainer/connect-1.svg" width="118" height="349">
-        </div>
-        <div class="explainer__connect c-2"><img src="/assets/explainer/connect-2.svg">
-        </div>
-        <div class="explainer__connect c-3"><img src="/assets/explainer/connect-3.svg">
-        </div>
-        <div class="explainer__connect c-4"><img src="/assets/explainer/connect-2.svg">
-        </div>
-
+      </div>
     </div>
 
-    <div class="container container--pad normal alignc">
-        <img src="/assets/img/clients.png" style="max-width:90%">
+    <div class="explainer__blurb b-publish">
+      <img src="/assets/products/dadi-publish.png" width="22">
+      <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
     </div>
 
-    <div class="container container--divider normal">
-        <div class="grid">
-            <div class="col w-1-2 pad__bottom">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-centric</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
-            <div class="col w-1-2 pad__bottom">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
-        </div>
+    <div class="explainer__window w-publish">
+      <div class="w-publish__header">
+        {! <img src="/assets/explainer/dadi-publish.png" width="120"> !}
+      </div>
 
-        <div class="grid">
-            <div class="col w-1-2 pad__bottom">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices architecture</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
-            <div class="col w-1-2 pad__bottom">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> High performance</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
+      <div class="w-publish__body">
+        <div class="w-publish__field">
+          <label>{@i18n}Title{/i18n}</label>
+          <input type="text" value="{@i18n}Smarter content management.{/i18n}">
         </div>
-
-        <div class="grid">
-            <div class="col w-1-2">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
-            <div class="col w-1-2">
-                <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
-                <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
-            </div>
+        <div class="w-publish__field">
+          <label>{@i18n}Intro{/i18n}</label>
+          <textarea>{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</textarea>
         </div>
+      </div>
     </div>
 
-    {>"partials/content-modules/products" /}
+    <div class="explainer__blurb b-cdn">
+      <img src="/assets/products/dadi-cdn.png" width="22">
+      <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+    </div>
 
-    <div class="bdr__bottom" style="border-color:#f2f2f2">
-        <div class="container cf">
+    <div class="explainer__window w-cdn">
+      <div class="w-cdn__header">
+        <div class="url txt--grey"><span style="color:#000">http://52.213.165.8:8001/samples/mountain.png</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">saturate</span>=<span style="color:#E02975">-0.8</span>
+        </div>
+      </div>
 
-            <div class="col w-1-2 alignr">
-                <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
-                    <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
-                    <h2 class="txt--blue larger">Got a forward thinking engineering team?</h2>
-                    <p class="normal">Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.</p>
-                    <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">Find us on Github</a>
+      <div class="w-cdn__body">
+        <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=16-9&resizeStyle=aspectfill&saturate=-0.8">
+      </div>
+    </div>
+
+    <div class="explainer__connect c-1"><img src="/assets/explainer/connect-1.svg" width="118" height="349">
+    </div>
+    <div class="explainer__connect c-2"><img src="/assets/explainer/connect-2.svg">
+    </div>
+    <div class="explainer__connect c-3"><img src="/assets/explainer/connect-3.svg">
+    </div>
+    <div class="explainer__connect c-4"><img src="/assets/explainer/connect-2.svg">
+    </div>
+  </div>
+
+  <div class="container container--pad normal alignc">
+    <img src="/assets/img/clients.png" style="max-width:90%">
+  </div>
+
+  <div class="container container--divider normal">
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-centric</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices architecture</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> High performance</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col w-1-2">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+      <div class="col w-1-2">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
+        <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      </div>
+    </div>
+  </div>
+
+  {>"partials/content-modules/products" /}
+
+  <div class="bdr__bottom" style="border-color:#f2f2f2">
+    <div class="container cf">
+      <div class="col w-1-2 alignr">
+        <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
+          <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
+          <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
+          <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
+          <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">{@i18n}Find us on Github{/i18n}</a>
+            </p>
+        </div>
+      </div>
+
+      <div class="col w-1-2">
+        <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#f2f2f2">
+            <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
+            <h2 class="txt--green larger">{@i18n}Need a hand? Meet our solutions team{/i18n}</h2>
+            <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+            <p class="normal"><a href="/solutions/" class="btn btn--green small">{@i18n}Our solutions{/i18n}</a>
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container container--pad">
+    <h2 class="larger alignc">{@i18n}Smarter content management.{/i18n}</h2>
+    <p class="alignc normal">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>elit. Aenean commodo ligula eget dolor amet.</p>
+
+    <div class="grid marg__top--x2">
+      {#successes.results}
+        <div class="col w-1-1 marg__bottom">
+            <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+                <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}">
+                    <p class="hdr large">{title}</p>
+                    <p class="normal">{summary}</p>
+                    <p><span class="btn">{@i18n}Read more{/i18n}</span>
                     </p>
                 </div>
-            </div>
-
-            <div class="col w-1-2">
-                <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#f2f2f2">
-                    <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
-                    <h2 class="txt--green larger">Need a hand? Meet our solutions team</h2>
-                    <p class="normal">We offer a range of services from product strategy to full support to deliver our technology. </p>
-                    <p class="normal"><a href="/solutions/" class="btn btn--green small">Our solutions</a>
-                    </p>
-                </div>
-            </div>
-
+            </a>
         </div>
+      {/successes.results}
     </div>
-
-
-    <div class="container container--pad">
-        <h2 class="larger alignc">{@i18n}Smarter content management.{/i18n}</h2>
-        <p class="alignc normal">Lorem ipsum dolor sit amet, consectetuer adipiscing
-            <br>elit. Aenean commodo ligula eget dolor amet. </p>
-
-        <div class="grid marg__top--x2">
-            {#successes.results}
-            <div class="col w-1-1 marg__bottom">
-                <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
-                    <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}">
-                        <p class="hdr large">{title}</p>
-                        <p class="normal">{summary}</p>
-                        <p><span class="btn">Read more</span>
-                        </p>
-                    </div>
-                </a>
-            </div>
-            {/successes.results}
-        </div>
-
-    </div>
+  </div>
 
 {>"partials/footer" /}
