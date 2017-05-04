@@ -97,18 +97,12 @@
           "example": true,
           "demo": "http://docs.dadi.tech/sandbox/cdn/",
           "features": [
-            "Built in support for oAuth2",
-            "Provides native document versioning at collection level",
-            "Supports static endpoints",
-            "Includes automatic indexing",
-            "Local and networked caching layer",
-            "Can be run in a clustered configuration",
-            "Search, filter and sort your data with ease",
-            "Collection-level access control",
-            "Automatic input validation",
-            "Support multiple databases connectivity",
-            "Automatic database indexing",
-            "Cache data responses using a shared Redis layer or the filesystem"
+            "Serve images and assets from Amazon S3, a remote server or the local filesystem",
+            "Easily generate new image sizes for responsive design and mobile devices",
+            "Extensive set of image enhancement and transformation tools",
+            "No need to maintain multiple sizes of each image - CDN generates new variations from a single master image",
+            "Convert between image formats",
+            "Minify CSS and JavaScript assets for delivery"
           ],
           "highlights": {
             "title": "The perfect marriage of control, flexibility, and speed.",
