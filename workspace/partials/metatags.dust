@@ -1,3 +1,5 @@
+<meta http-equiv="Content-Language" content="{params.lang}">
+
 <title>{+title}DADI{/title}{?title} / DADI{/title}</title>
 <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1481817850">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
