@@ -7,10 +7,10 @@ dust.getEngine().helpers.i18n = function(chunk, context, bodies, params) {
   if (bodies.block) {
     return chunk.capture(bodies.block, context, function(string, chunk) {
       if (
-        context.stack.head['i18l'] && 
-        context.stack.head['i18l'][string]
+        context.get('i18l') && 
+        context.get('i18l')[string]
       ) {
-        chunk.end(context.stack.head['i18l'][string])
+        chunk.end(context.get('i18l')[string])
       } else {
         chunk.end(string)
       }
