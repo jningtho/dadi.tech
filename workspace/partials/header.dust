@@ -8,7 +8,7 @@
 </head>
 <body class="{+bodyClass/}">
 
-<nav class="alignc pad__top--x2 small cf">
+<nav class="alignc pad__top--x2 pad__bottom small cf">
   <a href="/{params.lang}/" class="inline-block marg__bottom">
     <img src="/assets/img/dadi-colour.svg" width="150" alt="DADI">
   </a>
@@ -26,7 +26,24 @@
     <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
     </li>
   </ul>
+
+  {! {?params.product}
+    {>"partials/pattern" primary=products.results[0].dark-color /}
+  {:else}
+    {?page.color}
+      {>"partials/pattern" primary=page.color /}
+    {:else}
+      {>"partials/pattern" primary="#041628" /}
+    {/page.color}
+  {/params.product} !}
+
+  <div class="container"> 
+    {! {>"partials/breadcrumb" /}   !}  
+    {>"partials/titles" placement=page.key /}
+    {+top/}
+  </div>
 </nav>
+
 
 <main>
 

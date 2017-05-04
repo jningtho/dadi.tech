@@ -2055,12 +2055,11 @@ nav ul li a.on {
     float: right; } }
 nav {
   padding-bottom: 20px;
-  margin-bottom: 40px;
   border-bottom: 1px solid #E0E0E0; }
 body.home nav {
-  padding-bottom: 0;
-  margin-bottom: 0;
   border-bottom: 0; }
+.pattern {
+  z-index: -1; }
 .explainer {
   padding: 0 0 0 3%;
   position: relative;

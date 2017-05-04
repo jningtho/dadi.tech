@@ -1,6 +1,6 @@
-{^params}
+
   {@select key=placement}
-    {@any}<div class="pad__top alignl">{/any}
+    {@any}<div class="pad__top--x2 pad__bottom--x2 alignc">{/any}
     {@eq value="Platform"}
       <div class="inline-block hdr kilo read no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/{params.lang}/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
     {/eq}
@@ -39,5 +39,3 @@
     {/eq}
     {@any}</div>{/any}
   {/select}
-
-{/params}
