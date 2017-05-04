@@ -3,7 +3,7 @@
     <div class="grid">
       <div class="col w-1-3">
         <h2 class="hdr larger no-marg-i txt--blue">Used by businesses of all sizes</h2>
-        <a href="/success-stories/" class="marg__top alignv btn btn--fill txt--white btn--blue small inline-block">See all success stories</a>
+        <a href="/{params.lang}/success-stories/" class="marg__top alignv btn btn--fill txt--white btn--blue small inline-block">See all success stories</a>
       </div>
       <ul class="col w-2-3 list--quotes normal cf alignc">
         <li class="inline-block alignv w-1-3 bs-w-1-2 hdr">

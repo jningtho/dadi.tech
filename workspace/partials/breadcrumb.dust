@@ -7,8 +7,8 @@
       {@ne key=page.key value="supporting"}
         <div class="alignc small">
           <ul class="list--breadcrumb titlecase">
-            <li><a href="/">home</a></li>
-            <li><a href="/{title}/">{page.key}</a></li>
+            <li><a href="/{params.lang}/">home</a></li>
+            <li><a href="/{params.lang}/{title}/">{page.key}</a></li>
             {?params.product}
               <li class="fwb">{products.results[0].title}</li>
             {/params.product}
@@ -20,10 +20,10 @@
             {/params.category}
             {?params.section}
               {?params.concept}
-                <li><a href="/platform/concepts/">Concepts</a></li>
+                <li><a href="/{params.lang}/platform/concepts/">Concepts</a></li>
                 <li class="fwb">{concepts.results[0].title}</li>
               {:else}
-                <li class="fwb"><a href="/platform/concepts/">{params.section}</a></li>
+                <li class="fwb"><a href="/{params.lang}/platform/concepts/">{params.section}</a></li>
               {/params.concept}
             {/params.section}
             {?params.client}

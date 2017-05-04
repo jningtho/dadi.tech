@@ -1,9 +1,9 @@
 <ul class="list--line pad__top--half">
-<li><a href="/solutions/data-strategy/" {@eq key=params.solution value="data-strategy"}class="fwb txt--blue"{/eq}>Data strategy</a></li>
-<li><a href="/solutions/publishing/" {@eq key=params.solution value="publishing"}class="fwb txt--blue"{/eq}>Publishing</a></li>
-<li><a href="/solutions/product-development/" {@eq key=params.solution value="product-development"}class="fwb txt--blue"{/eq}>Product development</a></li>
-<li><a href="/solutions/crm/" {@eq key=params.solution value="crm"}class="fwb txt--blue"{/eq}>CRM</a></li>
-<li><a href="/solutions/analytics/" {@eq key=params.solution value="analytics"}class="fwb txt--blue"{/eq}>Analytics</a></li>
-<li><a href="/solutions/content-personalisation/" {@eq key=params.solution value="content-personalisation"}class="fwb txt--blue"{/eq}>Content personalisation</a></li>
-<li><a href="/solutions/commerce/" {@eq key=params.solution value="commerce"}class="fwb txt--blue"{/eq}>Commerce</a></li>
+<li><a href="/{params.lang}/solutions/data-strategy/" {@eq key=params.solution value="data-strategy"}class="fwb txt--blue"{/eq}>Data strategy</a></li>
+<li><a href="/{params.lang}/solutions/publishing/" {@eq key=params.solution value="publishing"}class="fwb txt--blue"{/eq}>Publishing</a></li>
+<li><a href="/{params.lang}/solutions/product-development/" {@eq key=params.solution value="product-development"}class="fwb txt--blue"{/eq}>Product development</a></li>
+<li><a href="/{params.lang}/solutions/crm/" {@eq key=params.solution value="crm"}class="fwb txt--blue"{/eq}>CRM</a></li>
+<li><a href="/{params.lang}/solutions/analytics/" {@eq key=params.solution value="analytics"}class="fwb txt--blue"{/eq}>Analytics</a></li>
+<li><a href="/{params.lang}/solutions/content-personalisation/" {@eq key=params.solution value="content-personalisation"}class="fwb txt--blue"{/eq}>Content personalisation</a></li>
+<li><a href="/{params.lang}/solutions/commerce/" {@eq key=params.solution value="commerce"}class="fwb txt--blue"{/eq}>Commerce</a></li>
 </ul>

@@ -2,7 +2,7 @@
   {@select key=placement}
     {@any}<div class="pad__top alignl">{/any}
     {@eq value="Platform"}
-      <div class="inline-block hdr kilo read no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
+      <div class="inline-block hdr kilo read no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/{params.lang}/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
     {/eq}
     {@eq value="Success stories"}
       <div class="inline-block hdr kilo read no-marg-i">We have helped organisations both large and small succeed with our platform.</div>
@@ -18,7 +18,7 @@
     {@eq value="Solutions"}
       <h1 class="inline-block hdr kilo read no-marg-i txt--blue">Heavy lifting, when you need it</h1>
       <p class="inline-block normal read">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
-      <p><a href="/success-stories/" class="btn btn--blue normal">See success stories</a></p>
+      <p><a href="/{params.lang}/success-stories/" class="btn btn--blue normal">See success stories</a></p>
     {/eq}
     {@eq value="Latest"}
       <p class="inline-block hdr kilo read no-marg-i">Platform, innovation and industry insight from your friends at DADI</p>
@@ -33,7 +33,7 @@
         </div>
         <div class="col w-1-2">
           <p class="medium no-marg-i">We integrate all disciplines — strategy, user experience and technology — throughout every engagement, from beginning to end. We work across devices and channels, focusing on your entire digital ecosystem, with content, mobile and commerce at its core.</p>
-          <p class="pad__top"><a href="/contact/" class="btn btn--green normal">Contact us</a></p>
+          <p class="pad__top"><a href="/{params.lang}/contact/" class="btn btn--green normal">Contact us</a></p>
         </div>
       </div>
     {/eq}

@@ -11,7 +11,7 @@
   ],
   "routes": [
     {
-      "path": "/solutions/"
+      "path": "/:lang/solutions/"
     },
     {
       "path": "/solutions/:solution",

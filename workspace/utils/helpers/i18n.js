@@ -1,0 +1,20 @@
+var dust = require('@dadi/web').Dust
+
+/*
+* Let's you use grab translations from the `i18l` JSON object on a page
+*/
+dust.getEngine().helpers.i18n = function(chunk, context, bodies, params) {
+  if (bodies.block) {
+    return chunk.capture(bodies.block, context, function(string, chunk) {
+      if (
+        context.stack.head['i18l'] && 
+        context.stack.head['i18l'][string]
+      ) {
+        chunk.end(context.stack.head['i18l'][string])
+      } else {
+        chunk.end(string)
+      }
+    });
+  }
+  return chunk;
+};

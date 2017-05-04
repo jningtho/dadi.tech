@@ -14,14 +14,14 @@
   ],
   "routes": [
     {
-      "path": "/platform/"
+      "path": "/:lang/platform/"
     },
     {
-      "path": "/platform/:product",
+      "path": "/:lang/platform/:product",
       "fetch": "products"
     },
     {
-      "path": "/platform/:section",
+      "path": "/:lang/platform/:section",
       "params": [
         {
           "param": "section",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "path": "/platform/:section/:concept",
+      "path": "/:lang/platform/:section/:concept",
       "params": [
         {
           "param": "concept",

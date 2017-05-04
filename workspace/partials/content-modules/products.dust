@@ -1,7 +1,7 @@
 <div class="bg--light-grey marg__top marg__right marg__left bdr-shadow">
   <div class="container container--pad">   
     <div class="grid">
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/api/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/api/">
         <p class="hdr normal bdr__top pad__top" style="border-color:#0BA6DD">Need an API up in 50 ish seconds?</p>
         <div class="product-logo">
           <img src="/assets/products/dadi-api.png" width="45">
@@ -9,46 +9,46 @@
         <strong class="larger block hdr" style="color:#0BA6DD">api <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">High-performance <em>RESTful</em> API layer designed in support of API-first development and the principle of <em>COPE</em></p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/web/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/web/">
         <p class="hdr normal bdr__top pad__top" style="border-color:#FF2812">Will your client be updaing content?</p>
         <div class="product-logo"><img src="/assets/products/dadi-web.png" width="60"></div>
         <strong class="larger block hdr" style="color:#FF2812">web <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">High-performance schema-less templating layer for browser-based product development</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/publish/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/publish/">
         <p class="hdr normal bdr__top pad__top" style="border-color:#FFBF0D">Will your client be updaing content?</p>
         <div class="product-logo"><img src="/assets/products/dadi-publish.png" width="45"></div>
         <strong class="larger block hdr" style="color:#FFBF0D">publish <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">Market-leading editorial interfaces for the management of content held within <strong>DADI API</strong> and other data sources</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/cdn/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/cdn/">
         <p class="hdr normal bdr__top pad__top" style="border-color:#F7287B">Will your client be updaing content?</p>
         <div class="product-logo"><img src="/assets/products/dadi-cdn.png" width="45"></div>
         <strong class="larger block hdr" style="color:#F7287B">cdn <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">Real-time asset manipulation and delivery application, providing a complete content distribution solution</p>
       </a></div>
-      {! <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/predict/">
+      {! <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/predict/">
         <div class="product-logo"><img src="/assets/products/dadi-predict.png" width="45"></div>
         <strong class="larger block hdr" style="color:#27DCE0">predict <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">Scalable and straightforward predictive analysis API with machine learning at its heart</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/track/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/track/">
         <div class="product-logo"><img src="/assets/products/dadi-track.png" width="45"></div>
         <strong class="larger block hdr" style="color:#2DBA7A">track <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/visualize/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/visualize/">
         <div class="product-logo"><img src="/assets/products/dadi-visualize.png" width="60"></div>
         <strong class="larger block hdr" style="color:#EF711D">visualize <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">Real-time data visualization and dashboarding. Plugs into <strong>DADI Track</strong>, <em>Google Analytics</em> and many other third-party systems</p>
       </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/platform/identity/">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/platform/identity/">
         <div class="product-logo"><img src="/assets/products/dadi-identity.png" width="25"></div>
         <strong class="larger block hdr" style="color:#5CC617">identity <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
         <p class="normal">End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space</p>
       </a></div> !}
 
-      {! <div class="col w-1-1 alignc marg__top"><a class="block zoom" href="/platform/tools/">
+      {! <div class="col w-1-1 alignc marg__top"><a class="block zoom" href="/{params.lang}/platform/tools/">
         <strong class="larger block hdr">Tools &amp; Components</strong>
         <p class="alignauto normal">The core <strong>DADI</strong> apps are supported by a wide range of tools &amp; components that extend and enhance the platform</p>
       </a></div> !}

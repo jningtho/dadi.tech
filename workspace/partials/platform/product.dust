@@ -7,7 +7,7 @@
       <li><a href="https://github.com/dadi/{product}">Github</a></li>
       <li><a href="https://www.npmjs.com/package/@dadi/{product}">NPM</a></li>
       <li><a href="http://docs.dadi.tech/{product}">Documentation</a></li>
-      <li><a href="/on-demand/">DADI On-demand</a></li>
+      <li><a href="/{params.lang}/on-demand/">DADI On-demand</a></li>
       {?demo}<li><a class="btn btn--small" href="{demo}">Live demo</a></li>{/demo}
     </ul>
   </div>
@@ -43,7 +43,7 @@
             <li>{@soberMarkdown}{.}{/soberMarkdown}</li>
           {/iter}
         </ul>
-        <a href="/contact/" class="marg__top btn btn--green small">Contact us</a>
+        <a href="/{params.lang}/contact/" class="marg__top btn btn--green small">Contact us</a>
       </div>
     {/features}
   </div>

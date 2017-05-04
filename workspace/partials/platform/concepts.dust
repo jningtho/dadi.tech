@@ -5,11 +5,11 @@
     <div class="grid">
       {#concepts.results}
         <div class="col w-1-2 marg__bottom--x2">
-          <a href="/platform/concepts/{handle}/">
+          <a href="/{params.lang}/platform/concepts/{handle}/">
             <p class="hdr larger txt--blue">{title}</p>
             <p class="normal">{@soberMarkdown}{overview}{/soberMarkdown}</p>
           </a>
-          <a href="/platform/concepts/{handle}/" class="btn btn--blue">Find out more</a>
+          <a href="/{params.lang}/platform/concepts/{handle}/" class="btn btn--blue">Find out more</a>
         </div>
       {/concepts.results}
     </div>

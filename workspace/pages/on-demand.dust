@@ -9,7 +9,7 @@
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
+  <p class="small txt--grey alignauto">By signing up you agree to the <a href="/{params.lang}/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 <div class="bg--light-grey bdr__top bdr__bottom bdr--bdr-grey">
@@ -62,7 +62,7 @@
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
+  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/{params.lang}/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 {>"partials/footer" /}

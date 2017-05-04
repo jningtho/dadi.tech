@@ -7,7 +7,7 @@
   ],
   "routes": [
     {
-      "path": "/careers/"
+      "path": "/:lang/careers/"
     }
   ]
 }   

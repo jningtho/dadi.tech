@@ -13,7 +13,7 @@
   ],
   "routes": [
     {
-    	"path": "/success-stories/"
+    	"path": "/:lang/success-stories/"
     },
     {
       "path": "/success-stories/:client?",

@@ -7,7 +7,7 @@
     <div class="grid">
       {#successes.results}
         <div class="col w-1-1 marg__bottom">
-          <a href="/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+          <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
             <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}" >
               <p class="hdr large">{title}</p>
               <p class="normal">{summary}</p>
@@ -58,7 +58,7 @@
           <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
           <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
 
-          <div class="pad__top marg__top pad__bottom"><a href="/success-stories/" class="btn btn--red small">See more success stories</a></div>
+          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/success-stories/" class="btn btn--red small">See more success stories</a></div>
         </div>
       </div>
     </div>

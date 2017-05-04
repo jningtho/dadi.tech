@@ -6,12 +6,11 @@
     "latest-footer"
   ],
   "events": [
-    "globals",
     "contact"
   ],
   "routes": [
     {
-      "path": "/contact/"
+      "path": "/:lang/contact/"
     }
   ]
 }   

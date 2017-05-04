@@ -12,7 +12,7 @@
       <p class="normal">Want to contribute to the work on this roadmap, or suggest new ideas? Volunteer your time, or Propose an initiative. To contribute as an organization or business, consider joining one of our supporter programs that fund this work.</p>
 
       <p class="normal fwb">Your support can make a difference.</p>
-      <a href="/contact/" class="btn btn--blue small">Contact us</a><br><br>
+      <a href="/{params.lang}/contact/" class="btn btn--blue small">Contact us</a><br><br>
       <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
     </div>
     <div class="col w-1-2 normal">
@@ -20,7 +20,7 @@
 
       <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
         <h3>
-          <a href="/platform/api/">
+          <a href="/{params.lang}/platform/api/">
             <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
             API
           </a>
@@ -35,7 +35,7 @@
 
       <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
         <h3>
-          <a href="/platform/api/">
+          <a href="/{params.lang}/platform/api/">
             <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
             CDN
           </a>
@@ -49,7 +49,7 @@
 
       <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
         <h3>
-          <a href="/platform/api/">
+          <a href="/{params.lang}/platform/api/">
             <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
             Web
           </a>
@@ -65,7 +65,7 @@
 
       {! <div class="grid pad__top">
         <div class="col w-1-3 fwb">
-          <a href="/platform/publish/">
+          <a href="/{params.lang}/platform/publish/">
             <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
             Publish
           </a>
@@ -108,7 +108,7 @@
 
       <div class="grid pad__top">
         <div class="col w-1-3 fwb">
-          <a href="/platform/api/">
+          <a href="/{params.lang}/platform/api/">
             <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
             Identity
           </a>

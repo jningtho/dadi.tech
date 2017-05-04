@@ -7,7 +7,7 @@
   ],
   "routes": [
     {
-      "path": "/faq/"
+      "path": "/:lang/faq/"
     }
   ]
 }   

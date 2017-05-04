@@ -1,8 +1,8 @@
 <ul class="list--line medium pad__bottom">
-  <li><a href="/latest/" {^params.category}class="txt--green"{/params.category}>All</a></li>
-  <li><a href="/latest/articles/" {@eq key=params.category value="articles"}class="txt--green"{/eq}>Articles</a></li>
-  <li><a href="/latest/roadmap/" {@eq key=params.category value="roadmap"}class="txt--green"{/eq}>Roadmap updates</a></li>
-  <li><a href="/latest/releases/" {@eq key=params.category value="releases"}class="txt--green"{/eq}>Releases</a></li>
+  <li><a href="/{params.lang}/latest/" {^params.category}class="txt--green"{/params.category}>All</a></li>
+  <li><a href="/{params.lang}/latest/articles/" {@eq key=params.category value="articles"}class="txt--green"{/eq}>Articles</a></li>
+  <li><a href="/{params.lang}/latest/roadmap/" {@eq key=params.category value="roadmap"}class="txt--green"{/eq}>Roadmap updates</a></li>
+  <li><a href="/{params.lang}/latest/releases/" {@eq key=params.category value="releases"}class="txt--green"{/eq}>Releases</a></li>
 </ul>
 
 <div class="bg--light-grey pad pad__top--half pad__bottom--half">

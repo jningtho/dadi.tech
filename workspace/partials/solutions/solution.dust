@@ -19,5 +19,5 @@
 
 <div class="container container--divider alignc">
   <p class="large txt--blue alignauto no-marg">{cta}</p>
-  <a href="/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+  <a href="/{params.lang}/contact/" class="marg__top btn btn--blue normal">Contact us</a>
 </div>

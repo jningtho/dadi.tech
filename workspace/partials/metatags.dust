@@ -20,10 +20,6 @@
 <meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="twitter:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
-<meta name="geo.placename" content="London, UK">
-<meta name="dc.language" content="en">
-<meta name="geo.country" content="gb">
-
 {>"partials/json-ld" placement="organisation"/}
 
 <script type="text/javascript">window.DADI = window.DADI || {};</script>
