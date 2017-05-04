@@ -16,7 +16,7 @@ var Event = function (req, res, data, callback) {
   }
 
   // Load the language file (ignore english)
-  data.i18l = lang && lang != 'en' ? require(path.join(__dirname, '/../langs/', data.params.lang + '.json')) : null
+  data.i18l = lang && lang != 'en' ? require(path.join(__dirname, '/../lang/', data.params.lang + '.json')) : null
   
   // Fin
   callback()
