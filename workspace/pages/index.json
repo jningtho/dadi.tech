@@ -2,6 +2,9 @@
   "page": {
     "key": "home"
   },
+  "settings": {
+    "beautify": true
+  },
   "datasources": [
     "successes",
     "latest-footer"

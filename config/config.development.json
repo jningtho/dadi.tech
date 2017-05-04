@@ -57,6 +57,9 @@
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
   },
+  "dust": {
+    "whitespace": true
+  },
   "allowJsonView": true,
   "virtualDirectories": [
     { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }
