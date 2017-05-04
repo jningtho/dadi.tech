@@ -4,6 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {>"partials/metatags" /}
+  {<title}{@i18n}Smarter content management.{/i18n}{/title}
+</head>
+<body class="{+bodyClass/}">
+
+<nav class="alignc pad__top--x2 small cf">
+  <a href="/{params.lang}/" class="inline-block marg__bottom">
+    <img src="/assets/img/dadi-colour.svg" width="150" alt="DADI">
+  </a>
+  <ol>
+    <li><a href="/{params.lang}/" class="on">Technology</a>
+    </li>
+    <li><a href="/{params.lang}/on-demand">On demand</a>
+    </li>
+    <li><a href="/{params.lang}/solutions">Solutions</a>
+    </li>
+  </ol>
+  <ul>
+    <li><a href="https://github.com/dadi/">Find us on Github</a>
+    </li>
+    <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
+    </li>
+  </ul>
+</nav>
+
+<main>
+
+{! <!doctype html>
+<html lang="{params.lang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  {>"partials/metatags" /}
 </head>
 
 <body class="{+bodyClass}light{/bodyClass}">
@@ -25,7 +57,4 @@
     {>"partials/titles" placement=page.key /}
     {+top/}
   </div>
-</div>
-
-<main>
-
+</div>!}
