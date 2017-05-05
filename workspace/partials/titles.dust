@@ -1,11 +1,11 @@
 
   {@select key=placement}
-    {@any}<div class="pad__top--x2 pad__bottom--x2 alignc">{/any}
-    {@eq value="Platform"}
-      <div class="inline-block hdr kilo read no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/{params.lang}/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
-    {/eq}
+    {@any}<div class="pad__top--x2 pad__bottom alignc">{/any}
+    {! {@eq value="Platform"}
+      <div class="inline-block hdr kilo no-marg-i">A modern content management platform, built in support of the principles of <span class="txt--red"><a style="border:0" href="/{params.lang}/platform/concepts/api-first-and-cope/">API first and COPE</a></span>.</div>
+    {/eq} !}
     {@eq value="Success stories"}
-      <div class="inline-block hdr kilo read no-marg-i">We have helped organisations both large and small succeed with our platform.</div>
+      <div class="inline-block hdr kilo no-marg-i">We have helped organisations both large and small succeed with our platform.</div>
     {/eq}
     {@eq value="On demand"}
       <div class="alignc">
@@ -27,7 +27,7 @@
       <div class="inline-block hdr kilo read no-marg-i">Get in touch with the team</div>
     {/eq}
     {@eq value="Working with DADI"}
-      <div class="grid">
+      <div class="grid alignl">
         <div class="col w-1-2">
           <p class="inline-block hdr larger read no-marg-i">We believe that technology can solve real business problems by enabling integrated experiences that drive growth.</p>
         </div>
