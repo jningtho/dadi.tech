@@ -12,7 +12,7 @@ var Event = function (req, res, data, callback) {
   data.global.timestamp = new Date().getTime()
 
   // Url stuff
-  data.global.protocol = req.protocol
+  //data.global.protocol = req.protocol
 
   // Override page meta description (latest section)
   if (data.params && data.params.article && data.latest && data.latest.results) {
