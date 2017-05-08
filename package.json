@@ -48,7 +48,7 @@
     "typewriter": "github:fardjad/realistic-typewriter.js",
     "uglify-js": "^2.7.3",
     "underscore": "^1.8.3",
-    "watch": "^1.0.1"
+    "watch": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
