@@ -24,6 +24,8 @@
 <meta name="dc.language" content="en">
 <meta name="geo.country" content="gb">
 
+<meta name="google-site-verification" content="6HNzGapV7i7XnjwpD1-eB5MF5iNb9OLT6aqmlP8CCtY" />
+
 {>"partials/json-ld" placement="organisation"/}
 
 <script type="text/javascript">window.DADI = window.DADI || {};</script>
