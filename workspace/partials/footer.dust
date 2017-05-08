@@ -96,7 +96,7 @@
           <li><a href="/{params.lang}/platform/roadmap/">Roadmap</a></li>
           {! <li><a href="/{params.lang}/platform/licensing/">Licensing</a></li> !}
           <li>
-            <a href="http://docs.dadi.tech" target="_blank">
+            <a href="http://docs.dadi.tech" rel="noopener">
             <img src="/assets/icons/pop-out.svg" class="alignv float--right" width="15">
             Documentation
             </a>
