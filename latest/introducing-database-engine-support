@@ -7,13 +7,13 @@ preface: API 2.0.0 Edge is now ready to test with MongoDB driver support.
 category: releases
 ---
 
-API 2.0.0 Edge is now ready to test with MongoDB driver support.
+DADI API "Edge" is now ready to test with MongoDB driver support.
 
-API version 2.0.0 introduces database engine support, enabling the use of mulitple different storage engines for yoru APIs.
+This "Edge" release is the first public preview of API version 2.0.0 which introduces configurable database engine support, enabling the use of mulitple different storage engines for your APIs. The API roadmap includes driver support for Oracle NoSQL, CouchDB and a JSON file store.
 
-Release notes:
+## Release notes:
 
-## API Version 2.0.0
+### API Version 2.0.0
 
 To install the next beta release of DADI API, use the following command:
 
