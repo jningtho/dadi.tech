@@ -8,7 +8,7 @@
 </head>
 <body class="{+bodyClass/}">
 
-<header class="alignc pad__top--x2 pad__bottom small cf">
+<header class="alignc pad__top--x2 small cf">
   {>"partials/navigation" /}
   {@ne key=page.key value="home"}
     {>"partials/pattern" primary="#21262d" /}

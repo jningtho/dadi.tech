@@ -135,10 +135,10 @@
 	}
 }
 .list--breadcrumb {
-	background: #eee;
     text-align: left;
-    padding: 12px 0;
+    padding: 15px 0 14px;
     font-size: 14px;
+    border-bottom: 1px solid #f2f2f2;
 
 	li:after {
 		content: '';

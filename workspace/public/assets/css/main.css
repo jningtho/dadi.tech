@@ -1162,6 +1162,7 @@ header {
   padding-bottom: 20px;
   overflow: hidden; }
 body.home header {
+  padding-bottom: 0;
   background: #f9f9f9;
   color: #21262D; }
 .pattern {
@@ -1610,10 +1611,10 @@ select {
   .list--pipe li:last-of-type:after {
     display: none; }
 .list--breadcrumb {
-  background: #eee;
   text-align: left;
-  padding: 12px 0;
-  font-size: 14px; }
+  padding: 15px 0 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #f2f2f2; }
 .list--breadcrumb li:after {
     content: '';
     background: url(/assets/icons/chevron-right.svg);
@@ -2053,6 +2054,15 @@ select {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@media handheld, only screen and (max-width: 50em) {
+  .explainer {
+    height: auto;
+    text-align: center; }
+    .explainer__blurb, .explainer__window, .explainer__connect {
+      display: none; }
+    .explainer__intro {
+      width: auto;
+      padding-bottom: 30px; } }
 form .btn, form .text {
   line-height: 1.25;
   font-weight: bolder;
