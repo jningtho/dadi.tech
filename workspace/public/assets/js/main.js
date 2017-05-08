@@ -28492,16 +28492,6 @@ domready(function () {
   hljs.initHighlightingOnLoad();
 });
 },{"domready":2,"highlight.js":4}],193:[function(require,module,exports){
-// $ = require('jquery');
-// domready = require('domready');
-// Pattern = require('../lib/dadi-pattern');
-
-
-// domready(function () {
-//   pattern('#pattern');
-// });
-
-
 var els = document.querySelectorAll('.pattern');
 Array.prototype.forEach.call(els, function(el) {
   var sizes = getComputedStyle(el);
