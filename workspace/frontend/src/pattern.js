@@ -1,13 +1,3 @@
-// $ = require('jquery');
-// domready = require('domready');
-// Pattern = require('../lib/dadi-pattern');
-
-
-// domready(function () {
-//   pattern('#pattern');
-// });
-
-
 var els = document.querySelectorAll('.pattern');
 Array.prototype.forEach.call(els, function(el) {
   var sizes = getComputedStyle(el);
