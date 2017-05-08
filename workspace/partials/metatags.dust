@@ -25,3 +25,12 @@
 {>"partials/json-ld" placement="organisation"/}
 
 <script type="text/javascript">window.DADI = window.DADI || {};</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Karla:400,700']
+    }
+  });
+</script>

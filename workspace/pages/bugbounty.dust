@@ -2,9 +2,7 @@
 
 {<title}Bug bounty{/title}
 
-{<top}
-<h1 class="txt--green kilo no-marg-i pad__top">Help make the DADI platform<br>more secure for everyone</h1>
-{/top}
+{<header}<h1 class="txt--green kilo">Help make the DADI platform<br>more secure for everyone.</h1>{/header}
   
 <div class="container pad__bottom--x2">
   <div class="grid">

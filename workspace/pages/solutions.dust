@@ -1,5 +1,11 @@
 {>"partials/header" /}
 
+{<header}
+<h1 class="hdr kilo read txt--blue">Heavy lifting, when you need it</h1>
+<p class="inline-block normal read no-marg-i">Our solutions team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
+<p class="pad__top"><a href="/{params.lang}/success-stories/" class="btn btn--blue normal">See success stories</a></p>
+{/header}
+
 {<title}
   {?params.solution}
     {solutions.results[0].title}

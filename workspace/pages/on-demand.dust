@@ -2,6 +2,13 @@
 
 {<title}On-demand{/title}
 
+{<header}
+<h1><img src="/assets/img/logo-ondemand-white.png" class="block alignauto marg__bottom" height="45" alt="On demand"></h1>
+<p class="kilo hdr inline-block no-marg-i"><span class="txt--red block">Cloud computing.</span> Designed for developers.</p>
+<br>
+<p class="cf inline-block normal read txt--grey">Launching soon.</p>
+{/header}
+
 <div class="container pad__bottom--x2 marg__top alignc">
   <p class="medium hdr alignauto pad__bottom">Let us know your email address to be the first to know.</p>
   

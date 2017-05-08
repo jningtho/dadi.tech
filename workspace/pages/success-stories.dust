@@ -2,8 +2,14 @@
 
 {<title}{?params.client}{successes.results[0].title} / {/params.client} Success stories{/title}
 
+{<header}
+<div class="hdr kilo read">We have helped organisations both large and small succeed with our platform.</div>
+
+  <p><a href="/{params.lang}/solutions/" class="btn btn--blue normal marg__top">Learn how we can help you.</a></p>
+{/header}
+
 {^params.client} 
-  <div class="container container--pad">
+  <div class="container">
     <div class="grid">
       {#successes.results}
         <div class="col w-1-1 marg__bottom">

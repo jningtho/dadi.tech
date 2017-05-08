@@ -1,5 +1,10 @@
 {>"partials/header" /}
 
+{<header}
+<p class="inline-block hdr kilo read">Platform, innovation and industry insight.</p>
+<p class="normal txt--grey no-marg-i pad__bottom">From your friends at DADI.</p>
+{/header}
+
 {<title}
   {^params.article}
     Latest

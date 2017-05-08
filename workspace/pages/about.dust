@@ -1,6 +1,20 @@
 {>"partials/header" /}
 
 {<title}Working with…{/title}
+
+{<header}
+<div class="container">
+  <div class="grid alignl marg__top--x2">
+    <div class="col w-1-2">
+      <p class="inline-block hdr larger read no-marg-i">We believe that technology can solve real business problems by enabling integrated experiences that drive growth.</p>
+    </div>
+    <div class="col w-1-2">
+      <p class="medium no-marg-i">We integrate all disciplines — strategy, user experience and technology — throughout every engagement, from beginning to end. We work across devices and channels, focusing on your entire digital ecosystem, with content, mobile and commerce at its core.</p>
+      <p class="pad__top"><a href="/{params.lang}/contact/" class="btn btn--green normal">Contact us</a></p>
+    </div>
+  </div>
+</div>
+{/header}
   
 <div class="container container--pad">
   <div class="grid">

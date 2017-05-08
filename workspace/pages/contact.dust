@@ -2,6 +2,8 @@
 
 {<title}Contact us{/title}
 
+{<header}<h1 class="txt--white kilo">Get in touch with the team.</h1>{/header}
+
 <div class="container container--pad">
   {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
 

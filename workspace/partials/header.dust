@@ -8,43 +8,14 @@
 </head>
 <body class="{+bodyClass/}">
 
-<nav class="alignc pad__top--x2 pad__bottom small cf">
-  <a href="/{params.lang}/" class="inline-block marg__bottom">
-    <img src="/assets/img/dadi-{@eq key=page.key value="home"}colour{:else}light{/eq}.svg" width="150" alt="DADI">
-  </a>
-  <ol>
-    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
-    </li>
-    <li><a href="/{params.lang}/on-demand" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
-    </li>
-    <li><a href="/{params.lang}/solutions" {@eq key=page.key value="Solutions"}class="on"{/eq}>Solutions</a>
-    </li>
-  </ol>
-  <ul>
-    <li><a href="https://github.com/dadi/">Find us on Github</a>
-    </li>
-    <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
-    </li>
-  </ul>
+<header class="alignc pad__top--x2 pad__bottom small cf">
+  {>"partials/navigation" /}
+  {@ne key=page.key value="home"}
+    {>"partials/pattern" primary="#21262d" /}
+  {/ne}
+  {+header/}
+</header>
 
-  {! {?params.product}
-    {>"partials/pattern" primary=products.results[0].dark-color /}
-  {:else}
-    {?page.color}
-      {>"partials/pattern" primary=page.color /}
-    {:else}
-      {>"partials/pattern" primary="#041628" /}
-    {/page.color}
-  {/params.product} !}
-
-  
-  {@ne key=page.key value="home"}{>"partials/pattern" primary="#21262d" /}{/ne}
-
-  <div class="container"> 
-    {! {>"partials/breadcrumb" /}   !}  
-    {>"partials/titles" placement=page.key /}
-    {+top/}
-  </div>
-</nav>
+{>"partials/breadcrumb" /}
 
 <main>
