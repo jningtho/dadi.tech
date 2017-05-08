@@ -1,10 +1,9 @@
-window.jQuery = $ = require('jquery');
 typewriter = require('typewriter');
 domready = require('domready');
 
 domready(function () {
-  var wrap = $('.w-api .explainer__wrap')[0];
-  var tw = typewriter($('.w-api .hljs')[0])
+  var wrap = document.querySelector('.w-api .explainer__wrap');
+  var tw = typewriter(document.querySelector('.w-api .hljs'))
              .withAccuracy(100)
              .withMinimumSpeed(10)
              .withMaximumSpeed(17)
