@@ -1,0 +1,65 @@
+## Filestore connector available for DADI API
+
+The latest release of API Edge comes with the ability to use a JSON file as the backend.
+
+The first release of API Edge introduced configurable database engine support, with MongoDB being the first connector available. A new connector is now available for using a JSON file the API backend.
+
+### Try it out
+
+To install the DADI API Edge, use the following command:
+
+```bash
+$ npm install @dadi/api@edge --save
+```
+
+### Install the filestore connector
+
+```bash
+$ npm install @dadi/api-filestore --save
+```
+
+### Add a configuration file
+
+Add a filestore configuration file in the config directory of your project. The
+file should be named using the format filestore.<environment>.json
+
+#### Example configuration file for @dadi/api-filestore
+
+File config/filestore.development.json
+
+```json
+{
+  "database": {
+    "path": "workspace/db",
+    "autosaveInterval": 10000,
+    "serializationMethod": "normal"
+  }
+}
+```
+
+Property | Description 
+:--------|:------------
+path | The relative or absolute path to where your database files will be stored 
+autosaveInterval | The interval, in milliseconds, between database writes to disk 
+serializationMethod | The format of the database file on disk. `normal` is a condensed version of the JSON, `pretty` is more readable 
+
+### Modify API configuration
+
+In previous versions we used a database block in the API configuration file to
+tell API how to connect to the default MongoDB installation.
+
+In API 2.0 and above, we specify a datastore as follows:
+
+```json
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3001
+  },
+  "datastore": "@dadi/api-filestore",
+  "auth": {
+    "datastore": "@dadi/api-filestore",
+    "database": "testdb"
+  }
+}
+```
