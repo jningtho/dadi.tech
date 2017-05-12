@@ -1,4 +1,11 @@
-## Filestore connector available for DADI API
+---
+date: 2017-05-12
+title: Filestore connector available for DADI API
+handle: filestore-connector-available-for-dadi-api
+author: Joseph Denne
+preface: The latest release of API Edge comes with the ability to use a JSON file as the backend.
+category: releases
+---
 
 The latest release of API Edge comes with the ability to use a JSON file as the backend.
 
