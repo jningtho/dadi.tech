@@ -1,6 +1,6 @@
 <nav>
   <a href="/{params.lang}/" class="inline-block marg__bottom">
-    <img src="/assets/img/dadi-{@eq key=page.key value="home"}colour{:else}light{/eq}.svg" width="150" alt="DADI" class="logo">
+    <img src="/assets/img/dadi-{@eq key=page.key value="home"}colour{:else}light{/eq}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>
   <ol>
     <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
@@ -17,3 +17,15 @@
     </li>
   </ul>
 </nav>
+
+{@ne key=page.key value="home"}
+  {?params.product}
+    {>"partials/pattern" primary=products.results[0].dark-color /}
+  {:else}
+    {?page.color}
+      {>"partials/pattern" primary=page.color /}
+    {:else}
+      {>"partials/pattern" primary="#21262d" /}
+    {/page.color}
+  {/params.product}
+{/ne}
