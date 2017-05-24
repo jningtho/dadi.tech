@@ -1,31 +1,28 @@
-<div class="bg--light-grey marg__top marg__right marg__left bdr-shadow">
-  <div class="container container--pad">   
+<div class="bg--light-grey pad__top--x2 marg__top marg__right marg__left bdr-shadow">
+  <h2 class="larger alignc no-marg-i">{@i18n}DADI: microservices technology{/i18n}</h2>
+  <div class="pad__left--x2 pad__right--x2">   
     <div class="grid">
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/publish/">
+        <div class="product-logo"><img src="/assets/products/dadi-publish.png" width="45"></div>
+        <strong class="larger block hdr" style="color:#FFBF0D">publish <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
+        <p class="normal">A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow</p>
+      </a></div>
       <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/api/">
-        <p class="hdr normal bdr__top pad__top" style="border-color:#0BA6DD">Need an API up in 50 ish seconds?</p>
         <div class="product-logo">
           <img src="/assets/products/dadi-api.png" width="45">
         </div>
         <strong class="larger block hdr" style="color:#0BA6DD">api <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">High-performance <em>RESTful</em> API layer designed in support of API-first development and the principle of <em>COPE</em></p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/web/">
-        <p class="hdr normal bdr__top pad__top" style="border-color:#FF2812">Will your client be updaing content?</p>
-        <div class="product-logo"><img src="/assets/products/dadi-web.png" width="60"></div>
-        <strong class="larger block hdr" style="color:#FF2812">web <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">High-performance schema-less templating layer for browser-based product development</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/publish/">
-        <p class="hdr normal bdr__top pad__top" style="border-color:#FFBF0D">Will your client be updaing content?</p>
-        <div class="product-logo"><img src="/assets/products/dadi-publish.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#FFBF0D">publish <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">Market-leading editorial interfaces for the management of content held within <strong>DADI API</strong> and other data sources</p>
+        <p class="normal">A high-performance RESTful API layer designed in support of API-first development and the principles of COPE</p>
       </a></div>
       <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/cdn/">
-        <p class="hdr normal bdr__top pad__top" style="border-color:#F7287B">Will your client be updaing content?</p>
         <div class="product-logo"><img src="/assets/products/dadi-cdn.png" width="45"></div>
         <strong class="larger block hdr" style="color:#F7287B">cdn <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">Real-time asset manipulation and delivery application, providing a complete content distribution solution</p>
+        <p class="normal">A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution</p>
+      </a></div>
+      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/web/">
+        <div class="product-logo"><img src="/assets/products/dadi-web.png" width="60"></div>
+        <strong class="larger block hdr" style="color:#FF2812">web <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
+        <p class="normal">A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application</p>
       </a></div>
       {! <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/predict/">
         <div class="product-logo"><img src="/assets/products/dadi-predict.png" width="45"></div>

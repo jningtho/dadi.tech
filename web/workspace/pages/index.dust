@@ -4,7 +4,7 @@
 
 <div class="explainer">
   <div class="explainer__intro">
-    <h2 class="kilo">{@i18n}Smarter content management.{/i18n}</h2>
+    <h2 class="kilo">{@i18n}Smarter content management{/i18n}</h2>
     <p class="normal">{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</p>
   </div>
 
@@ -22,7 +22,7 @@
 
   <div class="explainer__blurb b-web">
     <img src="/assets/products/dadi-web.png" width="26">
-    <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
+    <p class="small">{@i18n}Migrate easily from other platforms and template languages{/i18n}</p>
   </div>
 
   <div class="explainer__window w-web">
@@ -66,7 +66,7 @@
 
   <div class="explainer__blurb b-publish">
     <img src="/assets/products/dadi-publish.png" width="22">
-    <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
+    <p class="small">{@i18n}Install a content editing interface for your API{/i18n}</p>
   </div>
 
   <div class="explainer__window w-publish">
@@ -88,7 +88,7 @@
 
   <div class="explainer__blurb b-cdn">
     <img src="/assets/products/dadi-cdn.png" width="22">
-    <p class="small">Developers can start an API in 30 seconds via NPM.</p>
+    <p class="small">Manipulate images using URL paramaters</p>
   </div>
 
   <div class="explainer__window w-cdn">
@@ -119,34 +119,34 @@
 <div class="container container--divider normal">
   <div class="grid">
     <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-centric</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
+      <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow</p>
     </div>
     <div class="col w-1-2 pad__bottom">
       <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees</p>
     </div>
   </div>
 
   <div class="grid">
     <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices architecture</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
+      <p class="normal">A platform built as small, independent processes enabling flexibility and high performance</p>
     </div>
     <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> High performance</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
+      <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points</p>
     </div>
   </div>
 
   <div class="grid">
     <div class="col w-1-2">
       <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m</p>
     </div>
     <div class="col w-1-2">
       <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
-      <p class="normal">DADI is API-first and abstracts content storage from presentation, which means it’s ready to pipe into any product your users demand. </p>
+      <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months</p>
     </div>
   </div>
 </div>
