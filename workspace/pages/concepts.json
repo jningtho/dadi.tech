@@ -1,0 +1,14 @@
+{
+  "page": {
+    "key": "Concepts"
+  },
+  "datasources": [
+    "concepts",
+    "latest-footer"
+  ],
+  "routes": [
+    {
+      "path": "/:lang/concept/:concept/"
+    }
+  ]
+}   

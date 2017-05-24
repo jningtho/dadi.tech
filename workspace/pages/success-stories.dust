@@ -23,8 +23,6 @@
       {/successes.results}
     </div>
   </div>
-
-  {>"partials/solutions/list" /}
 {:else}
   {#successes.results}
     <div class="container container--pad alignl">
@@ -86,8 +84,6 @@
     {/vimeo}
 
   {/successes.results}
-
-  {>"partials/solutions/list" /}
 {/params.client}
 
 {>"partials/footer" /}

@@ -1,3 +1,7 @@
+{>"partials/header" /}
+
+{<title}hello{/title}
+
 {^params.concept}
   <div class="container container--divider">
     <h1 class="kilo alignc no-marg-i pad__bottom--x2">Platform concepts</h1>
@@ -28,8 +32,15 @@
           {@markdown}{body}{/markdown}
         </div>
         <div class="col w-1-3">
-          {>"partials/platform/sidebar" /}
+          <ul class="list--line pad__top--half">
+            <li><a href="/{params.lang}/concepts/data-driven-experiences/" {@eq key=params.concept value="data-driven-experiences"}class="fwb txt--blue"{/eq}>Data Driven Experiences</a></li>
+            <li><a href="/{params.lang}/concepts/api-first-and-cope/" {@eq key=params.concept value="api-first-and-cope"}class="fwb txt--blue"{/eq}>API First &amp; COPE</a></li>
+            <li><a href="/{params.lang}/concepts/microservices/" {@eq key=params.concept value="microservices"}class="fwb txt--blue"{/eq}>Microservices</a></li>
+            <li><a href="/{params.lang}/concepts/machine-learning/" {@eq key=params.concept value="machine-learning"}class="fwb txt--blue"{/eq}>Machine Learning</a></li>
+          </ul>
         </div>
     </div>
   {/concepts.results}
 {/params.concept}
+
+{>"partials/footer" /}

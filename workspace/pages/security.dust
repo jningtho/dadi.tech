@@ -1,3 +1,5 @@
+{>"partials/header" /}
+
 <div class="container container--pad">
   <div class="grid alignc">
     <h1 class="no-marg-i kilo txt--red marg__bottom">Secure by default</h1>
@@ -95,3 +97,5 @@
     </div>
   </div>
 </div>
+
+{>"partials/footer" /}

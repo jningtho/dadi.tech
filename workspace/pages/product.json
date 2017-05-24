@@ -1,0 +1,18 @@
+{
+  "page": {
+    "key": "Products"
+  },
+  "datasources": [
+    "products",
+    "latest-footer"
+  ],
+  "requiredDatasources": [
+    "products"
+  ],
+  "routes": [
+    {
+      "path": "/:lang/:product",
+      "fetch": "products"
+    }
+  ]
+} 
