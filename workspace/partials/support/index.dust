@@ -1,6 +1,6 @@
 <div class="container pad__bottom--x2">
   <div class="normal cf grid">
-    {#solutions.results}
+    {#support.results}
       <div class="pad__bottom--x2 pad__top grid col w-1-2">
         <div class="col w-1-4">
           <img class="float--right" src="/assets/icons/{icon}.svg" height="70">
@@ -8,7 +8,7 @@
         <div class="col w-3-4">
           <p class="large hdr no-marg-i"> {title}</p>
           <p class="pad__top--half alignauto normal no-marg-i">{overview}</p>
-          <p><a href="/{params.lang}/solutions/{handle}/" class="btn btn--blue small">Learn more</a></p>
+          <p><a href="/{params.lang}/support/{handle}/" class="btn btn--blue small">Learn more</a></p>
         </div>
       </div>
 
@@ -18,7 +18,7 @@
 <div class="grid normal cf">
     {/eq}
  {/math}
-    {/solutions.results}
+    {/support.results}
   </ul>
 </div>
 

@@ -5,7 +5,7 @@
   },
   "datasources": [
     "products",
-    "solutions",
+    "support",
     "concepts",
     "latest-footer"
   ],

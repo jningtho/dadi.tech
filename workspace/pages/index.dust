@@ -168,9 +168,9 @@
     <div class="col w-1-2">
       <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#f2f2f2">
           <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
-          <h2 class="txt--green larger">{@i18n}Need a hand? Meet our solutions team{/i18n}</h2>
+          <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
           <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
-          <p class="normal"><a href="/{params.lang}/solutions/" class="btn btn--green small">{@i18n}Our solutions{/i18n}</a>
+          <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
           </p>
       </div>
     </div>

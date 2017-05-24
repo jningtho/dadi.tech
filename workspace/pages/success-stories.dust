@@ -4,7 +4,7 @@
 
 {<header}
 <div class="hdr kilo read">We have helped organisations both large and small succeed with our platform.</div>
-<p><a href="/{params.lang}/solutions/" class="btn btn--green normal marg__top">Learn how we can help you.</a></p>
+<p><a href="/{params.lang}/support/" class="btn btn--green normal marg__top">Learn how we can help you.</a></p>
 {/header}
 
 {^params.client} 

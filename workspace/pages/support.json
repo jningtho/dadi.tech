@@ -1,0 +1,21 @@
+{
+  "page": {
+    "key": "Support"
+  },
+  "datasources": [
+    "support",
+    "latest-footer"
+  ],
+  "requiredDatasources": [
+    "support"
+  ],
+  "routes": [
+    {
+      "path": "/:lang/support/"
+    },
+    {
+      "path": "/:lang/support/:solution",
+      "in": "support"
+    }
+  ]
+} 

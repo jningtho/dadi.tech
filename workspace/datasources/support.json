@@ -1,6 +1,6 @@
 {
   "datasource": {
-    "key": "solutions",
+    "key": "support",
     "name": "List of DADI solutions offered",
     "requestParams": [{
       "param": "solution", "field": "handle"

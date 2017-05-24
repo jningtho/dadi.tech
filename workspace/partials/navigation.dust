@@ -7,7 +7,7 @@
     </li>
     <li><a href="/{params.lang}/on-demand" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
     </li>
-    <li><a href="/{params.lang}/solutions" {@eq key=page.key value="Solutions"}class="on"{/eq}>Solutions</a>
+    <li><a href="/{params.lang}/support" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
     </li>
   </ol>
   <ul>

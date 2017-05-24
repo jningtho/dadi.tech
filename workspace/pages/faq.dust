@@ -93,7 +93,7 @@
 
 <h3 id="workwith">5. Where can I get help working with DADI?</h3>
 
-<p>Check out the <a href="/{params.lang}/solutions/">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
+<p>Check out the <a href="/{params.lang}/support/">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
 </div>
 </div>
 

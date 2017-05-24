@@ -12,7 +12,7 @@
       </div>
     {/description}
     <div class="col w-1-3">
-      {>"partials/solutions/sidebar" /}
+      {>"partials/support/sidebar" /}
     </div>
   </div>
 </div>
