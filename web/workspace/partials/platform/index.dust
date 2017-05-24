@@ -1,18 +1,18 @@
 <div class="container alignc">
   <div class="grid normal fwb pad__top">
-    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="https://github.com/dadi/">
+    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Platform');">
       <img src="/assets/img/logo-github.png" height="45" class="alignv">
       <span class="pad__top block">Github</span>
     </a></div>
-    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="https://www.npmjs.com/org/dadi/">
+    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="http://docs.dadi.tech/npm/" onclick="ga('send','event','NPM','Click','Platform');">
       <img src="/assets/img/logo-npm.png" height="45" class="alignv">
       <span class="pad__top block">NPM</span>
     </a></div>
-    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="http://docs.dadi.tech/">
+    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="http://docs.dadi.tech/" onclick="ga('send','event','Documentation','Click','Platform');">
       <img src="/assets/img/d-dark.png" height="45" class="alignv">
       <span class="pad__top block">Docs</span>
     </a></div>
-    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="/on-demand/">
+    <div class="col w-1-4 bs-w-1-2 pad__bottom--x2"><a href="/on-demand/" onclick="ga('send','event','On demand','Click','Platform');">
       <img src="/assets/img/logo-ondemand.png" height="45" class="alignv">
       <span class="pad__top block">On demand</span>
     </a></div>

@@ -6,7 +6,7 @@
   <div class="col w-1-4 bs-w-1-2">
     <ul class="normal nav marg__right--x2">
       <li><a href="/platform/" {@eq key=page.key value="Platform"}class="active"{/eq}>Platform</a></li>
-      <li><a href="http://docs.dadi.tech/">Documentation</a></li>
+      <li><a href="http://docs.dadi.tech/" onclick="ga('send','event','Documentation','Click','Header');">Documentation</a></li>
       <li><a href="/success-stories/" {@eq key=page.key value="Success stories"}class="active"{/eq}>Success stories</a></li>
       <li><a href="/latest/" {@eq key=page.key value="Latest"}class="active"{/eq}>Latest</a></li>
     </ul>
@@ -14,11 +14,11 @@
 
   <div class="col w-1-4 bs-w-1-1 promos">
     <p class="fwb small">Looking for a cloud based content platform?</p>
-    <a href="/on-demand/" class="btn btn--fill btn--red">On demand</a>
+    <a href="/on-demand/" class="btn btn--fill btn--red" onclick="ga('send','event','On demand','Click','Header');">On demand</a>
   </div>
 
   <div class="col w-1-4 bs-w-1-1 promos">
     <p class="fwb small">Need help integrating or customising our platform?</p>
-    <a href="/solutions/" class="btn btn--fill btn--green">Solutions</a>
+    <a href="/solutions/" class="btn btn--fill btn--green" onclick="ga('send','event','Solutions','Click','Header');">Solutions</a>
   </div>
 </header>
