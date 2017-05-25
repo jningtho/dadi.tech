@@ -63,12 +63,13 @@
           </div>
         </div>
 
-        {@math key=$idx method="mod" operand=2}
-      {@eq value=1}
-          </div>
-  <div class="grid normal cf">
-      {/eq}
-   {/math}
+      {@math key=$idx method="mod" operand=2}
+        {@eq value=1}
+            </div>
+    <div class="grid normal cf">
+        {/eq}
+      {/math}
+      
       {/support.results}
     </ul>
   </div>

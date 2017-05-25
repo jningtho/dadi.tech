@@ -611,7 +611,7 @@ body {
     padding-top: 40px;
     padding-bottom: 40px; }
 .container--divider {
-    border-top: 1px solid #e8f0f7; }
+    border-top: 1px solid #E0E0E0; }
 .container--divider:first-of-type {
       border-top: 0; }
 .container--pad:first-of-type {
@@ -2105,12 +2105,26 @@ form .text:active, form .text:hover, form .text:focus {
       text-align: center; } }
 .product-logo {
   display: block;
-  height: 80px;
-  margin: 40px 0 0px; }
+  height: 80px; }
 @media handheld, only screen and (max-width: 50em) {
   .product-logo-full {
     max-width: 100%;
     height: auto; } }
+.products {
+  margin-top: 70px;
+  position: relative; }
+.products:before {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    right: 0;
+    -webkit-transform: skewY(-3deg);
+            transform: skewY(-3deg);
+    content: ' ';
+    background: #fafafa;
+    height: 80px;
+    display: block;
+    z-index: 1; }
 .zoom {
   transition: all 0.15s ease-in-out; }
 .zoom:hover {

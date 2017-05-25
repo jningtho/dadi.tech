@@ -112,12 +112,20 @@
   </div>
 </div>
 
-<div class="container container--pad normal alignc">
-  <img src="/assets/img/clients.png" style="max-width:90%">
+<div class="pad--x2 normal alignc">
+  <div class="grid">
+  <div class="col w-1-2">
+  Monocle, BT, Empire, Virgin Limited Edition, Kiss, Planet Rock, What Car?
+  </div>
+  <div class="col w-1-2">
+  Grazia, Mojo, Kerrang, Debrief, Heat, Magic
+  </div>
+  </div>
 </div>
 
-<div class="container container--divider normal">
-  <div class="grid">
+<div class="bdr__top pad" style="border-color:#E0E0E0">
+<div class="container container--pad normal">
+  <div class="grid pad__top">
     <div class="col w-1-2 pad__bottom">
       <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
       <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow</p>
@@ -150,26 +158,27 @@
     </div>
   </div>
 </div>
+</div>
 
 {>"partials/products" /}
 
-<div class="bdr__bottom" style="border-color:#f2f2f2">
+<div class="bg--light-grey">
   <div class="container cf">
     <div class="col w-1-2 alignr">
       <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
         <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
         <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
-        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
+        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use{/i18n}</p>
         <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">{@i18n}Find us on Github{/i18n}</a>
           </p>
       </div>
     </div>
 
     <div class="col w-1-2">
-      <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#f2f2f2">
+      <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#eee">
           <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
           <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
-          <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+          <p class="normal">{@i18n}WWe offer a range of services from product strategy to full support to deliver our technology{/i18n}</p>
           <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
           </p>
       </div>
@@ -178,8 +187,8 @@
 </div>
 
 <div class="container container--pad">
-  <h2 class="larger alignc">{@i18n}Smarter content management.{/i18n}</h2>
-  <p class="alignc normal">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>elit. Aenean commodo ligula eget dolor amet.</p>
+  <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
+  <p class="alignc normal">See how our support services scale from helping hand to full-service build</p>
 
   <div class="grid marg__top--x2">
     {#successes.results}

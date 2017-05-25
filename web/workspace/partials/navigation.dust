@@ -3,7 +3,7 @@
     <img src="/assets/img/dadi-{@eq key=page.key value="home"}colour{:else}light{/eq}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>
   <ol>
-    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
+    <li><a href="/{params.lang}/" {@select key=page.key}{@eq value="home"/}{@eq value="Products"/}{@any}class="on"{/any}{/select}>Technology</a>
     </li>
     <li><a href="/{params.lang}/on-demand" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
     </li>

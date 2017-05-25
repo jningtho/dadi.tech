@@ -6,7 +6,7 @@
 
 {<header}
   {#products.results[0]}
-    <div class="container pad__bottom--x2 alignc">
+    <div class="container pad__bottom pad__top alignc">
       <img src="/assets/products/dadi-{products.results[0].product}.png" class="product-logo-full" height="65" alt="DADI API">
       <p class="hdr larger alignauto">{@soberMarkdown}{products.results[0].overview}{/soberMarkdown}</p>    
       
@@ -25,7 +25,7 @@
 
 {#products.results[0]}
   {#highlights}
-    <div class="container container--divider alignc">
+    <div class="container alignc">
       <p class="medium hdr alignauto pad__bottom">{title}</p>
 
       <ul class="list--no-style grid normal">
@@ -39,7 +39,7 @@
     </div>
   {/highlights}
 
-  <div class="container container--divider">
+  <div class="container {?highlights}marg__top--x2 container--divider{/highlights}">
     <div class="grid">
       {?description}
         <div class="col w-1-2 normal read">
@@ -66,7 +66,5 @@
     </div>
   {/example}
 {/products.results[0]}
-
-{>"partials/products" /}<br>
 
 {>"partials/footer" /}

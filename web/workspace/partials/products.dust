@@ -1,54 +1,32 @@
-<div class="bg--light-grey pad__top--x2 marg__top marg__right marg__left bdr-shadow">
-  <h2 class="larger alignc no-marg-i">{@i18n}DADI: microservices technology{/i18n}</h2>
-  <div class="pad__left--x2 pad__right--x2">   
-    <div class="grid">
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/publish/">
-        <div class="product-logo"><img src="/assets/products/dadi-publish.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#FFBF0D">publish <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/api/">
-        <div class="product-logo">
-          <img src="/assets/products/dadi-api.png" width="45">
-        </div>
-        <strong class="larger block hdr" style="color:#0BA6DD">api <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">A high-performance RESTful API layer designed in support of API-first development and the principles of COPE</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/cdn/">
-        <div class="product-logo"><img src="/assets/products/dadi-cdn.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#F7287B">cdn <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/web/">
-        <div class="product-logo"><img src="/assets/products/dadi-web.png" width="60"></div>
-        <strong class="larger block hdr" style="color:#FF2812">web <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application</p>
-      </a></div>
-      {! <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/predict/">
-        <div class="product-logo"><img src="/assets/products/dadi-predict.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#27DCE0">predict <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">Scalable and straightforward predictive analysis API with machine learning at its heart</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/track/">
-        <div class="product-logo"><img src="/assets/products/dadi-track.png" width="45"></div>
-        <strong class="larger block hdr" style="color:#2DBA7A">track <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">Real-time individual-level data pipeline and aggregation service, built around the concept of events and actions</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/visualize/">
-        <div class="product-logo"><img src="/assets/products/dadi-visualize.png" width="60"></div>
-        <strong class="larger block hdr" style="color:#EF711D">visualize <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">Real-time data visualization and dashboarding. Plugs into <strong>DADI Track</strong>, <em>Google Analytics</em> and many other third-party systems</p>
-      </a></div>
-      <div class="col w-1-4 pad__bottom"><a class="block zoom" href="/{params.lang}/identity/">
-        <div class="product-logo"><img src="/assets/products/dadi-identity.png" width="25"></div>
-        <strong class="larger block hdr" style="color:#5CC617">identity <img src="/assets/icons/forward-alt.svg" width="20" class="pad__left--half" style="opacity:0.2"></strong>
-        <p class="normal">End-to-end CRM solution that guarantees the uniqueness of individuals – and powers segmentation – in the anonymous and known space</p>
-      </a></div> !}
+<div class="bdr__top" style="border-color:#E0E0E0">
+  <div class="container container--pad">  
+    <div class=""> 
+      <h2 class="larger pad__bottom alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
 
-      {! <div class="col w-1-1 alignc marg__top"><a class="block zoom" href="/{params.lang}/tools/">
-        <strong class="larger block hdr">Tools &amp; Components</strong>
-        <p class="alignauto normal">The core <strong>DADI</strong> apps are supported by a wide range of tools &amp; components that extend and enhance the platform</p>
-      </a></div> !}
+    <div class="grid">
+    {#products.results}
+      <div class="col w-1-3 pad__bottom pad__top--x2">
+        {?description}<a class="block zoom" href="/{params.lang}/{product}/">{/description}
+
+       
+          
+          {?date}<span style="padding: 1px 6px;margin-top: 5px" class="float--right bg--mid-grey bdr-radius txt--white small inline-block">{date}</span>{/date} 
+          <h3 class="medium no-marg-i hdr"><img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half"> {product}</h3>
+          <div class="normal txt--mid-grey  pad__top" >{overview}</div>
+           
+         
+        {?description}</a>{/description}
+      </div>
+
+     {@math key=$idx method="mod" operand=3}
+        {@eq value=2}
+            </div>
+    <div class="grid">
+        {/eq}
+      {/math}
+
+    {/products.results}
+    </div>
     </div>
   </div>
 </div>

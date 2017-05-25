@@ -53,12 +53,28 @@ form {
 .product-logo {
     display: block;
     height: 80px;
-    margin: 40px 0 0px;
 }
 @media #{$break-small} {
 	.product-logo-full {
 		max-width: 100%;
 		height: auto;
+	}
+}
+
+.products {
+	margin-top: 70px;
+	position: relative;
+
+	&:before {
+		position: absolute;
+		top: -40px;
+		left: 0; right: 0;
+		transform: skewY(-3deg);
+		content: ' ';
+		background: $light-grey;
+		height: 80px;
+		display: block;
+		z-index: 1;
 	}
 }
 
