@@ -95,9 +95,9 @@
 .btn.btn--disabled,
 .btn.btn--disabled:hover
 .btn.btn--disabled:active {
-	background: #E5E4E4;
 	color: $grey;
-	cursor: not-allowed;
+	border-color: $bdr-grey;
+	cursor: default;
 }
 
 .btn span[class^="ss-"] {

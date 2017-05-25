@@ -123,56 +123,89 @@
   </div>
 </div>
 
-<div class="bdr__top pad" style="border-color:#E0E0E0">
-<div class="container container--pad normal">
-  <div class="grid pad__top">
-    <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
-      <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow</p>
+<div class="bdr__top pad__top pad__bottom bdr--bdr-grey">
+  <div class="container container--pad normal">
+    <div class="grid pad__top">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
+        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
+        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees</p>
+      </div>
     </div>
-    <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-      <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees</p>
+
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
+        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
+        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col w-1-2">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
+        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m</p>
+      </div>
+      <div class="col w-1-2">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
+        <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months</p>
+      </div>
     </div>
   </div>
+</div>
 
-  <div class="grid">
-    <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
-      <p class="normal">A platform built as small, independent processes enabling flexibility and high performance</p>
-    </div>
-    <div class="col w-1-2 pad__bottom">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
-      <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points</p>
+<div class="pad__top pad__bottom--x2 bg--dark-blue txt--white">
+  <div class="container">
+    <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
+    <p class="normal alignc marg__bottom--x2">DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content. </p>
+  </div>
+  <img src="/assets/img/publish.png" class="container block">
+</div>
+
+<div class="bdr__top bdr--grey">
+  <div class="container container--pad">  
+    <div class=""> 
+      <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
+
+    <div class="grid">
+      {#products.results}
+        <div class="col w-1-3 pad__bottom pad__top--x2">
+          <h3 class="product medium no-marg-i hdr">
+            <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
+            {product}
+          </h3>
+
+          <div class="normal txt--mid-grey pad__top">
+            {overview}
+            <br><br>
+            {?description}
+              <a href="/{params.lang}/{product}/" class="btn small">Learn more</a>
+            {:else}
+              <span class="btn small btn--disabled">{date}</span>
+            {/description}
+          </div>
+        </div>
+
+       {@math key=$idx method="mod" operand=3}
+          {@eq value=2}
+              </div>
+      <div class="grid">
+          {/eq}
+        {/math}
+
+      {/products.results}
+      </div>
     </div>
   </div>
-
-  <div class="grid">
-    <div class="col w-1-2">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
-      <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m</p>
-    </div>
-    <div class="col w-1-2">
-      <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
-      <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months</p>
-    </div>
-  </div>
-</div>
 </div>
 
-<div class="bdr__top pad__top pad__bottom--x2 bg--dark-blue txt--white" style="border-color:#E0E0E0">
-<div class="container">
-  <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
-  <p class="normal alignc marg__bottom--x2">DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content. </p>
-</div>
-  <img src="/assets/img/publish.png" style="margin:0 auto;max-width: 1000px;width:100%" class="block">
-
-
-</div>
-
-{>"partials/products" /}
-
-<div class="bg--light-grey">
+<div class="bg--light-grey bdr--bdr-grey">
   <div class="container cf">
     <div class="col w-1-2 alignr">
       <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
@@ -185,7 +218,7 @@
     </div>
 
     <div class="col w-1-2">
-      <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left" style="border-color:#eee">
+      <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left bdr--bdr-grey">
           <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
           <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
           <p class="normal">{@i18n}WWe offer a range of services from product strategy to full support to deliver our technology{/i18n}</p>
