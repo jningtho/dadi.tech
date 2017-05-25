@@ -168,7 +168,7 @@
   <img src="/assets/img/publish.png" class="container block">
 </div>
 
-<div class="bdr__top bdr--grey">
+<div class="bdr--grey">
   <div class="container container--pad">  
     <div class=""> 
       <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
