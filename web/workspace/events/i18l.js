@@ -5,13 +5,11 @@ var lang
 var Event = function (req, res, data, callback) {
   // If there's a lang variable passed from pages
   if (data.params && data.params.lang) {
-    console.log('here')
     lang = data.params.lang
   }
 
   // Otherwise redirect to the browser default (fallback to 'en')
   else {
-    console.log('or here')
     lang = langParser.parse(req.headers['accept-language'])[0].code ? langParser.parse(req.headers['accept-language'])[0].code : 'en'
     res.writeHead(302, { Location: '/' + lang })
     return res.end()
