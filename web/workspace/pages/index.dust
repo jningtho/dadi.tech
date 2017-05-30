@@ -204,7 +204,7 @@
 
 <div class="bg--light-grey bdr--bdr-grey">
   <div class="container cf">
-    <div class="col w-1-2 alignr">
+    <div class="col w-1-2 alignr bs-alignc">
       <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
         <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
         <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
@@ -214,7 +214,7 @@
       </div>
     </div>
 
-    <div class="col w-1-2">
+    <div class="col w-1-2 bs-alignc">
       <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left bdr--bdr-grey">
           <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
           <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
@@ -234,7 +234,7 @@
     {#successes.results}
       <div class="col w-1-1 marg__bottom">
           <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
-              <div class="read inline-block w-1-3 bs-w-2-3 pad bg--black" style="background-color:{color}; color:{text-color}">
+              <div class="read inline-block w-1-3 bs-w-1-1 pad bg--black" style="background-color:{color}; color:{text-color}">
                   <p class="hdr large">{title}</p>
                   <p class="normal">{summary}</p>
                   <p><span class="btn">{@i18n}Read more{/i18n}</span>
