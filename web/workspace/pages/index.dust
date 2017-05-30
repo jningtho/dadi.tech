@@ -28,10 +28,8 @@
   <div class="explainer__window w-web">
     <ul class="w-web__tabs">
       <li class="w-web__tab"><a href="#" class="u-active">datasource.json</a>
-      </li>
-      <li class="w-web__tab"><a href="#">index.json</a>
-      </li>
-      <li class="w-web__tab"><a href="#">index.dust</a>
+      </li><li class="w-web__tab"><a href="#">index.json</a>
+      </li><li class="w-web__tab"><a href="#">index.dust</a>
       </li>
     </ul>
 
@@ -39,27 +37,27 @@
       <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12</div>
 
       <pre><code class="hljs json">{
-"datasource": {
-"key": "atricles",
-"source": {
-  "endpoint": "1.0/site/articles"
-},
-"paginate": true,
-"count": 10,
-"sort": {
-  "date": -1
-},
-"fields": {},
-"filter": {
-  "state": "published"
-},
-"requestParams": [
-  {
-    "param": "handle",
-    "field": "handle"
+  "datasource": {
+  "key": "atricles",
+  "source": {
+    "endpoint": "1.0/site/articles"
+  },
+  "paginate": true,
+  "count": 10,
+  "sort": {
+    "date": -1
+  },
+  "fields": {},
+  "filter": {
+    "state": "published"
+  },
+  "requestParams": [
+    {
+      "param": "handle",
+      "field": "handle"
+    }
+  ]
   }
-]
-}
 }</code></pre>
     </div>
   </div>
@@ -120,7 +118,7 @@
   </div>
 </div>
 
-<div class="bdr__top pad__top pad__bottom bdr--bdr-grey">
+<div class="bdr__top bdr--bdr-grey">
   <div class="container container--pad normal">
     <div class="grid pad__top">
       <div class="col w-1-2 pad__bottom">
@@ -145,11 +143,11 @@
     </div>
 
     <div class="grid">
-      <div class="col w-1-2">
+      <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
         <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m</p>
       </div>
-      <div class="col w-1-2">
+      <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
         <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months</p>
       </div>
