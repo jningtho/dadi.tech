@@ -159,11 +159,7 @@
   <div class="container">
     <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
     <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content.{/i18n}</p>
-
     <img src="/assets/illustrations/publish.png" class="fill block">
-  </div>
-  <div class="overflow-touch">
-    
   </div>
 </div>
 
