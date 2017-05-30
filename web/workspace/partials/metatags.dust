@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Language" content="{params.lang}">
 
-<title>{+title}DADI{/title}{?title} / DADI{/title}</title>
+<title>{+title}Smarter content management.{/title}{?title} / DADI{/title}</title>
 <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1481817850">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
@@ -10,14 +10,14 @@
 
 <link rel="canonical" href="{global.protocol}://{host}{pathname}">
 
-<meta property="og:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta property="og:title" content="{+title}Smarter content management.{/title}{?title} / DADI{/title}">
 <meta name="description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta property="og:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@dadi">
-<meta name="twitter:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta name="twitter:title" content="{+title}Smarter content management.{/title}{?title} / DADI{/title}">
 <meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="twitter:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
