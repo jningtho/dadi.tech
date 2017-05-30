@@ -112,15 +112,11 @@
   </div>
 </div>
 
-<div class="pad normal alignl container">
-  <div class="grid">
-  
-  <div class="col w-1-1 alignr">
-  <p class="alignl inline-block float--left hdr large txt--grey alignv">Already used<br>around the web…</p>
-  <img style="max-width:75%;margin: 0 auto" class="inline-block alignv" src="/assets/img/clients.png">
-  </div>
-  
-
+<div class="clients">
+  <div class="normal alignc container overflow-touch">
+    <div class="pad__top pad__bottom">
+      <p class="inline-block hdr large txt--grey alignv">Already used around the web…</p>
+    </div>
   </div>
 </div>
 
@@ -164,9 +160,11 @@
 <div class="pad__top pad__bottom--x2 bg--dark-blue txt--white">
   <div class="container">
     <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
-    <p class="normal alignc marg__bottom--x2">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content.{/i18n}</p>
+    <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content.{/i18n}</p>
   </div>
-  <img src="/assets/img/publish.png" class="container block">
+  <div class="overflow-touch">
+    <img src="/assets/img/publish.png" class="container block">
+  </div>
 </div>
 
 <div class="bdr--grey">

@@ -360,13 +360,12 @@ top: 65px;
 	height: auto;
 	text-align: center;
 
-
 	&__blurb, &__window, &__connect {
 		display: none;
 	}
 	&__intro {
 		width: auto;
-		padding-bottom: 30px;
+		padding: 20px 0;
 	}
 }
 }
