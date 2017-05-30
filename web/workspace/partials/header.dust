@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {>"partials/metatags" /}
-  {<title}{@i18n}Smarter content management.{/i18n}{/title}
+  {+title}{@i18n}Smarter content management.{/i18n}{/title}
 </head>
 <body class="{+bodyClass/}">
 
