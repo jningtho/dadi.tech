@@ -39,7 +39,7 @@
     </div>
   {/highlights}
 
-  <div class="container {?highlights}marg__top--x2 container--divider{/highlights}">
+  <div class="container {?highlights}marg__top--x2 container--divider{:else}marg__bottom{/highlights}">
     <div class="grid">
       {?description}
         <div class="col w-1-2 normal read">
