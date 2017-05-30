@@ -2,9 +2,6 @@
   "page": {
     "key": "home"
   },
-  "settings": {
-    "beautify": true
-  },
   "datasources": [
     "successes",
     "products",
@@ -12,7 +9,7 @@
   ],
   "routes": [
     {
-      "path": "/:lang"
+      "path": "/:lang?"
     }
   ]
 }
