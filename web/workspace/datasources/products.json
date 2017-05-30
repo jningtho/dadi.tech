@@ -13,7 +13,7 @@
           "product": "publish",
           "color": "#FFBF0D",
           "dark-color": "#231A02",
-          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow",
+          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow.",
           "description": "![Screenshot of DADI Publish](/assets/illustrations/publish.png)\n\nA writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
           "features": [
             "Extendable custom fields",
@@ -34,7 +34,7 @@
           "product": "api",
           "color": "#0BA6DD",
           "dark-color": "#02181E",
-          "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE",
+          "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE.",
           "description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NOnhPjp5KEg\" frameborder=\"0\" allowfullscreen></iframe>\n\nYou can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
           "features": [
             "Built in support for oAuth2",
@@ -56,7 +56,7 @@
           "product": "cdn",
           "color": "#e02975",
           "dark-color": "#280816",
-          "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution",
+          "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution.",
           "description": "You can consider a full installation of DADI CDN as being analogous to a traditional CDN (Content Distribution Network) such as Akamai and Limelight. It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.\n\nCDN has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis.",
           "example": true,
           "demo": "http://docs.dadi.tech/sandbox/cdn/",
@@ -94,7 +94,7 @@
           "product": "web",
           "color": "#e42918",
           "dark-color": "#490b08",
-          "overview": "A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application",
+          "overview": "A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application.",
           "description": "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.\n\n**DADI Web** uses [LinkedIn's Dust](http://www.dustjs.com/) templating language which provides a simple yet powerful template layer for displaying your data.",
           "features": [
             "Connect to APIs to generate data-driven pages",
@@ -130,7 +130,7 @@
           "product": "track",
           "color": "#2DBA7A",
           "dark-color": "#0A281A",
-          "overview": "Real-time, streaming data layer providing accurate metrics at individual and product level",
+          "overview": "Real-time, streaming data layer providing accurate metrics at individual and product level. Drives DADI Identity.",
           "date": "Q3/4 2017"
         },
         {
@@ -138,7 +138,7 @@
           "product": "visualize",
           "color": "#EF711D",
           "dark-color": "#261205",
-          "overview": "A data visualization interface for Identity and Track, but capable of taking data feeds from virtually any source",
+          "overview": "A data visualization interface for Identity and Track, but capable of taking data feeds from virtually any source.",
           "date": "Q2 2018"
         },
         {
@@ -146,7 +146,7 @@
           "product": "identity",
           "color": "#5CC617",
           "dark-color": "#0F2104",
-          "overview": "Guarantees uniqueness of individuals – and powers segmentation – for anonymous and known users",
+          "overview": "Guarantees uniqueness of individuals – and powers segmentation – for anonymous and known users.",
           "date": "Q3/4 2017"
         },
         {
@@ -154,7 +154,7 @@
           "product": "match",
           "color": "#71afac",
           "dark-color": "#000000",
-          "overview": "Taxonomic framework for automated content classification through machine learning. Plugs into Publish",
+          "overview": "Taxonomic framework for automated content classification through machine learning. Plugs into Publish.",
           "date": "Q3 2017"
         },
         {
