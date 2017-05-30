@@ -16,7 +16,7 @@ function colorScheme(primary, secondary, count, mix) {
 */
 dust.getEngine().helpers.gradient = function(chunk, context, bodies, params) {
   var scheme = colorScheme(
-    'primary' in params ? params.primary : '#fff',
+    'primary' in params && params.primary && params.primary != null ? params.primary : '#fff',
     'secondary' in params ? params.secondary : '#000',
     'count' in params ? parseInt(params.count, 10) : 10,
     'mix' in params ? parseFloat(params.mix) : 1
