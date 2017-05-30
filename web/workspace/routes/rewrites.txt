@@ -29,6 +29,7 @@
 \/platform\/concepts\/? /concepts/ [R=302,L]
 \/platform\/security\/? /security/ [R=302,L]
 \/platform\/roadmap\/? /roadmap/ [R=302,L]
+\/solutions\/? /support/ [R=302,L]
 \/solutions\/data-strategy\/? /support/data-strategy/ [R=302,L]
 \/solutions\/publishing\/? /support/publishing/ [R=302,L]
 \/solutions\/product-development\/? /support/product-development/ [R=302,L]
