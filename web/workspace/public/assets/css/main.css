@@ -1918,7 +1918,8 @@ select {
   white-space: nowrap; }
 .w-web__tab {
   display: inline-block;
-  width: 33.333%; }
+  width: 33.333%;
+  margin-right: -3px; }
 .w-web__tab a {
   display: block;
   padding: 10px 15px;
