@@ -12,7 +12,7 @@
           "handle": "whatcar",
           "title": "What Car?",
           "color": "#e32116",
-          "summary": "A fresh platform and product to optimize editorial workflow, increase user engagement and support new commercial opportunity",
+          "summary": "A fresh platform and product to optimize editorial workflow, increase user engagement and support new commercial opportunity.",
           "components": [
             "Content management",
             "User data management",
@@ -38,7 +38,7 @@
           "title": "Monocle",
           "color": "#fc0",
           "text-color": "#000",
-          "summary": "A new platform built in support of single user and subscriber view – and to power a full suite of digital product from browser to app",
+          "summary": "A new platform built in support of single user and subscriber view – and to power a full suite of digital product from browser to app.",
           "components": [
             "User data management",
             "Content management",
@@ -64,7 +64,7 @@
           "handle": "empire",
           "title": "Empire",
           "color": "#ff0000",
-          "summary": "Rebuilt website and content management to streamline user experience and editorial workflow – all delivered against the clock",
+          "summary": "Rebuilt website and content management to streamline user experience and editorial workflow – all delivered against the clock.",
           "components": [
             "Content management",
             "API first",
@@ -88,7 +88,7 @@
           "handle": "virgin",
           "title": "Virgin Limited Edition",
           "color": "#333",
-          "summary": "A premium digital product worthy of exclusive luxury holiday islands and properties selected personally by Richard Branson",
+          "summary": "A premium digital product worthy of exclusive luxury holiday islands and properties selected personally by Richard Branson.",
           "components": [
             "Content management",
             "User data management",

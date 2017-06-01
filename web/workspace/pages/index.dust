@@ -17,33 +17,33 @@
     <div class="grid pad__top">
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
-        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow</p>
+        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
       </div>
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees</p>
+        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
       </div>
     </div>
 
     <div class="grid">
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
-        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance</p>
+        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
       </div>
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
-        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points</p>
+        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
       </div>
     </div>
 
     <div class="grid">
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
-        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m</p>
+        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m.</p>
       </div>
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
-        <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months</p>
+        <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months.</p>
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@
       <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
         <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
         <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
-        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use{/i18n}</p>
+        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
         <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">{@i18n}Find us on Github{/i18n}</a>
           </p>
       </div>
@@ -110,7 +110,7 @@
       <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left bdr--bdr-grey">
           <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
           <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
-          <p class="normal">{@i18n}WWe offer a range of services from product strategy to full support to deliver our technology{/i18n}</p>
+          <p class="normal">{@i18n}WWe offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
           <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
           </p>
       </div>
@@ -120,7 +120,7 @@
 
 <div class="container container--pad">
   <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
-  <p class="alignc normal">See how our support services scale from helping hand to full-service build</p>
+  <p class="alignc normal">See how our support services scale from helping hand to full-service build:</p>
 
   <div class="grid marg__top--x2">
     {#successes.results}
