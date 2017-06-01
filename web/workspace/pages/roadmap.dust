@@ -1,3 +1,5 @@
+{>"partials/header" /}
+
 <div class="container container--pad">
   <h1 class="no-marg-i kilo txt--green marg__bottom">Roadmap</h1>
 
@@ -5,7 +7,7 @@
 </div>
 
 <div class="container container--divider">
-  <div class="grid">
+  <div class="grid pad__bottom--x2">
     <div class="col w-1-2">
       <p class="larger hdr txt--green marg__bottom">You can help us improve DADI (or change this roadmap)</p>
 
@@ -120,3 +122,5 @@
     </div>  
   </div>
 </div>
+
+{>"partials/footer" /}
