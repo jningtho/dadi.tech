@@ -4,7 +4,7 @@
 
 {<header}<h1 class="txt--white kilo">Get in touch with the team.</h1>{/header}
 
-<div class="container container--pad">
+<div class="container pad__bottom--x2">
   {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
 
   <form action="/contact/" method="post" class="grid">
@@ -34,24 +34,24 @@
   </form>
 </div>
 
-<div class="container container--divider normal read">
+<div class="container container--divider normal">
   <div class="grid">
-    <div class="col w-1-4">
+    <div class="col w-1-4 read">
       <h3>Client engagement</h3>
       <p><a href="mailto:makesomething@dadi.co">makesomething@dadi.co</a><br>
       +44 (0) 20 7205 2902</p>
     </div>
-    <div class="col w-1-4">
+    <div class="col w-1-4 read">
       <h3>Media enquiries</h3>
       <p><a href="mailto:press@dadi.co">press@dadi.co</a><br>
     +44 (0) 20 7205 2901</p>
     </div>
-    <div class="col w-1-4">
+    <div class="col w-1-4 read">
       <h3>Careers</h3>
       <p><a href="mailto:joinus@dadi.co">joinus@dadi.co</a><br>
     +44 (0) 20 7205 2903</p>
     </div>
-    <div class="col w-1-4">
+    <div class="col w-1-4 read">
       <h3>Everything else</h3>
       <p><a href="mailto:hello@dadi.tech">hello@dadi.tech</a><br>
       +44 (0) 20 7205 2900<br>
