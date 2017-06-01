@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "path": "/:lang/concept/:concept/"
+      "path": "/:lang/concepts/:concept?"
     }
   ]
 }   

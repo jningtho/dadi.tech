@@ -2,10 +2,13 @@
 
 {<title}hello{/title}
 
-{^params.concept}
-  <div class="container container--divider">
-    <h1 class="kilo alignc no-marg-i pad__bottom--x2">Platform concepts</h1>
+{<header}
+<h1 class="txt--white kilo">Platform concepts</h1>
+<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">Explore the core principles behind our platform.</p>
+{/header}
 
+{^params.concept}
+  <div class="container pad__bottom--x2">
     <div class="grid">
       {#concepts.results}
         <div class="col w-1-2 marg__bottom--x2">
