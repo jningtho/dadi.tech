@@ -221,7 +221,6 @@ height: 100%;
 .w-web__tab {
 	display: inline-block;
 	width: 33.333%;
-	margin-right: -3px;
 }
 .w-web__tab a {
 	display: block;
@@ -253,21 +252,24 @@ height: 100%;
 }
 
 .w-web pre  {
-			margin: 0;
-font-size: 14px;
-
+	margin: 0;
+	font-size: 14px;
 }
 
 .w-web__body {
-			overflow: scroll;
-height: 203px;
+	overflow: scroll;
+	height: 203px;
+	display: none;
+
+	&.u-active {
+		display: block;
+	}
 }
 
 
 .explainer__blurb {
-			width: 220px;
-position: absolute;
-color: #43595F;
+	position: absolute;
+	color: #43595F;
 }
 .explainer__blurb p {
 	margin: 8px 0 0;
