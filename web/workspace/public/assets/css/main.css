@@ -1096,8 +1096,8 @@ h5, .small {
     line-height: 48px;
     line-height: 3rem; }
   .kilo {
-    font-size: 30px;
-    font-size: 1.875rem;
+    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 38px;
     line-height: 2.375rem; }
   h1, .larger {
@@ -1158,6 +1158,11 @@ nav ul li a.on {
   nav img.logo {
     position: relative;
     left: -16px; } }
+@media handheld, only screen and (max-width: 50em) {
+  nav ul {
+    border-top: 1px solid rgba(170, 170, 170, 0.3);
+    padding: 10px 0 0;
+    margin-top: 10px; } }
 header {
   padding-bottom: 20px;
   overflow: hidden; }
@@ -1953,7 +1958,8 @@ select {
     display: block; }
 .explainer__blurb {
   position: absolute;
-  color: #43595F; }
+  color: #43595F;
+  width: 80%; }
 .explainer__blurb p {
   margin: 8px 0 0;
   font-size: 14px;
@@ -2065,7 +2071,7 @@ select {
       display: none; }
     .explainer__intro {
       width: auto;
-      padding: 20px 0; } }
+      padding: 15px 0 20px; } }
 form .btn, form .text {
   line-height: 1.25;
   font-weight: bolder;
@@ -2181,4 +2187,15 @@ abbr {
     background-position: 0 50%; }
   100% {
     background-position: -1536px 50%; } }
+@media handheld, only screen and (min-width: 50em) {
+  .support__self {
+    padding: 40px 40px 40px 0; }
+  .support__team {
+    border-left: 1px solid #E0E0E0;
+    padding: 40px 0 40px 40px; }
+  .success__desc {
+    width: 33.33%; } }
+@media handheld, only screen and (max-width: 50em) {
+  .success__desc {
+    width: auto; } }
 /*# sourceMappingURL=main.css.map */

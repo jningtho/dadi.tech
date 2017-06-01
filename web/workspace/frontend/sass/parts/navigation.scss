@@ -35,6 +35,14 @@ nav ul li a.on {
   nav img.logo { position: relative; left: -16px; }
 }
 
+@media #{$break-small} {
+  nav ul {
+    border-top: 1px solid rgba(#aaa,0.3);
+    padding: 10px 0 0;
+    margin-top: 10px;
+  }
+}
+
 header {
 	padding-bottom: 20px;
   overflow: hidden;

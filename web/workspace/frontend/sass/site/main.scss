@@ -151,3 +151,26 @@ abbr {
 	0% { background-position: 0 50%; }
     100% { background-position: -1536px 50%; }
 }
+
+
+@media #{$break-large} {
+	.support {
+		&__self {
+			padding: 40px 40px 40px 0;
+		}
+		&__team {
+			border-left: 1px solid $bdr-grey;
+			padding: 40px 0 40px 40px;
+		}
+	}
+
+	.success__desc {
+		width: 33.33%;
+	}
+}
+
+@media #{$break-small} {
+	.success__desc {
+		width: auto;
+	}
+}

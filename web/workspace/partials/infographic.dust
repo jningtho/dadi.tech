@@ -6,7 +6,7 @@
 
   <div class="explainer__blurb b-api">
     <img src="/assets/products/dadi-api.png" width="22">
-    <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM.{/i18n}</p>
+    <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM{/i18n}</p>
   </div>
 
   <div class="explainer__window w-api">
@@ -18,18 +18,18 @@
 
   <div class="explainer__blurb b-web">
     <img src="/assets/products/dadi-web.png" width="26">
-    <p class="small">{@i18n}Migrate easily from other platforms and template languages{/i18n}</p>
+    <p class="small">{@i18n}Easily define new pages with complex data structures and routing{/i18n}</p>
   </div>
 
   <div class="explainer__window w-web">
     <ul class="w-web__tabs">
-      <li class="w-web__tab"><a href="#" class="u-active">datasource.json</a>
-      </li><li class="w-web__tab"><a href="#">index.json</a>
-      </li><li class="w-web__tab"><a href="#">index.dust</a>
+      <li class="w-web__tab"><a href="#web_datasource" class="u-active">datasource.json</a>
+      </li><li class="w-web__tab"><a href="#web_json">index.json</a>
+      </li><li class="w-web__tab"><a href="#web_dust">index.dust</a>
       </li>
     </ul>
 
-    <div class="w-web__body">
+    <div class="w-web__body u-active" id="web_datasource">
       <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
 
       <pre><code class="hljs json">{{~n}
@@ -55,6 +55,18 @@
 &nbsp;&nbsp;&nbsp;&nbsp;]{~n}
 &nbsp;&nbsp;}{~n}
 }</code></pre>
+    </div>
+
+    <div class="w-web__body" id="web_json">
+      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
+
+      <pre><code class="hljs json">json</code></pre>
+    </div>
+
+     <div class="w-web__body" id="web_dust">
+      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
+
+      <pre><code class="hljs json">dust</code></pre>
     </div>
   </div>
 

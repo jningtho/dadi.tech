@@ -270,6 +270,7 @@ height: 100%;
 .explainer__blurb {
 	position: absolute;
 	color: #43595F;
+	width: 80%;
 }
 .explainer__blurb p {
 	margin: 8px 0 0;
@@ -368,7 +369,7 @@ top: 65px;
 	}
 	&__intro {
 		width: auto;
-		padding: 20px 0;
+		padding: 15px 0 20px;
 	}
 }
 }

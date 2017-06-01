@@ -38,8 +38,8 @@
 
     <div class="grid">
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Buletproof at scale</p>
-        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150m.</p>
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Bulletproof at scale</p>
+        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150 million users.</p>
       </div>
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
@@ -52,15 +52,15 @@
 <div class="pad__top pad__bottom bg--dark-blue txt--white">
   <div class="container">
     <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
-    <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can just concentrate on the content.{/i18n}</p>
+    <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can concentrate on the content.{/i18n}</p>
     <img src="/assets/illustrations/publish.png" class="fill block">
   </div>
 </div>
 
 <div class="bdr--grey">
   <div class="container container--pad">  
-    <div class=""> 
-      <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
+    <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
+    <p class="alignc normal">{@i18n}Connected content management products that can be used in varied combinations – including independently or alongside other technology.{/i18n}</p>
 
     <div class="grid">
       {#products.results}
@@ -94,10 +94,10 @@
   </div>
 </div>
 
-<div class="bg--light-grey bdr--bdr-grey">
+<div class="bg--light-grey bdr--bdr-grey support">
   <div class="container cf">
     <div class="col w-1-2 alignr bs-alignc">
-      <div class="block pad__top--x2 pad__bottom--x2 pad__right--x2">
+      <div class="block pad support__self">
         <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
         <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
         <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
@@ -107,12 +107,12 @@
     </div>
 
     <div class="col w-1-2 bs-alignc">
-      <div class="block pad__top--x2 pad__bottom--x2 pad__left--x2 bdr__left bdr--bdr-grey">
-          <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
-          <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
-          <p class="normal">{@i18n}WWe offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
-          <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
-          </p>
+      <div class="block pad support__team">
+        <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
+        <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
+        <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+        <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
+        </p>
       </div>
     </div>
   </div>
@@ -124,9 +124,9 @@
 
   <div class="grid marg__top--x2">
     {#successes.results}
-      <div class="col w-1-1 marg__bottom">
+      <div class="col w-1-1 marg__bottom success__item">
           <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
-              <div class="read inline-block w-1-3 bs-w-1-1 pad bg--black" style="background-color:{color}; color:{text-color}">
+              <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
                   <p class="hdr large">{title}</p>
                   <p class="normal">{summary}</p>
                   <p><span class="btn">{@i18n}Read more{/i18n}</span>
