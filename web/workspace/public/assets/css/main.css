@@ -1429,7 +1429,8 @@ body.home header {
 .btn.btn--disabled:hover .btn.btn--disabled:active {
   color: #aaa !important;
   border-color: #E0E0E0 !important;
-  cursor: default !important; }
+  cursor: default !important;
+  background: none; }
 .btn span[class^="ss-"] {
   vertical-align: middle;
   line-height: 100%; }
@@ -1918,8 +1919,7 @@ select {
   white-space: nowrap; }
 .w-web__tab {
   display: inline-block;
-  width: 33.333%;
-  margin-right: -3px; }
+  width: 33.333%; }
 .w-web__tab a {
   display: block;
   padding: 10px 15px;
@@ -1947,9 +1947,11 @@ select {
   font-size: 14px; }
 .w-web__body {
   overflow: scroll;
-  height: 203px; }
+  height: 203px;
+  display: none; }
+.w-web__body.u-active {
+    display: block; }
 .explainer__blurb {
-  width: 220px;
   position: absolute;
   color: #43595F; }
 .explainer__blurb p {
