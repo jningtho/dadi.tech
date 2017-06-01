@@ -139,7 +139,7 @@ ga('create', 'UA-42395806-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-<script src="/assets/js/pattern.min.js"></script>
-<script src="/assets/js/main.min.js"></script>
+{@ne key=page.key value="home"}<script src="/assets/js/pattern.min.js"></script>{/ne}
+<script src="/assets/js/main.min.js?v=1496340248"></script>
 </body>
 </html>

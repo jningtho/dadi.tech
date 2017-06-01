@@ -22,35 +22,54 @@
   </div>
 
   <div class="explainer__window w-web">
-    <ul class="w-web__tabs">
-      <li class="w-web__tab"><a href="#web_datasource" class="u-active">datasource.json</a>
-      </li><li class="w-web__tab"><a href="#web_json">index.json</a>
-      </li><li class="w-web__tab"><a href="#web_dust">index.dust</a>
+    <ul class="w-web__tabs" id="tabs">
+      <li class="w-web__tab"><a href="#web_datasource" class="u-active">Datasource</a>
+      </li><li class="w-web__tab"><a href="#web_json">Page defintion</a>
+      </li><li class="w-web__tab"><a href="#web_dust">Template</a>
       </li>
     </ul>
-
+<style type="text/css">
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: .5em;
+  color: #383a42;
+}
+.hljs-attr {
+  color: #0F6CDC;
+}
+.hljs-string {
+  color: #0F953C;
+}
+.hljs-number,
+.hljs-literal,
+.hljs-tag {
+  color: #F86410;
+}
+</style>
     <div class="w-web__body u-active" id="web_datasource">
       <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
 
       <pre><code class="hljs json">{{~n}
-&nbsp;&nbsp;"datasource": {{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"key": "atricles",{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"source": {{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"endpoint": "1.0/site/articles"{~n}
+&nbsp;&nbsp;<span class="hljs-attr">"datasource"</span>: {{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"key"</span>: <span class="hljs-string">"posts"</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"name"</span>: <span class="hljs-string">"Blog posts as markdown files."</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"source"</span>: {{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"type"</span>: <span class="hljs-string">"markdown"</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"path"</span>: <span class="hljs-string">"./workspace/posts"</span>{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;},{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"paginate": true,{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"count": 10,{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"sort": {{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"date": -1{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"paginate"</span>: <span class="hljs-literal">true</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"count"</span>: <span class="hljs-number">5</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"sort"</span>: {{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"date"</span>: <span class="hljs-number">-1</span>{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;},{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"fields": {},{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"filter": {{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state": "published"{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;},{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;"requestParams": [{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"fields"</span>: [{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"attributes"</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"contentHtml"</span>{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;],{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"requestParams"</span>: [{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"param": "handle",{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"field": "handle"{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"param"</span>: <span class="hljs-string">"handle"</span>, <span class="hljs-attr">"field"</span>: <span class="hljs-string">"_id"</span>{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;]{~n}
 &nbsp;&nbsp;}{~n}
@@ -58,15 +77,44 @@
     </div>
 
     <div class="w-web__body" id="web_json">
-      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
+      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19</div>
 
-      <pre><code class="hljs json">json</code></pre>
+      <pre><code class="hljs json">{{~n}
+&nbsp;&nbsp;<span class="hljs-attr">"page"</span>: {{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"name"</span>: <span class="hljs-string">"index"</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"description"</span>: <span class="hljs-string">"An introduction to DADI Web."</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"language"</span>: <span class="hljs-string">"en"</span>{~n}
+&nbsp;&nbsp;},{~n}
+&nbsp;&nbsp;<span class="hljs-attr">"settings"</span>: {{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"passFilters"</span>: <span class="hljs-literal">true</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"cache"</span>: <span class="hljs-literal">true</span>{~n}
+&nbsp;&nbsp;},{~n}
+&nbsp;&nbsp;<span class="hljs-attr">"routes"</span>: [{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;{{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"path"</span>: <span class="hljs-string">"/"</span>{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;}{~n}
+&nbsp;&nbsp;],{~n}
+&nbsp;&nbsp;<span class="hljs-attr">"datasources"</span>: [{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-string">"posts"</span>{~n}
+&nbsp;&nbsp;]{~n}
+}</code></pre>
     </div>
 
      <div class="w-web__body" id="web_dust">
-      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24</div>
+      <div class="w-web__num">01 02 03 04 05 06 07 08 09 10 11 12</div>
 
-      <pre><code class="hljs json">dust</code></pre>
+      <pre><code class="hljs html">{~lb}<span class="hljs-tag">></span><span class="hljs-string">"partials/header"</span> <span class="hljs-tag">/</span>{~rb}{~n}
+{~n}
+{~lb}<span class="hljs-tag">#</span><span class="hljs-attr">posts.results</span>{~rb}</span>{~n}
+&nbsp;&nbsp;{~lb}<span class="hljs-attr">></span><span class="hljs-string">"partials/post"</span> <span class="hljs-tag">/</span>{~rb}{~n}
+{~lb}<span class="hljs-tag">/</span><span class="hljs-attr">post.results</span>{~rb}{~n}{~n}
+
+{~lb}<span class="hljs-tag">></span><span class="hljs-string">"partials/pagination"</span>{~n}
+&nbsp;&nbsp;<span class="hljs-attr">currentPage</span>=<span class="hljs-string">posts.metadata.page</span>{~n}
+&nbsp;&nbsp;<span class="hljs-attr">totalPages</span>=<span class="hljs-string">posts.metadata.totalPages</span>{~n}
+/{~rb}{~n}{~n}
+
+{~lb}<span class="hljs-tag">></span><span class="hljs-string">"partials/footer"</span> <span class="hljs-tag">/</span>{~rb}</code></pre>
     </div>
   </div>
 
