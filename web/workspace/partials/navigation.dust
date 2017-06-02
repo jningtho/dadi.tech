@@ -5,15 +5,15 @@
   <ol>
     <li><a href="/{params.lang}/" {@select key=page.key}{@eq value="home"/}{@eq value="Products"/}{@any}class="on"{/any}{/select}>Technology</a>
     </li>
-    <li><a href="/{params.lang}/on-demand" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
+    <li><a href="/{params.lang}/on-demand" onclick="ga('send','event','On demand','Click','Header');" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
     </li>
-    <li><a href="/{params.lang}/support" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
+    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
     </li>
   </ol>
   <ul>
-    <li><a href="https://github.com/dadi/">Find us on Github</a>
+    <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">Find us on Github</a>
     </li>
-    <li><a href="http://docs.dadi.tech" class="txt--blue">Documentation</a>
+    <li><a href="http://docs.dadi.tech" class="txt--blue" onclick="ga('send','event','Documentation','Click','Header');">Documentation</a>
     </li>
   </ul>
 </nav>

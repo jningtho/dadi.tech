@@ -32,7 +32,7 @@
           <li><a href="/{params.lang}/contact/">Contact us</a></li>
           <li><a href="/{params.lang}/success-stories/">Success stories</a></li>
           <li><a href="/{params.lang}/latest/">Latest</a></li>
-          <li><a href="/{params.lang}/on-demand/">On demand</a></li>
+          <li><a href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Footer');">On demand</a></li>
           <li><a href="/{params.lang}/about/">Working with DADI</a>
           <li><a href="/{params.lang}/careers/">Careers</a>
           <li><a href="/{params.lang}/faq/">FAQ</a>
@@ -96,7 +96,7 @@
           <li><a href="/{params.lang}/roadmap/">Roadmap</a></li>
           {! <li><a href="/{params.lang}/licensing/">Licensing</a></li> !}
           <li>
-            <a href="http://docs.dadi.tech" rel="noopener">
+            <a href="http://docs.dadi.tech" onclick="ga('send','event','Documentation','Click','Footer');" rel="noopener">
             <img src="/assets/icons/pop-out.svg" class="alignv float--right" width="15">
             Documentation
             </a>
@@ -104,7 +104,7 @@
         </ul>
       </div>
       <div class="col w-1-3 pad__bottom">
-        <p class="normal hdr"><a href="/{params.lang}/support/">Support</a></p>
+        <p class="normal hdr"><a href="/{params.lang}/support/" onclick="ga('send','event','Support','Click','Footer');">Support</a></p>
         <ul class="list--line">
           <li><a href="/{params.lang}/support/data-strategy/">Data strategy</a></li>
           <li><a href="/{params.lang}/support/publishing/">Publishing</a></li>
@@ -128,16 +128,6 @@
     </div>
   </footer>
 </div>
-
-{! Google Analytics !}
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','{global.protocol}://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-42395806-1', 'auto');
-ga('send', 'pageview');
-</script>
 
 {@ne key=page.key value="home"}<script src="/assets/js/pattern.min.js"></script>{/ne}
 <script src="/assets/js/main.min.js?v=1496340248"></script>

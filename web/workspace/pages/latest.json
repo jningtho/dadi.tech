@@ -6,7 +6,6 @@
   "datasources": [
     "latest",
     "latest-footer",
-    "latest-footer",
     "github-api",
     "github-cdn",
     "github-web"

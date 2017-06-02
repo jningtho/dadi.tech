@@ -12,10 +12,10 @@
       
       <div class="pad__top">
         <ul class="list--inline medium" style="color:{color}">
-          <li><a href="https://github.com/dadi/{products.results[0].product}">Github</a></li>
-          <li><a href="https://www.npmjs.com/package/@dadi/{products.results[0].product}">NPM</a></li>
-          <li><a href="http://docs.dadi.tech/{products.results[0].product}">Documentation</a></li>
-          <li><a href="/{params.lang}/on-demand/">DADI On-demand</a></li>
+          <li><a href="https://github.com/dadi/{products.results[0].product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">Github</a></li>
+          <li><a href="https://www.npmjs.com/package/@dadi/{products.results[0].product}" onclick="ga('send','event','NPM','Click','Product');">NPM</a></li>
+          <li><a href="http://docs.dadi.tech/{products.results[0].product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>
+          <li><a href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Product');">DADI On-demand</a></li>
           {?demo}<li><a class="btn btn--small" href="{demo}">Live demo</a></li>{/demo}
         </ul>
       </div>
