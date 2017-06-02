@@ -15,14 +15,14 @@ domready(function () {
     .put('<br/><br/>my-project@1.0.0 /my-project<br/>└── <span class="txt--blue">@dadi/api@1.16.2</span>')
     .wait(500)
     .put('<br/><br/><span class="txt--grey">$</span> ')
-    .type('node ./utils/create-client.js')
+    .type('npm explore @dadi/api -- npm run create-client')
     .wait(700)
     .put('<br/><br/>================================<br>DADI API Client Record Generator<br>================================')
     .wait(500)
-    .put('<br/><br/>-> Client identifier (testClient) ')
+    .put('<br/><br/>-> Client identifier (myClientId) ')
     .type('myClientId')
     .wait(700)
-    .put('<br/>-> Secret access key: (secretSquirrel) ', function(){
+    .put('<br/>-> Secret access key: (myClientSecret) ', function(){
       wrap.scrollTop = wrap.scrollHeight;
     })
     .type('mySecret')
