@@ -2,6 +2,9 @@
   "page": {
     "key": "Security"
   },
+  "settings": {
+    "cache": true
+  },
   "datasources": [
     "latest-footer"
   ],

@@ -3,6 +3,9 @@
   	"key": "Success stories",
     "color": "#033820"
   },
+  "settings": {
+    "cache": true
+  },
   "datasources": [
     "successes",
     "support",

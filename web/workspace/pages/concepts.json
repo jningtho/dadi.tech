@@ -2,6 +2,9 @@
   "page": {
     "key": "Concepts"
   },
+  "settings": {
+    "cache": true
+  },
   "datasources": [
     "concepts",
     "latest-footer"

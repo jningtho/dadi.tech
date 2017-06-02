@@ -2,6 +2,9 @@
   "page": {
     "key": "Contact"
   },
+  "settings": {
+    "cache": true
+  },
   "datasources": [
     "latest-footer"
   ],

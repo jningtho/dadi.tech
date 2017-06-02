@@ -3,6 +3,9 @@
     "key": "Latest",
     "color": "#191502"
   },
+  "settings": {
+    "cache": true
+  },
   "datasources": [
     "latest",
     "latest-footer",
