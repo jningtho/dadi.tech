@@ -17,7 +17,13 @@ var Event = function (req, res, data, callback) {
   // Otherwise redirect to the browser default (fallback to primaryLang)
   else {
     lang = req.headers['accept-language'] ? langParser.parse(req.headers['accept-language'])[0].code : primaryLang
-    res.writeHead(302, { Location: '/' + lang + toPath })
+
+    if (lang.length > 0){
+      res.writeHead(302, { Location: '/' + lang + toPath })
+    } else {
+      res.writeHead(302, { Location: '/' + primaryLang + toPath })
+    }
+    
     return res.end()
   }
 
