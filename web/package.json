@@ -2,7 +2,7 @@
   "name": "dadi.tech",
   "version": "1.1.0",
   "description": "",
-  "main": "main.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dadi/dadi.tech.git"
