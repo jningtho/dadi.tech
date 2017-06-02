@@ -131,7 +131,7 @@
     <div class="w-publish__body">
       <div class="w-publish__field">
         <label>{@i18n}Title{/i18n}</label>
-        <input type="text" value="{@i18n}Smarter content management.{/i18n}">
+        <input type="text" value="{@i18n}Smarter content management{/i18n}">
       </div>
       <div class="w-publish__field">
         <label>{@i18n}Intro{/i18n}</label>
