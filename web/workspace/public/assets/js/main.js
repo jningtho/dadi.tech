@@ -1788,17 +1788,17 @@ domready(function () {
     .put('<span class="txt--grey">$</span> ')
     .type('npm install @dadi/api --save')
     .wait(1000)
-    .put('<br/><br/>my-project@1.0.0 /my-project<br/>└── <span class="txt--blue">@dadi/api@1.16.2</span>')
+    .put('<br/><br/>my-project@1.0.0 /my-project<br/>└── <span class="txt--blue">@dadi/api@1.16.6</span>')
     .wait(500)
     .put('<br/><br/><span class="txt--grey">$</span> ')
-    .type('node ./utils/create-client.js')
+    .type('npm explore @dadi/api -- npm run create-client')
     .wait(700)
     .put('<br/><br/>================================<br>DADI API Client Record Generator<br>================================')
     .wait(500)
-    .put('<br/><br/>-> Client identifier (testClient) ')
+    .put('<br/><br/>-> Client identifier (myClientId) ')
     .type('myClientId')
     .wait(700)
-    .put('<br/>-> Secret access key: (secretSquirrel) ', function(){
+    .put('<br/>-> Secret access key: (myClientSecret) ', function(){
       wrap.scrollTop = wrap.scrollHeight;
     })
     .type('mySecret')
@@ -1815,13 +1815,8 @@ domready(function () {
       wrap.scrollTop = wrap.scrollHeight;
     });
 });
-},{"domready":2,"typewriter":10}],15:[function(require,module,exports){
-domready = require('domready');
 
-domready(function () {
-  
-});
-},{"domready":2}],16:[function(require,module,exports){
+},{"domready":2,"typewriter":10}],15:[function(require,module,exports){
 domready = require('domready');
 
 var tab = function(event) {
@@ -1844,7 +1839,7 @@ var tab = function(event) {
 domready(function () {
   document.getElementById('tabs').addEventListener('click', tab, false);
 });
-},{"domready":2}],17:[function(require,module,exports){
+},{"domready":2}],16:[function(require,module,exports){
 var els = document.querySelectorAll('.pattern');
 Array.prototype.forEach.call(els, function(el) {
   var sizes = getComputedStyle(el);
@@ -1862,5 +1857,5 @@ Array.prototype.forEach.call(els, function(el) {
   });
   el.classList.add('pattern--loaded');
 });
-},{}]},{},[14,15,16,17])
+},{}]},{},[14,15,16])
 //# sourceMappingURL=main.js.map
