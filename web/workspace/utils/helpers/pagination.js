@@ -1,7 +1,7 @@
-var dust = require('dustjs-linkedin')
+var dust = require('@dadi/web').Dust
 var _ = require('underscore')
 
-dust.helpers.pagination = function(chunk, context, bodies, params) {
+dust.getEngine().helpers.pagination = function(chunk, context, bodies, params) {
   var err
   if(!('page' in params && 'totalPages' in params && 'path' in params)) {
     err = new Error('Insufficient information provided to @paginate helper')

@@ -1,6 +1,7 @@
-<title>{+title}DADI{/title}{?title} / DADI{/title}</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1481817850">
-<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<meta http-equiv="Content-Language" content="{params.lang}">
+
+<title>{+title}Smarter content management.{/title}{?title} / DADI{/title}</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1496340248">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
 <meta property="og:site_name" content="DADI">
@@ -9,14 +10,14 @@
 
 <link rel="canonical" href="{global.protocol}://{host}{pathname}">
 
-<meta property="og:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta property="og:title" content="{+title}Smarter content management.{/title}{?title} / DADI{/title}">
 <meta name="description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta property="og:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@dadi">
-<meta name="twitter:title" content="{+title}DADI{/title}{?title} / DADI{/title}">
+<meta name="twitter:title" content="{+title}Smarter content management.{/title}{?title} / DADI{/title}">
 <meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
 <meta name="twitter:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
@@ -29,6 +30,15 @@
 {>"partials/json-ld" placement="organisation"/}
 
 <script type="text/javascript">window.DADI = window.DADI || {};</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Karla:400,700']
+    }
+  });
+</script>
 
 {! Google Analytics !}
 <script>

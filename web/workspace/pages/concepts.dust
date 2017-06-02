@@ -1,0 +1,54 @@
+{>"partials/header" /}
+
+{<title}
+  {?params.concept}
+    {concepts.results[0].title} / 
+  {/params.concept}
+  Platform concepts
+{/title}
+
+{<header}
+<h1 class="txt--white kilo">Platform concepts</h1>
+<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">Explore the core principles behind our platform.</p>
+{/header}
+
+{^params.concept}
+  <div class="container pad__bottom--x2">
+    <div class="grid">
+      {#concepts.results}
+        <div class="col w-1-2 marg__bottom--x2">
+          <a href="/{params.lang}/platform/concepts/{handle}/">
+            <p class="hdr larger txt--blue">{title}</p>
+            <p class="normal">{@soberMarkdown}{overview}{/soberMarkdown}</p>
+          </a>
+          <a href="/{params.lang}/platform/concepts/{handle}/" class="btn btn--blue">Find out more</a>
+        </div>
+      {/concepts.results}
+    </div>
+  </div>
+{:else}
+  {#concepts.results}
+    <div class="container pad__bottom--x2">
+      <div class="alignc read alignauto">
+        <h1 class="no-marg-i kilo txt--blue  marg__bottom">{title}</h1>
+        <p class="hdr medium">{@soberMarkdown}{overview}{/soberMarkdown}</p>  
+      </div>
+    </div>
+    <div class="container container--divider normal">
+      <div class="grid">
+        <div class="col w-2-3 read">
+          {@markdown}{body}{/markdown}
+        </div>
+        <div class="col w-1-3">
+          <ul class="list--line pad__top--half">
+            <li><a href="/{params.lang}/concepts/data-driven-experiences/" {@eq key=params.concept value="data-driven-experiences"}class="fwb txt--blue"{/eq}>Data Driven Experiences</a></li>
+            <li><a href="/{params.lang}/concepts/api-first-and-cope/" {@eq key=params.concept value="api-first-and-cope"}class="fwb txt--blue"{/eq}>API First &amp; COPE</a></li>
+            <li><a href="/{params.lang}/concepts/microservices/" {@eq key=params.concept value="microservices"}class="fwb txt--blue"{/eq}>Microservices</a></li>
+            <li><a href="/{params.lang}/concepts/machine-learning/" {@eq key=params.concept value="machine-learning"}class="fwb txt--blue"{/eq}>Machine Learning</a></li>
+          </ul>
+        </div>
+    </div>
+  {/concepts.results}
+{/params.concept}
+
+{>"partials/footer" /}

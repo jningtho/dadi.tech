@@ -1,0 +1,83 @@
+{>"partials/header" /}
+
+{<header}
+<h1 class="hdr kilo read txt--blue">Heavy lifting, when you need it</h1>
+<p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
+<p class="pad__top"><a href="/{params.lang}/success-stories/" class="btn btn--blue normal">See success stories</a></p>
+{/header}
+
+{<title}
+  {?params.solution}
+    {support.results[0].title}
+  {:else}
+    Solutions
+  {/params.solution}
+{/title}
+
+{?params.solution}
+  {#support.results}
+    <div class="container pad__bottom--x2 alignc">
+      <img src="/assets/icons/{icon}.svg" class="marg__bottom" height="70">
+      <h1 class="no-marg-i kilo txt--blue marg__bottom">{headline}</h1>
+      <p class="hdr medium alignauto read pad__top--half">{overview}</p>  
+    </div>
+
+    <div class="container container--divider normal"> 
+      <div class="grid">
+        {?description}
+          <div class="col w-2-3 read">
+            {@markdown}{description}{/markdown}
+          </div>
+        {/description}
+        <div class="col w-1-3">
+          <ul class="list--line pad__top--half">
+            <li><a href="/{params.lang}/support/data-strategy/" {@eq key=params.solution value="data-strategy"}class="fwb txt--blue"{/eq}>Data strategy</a></li>
+            <li><a href="/{params.lang}/support/publishing/" {@eq key=params.solution value="publishing"}class="fwb txt--blue"{/eq}>Publishing</a></li>
+            <li><a href="/{params.lang}/support/product-development/" {@eq key=params.solution value="product-development"}class="fwb txt--blue"{/eq}>Product development</a></li>
+            <li><a href="/{params.lang}/support/crm/" {@eq key=params.solution value="crm"}class="fwb txt--blue"{/eq}>CRM</a></li>
+            <li><a href="/{params.lang}/support/analytics/" {@eq key=params.solution value="analytics"}class="fwb txt--blue"{/eq}>Analytics</a></li>
+            <li><a href="/{params.lang}/support/content-personalisation/" {@eq key=params.solution value="content-personalisation"}class="fwb txt--blue"{/eq}>Content personalisation</a></li>
+            <li><a href="/{params.lang}/support/commerce/" {@eq key=params.solution value="commerce"}class="fwb txt--blue"{/eq}>Commerce</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container--divider alignc">
+      <p class="large txt--blue alignauto no-marg">{cta}</p>
+      <a href="/{params.lang}/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+    </div>
+  {/support.results}
+{:else}
+  <div class="container pad__bottom--x2">
+    <div class="normal cf grid">
+      {#support.results}
+        <div class="pad__bottom--x2 pad__top grid col w-1-2">
+          <div class="col w-1-4">
+            <img class="float--right" src="/assets/icons/{icon}.svg" height="70">
+          </div>
+          <div class="col w-3-4">
+            <p class="large hdr no-marg-i"> {title}</p>
+            <p class="pad__top--half alignauto normal no-marg-i">{overview}</p>
+            <p><a href="/{params.lang}/support/{handle}/" class="btn btn--blue small">Learn more</a></p>
+          </div>
+        </div>
+
+      {@math key=$idx method="mod" operand=2}
+        {@eq value=1}
+            </div>
+    <div class="grid normal cf">
+        {/eq}
+      {/math}
+      
+      {/support.results}
+    </ul>
+  </div>
+
+  <div class="container container--divider alignc">
+    <p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you unlock the potential of your data</p>
+    <a href="/{params.lang}/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+  </div>
+{/params.solution}
+
+{>"partials/footer" /}

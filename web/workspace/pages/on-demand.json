@@ -7,7 +7,7 @@
   ],
   "routes": [
     {
-    	"path": "/on-demand/"
+    	"path": "/:lang/on-demand/"
     }
   ]
 }	

@@ -95,9 +95,10 @@
 .btn.btn--disabled,
 .btn.btn--disabled:hover
 .btn.btn--disabled:active {
-	background: #E5E4E4;
-	color: $grey;
-	cursor: not-allowed;
+	color: $grey !important;
+	border-color: $bdr-grey !important;
+	cursor: default !important;
+	background: none;
 }
 
 .btn span[class^="ss-"] {
@@ -121,33 +122,6 @@ button.btn--full-width {
 		width: 100%;
 	}
 }
-
-.btn.loading {
-	padding-left: 40px;
-	cursor: wait;
-
-	&:after {
-		height: 19px;
-		left: 15px;
-		bottom: 0;
-		top: 50%;
-		margin-top: -10px;
-		vertical-align: middle;
-		position: absolute;
-		font-family: "FontAwesome";
-		content: "\f110";
-		animation: spin 1s linear infinite both;
-	}
-}
-
-@keyframes spin {
-	from {
-		transform: rotate(0deg);
-	} to {
-		transform: rotate(360deg);
-	}
-}
-
 
 // ***************************
 // Default form elements
@@ -209,7 +183,6 @@ textarea {
 }
 select {
 	cursor: pointer;
-
 	background-color: none;
 	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNDA4IDcwNHEwIDI2LTE5IDQ1bC00NDggNDQ4cS0xOSAxOS00NSAxOXQtNDUtMTlsLTQ0OC00NDhxLTE5LTE5LTE5LTQ1dDE5LTQ1IDQ1LTE5aDg5NnEyNiAwIDQ1IDE5dDE5IDQ1eiIvPjwvc3ZnPg==);
 	background-size: 18px auto;

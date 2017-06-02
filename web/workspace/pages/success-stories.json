@@ -1,11 +1,11 @@
 {
   "page": {
   	"key": "Success stories",
-    "color": "#02140C"
+    "color": "#033820"
   },
   "datasources": [
     "successes",
-    "solutions",
+    "support",
     "latest-footer"
   ],
   "requiredDatasources": [
@@ -13,10 +13,10 @@
   ],
   "routes": [
     {
-    	"path": "/success-stories/"
+    	"path": "/:lang/success-stories/"
     },
     {
-      "path": "/success-stories/:client?",
+      "path": "/:lang/success-stories/:client?",
       "params": [
         {
           "param": "client",

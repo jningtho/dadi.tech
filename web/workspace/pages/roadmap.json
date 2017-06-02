@@ -1,0 +1,13 @@
+{
+  "page": {
+  	"key": "roadmap"
+  },
+  "datasources": [
+    "latest-footer"
+  ],
+  "routes": [
+    {
+    	"path": "/:lang/roadmap/"
+    }
+  ]
+}	

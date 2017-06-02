@@ -1,71 +1,141 @@
 {>"partials/header" /}
 
-{<title}The Next Generation of Content Management.{/title}
-
 {<bodyClass}home{/bodyClass}
 
-{<top}
-  <div class="grid">
-    <div class="col w-1-2 pad__top intro">
-      <p class="hdr kilo no-marg-i txt--blue">The Next Generation of Content Management.</p>
-       <p class="normal"><strong>DADI</strong> is a powerful, <a href="/platform/concepts/api-first-and-cope/" class="concept">API-first</a> content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.</p>
-      <p class="normal pad__top"><a href="/platform/" class="btn btn--blue">How it works</a></p>
+{>"partials/infographic" /}
+
+<div class="clients">
+  <div class="normal alignc container overflow-touch">
+    <div class="pad__top pad__bottom">
+      <p class="inline-block hdr large txt--grey alignv">Already used around the web…</p>
     </div>
-    <div class="col w-1-2">
-      <p class="pad__top--half hdr medium txt--grey bs-hide">Dive right in…</p>
-      <ul class="list--buttons txt--white medium">
-        <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Homepage');">
-          <img src="/assets/img/logo-github-white.png" height="30" class="alignv float--right">
-          <span class="pad__top">Explore code in <strong>Github</strong></span>
-        </a></li>
-        <li><a href="http://docs.dadi.tech/npm/" onclick="ga('send','event','NPM','Click','Homepage');">
-          <img src="/assets/img/logo-npm-white.png" height="25" class="alignv float--right">
-          <span class="pad__top">Integrate with <strong>NPM</strong></span>
-        </a></li>
-        <li><a href="http://docs.dadi.tech/" onclick="ga('send','event','Documentation','Click','Homepage');">
-          <img src="/assets/img/dadi-white.png" height="25" class="alignv float--right">
-          <span class="pad__top">Read <strong>documentation</strong></span>
-        </a></li>
+  </div>
+</div>
+
+<div class="bdr__top bdr--bdr-grey">
+  <div class="container container--pad normal">
+    <div class="grid pad__top">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
+        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
       </div>
-  </div>  
-{/top}
-
-<div class="container pad__bottom">
-  <div class="grid">
-    <div class="col w-1-2">
-      <p class="hdr larger">A ground up reimagination of content management, built on a breakthrough thought:</p>
-      <div class="pad__top pad__bottom hdr txt--red larger">It's all just data.</div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
+        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
+      </div>
     </div>
-    <div class="col w-1-2">
-      <p class="normal">The CMS is dead. Brittle, two-dimensional platforms have for too long imposed awkward workflow and same-content-for-all-users technology on the internet. But <strong>DADI</strong> is different.</p>
-      <p class="normal">It's a scalable, open source, API-first platform built to get digital product live in weeks, not months. It supports COPE to power myriad products across multiple devices and bring efficiency to editorial workflow. Plus, it builds in intelligence to decide who gets what – and when – to support improved audience retention, conversion and experience.</p>
-    </ul>
+
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
+        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
+        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Bulletproof at scale</p>
+        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150 million users.</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
+        <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months.</p>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container container--divider normal marg__top marg__bottom--x2">
-  <div class="grid list--gridtick">
-    <li class="col w-1-3"><strong class="hdr medium block">Next-generation CMS</strong> Get your content into the hands of your users, whether on mobile, tablet, games console, television or desktop.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Hyper-personalize</strong> Stop treating all users the same – give them editorial you know they will read and products you know they will buy.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Know your product</strong> Take the guess work out of development with market-leading analytics driven by facts and not averages.</li>
-  </div>
-  <div class="grid list--gridtick">
-    <li class="col w-1-3"><strong class="hdr medium block">Succeed faster</strong> DADI gives you the pace to get to MVP quickly and the tools to measure product performance as you iterate.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Open Source end to end</strong> Enterprise muscle without the fat – or the greedy licence fees.</li>
-    <li class="col w-1-3"><strong class="hdr medium block">Your product as CRM</strong> Manage (and target) every interaction with your users. Never miss a moment to build a positive relationship.</li>
+<div class="pad__top pad__bottom bg--dark-blue txt--white">
+  <div class="container">
+    <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
+    <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can concentrate on the content.{/i18n}</p>
+    <img src="/assets/illustrations/publish.png" class="fill block">
   </div>
 </div>
 
-{>"partials/content-modules/customers" /}
+<div class="bdr--grey">
+  <div class="container container--pad">  
+    <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
+    <p class="alignc normal">{@i18n}Connected applications that can be used in varied combinations – including alongside other technology.{/i18n}</p>
 
-{>"partials/content-modules/developers" /}
+    <div class="grid">
+      {#products.results}
+        <div class="col w-1-3 pad__bottom pad__top--x2">
+          <h3 class="product medium no-marg-i hdr">
+            <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
+            {product}
+          </h3>
 
-<div class="container pad--x2 alignc">
-  <div class="kilo hdr">“Moving <a href="http://whatcar.com" class="txt--red">whatcar.com</a> to DADI significantly reduced our infrastructure costs”</div>
-  <div class="txt--mid-grey">Product Lead, <strong>Haymarket Consumer Media</strong></div>
+          <div class="normal txt--mid-grey pad__top">
+            {overview}
+            <br><br>
+            {?description}
+              <a href="/{params.lang}/{product}/" class="btn small">Learn more</a>
+            {:else}
+              <span class="btn small btn--disabled">{date}</span>
+            {/description}
+          </div>
+        </div>
 
-  <div class="pad__top--x2 marg__top pad__bottom"><a href="/success-stories/" class="btn btn--red normal">See all success stories</a></div>
+       {@math key=$idx method="mod" operand=3}
+          {@eq value=2}
+              </div>
+      <div class="grid">
+          {/eq}
+        {/math}
+
+      {/products.results}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg--light-grey bdr--bdr-grey support">
+  <div class="container cf">
+    <div class="col w-1-2 alignr bs-alignc">
+      <div class="block pad support__self">
+        <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
+        <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
+        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
+        <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small" onclick="ga('send','event','Github','Click','Forwardthinking');">{@i18n}Find us on Github{/i18n}</a>
+          </p>
+      </div>
+    </div>
+
+    <div class="col w-1-2 bs-alignc">
+      <div class="block pad support__team">
+        <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60">
+        <h2 class="txt--green larger">{@i18n}Need a hand? Meet our support team{/i18n}</h2>
+        <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+        <p class="normal"><a href="/{params.lang}/support/" class="btn btn--green small">{@i18n}Our support{/i18n}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container container--pad">
+  <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
+  <p class="alignc normal">See how our support services scale from helping hand to full-service build:</p>
+
+  <div class="grid marg__top--x2">
+    {#successes.results}
+      <div class="col w-1-1 marg__bottom success__item">
+          <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+              <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
+                  <p class="hdr large">{title}</p>
+                  <p class="normal">{summary}</p>
+                  <p><span class="btn">{@i18n}Read more{/i18n}</span>
+                  </p>
+              </div>
+          </a>
+      </div>
+    {/successes.results}
+  </div>
 </div>
 
 {>"partials/footer" /}

@@ -12,10 +12,10 @@
   ],
   "routes": [
     {
-      "path": "/latest/"
+      "path": "/:lang/latest/"
     },
     {
-      "path": "/latest/:category/:article?",
+      "path": "/:lang/latest/:category/:article?",
       "params": [
         {
           "param": "category",

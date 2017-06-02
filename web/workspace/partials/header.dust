@@ -1,34 +1,17 @@
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html lang="{params.lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   {>"partials/metatags" /}
 </head>
+<body class="{+bodyClass/}">
 
-<body class="{+bodyClass}light{/bodyClass}">
+<header class="alignc pad__top--x2 small cf">
+  {>"partials/navigation" /}
+  {+header/}
+</header>
 
-<div class="top {?params.section}top--{params.section}{/params.section}">
-  {?params.product}
-    {>"partials/pattern" primary=products.results[0].dark-color /}
-  {:else}
-    {?page.color}
-      {>"partials/pattern" primary=page.color /}
-    {:else}
-      {>"partials/pattern" primary="#041628" /}
-    {/page.color}
-  {/params.product}
-
-  <div class="container"> 
-    {>"partials/navigation" /}
-    {>"partials/breadcrumb" /}    
-    {>"partials/titles" placement=page.key /}
-    {+top/}
-  </div>
-</div>
+{>"partials/breadcrumb" /}
 
 <main>
-

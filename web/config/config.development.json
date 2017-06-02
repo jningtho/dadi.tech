@@ -22,7 +22,8 @@
     "protocol": "http"
   },
   "globalEvents": [
-    "globals"
+    "globals",
+    "i18l"
   ],
   "headers": {
     "useGzipCompression": true,
@@ -56,6 +57,9 @@
   "rewrites": {
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
+  },
+  "dust": {
+    "whitespace": true
   },
   "allowJsonView": true,
   "virtualDirectories": [

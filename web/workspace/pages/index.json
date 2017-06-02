@@ -3,11 +3,13 @@
     "key": "home"
   },
   "datasources": [
+    "successes",
+    "products",
     "latest-footer"
   ],
   "routes": [
     {
-      "path": "/"
+      "path": "/:lang?"
     }
   ]
 }

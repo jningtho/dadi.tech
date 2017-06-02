@@ -9,6 +9,7 @@
 // ***************************
 
 @import "parts/grid";
+@import "parts/layout";
 @import "parts/helpers";
 @import "parts/fonts";
 @import "parts/typography";
@@ -16,10 +17,9 @@
 @import "parts/tables";
 @import "parts/forms";
 @import "parts/lists";
-@import "parts/feedback";
-@import "parts/modals";
 @import "parts/cards";
-@import "parts/parsley";
+@import "parts/documentation";
+@import "parts/infographic";
 
 @import "site/main";
-@import "site/atom-one-light";
+

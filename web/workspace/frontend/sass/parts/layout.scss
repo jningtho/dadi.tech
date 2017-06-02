@@ -4,6 +4,59 @@ html, body {
 body {
 	background-size: 400px auto;
 	background-repeat: repeat;
-	background-color: $background;
-	//background-image: url('/assets/img/bg.png');
+	background-color: #fff;
+	color: #21262D;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	position: relative;
+	z-index: 1;
+
+	&--pad,
+	&--divider {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	&--divider {
+		border-top: 1px solid #E0E0E0;
+
+		&:first-of-type() {
+			border-top: 0;
+		}
+	}
+
+	&--pad {
+		&:first-of-type {
+			padding-top: 30px;
+		}
+	}
+}
+
+@media #{$break-small} {
+	.container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
+
+main {
+  padding-top: 40px;
+  padding-bottom: 1px;
+}
+body.home main {
+  padding-top: 0;
+}
+
+.footer {
+	background-image: url(/assets/img/bg-footer.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
 }

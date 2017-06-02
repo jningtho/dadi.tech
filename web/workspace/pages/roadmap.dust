@@ -1,0 +1,126 @@
+{>"partials/header" /}
+
+<div class="container container--pad">
+  <h1 class="no-marg-i kilo txt--green marg__bottom">Roadmap</h1>
+
+  <p class="medium marg__top">DADI is produced and maintained under an iterative and incremental development cycle. We manage development through Git Issues and Projects and operate a prioritized roadmap for major releases, focusing on a few, high impact features at a time.</p>
+</div>
+
+<div class="container container--divider">
+  <div class="grid pad__bottom--x2">
+    <div class="col w-1-2">
+      <p class="larger hdr txt--green marg__bottom">You can help us improve DADI (or change this roadmap)</p>
+
+      <p class="normal">Want to contribute to the work on this roadmap, or suggest new ideas? Volunteer your time, or Propose an initiative. To contribute as an organization or business, consider joining one of our supporter programs that fund this work.</p>
+
+      <p class="normal fwb">Your support can make a difference.</p>
+      <a href="/{params.lang}/contact/" class="btn btn--blue small">Contact us</a><br><br>
+      <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
+    </div>
+    <div class="col w-1-2 normal">
+      <h3>Q2 2017</h3>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
+            API
+          </a>
+        </h3>
+      
+        <ul>
+          <li>Multiple data store support, removes dependency on MongoDB</li>
+          <li><a href="https://github.com/dadi/api/issues/182" class="txt--blue">Smart Reference fields</a></li>
+          <li>Plugin support</li>
+        </ul>
+      </div>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
+            CDN
+          </a>
+        </h3>
+        
+        <ul>
+          <li>Plugin support</li>
+          <li><a href="https://github.com/dadi/cdn/issues/173">Dynamic test compositing</a></li>
+        </ul>
+      </div>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
+            Web
+          </a>
+        </h3>
+
+        <ul>
+          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/103">Rewrite of template system, allowing choice of templating language</a></li>
+          <li>100% test coverage</li>
+          <li>Plugin Support</li>
+          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/64">Built-in routes &amp; redirects testing tool</a></li>
+        </ul>
+      </div>
+
+      {! <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/{params.lang}/platform/publish/">
+            <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
+            Publish
+          </a>
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
+            Predict
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-track.png" class="alignv float--right" width="15">
+            Track
+          </a>
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+            <img src="/assets/products/dadi-visualize.png" class="alignv float--right" width="18">
+            Visualize
+        </div>
+        <div class="col w-2-3">
+          Version #1 release
+        </div>
+      </div>
+
+      <div class="grid pad__top">
+        <div class="col w-1-3 fwb">
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
+            Identity
+          </a>
+        </div>
+        <div class="col w-2-3">
+          SAS build complete and available under identity.dadi.tech
+        </div>
+      </div> !}
+    </div>  
+  </div>
+</div>
+
+{>"partials/footer" /}

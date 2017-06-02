@@ -2,9 +2,7 @@
 
 {<title}Bug bounty{/title}
 
-{<top}
-<h1 class="txt--green kilo no-marg-i pad__top">Help make the DADI platform<br>more secure for everyone</h1>
-{/top}
+{<header}<h1 class="txt--green kilo">Help make the DADI platform<br>more secure for everyone.</h1>{/header}
   
 <div class="container pad__bottom--x2">
   <div class="grid">
@@ -31,7 +29,7 @@
       <li>Do not impact other users with your testing. We may suspend your DADI account if you do so</li>
       <li>Don’t use scanners or automated tools to find vulnerabilities. They’re noisy and we may suspend your DADI account</li>
       <li>Never attempt non-technical attacks such as social engineering, phishing, or physical attacks against our employees, users, or infrastructure</li>
-      <li>When in doubt, <a href="https://dadi.tech/contact/">contact us</a></li>
+      <li>When in doubt, <a href="/{params.lang}/contact/">contact us</a></li>
       </ul>
 
       <h2 class="txt--mid-grey pad__bottom--x2 no-marg-i pad__top--x2">Rules for us</h2>
@@ -55,7 +53,7 @@
       <li>Vulnerabilities that DADI determines to be an accepted risk will not be eligible for a paid bounty or listing on the site</li>
       <li>Scripting or other automation and brute forcing of intended functionality</li>
       <li>For guidance, we have listed the <a href="/classifications/">vulnerability classifications</a> we use to organize submissions made to the Bounty program</li>
-      <li>When in doubt, <a href="https://dadi.tech/contact/">contact us</a></li>
+      <li>When in doubt, <a href="/{params.lang}/contact/">contact us</a></li>
       </ul>
     </div>
   </div>

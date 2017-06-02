@@ -73,7 +73,7 @@
 
 <h3 id="mobile">2. How can I use DADI in my mobile app?</h3>
 
-<p>At the heart of DADI is <a href="/platform/api">API</a>, a high-performance RESTful API layer that is perfect for powering mobile applications. You can use with DADI Publish to provide a CMS for iOS/Android/Windows Phone. And when chained with DADI Predict and DADI Track, you can start to make real time content decisions based on data intelligence.</p>
+<p>At the heart of DADI is <a href="/{params.lang}/platform/api">API</a>, a high-performance RESTful API layer that is perfect for powering mobile applications. You can use with DADI Publish to provide a CMS for iOS/Android/Windows Phone. And when chained with DADI Predict and DADI Track, you can start to make real time content decisions based on data intelligence.</p>
 
 <h3 id="conventions">3. Does DADI use any code conventions or styles?</h3>
 
@@ -93,7 +93,7 @@
 
 <h3 id="workwith">5. Where can I get help working with DADI?</h3>
 
-<p>Check out the <a href="/solutions/" onclick="ga('send','event','Solutions','Click','FAQ');">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
+<p>Check out the <a href="/{params.lang}/support/" onclick="ga('send','event','Support','Click','FAQ');">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
 </div>
 </div>
 

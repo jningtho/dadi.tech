@@ -2,6 +2,13 @@
 
 {<title}On-demand{/title}
 
+{<header}
+<h1><img src="/assets/img/logo-ondemand-white.png" class="block alignauto marg__bottom" height="45" alt="On demand"></h1>
+<p class="kilo hdr inline-block no-marg-i"><span class="txt--red block">Cloud computing.</span> Designed for developers.</p>
+<br>
+<p class="cf inline-block normal read txt--grey">Launching soon.</p>
+{/header}
+
 <div class="container pad__bottom--x2 marg__top alignc">
   <p class="medium hdr alignauto pad__bottom">Let us know your email address to be the first to know.</p>
   
@@ -9,7 +16,7 @@
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
+  <p class="small txt--grey alignauto">By signing up you agree to the <a href="/{params.lang}/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 <div class="bg--light-grey bdr__top bdr__bottom bdr--bdr-grey">
@@ -62,7 +69,7 @@
     <input name="cm-ptyhjt-ptyhjt" type="email" class="email text" placeholder="Your email address"><button class="btn btn--blue" type="submit">Register interest</button>
   </form>
 
-  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/privacy" class="txt--black">Privacy Policy</a>.</p>
+  <p class="small txt--grey alignauto pad__top">By signing up you agree to the <a href="/{params.lang}/privacy" class="txt--black">Privacy Policy</a>.</p>
 </div>
 
 {>"partials/footer" /}

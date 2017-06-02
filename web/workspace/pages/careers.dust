@@ -2,9 +2,7 @@
 
 {<title}Careers with us{/title}
 
-{<top}
-<h1 class="txt--white kilo no-marg-i pad__top">Join the DADI family.</h1>
-{/top}
+{<header}<h1 class="txt--white kilo">Join the DADI family.</h1>{/header}
 
 <div class="container pad__bottom--x2">
   <div class="grid">

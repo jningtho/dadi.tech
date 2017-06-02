@@ -135,17 +135,14 @@
 	}
 }
 .list--breadcrumb {
-	border-top: 1px solid rgba(255,255,255,0.1);
-	text-align: left;
-	padding-top: 20px;
-
-	@media #{$break-small} {
-		margin-top: 30px;
-	}
+    text-align: left;
+    padding: 15px 0 14px;
+    font-size: 14px;
+    border-bottom: 1px solid #f2f2f2;
 
 	li:after {
 		content: '';
-		background: url(/assets/icons/white/chevron-right.svg);
+		background: url(/assets/icons/chevron-right.svg);
 		background-size: 100% auto;
 		background-repeat: no-repeat;
 		background-position: 100% 50%;

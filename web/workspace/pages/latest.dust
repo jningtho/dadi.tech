@@ -1,21 +1,63 @@
 {>"partials/header" /}
 
+{<header}
+<p class="inline-block hdr kilo read">Platform, innovation and industry insight.</p>
+<p class="normal txt--grey no-marg-i pad__bottom">From your friends at DADI.</p>
+{/header}
+
 {<title}
   {^params.article}
     Latest
   {:else}
-    {#latest.results}
-      {@eq key=handle value=params.article}
-        {attributes.title} / Latest
-      {/eq}
-    {/latest.results}
+    {#latest.results[0]}
+      {attributes.title} / Latest
+    {/latest.results[0]}
   {/params.article}
 {/title}
 
 {^params.article}
-  {>"partials/latest/index" /}
+  <div class="container">
+    <div class="grid">
+      <div class="col w-2-3">
+        {#latest.results}
+          <p class="txt--grey hdr normal">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
+          <p class="hdr larger txt--green"><a href="/{params.lang}/latest/{attributes.category}/{attributes.handle}/">{attributes.title}</a></p>
+          <p class="normal">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
+          <p class="small pad__bottom--x2"><a href="/{params.lang}/latest/{attributes.category}/{attributes.handle}/" class="btn btn--green">Read more</a></p>
+        {/latest.results}
+
+        <div class="cf pad__top--x2 pad__bottom--x2 alignc">
+          {>"partials/pagination" 
+            $page=latest.metadata.page 
+            $totalPages=latest.metadata.totalPages 
+          /}
+        </div>
+      </div>
+      <div class="col w-1-3">
+        {>"partials/latest_sidebar" /}
+      </div>
+    </div>
+  </div>
 {:else}
-  {>"partials/latest/article" /}
+  {#latest.results}
+    <div class="container pad__bottom alignc">
+      <p class="txt--grey hdr normal alignauto">{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
+      <h1 class="hdr kilo"><span class="txt--green block">{attributes.title}</span></h1>
+      <p class="medium alignauto">{@soberMarkdown}{attributes.preface}{/soberMarkdown}</p>
+      <p class="normal alignauto">By <strong>{attributes.author}</strong></p>
+    </div>
+
+    <div class="container container--divider marg__top">
+      <div class="grid">
+        <div class="normal col w-2-3 documentation">
+          {@markdown}{contentText|s}{/markdown}
+        </div>
+        <div class="col w-1-3">
+          {>"partials/latest_sidebar" /}
+        </div>
+      </div>
+    </div>
+  {/latest.results}
 {/params.article}
 
 {>"partials/footer" /}

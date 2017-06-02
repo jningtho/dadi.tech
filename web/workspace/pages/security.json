@@ -1,0 +1,13 @@
+{
+  "page": {
+    "key": "Security"
+  },
+  "datasources": [
+    "latest-footer"
+  ],
+  "routes": [
+    {
+      "path": "/:lang/security/"
+    }
+  ]
+} 
