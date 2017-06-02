@@ -12,7 +12,7 @@ domready(function () {
     .put('<span class="txt--grey">$</span> ')
     .type('npm install @dadi/api --save')
     .wait(1000)
-    .put('<br/><br/>my-project@1.0.0 /my-project<br/>└── <span class="txt--blue">@dadi/api@1.16.2</span>')
+    .put('<br/><br/>my-project@1.0.0 /my-project<br/>└── <span class="txt--blue">@dadi/api@1.16.6</span>')
     .wait(500)
     .put('<br/><br/><span class="txt--grey">$</span> ')
     .type('npm explore @dadi/api -- npm run create-client')
