@@ -121,7 +121,7 @@
       <ul class="list--inline block marg__bottom--x2">
         <li class="fwb">© DADI+ Ltd.</li>
         <li><a href="https://twitter.com/dadi">Follow us on Twitter</a></li>
-        <li><a href="https://github.com/dadi">Find us on Github</a></li>
+        <li><a href="https://github.com/dadi" onclick="ga('send','event','Github','Click','Footer');">Find us on Github</a></li>
         <li><a href="https://github.com/dadi/dadi.tech">View the repo for this site</a></li>
       </ul>
       <img src="/assets/img/d.svg" class="marg__right--x2 alignv" width="45">

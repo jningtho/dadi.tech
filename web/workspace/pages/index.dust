@@ -101,7 +101,7 @@
         <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60">
         <h2 class="txt--blue larger">{@i18n}Got a forward thinking engineering team?{/i18n}</h2>
         <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
-        <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small">{@i18n}Find us on Github{/i18n}</a>
+        <p class="normal"><a href="https://github.com/dadi/" class="btn btn--blue small" onclick="ga('send','event','Github','Click','Forwardthinking');">{@i18n}Find us on Github{/i18n}</a>
           </p>
       </div>
     </div>
