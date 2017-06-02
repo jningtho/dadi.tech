@@ -53,7 +53,7 @@
       <pre><code class="hljs json">{{~n}
 &nbsp;&nbsp;<span class="hljs-attr">"datasource"</span>: {{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"key"</span>: <span class="hljs-string">"posts"</span>,{~n}
-&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"name"</span>: <span class="hljs-string">"Blog posts as markdown files."</span>,{~n}
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"description"</span>: <span class="hljs-string">"Blog posts as markdown files."</span>,{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"source"</span>: {{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"type"</span>: <span class="hljs-string">"markdown"</span>,{~n}
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-attr">"path"</span>: <span class="hljs-string">"./workspace/posts"</span>{~n}
