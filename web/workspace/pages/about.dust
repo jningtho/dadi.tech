@@ -46,7 +46,7 @@
         <li>Inspiration can strike at any time – we need the tools to record and deploy when it does</li>
       </ul>
       </div>
-      <p class="normal">Hence a <a href="/{params.lang}/latest/articles/how-we-work/">radical way of working for DADI</a>: a flexible attitude and unique approach to recruitment that make us quite the draw for great talent (even if we say so ourselves).</p>
+      <p class="normal">Hence a <a href="/{params.lang}/how-we-work/">radical way of working for DADI</a>: a flexible attitude and unique approach to recruitment that make us quite the draw for great talent (even if we say so ourselves).</p>
     </div>
     <div class="photos col w-1-2 marg__top pad__top--half" style="line-height:0">
       <p style="line-height:normal" class="small bg--black no-marg-i pad--half txt--white fwb delta">Our founders – Joseph Denne, Will Lebens &amp; Christopher Mair</p>
