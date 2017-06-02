@@ -1,3 +1,4 @@
+\/the-feed/(.*)$ /latest/ [R=302,NC,L]
 \/latest\/roadmap-update-090117\/? /latest/roadmap/roadmap-update-090117/ [R=302,L]
 \/latest\/roadmap-update-020117\/? /latest/roadmap/roadmap-update-020117/ [R=302,L]
 \/latest\/roadmap-update-051216\/? /latest/roadmap/roadmap-update-051216/ [R=302,L]
