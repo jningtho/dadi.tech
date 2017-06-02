@@ -1,6 +1,11 @@
 {>"partials/header" /}
 
-{<title}hello{/title}
+{<title}
+  {?params.concept}
+    {concepts.results[0].title} / 
+  {/params.concept}
+  Platform concepts
+{/title}
 
 {<header}
 <h1 class="txt--white kilo">Platform concepts</h1>
