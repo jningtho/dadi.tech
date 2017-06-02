@@ -1,0 +1,16 @@
+{
+  "page": {
+  	"key": "How we work"
+  },
+  "settings": {
+    "cache": true
+  },
+  "datasources": [
+    "latest-footer"
+  ],
+  "routes": [
+    {
+    	"path": "/:lang/how-we-work/"
+    }
+  ]
+}	

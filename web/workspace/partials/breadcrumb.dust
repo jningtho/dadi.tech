@@ -4,6 +4,7 @@
   {@eq value="404" /}
   {@eq value="supporting" /}
   {@eq value="Products" /}
+  {@eq value="How we work" /}
   {@none}
     <div class="list--breadcrumb titlecase">
       <ul class="container">
