@@ -24,7 +24,7 @@
   <div class="explainer__window w-web">
     <ul class="w-web__tabs" id="tabs">
       <li class="w-web__tab"><a href="#web_datasource" class="u-active">Datasource</a>
-      </li><li class="w-web__tab"><a href="#web_json">Page defintion</a>
+      </li><li class="w-web__tab"><a href="#web_json">Page definition</a>
       </li><li class="w-web__tab"><a href="#web_dust">Template</a>
       </li>
     </ul>
