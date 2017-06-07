@@ -3,7 +3,7 @@ date: 2017-06-07
 title: Introducing API Version 2.0
 handle: introducing-api-version-2-0
 author: Joseph Denne
-preface: Introducing API Version 2.0 - the first major release of DADI API since the first full release 1,000 days ago.
+preface: The first major release of DADI API since the first full release 1,000 days ago.
 category: releases
 ---
 
