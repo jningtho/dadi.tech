@@ -13,6 +13,8 @@ The first major release of DADI API since the first full release 1,000 days ago.
 
 The focus for this release has been on performance improvements. More and more developers are using the REST API as a backend for their web  and mobile apps to insert and retrieve large amounts of data, and sometimes they're using it in ways we never envisaged. While performance has always been more than acceptable, we knew we could do better...
 
+Tagged release: [https://github.com/dadi/api/releases/tag/v2.0.0](https://github.com/dadi/api/releases/tag/v2.0.0)
+
 ### Document Composition
 
 One particular feature we've paid attention to in API Version 2.0 is Document Composition. Document Composition lets you store data related to a JSON document in separate collections, rather than as subdocuments of the main document. This acts in a similar way to joining tables by foreign key in a relational database system.
