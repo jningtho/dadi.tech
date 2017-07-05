@@ -1,7 +1,7 @@
 ---
 date: 2017-06-12
 title: Roadmap Update
-handle: roadmap-update-20170612
+handle: roadmap-update-120617
 author: James Lambie
 preface: New features for DADI API, plus testing for DADI WEB ahead of v3.0 release
 category: roadmap
