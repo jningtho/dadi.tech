@@ -1,7 +1,7 @@
 ---
 date: 2017-05-15
 title: Roadmap Update
-handle: roadmap-update-20170515
+handle: roadmap-update-150517
 author: James Lambie
 preface: We're close to finishing the first release candidate of API Version 2.0 and have started publishing versions to NPM tagged with "edge".
 category: articles
