@@ -15,4 +15,4 @@ With the release of [version 3.0](https://github.com/dadi/web/releases/tag/v3.0.
 
 We're working on new adapters to provide support for more engines, like [Pug](https://pugjs.org) and [Liquid](https://shopify.github.io/liquid/). But even more exciting than that, we make it possible for developers to create their own adapters, which effectively means that Web can work with virtually **any template engine**. There's a handy [sample engine repository](https://github.com/dadi/web-sample-engine) to help you build your own adapter. If you choose to do so, make sure to let us know, as we love to see all the cool things the community builds with the platform!
 
-When migrating from version 2, there are some breaking changes to look out for. We've put together a [migration guide](https://gist.github.com/eduardoboucas/c0e378c5359827a7f62fb17a5550b5c9) to get you up and running in 5 simple steps.
+When migrating from version 2, there are some breaking changes to look out for. We've put together a [migration guide](http://docs.dadi.tech/web/getting-started/v3-migration/) to get you up and running in 5 simple steps.
