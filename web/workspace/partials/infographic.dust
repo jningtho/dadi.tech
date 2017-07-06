@@ -135,7 +135,7 @@
       </div>
       <div class="w-publish__field">
         <label>{@i18n}Intro{/i18n}</label>
-        <textarea>{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</textarea>
+        <textarea>{@i18n}DADI Publish is headless content management tech. It’s built to make developers and editors happy.{/i18n}</textarea>
       </div>
     </div>
   </div>
