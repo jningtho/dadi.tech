@@ -10,18 +10,34 @@ It uses a mix of [static](https://github.com/dadi/dadi.tech/blob/master/web/work
 
 ## Install
 
+### API
+
+```shell
+cd ./api
+npm install
 ```
+
+### Publish
+
+```shell
+cd ./publish
+npm install
+```
+
+### Web
+
+```shell
 cd ./web
 npm install
 ```
 
-## Build JS & CSS
+#### Build JS & CSS
 
 ```
 npm run build
 ```
 
-## Run
+#### Run
 
 ```
 npm start

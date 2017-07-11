@@ -1,0 +1,46 @@
+{
+  "app": {
+    "name": "DADI Publish",
+    "publisher": "Publisher Name",
+    "baseUrl": "http://localhost"
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "ssl": {
+      "enabled": false
+    }
+  },
+  "apis": [
+    {
+      "name": "DADI Cloud API",
+      "host": "http://localhost",
+      "port": 8888,
+      "database": "dadi-tech",
+      "version": "1.0",
+      "credentials": {
+        "clientId": "testClient",
+        "secret": "superSecret"
+      },
+      "menu": [
+        {
+          "title": "Content",
+          "collections": [
+          ]
+        }
+      ]
+    }
+  ],
+  "auth": {
+    "enabled": true,
+    "host": "http://localhost",
+    "port": 8888,
+    "collection": "users",
+    "database": "dadi-tech",
+    "version": "1.0",
+    "credentials": {
+      "clientId": "test-client",
+      "secret": "superSecret"
+    }
+  }
+}

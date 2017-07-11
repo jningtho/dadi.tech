@@ -9,8 +9,8 @@
   "cluster": false,
   "api": {
     "host": "127.0.0.1",
-    "port": 4111,
-    "enabled": false
+    "port": 8888,
+    "enabled": true
   },
   "auth": {
     "tokenUrl":"/token",

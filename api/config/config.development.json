@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "dadi-tech-api"
+  },
+  "publicUrl": {
+    "host": "localhost",
+    "port": 8888
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8888
+  },
+  "database": {
+    "hosts": [
+      {
+        "host": "127.0.0.1",
+        "port": 27017
+      }
+    ],
+    "username": "",
+    "password": "",
+    "database": "dadi-tech",
+    "ssl": false,
+    "replicaSet": "",
+    "enableCollectionDatabases": false,
+    "secondary": {
+      "hosts": [
+        {
+          "host": "127.0.0.1",
+          "port": 27018
+        }
+      ],
+      "username": "",
+      "password": "",
+      "replicaSet": "",
+      "ssl": false
+    },
+    "testdb": {
+      "hosts": [
+        {
+          "host": "127.0.0.1",
+          "port": 27017
+        }
+      ],
+      "username": "",
+      "password": ""
+    }
+  },
+  "auth": {
+    "tokenUrl": "/token",
+    "tokenTtl": 3600,
+    "clientCollection": "clientStore",
+    "tokenCollection": "tokenStore",
+    "database": {
+      "hosts": [
+        {
+          "host": "127.0.0.1",
+          "port": 27017
+        }
+      ],
+      "username": "",
+      "password": "",
+      "database": "dadi-tech"
+    }
+  },
+  "caching": {
+    "ttl": 300,
+    "directory": {
+      "enabled": true,
+      "path": "./cache/api",
+      "extension": "json"
+    },
+    "redis": {
+      "enabled": false,
+      "host": "127.0.0.1",
+      "port": 6379
+    }
+  },
+  "query": {
+    "useApiVersion": "1.0",
+    "useVersionFilter": true
+  },
+  "paths": {
+    "collections": "workspace/collections",
+    "endpoints": "workspace/endpoints",
+    "hooks": "workspace/hooks"
+  },
+  "logging": {
+    "enabled": true,
+    "level": "info",
+    "path": "./log",
+    "filename": "dadi-api",
+    "extension": "log"
+  },
+  "feedback": false,
+  "cors": true,
+  "media": {
+    "enabled": true,
+    "storage": "disk",
+    "basePath": "workspace/media",
+    "pathFormat": "date"
+  },
+  "publish": {
+    "host": "http://localhost",
+    "port": 3000
+  },
+  "email" : {
+    "host": "smtp.gmail.com",
+    "port": 25,
+    "secure": false,
+    "from": "publish@dadi.tech",
+    "username": "publish@dadi.tech",
+    "password": "hjegfhg3hgjHGJHGWDJHdw_",
+    "debug": true
+  }
+}

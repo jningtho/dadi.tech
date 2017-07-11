@@ -2,6 +2,19 @@
 node_modules
 log
 cache
-/web/npm-debug.log
 /npm-debug.log
+
+# Web
+/web/npm-debug.log
 /web/workspace/public/robots.txt
+/web/node_modules
+
+# Api
+/api/npm-debug.log
+/api/node_modules
+/api/cache
+/api/workspace/media
+
+# Publish
+/publish/npm-debug.log
+/publish/node_modules

@@ -1,0 +1,17 @@
+{
+  "name": "dadi-tech",
+  "version": "1.0.0",
+  "description": "API For dadi.tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --node-env=development",
+    "create-client": "node node_modules/@dadi/api/utils/create-client.js"
+  },
+  "keywords": [],
+  "author": "Arthur Mingard <admin@arthurmingard.com> (https://arthurmingard.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@dadi/api": "^2.2.0"
+  }
+}
