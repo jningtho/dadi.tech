@@ -1,0 +1,163 @@
+{
+  "fields": {
+    "title": {
+      "type": "String",
+      "label": "Title",
+      "comments": "The name of the product",
+      "example": "API",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "handle": {
+      "type": "String",
+      "label": "Handle",
+      "comments": "URL Friendly product title",
+      "example": "api",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "readonly": true,
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "color": {
+      "type": "String",
+      "label": "Color",
+      "comments": "The app theme colour",
+      "example": "#99EE11",
+      "required": false,
+      "publish": {
+        "section": "Contents",
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "dark-color": {
+      "type": "String",
+      "label": "Dark Color",
+      "comments": "The app dark theme colour",
+      "example": "#FF6600",
+      "required": false,
+      "publish": {
+        "section": "Contents",
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "overview": {
+      "type": "String",
+      "label": "Overview",
+      "comments": "A brief overview of the product",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "comments": "A description of the product",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "example": {
+      "type": "Boolean",
+      "label": "Example",
+      "comments": "The product has an example",
+      "required": false,
+      "publish": {
+        "section": "Demo",
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "demo": {
+      "type": "String",
+      "label": "Demo URL",
+      "comments": "URL of the demo",
+      "example": "http://docs.dadi.tech/sandbox/cdn/",
+      "required": false,
+      "publish": {
+        "section": "Demo",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "features": {
+      "type": "String",
+      "label": "Features",
+      "comments": "A list of product features",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    }
+  },
+  "settings": {
+    "compose": true,
+    "cache": false,
+    "authenticate": true,
+    "callback": null,
+    "defaultFilters": null,
+    "fieldLimiters": null,
+    "count": 20,
+    "sort": "createdAt",
+    "sortOrder": 1,
+    "storeRevisions": true,
+    "revisionCollection": "productsHistory",
+    "index": {
+      "enabled": true,
+      "keys": {
+        "title": 1
+      }
+    },
+    "displayName": "Products"
+  }
+}
