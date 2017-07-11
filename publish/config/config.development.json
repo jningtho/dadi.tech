@@ -15,7 +15,7 @@
     {
       "name": "DADI Cloud API",
       "host": "http://localhost",
-      "port": 8888,
+      "port": 8000,
       "database": "dadi-tech",
       "version": "1.0",
       "credentials": {
@@ -34,12 +34,12 @@
   "auth": {
     "enabled": true,
     "host": "http://localhost",
-    "port": 8888,
+    "port": 8000,
     "collection": "users",
     "database": "dadi-tech",
     "version": "1.0",
     "credentials": {
-      "clientId": "test-client",
+      "clientId": "testClient",
       "secret": "superSecret"
     }
   }
