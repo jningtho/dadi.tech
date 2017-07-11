@@ -8,6 +8,7 @@ cache
 /web/npm-debug.log
 /web/workspace/public/robots.txt
 /web/node_modules
+/web/config/config.development.json
 
 # Api
 /api/npm-debug.log

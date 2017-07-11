@@ -5,6 +5,9 @@
     "requestParams": [{
       "param": "product", "field": "handle"
     }],
+    "settings": {
+      "cache": false
+    },
     "source": {
       "endpoint": "1.0/dadi-tech/products"
     }

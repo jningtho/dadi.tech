@@ -21,7 +21,7 @@
       "label": "Handle",
       "comments": "URL Friendly product title",
       "example": "api",
-      "required": true,
+      "required": false,
       "message": "can't be empty",
       "publish": {
         "section": "Contents",
@@ -109,6 +109,24 @@
         }
       }
     },
+    "logo": {
+      "type": "Reference",
+      "label": "Logo",
+      "message": "JPEG or PNG",
+      "required": false,
+      "settings": {
+        "collection": "mediaStore"
+      },
+      "publish": {
+        "subType": "Image",
+        "section": "Contents",
+        "placement": "sidebar",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
     "demo": {
       "type": "String",
       "label": "Demo URL",
@@ -157,6 +175,26 @@
       "keys": {
         "title": 1
       }
+    },
+    "hooks": {
+      "beforeCreate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ],
+      "beforeUpdate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ]
     },
     "displayName": "Products"
   }

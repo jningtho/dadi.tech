@@ -124,8 +124,8 @@
       {#products.results}
         <div class="col w-1-3 pad__bottom pad__top--x2">
           <h3 class="product medium no-marg-i hdr">
-            <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
-            {product}
+            <img src="/assets/products/dadi-{handle}.png" height="35" class="alignv pad__right--half">
+            {title}
           </h3>
 
           <div class="normal txt--mid-grey pad__top">
