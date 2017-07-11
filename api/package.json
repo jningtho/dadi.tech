@@ -12,6 +12,11 @@
   "author": "Arthur Mingard <admin@arthurmingard.com> (https://arthurmingard.com/)",
   "license": "ISC",
   "dependencies": {
-    "@dadi/api": "^2.2.0"
+    "@dadi/api": "^2.2.0",
+    "bcrypt-as-promised": "^1.1.0",
+    "nodemailer": "^4.0.1",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.3.4",
+    "uuid": "^3.1.0"
   }
 }
