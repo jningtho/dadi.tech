@@ -1,0 +1,109 @@
+{
+  "fields": {
+    "title": {
+      "type": "String",
+      "label": "Title",
+      "comments": "The name of the product",
+      "example": "API",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "handle": {
+      "type": "String",
+      "label": "Handle",
+      "comments": "URL Friendly product title",
+      "example": "api",
+      "required": false,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "readonly": true,
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "overview": {
+      "type": "String",
+      "label": "Overview",
+      "comments": "A brief overview of the concept",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "body": {
+      "type": "String",
+      "label": "Body",
+      "comments": "",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    }
+  },
+  "settings": {
+    "compose": true,
+    "cache": false,
+    "authenticate": true,
+    "callback": null,
+    "defaultFilters": null,
+    "fieldLimiters": null,
+    "count": 20,
+    "sort": "createdAt",
+    "sortOrder": 1,
+    "storeRevisions": true,
+    "revisionCollection": "conceptsHistory",
+    "index": {
+      "enabled": true,
+      "keys": {
+        "title": 1
+      }
+    },
+    "hooks": {
+      "beforeCreate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ],
+      "beforeUpdate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ]
+    },
+    "displayName": "Concepts"
+  }
+}
