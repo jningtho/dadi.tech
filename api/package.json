@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js --node-env=development",
+    "import-static": "node scripts/import-static.js --node-env=development",
     "create-client": "node node_modules/@dadi/api/utils/create-client.js"
   },
   "keywords": [],

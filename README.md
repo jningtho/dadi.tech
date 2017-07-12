@@ -17,11 +17,23 @@ cd ./api
 npm install
 ```
 
+#### Run
+
+```
+npm start
+```
+
 ### Publish
 
 ```shell
 cd ./publish
 npm install
+```
+
+#### Run
+
+```
+npm start
 ```
 
 ### Web
@@ -35,6 +47,12 @@ npm install
 
 ```
 npm run build
+```
+
+#### Inport static
+
+```
+npm run import-static 
 ```
 
 #### Run
