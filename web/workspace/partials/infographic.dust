@@ -1,7 +1,7 @@
 <div class="explainer">
   <div class="explainer__intro">
-    <h2 class="kilo">{@i18n}Smarter content management{/i18n}</h2>
-    <p class="normal">{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</p>
+    <h2 class="kilo">{@i18n}Open Source web services{/i18n}</h2>
+    <p class="normal">{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}</p>
   </div>
 
   <div class="explainer__blurb b-api">
@@ -135,7 +135,7 @@
       </div>
       <div class="w-publish__field">
         <label>{@i18n}Intro{/i18n}</label>
-        <textarea>{@i18n}DADI is open-source, headless content management technology. It’s built to make developers and editors happy.{/i18n}</textarea>
+        <textarea>{@i18n}DADI Publish is headless content management tech. It’s built to make developers and editors happy.{/i18n}</textarea>
       </div>
     </div>
   </div>

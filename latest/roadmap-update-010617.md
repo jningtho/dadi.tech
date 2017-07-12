@@ -1,7 +1,7 @@
 ---
 date: 2017-06-01
 title: Roadmap Update
-handle: roadmap-update-20170601
+handle: roadmap-update-010617
 author: James Lambie
 preface: API Version 2.0 is close to release, plus we're working on an "Edge" version of DADI Web.
 category: roadmap

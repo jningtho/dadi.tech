@@ -117,7 +117,7 @@
 
 <div class="bdr--grey">
   <div class="container container--pad">  
-    <h2 class="larger alignc">{@i18n}DADI: microservices technology{/i18n}</h2>
+    <h2 class="larger alignc">{@i18n}Web services as connected apps{/i18n}</h2>
     <p class="alignc normal">{@i18n}Connected applications that can be used in varied combinations – including alongside other technology.{/i18n}</p>
 
     <div class="grid">

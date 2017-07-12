@@ -1,7 +1,7 @@
 ---
 date: 2017-05-01
 title: Roadmap Update
-handle: roadmap-update-20170501
+handle: roadmap-update-010517
 author: James Lambie
 preface: Our developers have been working on a couple of changes to API and Web over the last few weeks to enable an extensible plugin architecture. API is being decoupled from it's database storage engine, while Web is preparing to support multiple templating engines.
 category: roadmap
