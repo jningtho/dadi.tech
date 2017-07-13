@@ -83,12 +83,28 @@
       "type": "String",
       "label": "Description",
       "comments": "A description of the product",
-      "required": true,
+      "required": false,
       "message": "can't be empty",
       "publish": {
         "section": "Contents",
         "placement": "main",
         "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "date": {
+      "type": "String",
+      "label": "Date",
+      "comments": "Launch date",
+      "required": false,
+      "message": "can't be empty",
+      "publish": {
+        "subType": "DateTime",
+        "section": "Contents",
+        "placement": "sidebar",
         "display": {
           "list": true,
           "edit": true
@@ -146,7 +162,37 @@
       "type": "String",
       "label": "Features",
       "comments": "A list of product features",
-      "required": true,
+      "required": false,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "highlights": {
+      "type": "String",
+      "label": "Highlights",
+      "comments": "A list of product highlights",
+      "required": false,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "keyPoints": {
+      "type": "Array",
+      "label": "Key Points",
+      "comments": "A list of key points about the product",
+      "required": false,
       "message": "can't be empty",
       "publish": {
         "section": "Contents",
