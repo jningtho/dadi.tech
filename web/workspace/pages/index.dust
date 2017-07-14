@@ -2,64 +2,6 @@
 
 {<bodyClass}home{/bodyClass}
 
-<div id="awwwards" class="nominee black right">
-<a href="http://www.awwwards.com/sites/dadi" target="_blank">Awwwards</a>
-</div>
-
-<style type="text/css">
-/* Base */
-
-#awwwards{
-  position: absolute;
-  top: 50px;
-  width: 90px;
-  height: 135px;
-  text-indent: -666em;
-  overflow: hidden;
-  z-index: 999;
-
-  -webkit-transition: all 1s ease;
-    transition: all 1s ease; 
-}
-#awwwards.right{
-  right: 0;
-}
-
-#awwwards a{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 90px;
-  height: 135px;
-  background-repeat: no-repeat;
-  background-size: 90px 135px;
-}
-
-/* NOMINEE */
-
-
-#awwwards.nominee.black.right a{
-  background-image: url(/assets/img/awwwards_nominee_black_right.png);
-}
-
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-
-  /* NOMINEE */
-
-  #awwwards.nominee.black.right a{
-    background-image: url(/assets/img/awwwards_nominee_black_right@2x.png);
-  }
-
-}
-
-@media handheld, only screen and (max-width: 50em) {
-  #awwwards {
-    top: 0;
-  }
-}
-</style>
-
 {>"partials/infographic" /}
 
 <div class="clients">
