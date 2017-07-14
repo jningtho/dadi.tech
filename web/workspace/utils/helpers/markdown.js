@@ -1,4 +1,4 @@
-var dust = require('@dadi/web').Dust
+var dust = require('dustjs-linkedin')
 var marked = require('marked')
 
 /*
@@ -16,7 +16,7 @@ marked.setOptions({
 /*
 * Returns the markdown content formatted as HTML
 */
-dust.getEngine().helpers.markdown = function(chunk, context, bodies, params) {
+dust.helpers.markdown = function(chunk, context, bodies, params) {
   if (bodies.block) {
     return chunk.capture(bodies.block, context, function(string, chunk) {
       chunk.end(marked(string))
@@ -28,7 +28,7 @@ dust.getEngine().helpers.markdown = function(chunk, context, bodies, params) {
 /*
 * Returns the markdown content formatted as HTML, without wrapping p tags
 */
-dust.getEngine().helpers.soberMarkdown = function(chunk, context, bodies, params) {
+dust.helpers.soberMarkdown = function(chunk, context, bodies, params) {
   if (bodies.block) {
     return chunk.capture(bodies.block, context, function(string, chunk) {
       var md = marked(string);

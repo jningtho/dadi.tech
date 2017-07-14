@@ -9,7 +9,7 @@
 var components = require('@dadi/web').Components
 
 // also, a reference to the Dust template module inside DADI Web
-var dust = require('@dadi/web').Dust
+var dust = require('dustjs-linkedin')
 
 // Load DADI helpers
-require('@dadi/dustjs-helpers')(dust.getEngine(), { components: components })
+require('@dadi/dustjs-helpers')(dust, { components: components })
