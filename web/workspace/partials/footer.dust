@@ -91,6 +91,11 @@
             Identity
             </a>
           </li> !}
+        </ul>
+      </div>
+      <div class="col w-1-3 pad__bottom">
+        <p class="normal hdr">Learn</p>
+        <ul class="list--line">
           <li><a href="/{params.lang}/concepts/">Concepts</a></li>
           {! <li><a href="/{params.lang}/tools/">Tools &amp; Components</a></li> !}
           <li><a href="/{params.lang}/security/">Security</a></li>
@@ -102,18 +107,6 @@
             Documentation
             </a>
           </li>
-        </ul>
-      </div>
-      <div class="col w-1-3 pad__bottom">
-        <p class="normal hdr"><a href="/{params.lang}/support/" onclick="ga('send','event','Support','Click','Footer');">Support</a></p>
-        <ul class="list--line">
-          <li><a href="/{params.lang}/support/data-strategy/">Data strategy</a></li>
-          <li><a href="/{params.lang}/support/publishing/">Publishing</a></li>
-          <li><a href="/{params.lang}/support/product-development/">Product development</a></li>
-          <li><a href="/{params.lang}/support/crm/">CRM</a></li>
-          <li><a href="/{params.lang}/support/analytics/">Analytics</a></li>
-          <li><a href="/{params.lang}/support/content-personalisation/">Content personalisation</a></li>
-          <li><a href="/{params.lang}/support/commerce/">Commerce</a></li>
         </ul>
       </div>
     </div>
