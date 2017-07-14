@@ -27,6 +27,10 @@ const Import = function () {
     .then(res => {
       this.inject('products')
     })
+  this.clear('successes')
+    .then(res => {
+      this.inject('successes')
+    })
 }
 
 Import.prototype.clear = function (collection) {
@@ -52,8 +56,6 @@ Import.prototype.inject = function (collection) {
         console.log(e.error)
       })
   })
-  // api.in('collection')
-      // .create(node)
 }
 
 module.exports = new Import()

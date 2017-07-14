@@ -1,0 +1,229 @@
+{
+  "fields": {
+    "title": {
+      "type": "String",
+      "label": "Title",
+      "comments": "The name of the product",
+      "example": "API",
+      "required": true,
+      "message": "can't be empty",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "handle": {
+      "type": "String",
+      "label": "Handle",
+      "comments": "URL Friendly product title",
+      "example": "api",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "readonly": true,
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "color": {
+      "type": "String",
+      "label": "Color",
+      "comments": "The story theme colour",
+      "example": "#99EE11",
+      "required": false,
+      "publish": {
+        "section": "Contents",
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "text-color": {
+      "type": "String",
+      "label": "Text Color",
+      "comments": "The story text colour",
+      "example": "#99EE11",
+      "required": false,
+      "publish": {
+        "section": "Contents",
+        "placement": "sidebar",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "summary": {
+      "type": "String",
+      "label": "Summary",
+      "comments": "A brief summary of the success story",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "requirements": {
+      "type": "String",
+      "label": "Requirements",
+      "comments": "The client requirements",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "components": {
+      "type": "String",
+      "label": "Components",
+      "comments": "The core components of the project",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "results": {
+      "type": "String",
+      "label": "Results",
+      "comments": "The results of the project",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "detail": {
+      "type": "String",
+      "label": "Detail",
+      "comments": "",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "multiline": true,
+        "display": {
+          "list": true,
+          "edit": true
+        }
+      }
+    },
+    "quote": {
+      "type": "Object",
+      "label": "Quote",
+      "comments": "The client quote",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "captions": {
+      "type": "String",
+      "label": "Captions",
+      "comments": "",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Contents",
+        "placement": "main",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    },
+    "vimeo": {
+      "type": "String",
+      "label": "Vimeo",
+      "comments": "The vimeo ID",
+      "required": false,
+      "message": "",
+      "publish": {
+        "section": "Resources",
+        "placement": "main",
+        "display": {
+          "list": false,
+          "edit": true
+        }
+      }
+    }
+  },
+  "settings": {
+    "compose": true,
+    "cache": false,
+    "authenticate": true,
+    "callback": null,
+    "defaultFilters": null,
+    "fieldLimiters": null,
+    "count": 20,
+    "sort": "createdAt",
+    "sortOrder": 1,
+    "storeRevisions": true,
+    "revisionCollection": "conceptsHistory",
+    "index": {
+      "enabled": true,
+      "keys": {
+        "title": 1
+      }
+    },
+    "hooks": {
+      "beforeCreate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ],
+      "beforeUpdate": [
+        {
+          "hook": "slugify",
+          "options": {
+            "from": "title",
+            "to": "handle"
+          }
+        }
+      ]
+    },
+    "displayName": "Successes"
+  }
+}
