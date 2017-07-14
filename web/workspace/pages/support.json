@@ -6,19 +6,12 @@
     "cache": true
   },
   "datasources": [
-    "support",
+    "successes",
     "latest-footer"
-  ],
-  "requiredDatasources": [
-    "support"
   ],
   "routes": [
     {
       "path": "/:lang/support/"
-    },
-    {
-      "path": "/:lang/support/:solution",
-      "in": "support"
     }
   ]
 } 

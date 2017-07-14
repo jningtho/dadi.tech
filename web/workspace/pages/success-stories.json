@@ -8,7 +8,6 @@
   },
   "datasources": [
     "successes",
-    "support",
     "latest-footer"
   ],
   "requiredDatasources": [
