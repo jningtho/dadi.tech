@@ -1,6 +1,7 @@
 {
   "page": {
-    "key": "Support"
+    "key": "Support",
+    "color": "#15313A"
   },
   "settings": {
     "cache": true
