@@ -118,24 +118,6 @@
   </div>
 </div>
 
-<div class="container container--pad">
-  <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
-  <p class="alignc normal">See how our support services scale from helping hand to full-service build:</p>
-
-  <div class="grid marg__top--x2">
-    {#successes.results}
-      <div class="col w-1-1 marg__bottom success__item">
-          <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
-              <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
-                  <p class="hdr large">{title}</p>
-                  <p class="normal">{summary}</p>
-                  <p><span class="btn">{@i18n}Read more{/i18n}</span>
-                  </p>
-              </div>
-          </a>
-      </div>
-    {/successes.results}
-  </div>
-</div>
+{>"partials/success-stories" /}
 
 {>"partials/footer" /}
