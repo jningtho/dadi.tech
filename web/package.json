@@ -31,6 +31,7 @@
     "chroma-js": "^1.2.2",
     "clean-css": "^3.4.20",
     "domready": "^1.0.8",
+    "dustjs-linkedin": "^2.7.5",
     "exorcist": "^0.4.0",
     "jshint": "^2.9.3",
     "marked": "^0.3.6",
