@@ -3,7 +3,7 @@
     "name": "dadi-tech-api"
   },
   "publicUrl": {
-    "host": "http://am.dev.dadi.technology",
+    "host": "am.dev.dadi.technology",
     "port": 8000
   },
   "server": {
