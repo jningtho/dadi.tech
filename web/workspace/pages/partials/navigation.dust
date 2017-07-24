@@ -1,9 +1,9 @@
 <nav>
   <a href="/{params.lang}/" class="inline-block marg__bottom">
-    <img src="/assets/img/dadi-{@eq key=page.key value="home"}colour{:else}light{/eq}.svg" width="150" height="35" alt="DADI" class="logo">
+    <img src="/assets/img/dadi-{@select key=page.key}{@eq value="home"}colour{/eq}{@eq value="Products"}dark{/eq}{@none}light{/none}{/select}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>
   <ol>
-    <li><a href="/{params.lang}/" {@select key=page.key}{@eq value="home"/}{@eq value="Products"/}{@any}class="on"{/any}{/select}>Technology</a>
+    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
     </li>
     <li><a href="/{params.lang}/on-demand" onclick="ga('send','event','On demand','Click','Header');" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
     </li>
@@ -18,7 +18,10 @@
   </ul>
 </nav>
 
-{@ne key=page.key value="home"}
+{@select key=page.key}
+{@eq key=page.key value="home" /}
+{@eq key=page.key value="Products" /}
+{@none}
   {?params.product}
     {>"partials/pattern" primary=products.results[0].dark-color /}
   {:else}
@@ -28,4 +31,5 @@
       {>"partials/pattern" primary="#21262d" /}
     {/page.color}
   {/params.product}
-{/ne}
+{/none}
+{/select}

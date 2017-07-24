@@ -1085,6 +1085,7 @@ header {
 body.home header {
   padding-bottom: 0;
   background: #f9f9f9;
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.08) inset;
   color: #21262D; }
 .pattern {
   z-index: -1;
@@ -1463,7 +1464,7 @@ select {
 .list--line {
   list-style: none; }
 .list--line li {
-    border-bottom: 1px solid #e8f0f7;
+    border-bottom: 1px solid #E0E0E0;
     padding: 10px 0; }
 .list--line li:last-of-type {
       border-bottom: none; }
@@ -1482,7 +1483,7 @@ select {
 .list--tick li {
     list-style: none;
     padding: 0.5em 0;
-    border-bottom: 1px solid #e8f0f7;
+    border-bottom: 1px solid #E0E0E0;
     background: url(/assets/img/tick.svg) no-repeat 0 50%;
     background-size: auto 17px;
     padding-left: 35px; }
@@ -1490,7 +1491,7 @@ select {
       background: none;
       padding-left: 0; }
 .list--tick li a {
-      border-bottom: 1px solid #e8f0f7; }
+      border-bottom: 1px solid #E0E0E0; }
 .list--tick li a:hover {
         border-bottom-color: #88C24C; }
 .list--tick li:last-of-type {
@@ -1546,6 +1547,13 @@ select {
     margin-left: 12px; }
 .list--pipe li:after {
   content: '|'; }
+.list--product {
+  list-style: none;
+  font-size: 17px; }
+.list--product li {
+    margin-bottom: 1px; }
+.list--product a {
+    border-bottom: 1px solid #E0E0E0; }
 .card {
   padding: 20px;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.02);

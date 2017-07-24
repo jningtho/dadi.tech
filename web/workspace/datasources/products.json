@@ -69,11 +69,11 @@
             ]
           },
           "features": [
-            "Built in support for oAuth2",
-            "Provides native document versioning at collection level",
-            "Supports static endpoints",
-            "Includes automatic indexing",
-            "Local and networked caching layer",
+            "Built in support for **oAuth2**",
+            "Provides native **document versioning** at collection level",
+            "Supports **static** endpoints",
+            "Includes **automatic indexing**",
+            "Local and networked **caching** layer",
             "Can be run in a clustered configuration",
             "Search, filter and sort your data with ease",
             "Collection-level access control",

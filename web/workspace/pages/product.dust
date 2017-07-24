@@ -1,31 +1,192 @@
 {>"partials/header" /}
 
+{<bodyClass}home{/bodyClass}
+
 {<title}
   {products.results[0].title} / Platform
 {/title}
 
 {<header}
   {#products.results[0]}
-    <div class="container pad__top pad__bottom">
-      <img src="/assets/products/dadi-{product}-full-alt.png" class="" height="45" alt="DADI {title} logo">
 
-      <p class="hdr larger alignauto">{@soberMarkdown}{overview}{/soberMarkdown}</p>
+  <style type="text/css">
+    .container--wide {
+      max-width: 1200px;
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+    .product__bg {
+      background: url(/assets/products/dadi-{product}-bg.svg) no-repeat 50% 0;
+      background-size: auto 450px;
+    }
+    .list--feat li {
+      border-bottom: none;
+      position: relative;
+      list-style: none;
+      padding: 0 0 15px 35px;
+    }
+    .list--feat svg,
+    .list--feat img {
+      position: absolute;
+      left: 0; top: 4px;
+      width: 20px;
+    }
 
-      <p class="no-marg-i pad__top--half"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn medium">How to install</a></p>
+    .product__gallery {
+      width: 130%;
+      position: absolute;
+      height: 0;
+      padding-top: 75%;
+      margin-top: -40px;
+    }
+    .product__frame {
+      background: #fff;
+      border-radius: 6px;
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      overflow: hidden;
+      box-shadow: -6px 6px 21px rgba(0,0,0,0.16);
+    }
+    .product__frame img {
+      width: 100%;
+      height: auto;
+    }
+    .product__visuals {
+      height: 440px;
+      position: relative;
+      top: -50px;
+    }
+
+    .list--products {
+      padding: 0 10px 50px;
+    }
+    .list--products li {
+      list-style: none;
+      position: relative;
+      left: 40px;
+      background: url(/assets/img/arrow.svg) no-repeat 60% 50%;
+    }
+    .list--products li:last-of-type {
+      background: none;
+    }
+    .list--products li img {
+      position: absolute;
+      left: -40px;  
+      width: 20px; height: auto;
+      margin-top: 7px;
+    }
+
+  </style>
+
+  <div class="container container--wide product__bg alignl">
+    <div class="list--products alignl cf grid ">
+      <ul class="pad__left pad__right">
+        <li class="col w-1-5"><a href="/{params.lang}/"><img src="/assets/img/d-dark.png" style="width:27px;margin-top:11px">Products<br> overview</a></li>
+        <li class="col w-1-5"><a {@eq key=product value="api"}class="fwb"{/eq} href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png">Start an API in<br>30 seconds</a></li>
+        <li class="col w-1-5"><a {@eq key=product value="publish"}class="fwb"{/eq} href="/{params.lang}/publish/"><img src="/assets/products/dadi-publish.png">Add a CMS<br>interface</a></li>
+        <li class="col w-1-5"><a {@eq key=product value="web"}class="fwb"{/eq} href="/{params.lang}/web/"><img src="/assets/products/dadi-web.png" style="width:26px">Build your<br>frontend</a></li>
+        <li class="col w-1-5"><a {@eq key=product value="cdn"}class="fwb"{/eq} href="/{params.lang}/cdn/"><img src="/assets/products/dadi-cdn.png">Serve optimised<br>images</a></li>
+      </ul>
     </div>
+
+    <div class="grid">
+      <div class="col w-1-2">
+        <img src="/assets/products/dadi-{product}-full.png" class="" height="45" alt="DADI {title} logo">
+        <p class="medium no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
+        <p class="no-marg-i"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a></p>
+
+        <ul class="list--product normal marg__top--x2">
+          <li><a style="border-bottom-color:{color}" href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">View source on Github</a></li>
+          <li><a style="border-bottom-color:{color}" href="https://www.npmjs.com/package/@dadi/{product}" onclick="ga('send','event','NPM','Click','Product');">Install with NPM</a></li>
+          <li><a style="border-bottom-color:{color}" href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>
+          <li><a style="border-bottom-color:{color}" href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Product');">DADI On-demand</a></li>
+          {?demo}<li><a href="{demo}">Live demo</a></li>{/demo}
+        </ul>
+      </div>
+
+      <div class="col w-1-2">
+        <ul class="list--feat medium">
+          {@iter items=features from=0 to=4}         
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.1 19.4"><path fill="{color}" d="M7.9 19.4l-7.9-7 1.3-1.5 6.1 5.4L17.4 0l1.7 1z"/></svg>
+              {@soberMarkdown}{.}{/soberMarkdown}
+            </li>
+          {/iter}
+        </ul>
+      </div>
+    </div>
+
+    <div class="grid marg__top product__visuals">
+      <div class="col w-1-2">
+        <img src="/assets/explainer/connect-4.svg">
+
+        <p>Use with other <strong>DADI</strong> products:</p>
+
+        <ul class="list--feat">
+          <li><strong>Publish</strong> manages content stored in <strong>API</strong></li>
+          <li><strong>Publish</strong> uses <strong>CDN</strong> to store and maniuplate images</li>
+          <li><strong>Publish</strong> can use <strong>Web</strong> to serve a front-end</li>
+        </ul>
+      </div>
+      <div class="col w-1-2">
+        <div class="product__gallery">
+          <div class="product__frame">
+            <img src="http://via.placeholder.com/600x350">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bdr__top bdr--bdr-grey normal pad__top">
+      <div class="grid">
+        <div class="col w-1-2">
+          <p>A writer’s window to the world of content creation. <strong>DADI Publish</strong> is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning</p>
+        </div>
+        <div class="col w-1-2">
+          <p>A writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning</p>
+        </div>
+      </div>
+    </div>
+  </div>
   {/products.results[0]}
 {/header}
+
+
+<div class="container container--pad normal">
+<div class="grid pad__top">
+  <div class="col w-1-2 pad__bottom">
+    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
+    <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
+  </div>
+  <div class="col w-1-2 pad__bottom">
+    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
+    <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="col w-1-2 pad__bottom">
+    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
+    <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
+  </div>
+  <div class="col w-1-2 pad__bottom">
+    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
+    <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
+  </div>
+</div>
+
+
 
 {#products.results[0]}
 
 <div class="alignc pad__top pad__bottom bdr__bottom bdr--bdr-grey" style="margin-top: -40px">
   <ul class="list--inline small">
-    <li><a href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">Github</a></li>
-    <li><a href="https://www.npmjs.com/package/@dadi/{product}" onclick="ga('send','event','NPM','Click','Product');">NPM</a></li>
-    <li><a href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>
+    <li></li>
+    <li></li>
+    <li></li>
     <li><a href="https://github.com/dadi/{product}/archive/master.zip">Download ZIP</a></li>
-    <li><a href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Product');">DADI On-demand</a></li>
-    {?demo}<li><a class="btn btn--small" href="{demo}">Live demo</a></li>{/demo}
+    <li>
   </ul>
 </div>
 
