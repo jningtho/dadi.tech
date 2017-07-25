@@ -1,7 +1,7 @@
 ---
-date: 2017-06-24
+date: 2017-07-24
 title: Roadmap Update
-handle: roadmap-update-240617
+handle: roadmap-update-240717
 author: Jim Lambie
 preface: Updates to DADI CDN (including replacement of lwip with Sharp), plus changes to API and Web
 category: roadmap
