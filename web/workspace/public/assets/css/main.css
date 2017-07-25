@@ -1085,7 +1085,6 @@ header {
 body.home header {
   padding-bottom: 0;
   background: #f9f9f9;
-  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.08) inset;
   color: #21262D; }
 .pattern {
   z-index: -1;
@@ -1549,11 +1548,16 @@ select {
   content: '|'; }
 .list--product {
   list-style: none;
-  font-size: 17px; }
+  font-size: 17px;
+  position: relative;
+  z-index: 1; }
 .list--product li {
     margin-bottom: 1px; }
 .list--product a {
     border-bottom: 1px solid #E0E0E0; }
+.list--product a:hover {
+    color: #000 !important;
+    border-bottom-color: #000 !important; }
 .card {
   padding: 20px;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.02);

@@ -57,42 +57,7 @@
   </div>
 </div>
 
-<div class="bdr--grey">
-  <div class="container container--pad">  
-    <h2 class="larger alignc">{@i18n}Web services as connected apps{/i18n}</h2>
-    <p class="alignc normal">{@i18n}Connected applications that can be used in varied combinations – including alongside other technology.{/i18n}</p>
-
-    <div class="grid">
-      {#products.results}
-        <div class="col w-1-3 pad__bottom pad__top--x2">
-          <h3 class="product medium no-marg-i hdr">
-            <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
-            {product}
-          </h3>
-
-          <div class="normal txt--mid-grey pad__top">
-            {overview}
-            <br><br>
-            {?description}
-              <a href="/{params.lang}/{product}/" class="btn small">Learn more</a>
-            {:else}
-              <span class="btn small btn--disabled">{date}</span>
-            {/description}
-          </div>
-        </div>
-
-       {@math key=$idx method="mod" operand=3}
-          {@eq value=2}
-              </div>
-      <div class="grid">
-          {/eq}
-        {/math}
-
-      {/products.results}
-      </div>
-    </div>
-  </div>
-</div>
+{>"partials/products" /}
 
 <div class="bg--light-grey bdr--bdr-grey support">
   <div class="container cf">

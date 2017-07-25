@@ -10,14 +10,20 @@
   {#products.results[0]}
 
   <style type="text/css">
+    header {
+      box-shadow: 0 -4px 11px 0 rgba(0,0,0,.04) inset;
+    }
+    .shadow--top {
+      box-shadow: 0 4px 11px 0 rgba(0,0,0,.04) inset;
+    }
     .container--wide {
-      max-width: 1200px;
+      max-width: 1150px;
       margin-top: 20px;
       padding-top: 20px;
       padding-bottom: 40px;
     }
     .product__bg {
-      background: url(/assets/products/dadi-{product}-bg.svg) no-repeat 50% 0;
+      background: url(/assets/products/dadi-{product}-bg.svg) no-repeat 50% 90px;
       background-size: auto 450px;
     }
     .list--feat li {
@@ -34,10 +40,11 @@
     }
 
     .product__gallery {
-      width: 130%;
+      width: 140%;
       position: absolute;
+      left: -15%;
       height: 0;
-      padding-top: 75%;
+      padding-top: 80%;
       margin-top: -40px;
     }
     .product__frame {
@@ -53,13 +60,13 @@
       height: auto;
     }
     .product__visuals {
-      height: 440px;
+      height: 460px;
       position: relative;
-      top: -50px;
+      top: -40px;
     }
 
     .list--products {
-      padding: 0 10px 50px;
+      padding: 0 10px 55px;
     }
     .list--products li {
       list-style: none;
@@ -76,7 +83,6 @@
       width: 20px; height: auto;
       margin-top: 7px;
     }
-
   </style>
 
   <div class="container container--wide product__bg alignl">
@@ -93,7 +99,8 @@
     <div class="grid">
       <div class="col w-1-2">
         <img src="/assets/products/dadi-{product}-full.png" class="" height="45" alt="DADI {title} logo">
-        <p class="medium no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
+
+        <p class="large no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
         <p class="no-marg-i"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a></p>
 
         <ul class="list--product normal marg__top--x2">
@@ -114,19 +121,21 @@
             </li>
           {/iter}
         </ul>
+
+        <p class="alignl"><a href="#features" style="border-bottom: 1px solid {color}; font-size: 17px">More features &rarr;</a></p>
       </div>
     </div>
 
     <div class="grid marg__top product__visuals">
       <div class="col w-1-2">
-        <img src="/assets/explainer/connect-4.svg">
+        <img src="/assets/explainer/connect-4.svg" class="marg__bottom" style="pointer-events: none;">
 
-        <p>Use with other <strong>DADI</strong> products:</p>
+        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> products:</p>
 
-        <ul class="list--feat">
-          <li><strong>Publish</strong> manages content stored in <strong>API</strong></li>
-          <li><strong>Publish</strong> uses <strong>CDN</strong> to store and maniuplate images</li>
-          <li><strong>Publish</strong> can use <strong>Web</strong> to serve a front-end</li>
+        <ul class="list--feat marg__top--x2 medium w-2-3 txt--mid-grey">
+          <li><a href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png"><strong>Publish</strong> manages content stored in <strong>API</strong></a></li>
+          <li><a href="/{params.lang}/cdn/"><img src="/assets/products/dadi-cdn.png"><strong>Publish</strong> uses <strong>CDN</strong> to store and maniuplate images</a></li>
+          <li><a href="/{params.lang}/web/"><img src="/assets/products/dadi-web.png"><strong>Publish</strong> can use <strong>Web</strong> to serve a front-end</a></li>
         </ul>
       </div>
       <div class="col w-1-2">
@@ -149,92 +158,48 @@
       </div>
     </div>
   </div>
+
+    <div class="clients" style="margin:0 -40px 30px -40px">
+      <div class="normal alignc container overflow-touch">
+        <div class="pad__top pad__bottom">
+          {! <p class="inline-block hdr large txt--grey alignv">Already used around the web…</p> !}
+        </div>
+      </div>
+    </div>
   {/products.results[0]}
 {/header}
 
 
-<div class="container container--pad normal">
-<div class="grid pad__top">
-  <div class="col w-1-2 pad__bottom">
-    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
-    <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
-  </div>
-  <div class="col w-1-2 pad__bottom">
-    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-    <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
-  </div>
-</div>
-
-<div class="grid">
-  <div class="col w-1-2 pad__bottom">
-    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
-    <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
-  </div>
-  <div class="col w-1-2 pad__bottom">
-    <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
-    <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
-  </div>
-</div>
-
-
-
 {#products.results[0]}
+  <div class="container container--pad normal" id="features" name="features">
+    <div class="grid pad__top">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
+        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
+        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
+      </div>
+    </div>
 
-<div class="alignc pad__top pad__bottom bdr__bottom bdr--bdr-grey" style="margin-top: -40px">
-  <ul class="list--inline small">
-    <li></li>
-    <li></li>
-    <li></li>
-    <li><a href="https://github.com/dadi/{product}/archive/master.zip">Download ZIP</a></li>
-    <li>
-  </ul>
-</div>
-
-{#highlights}
-  <div class="container alignc pad__top--x2 marg__bottom--x2">
-    <ul class="list--no-style grid normal">
-      {#keyPoints}
-        <li class="col w-1-3 pad__bottom read">
-          {?image}<img src="/assets/illustrations/{image|s}" style="max-height: 150px;width: auto;">{/image}
-          <strong class="block medium pad__bottom--half" style="color:{color}">{title}</strong> {@soberMarkdown}{description}{/soberMarkdown}
-        </li>
-      {/keyPoints}
-    </ul> 
-  </div>
-{/highlights}
-
-  <p class="block hdr medium txt--grey alignv alignc">Who's using it?</p>
-  <div class="marg__top pad__top pad__bottom bg--light-grey alignc overflow-hidden">
-  <img src="/assets/img/clients.png" class="col w-1-1">
-  </div>
-
-  <div class="container pad__top--x2 pad__bottom--x2">
     <div class="grid">
-      {?description}
-        <div class="col w-1-2 normal read">
-          {@markdown}{description|s}{/markdown}
-        </div>
-      {/description}
-      
-      {?features}
-        <div class="col w-1-2">
-          <ul class="list--tick normal pad__top">
-            {@iter items=features}
-              <li>{@soberMarkdown}{.}{/soberMarkdown}</li>
-            {/iter}
-          </ul>
-        </div>
-      {/features}
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
+        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
+        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
+      </div>
     </div>
   </div>
 
-  {?example}
-    <div class="container container--divider">
-      {>"partials/code-examples/{product}" /}
-    </div>
-  {/example}
+  <div class="bg--light-grey shadow--top"> 
+    {>"partials/products" /}
+  </div>
 
-  <div class="container container--divider alignc"><p class="large txt--blue alignauto no-marg" style="color:{color}">Contact us to discuss how we can help you lorem ipsum dolor sit amet</p><a href="/en/contact/" class="marg__top btn btn--blue normal" style="border-color:{color}">Contact us</a></div>
+  <div class="container container--divider alignc"><p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you lorem ipsum dolor sit amet</p><a href="/en/contact/" class="marg__top btn btn--blue normal">Contact us</a></div>
 {/products.results[0]}
 
 {>"partials/footer" /}

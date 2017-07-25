@@ -7,7 +7,7 @@
   },
   "datasources": [
     "successes",
-    "products",
+    "products-list",
     "latest-footer"
   ],
   "routes": [
