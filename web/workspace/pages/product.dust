@@ -74,8 +74,21 @@
       </div>
       <div class="col w-1-2">
         <div class="product__gallery">
-          <div class="product__frame">
-            <img src="http://via.placeholder.com/600x350">
+          <div class="product__frame" style="background:#000">
+            
+
+            {@select key=product}
+              {@eq value="api"}
+
+                <asciinema-player src="/assets/illustrations/asciicast-api.json" cols="159" rows="26" autoplay="true" speed="2"></asciinema-player>
+
+                <link rel="stylesheet" type="text/css" href="/assets/illustrations/asciinema-player.css">
+                <script src="/assets/illustrations/asciinema-player.js"></script>
+
+              {/eq}
+              {@none}<img src="http://via.placeholder.com/600x350">{/none}
+            {/select}
+
           </div>
         </div>
       </div>
@@ -102,7 +115,6 @@
     </div>
   {/products.results[0]}
 {/header}
-
 
 {#products.results[0]}
   <div class="container container--pad normal" id="features" name="features">
