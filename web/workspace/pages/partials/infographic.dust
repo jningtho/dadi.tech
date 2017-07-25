@@ -137,11 +137,11 @@
     <div class="w-publish__body">
       <div class="w-publish__field">
         <label>{@i18n}Title{/i18n}</label>
-        <input type="text" value="{@i18n}Smarter content management{/i18n}">
+        <input type="text" value="{@i18n}Open Source web services{/i18n}">
       </div>
       <div class="w-publish__field">
         <label>{@i18n}Intro{/i18n}</label>
-        <textarea>{@i18n}DADI Publish is headless content management tech. It’s built to make developers and editors happy.{/i18n}</textarea>
+        <textarea>{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}</textarea>
       </div>
     </div>
   </div>
