@@ -1546,18 +1546,6 @@ select {
     margin-left: 12px; }
 .list--pipe li:after {
   content: '|'; }
-.list--product {
-  list-style: none;
-  font-size: 17px;
-  position: relative;
-  z-index: 1; }
-.list--product li {
-    margin-bottom: 1px; }
-.list--product a {
-    border-bottom: 1px solid #E0E0E0; }
-.list--product a:hover {
-    color: #000 !important;
-    border-bottom-color: #000 !important; }
 .card {
   padding: 20px;
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.02);
@@ -2126,4 +2114,81 @@ abbr {
 @media handheld, only screen and (max-width: 50em) {
   .success__desc {
     width: auto; } }
+.shadow--top {
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.04) inset; }
+.container--wide {
+  max-width: 1150px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+.product__bg {
+  background-size: auto 450px; }
+.list--feat li {
+  border-bottom: none;
+  position: relative;
+  list-style: none;
+  padding: 0 0 15px 35px; }
+.list--feat svg,
+.list--feat img {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 20px; }
+.product__gallery {
+  width: 140%;
+  position: absolute;
+  left: -15%;
+  height: 0;
+  padding-top: 80%;
+  margin-top: -40px; }
+.product__frame {
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  box-shadow: -6px 6px 21px rgba(0, 0, 0, 0.16); }
+.product__frame img {
+  width: 100%;
+  height: auto; }
+.product__visuals {
+  height: 460px;
+  position: relative;
+  top: -40px; }
+.list--products {
+  padding: 0 10px 55px; }
+@media handheld, only screen and (max-width: 50em) {
+    .list--products {
+      display: none; } }
+.list--products li {
+  list-style: none;
+  position: relative;
+  left: 40px;
+  background: url(/assets/img/arrow.svg) no-repeat 60% 50%; }
+.list--products li:last-of-type {
+  background: none; }
+.list--products li img {
+  position: absolute;
+  left: -40px;
+  width: 20px;
+  height: auto;
+  margin-top: 7px; }
+.list--product {
+  list-style: none;
+  font-size: 17px;
+  position: relative;
+  z-index: 1; }
+@media handheld, only screen and (max-width: 50em) {
+    .list--product {
+      padding-bottom: 40px; } }
+.list--product li {
+    margin-bottom: 1px; }
+.list--product a {
+    border-bottom: 1px solid #E0E0E0; }
+.list--product a:hover {
+    color: #000 !important;
+    border-bottom-color: #000 !important; }
 /*# sourceMappingURL=main.css.map */

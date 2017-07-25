@@ -154,21 +154,3 @@
 		content: '|';
 	}
 }
-
-.list--product {
-	list-style: none;
-	font-size: 17px;
-	position: relative;
-	z-index: 1;
-
-	li {
-		margin-bottom: 1px;
-	}
-	a {
-		border-bottom: 1px solid $bdr-grey;
-	}
-	a:hover {
-		color: #000 !important;
-		border-bottom-color: #000 !important;
-	}
-}
