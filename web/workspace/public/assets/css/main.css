@@ -2121,8 +2121,6 @@ abbr {
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 40px; }
-.product__bg {
-  background-size: auto 450px; }
 .list--feat li {
   border-bottom: none;
   position: relative;
@@ -2141,6 +2139,9 @@ abbr {
   height: 0;
   padding-top: 80%;
   margin-top: -40px; }
+@media handheld, only screen and (max-width: 50em) {
+    .product__gallery {
+      margin-top: 20px; } }
 .product__frame {
   background: #fff;
   border-radius: 6px;
@@ -2158,6 +2159,9 @@ abbr {
   height: 460px;
   position: relative;
   top: -40px; }
+@media handheld, only screen and (max-width: 50em) {
+    .product__visuals {
+      height: 750px; } }
 .list--products {
   padding: 0 10px 55px; }
 @media handheld, only screen and (max-width: 50em) {
