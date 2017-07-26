@@ -125,31 +125,41 @@
             "**CDN** has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis."
           ],
           "headlines": [
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons"
+            "Serve images from **Amazon S3**, a remote server or the local filesystem",
+            "Dynamically generate images for **responsive design** and mobile devices",
+            "Extensive set of image **enhancement** and **transformation** tools",
+            "Image **format conversion**"
           ],
           "features": [
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Crop images based on subject matter",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Let CDN decide the focal point of the image and deliver an image containing only the essentials, cropped to your specifications."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Simplified media storage",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "No need to maintain multiple sizes of each image - CDN generates new variations from a single master image."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "One CDN for all asset types",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Store and deliver font files and minify all your CSS and JavaScript assets for delivery."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Network and device dependent delivery",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Let CDN choose the best transformations based on device, network, location or language."
+            },
+            {
+              "title": "Delivery Recipes",
+              "icon": "database",
+              "description": "Store frequently used image manipulation parameters as a 'delivery recipe'."
+            },
+            {
+              "title": "Cache all image sizes for faster delivery",
+              "icon": "database",
+              "description": "Converted images can be cached using a Redis server or the local filesystem, providing faster delivery on subsequent requests."
             }
           ],
           "workswith": [
