@@ -77,9 +77,9 @@
           <div class="product__frame" {@eq key=product value="api"}style="background:#000"{/eq}>
             
             {@select key=product}
-             {@eq value="web"}
+              {@eq value="web"}
                 <div class="gallery">
-                  <div>
+                  <div class="active">
                     <img src="/assets/illustrations/web-1.jpg">
 
                     <blockquote class="normal product__caption">Get up and running in a few shell lines</blockquote>
