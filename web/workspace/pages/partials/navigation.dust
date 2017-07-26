@@ -15,6 +15,22 @@
     </li>
     <li><a href="http://docs.dadi.tech" class="txt--blue" onclick="ga('send','event','Documentation','Click','Header');">Documentation</a>
     </li>
+    <li>
+      <select id="lang">
+        <optgroup label="Languages">
+          <option value="en">English</option>
+        </optgroup>
+        <optgroup label="Coming soon">
+          <option value="fr">Français</option>
+          <option value="de">Deutsche</option>
+          <option value="zh_hans">中文 (CN/SG)</option>
+          <option value="zh_hant">中文 (TW/HK)</option>
+          <option value="ru">Pусский</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="jp">日本語</option>
+      </select>
+    </li>
   </ul>
 </nav>
 
