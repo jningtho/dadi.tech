@@ -18,10 +18,10 @@
       background-size: auto 450px;
     }
   </style>
-
+  
   <div class="container container--wide product__bg alignl">
-    <div class="list--products alignl cf grid ">
-      <ul class="pad__left pad__right">
+    <div class="list--products alignl cf">
+      <ul>
         <li class="col w-1-5"><a href="/{params.lang}/"><img src="/assets/img/d-dark.png" style="width:27px;margin-top:11px">Products<br> overview</a></li>
         <li class="col w-1-5"><a {@eq key=product value="api"}class="fwb"{/eq} href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png">Start an API in<br>30 seconds</a></li>
         <li class="col w-1-5"><a {@eq key=product value="publish"}class="fwb"{/eq} href="/{params.lang}/publish/"><img src="/assets/products/dadi-publish.png">Add a CMS<br>interface</a></li>
@@ -74,9 +74,18 @@
       </div>
       <div class="col w-1-2">
         <div class="product__gallery">
-          <div class="product__frame" style="background:#000">
+          <div class="product__frame" {@eq key=product value="api"}style="background:#000"{/eq}>
             
             {@select key=product}
+             {@eq value="web"}
+                <div class="gallery">
+                  <div>
+                    <img src="/assets/illustrations/web-1.jpg">
+
+                    <blockquote class="normal product__caption">Get up and running in a few shell lines</blockquote>
+                  </div>
+                </div>
+              {/eq}
               {@eq value="api"}
                 <asciinema-player src="/assets/illustrations/asciicast-api.json" cols="159" rows="27" autoplay="true" speed="2"></asciinema-player>
 

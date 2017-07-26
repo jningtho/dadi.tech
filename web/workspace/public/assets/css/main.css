@@ -2118,7 +2118,7 @@ abbr {
   box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.04) inset; }
 .container--wide {
   max-width: 1150px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 40px; }
 .list--feat li {
@@ -2165,20 +2165,23 @@ abbr {
     .product__visuals {
       height: 750px; } }
 .list--products {
-  padding: 0 10px 55px; }
+  padding: 0 0 60px; }
 @media handheld, only screen and (max-width: 50em) {
     .list--products {
       display: none; } }
 .list--products li {
   list-style: none;
-  position: relative;
-  left: 40px;
-  background: url(/assets/img/arrow.svg) no-repeat 60% 50%; }
-.list--products li:last-of-type {
-  background: none; }
+  position: relative; }
+.list--products a {
+  padding-left: 40px;
+  margin-right: 45px;
+  display: block;
+  border-right: 1px solid #d7d7d7; }
+.list--products li:last-of-type a {
+  border: none; }
 .list--products li img {
   position: absolute;
-  left: -40px;
+  left: 0;
   width: 20px;
   height: auto;
   margin-top: 7px; }

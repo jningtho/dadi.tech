@@ -180,7 +180,7 @@ abbr {
 }
 .container--wide {
   max-width: 1150px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -233,7 +233,7 @@ abbr {
 }
 
 .list--products {
-  padding: 0 10px 55px;
+  padding: 0 0 60px;
 
   @media #{$break-small} {
 	display: none;
@@ -242,15 +242,19 @@ abbr {
 .list--products li {
   list-style: none;
   position: relative;
-  left: 40px;
-  background: url(/assets/img/arrow.svg) no-repeat 60% 50%;
 }
-.list--products li:last-of-type {
-  background: none;
+.list--products a {
+	padding-left: 40px;
+	margin-right: 45px;
+	display: block;
+	border-right: 1px solid #d7d7d7;
+}
+.list--products li:last-of-type a {
+	border: none;
 }
 .list--products li img {
   position: absolute;
-  left: -40px;  
+  left: 0;  
   width: 20px; height: auto;
   margin-top: 7px;
 }
