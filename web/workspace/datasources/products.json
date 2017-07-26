@@ -18,31 +18,41 @@
             "Journalists and editors can seamlessly manage output across multiple products from one place, while engineers can configure templates easily to make light work of even the most complex content collections. Publish currently works with **DADI API** but our development roadmap will soon allow use with a variety of data stores."
           ],
           "headlines": [
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons"
+            "Extendable **custom fields**",
+            "Manage documents across **multiple APIs**",
+            "Intuitive **in-browser editor** with the simple drag and drop tool",
+            "**Background tasks** to manage big-data operations, analytics and much more"
           ],
           "features": [
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Centralized media management",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Power a suite of digital products from a single content store. Saves time and effort for engineers and editors alike."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Article publish scheduling",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Pre-load content for automatic publishing at a time that suits the content, not your working day. Also create drafts for internal review."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Setup and connect to your DADI API in 30 seconds",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "The perfect partner for DADI API so you are up and running in days and weeks not weeks and months. Soon to work with other data stores."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Custom user permissions for Editors, Engineers and Admin",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Enhanced features for large teams – keeping the right hands on the right parts of the system. Extends to support editorial workflow."
+            },
+            {
+              "title": "Collaborative document editing",
+              "icon": "database",
+              "description": "See where colleagues are in shared articles and avoid treading on toes – work together seamlessly to update content."
+            },
+            {
+              "title": "Detailed revision history tools with quick revert",
+              "icon": "database",
+              "description": "Provides a complete audit trail allowing you to restore to any point in time. Document differentials provide an overview of changes."
             }
           ],
           "workswith": [
