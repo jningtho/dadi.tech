@@ -223,25 +223,48 @@
 {#products.results[0]}
   <div class="container container--pad normal" id="features" name="features">
     <div class="grid pad__top">
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[0].icon}.svg" height="30"> {features[0].title}</p>
-        <p class="normal">{@soberMarkdown}{features[0].description}{/soberMarkdown}</p>
-      </div>
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[1].icon}.svg" height="30"> {features[1].title}</p>
-        <p class="normal">{@soberMarkdown}{features[1].description}{/soberMarkdown}</p>
-      </div>
+      {#features[0]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[0]}
+      {#features[1]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[1]}
     </div>
 
     <div class="grid">
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[2].icon}.svg" height="30"> {features[2].title}</p>
-        <p class="normal">{@soberMarkdown}{features[2].description}{/soberMarkdown}</p>
-      </div>
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[3].icon}.svg" height="30"> {features[3].title}</p>
-        <p class="normal">{@soberMarkdown}{features[3].description}{/soberMarkdown}</p>
-      </div>
+      {#features[2]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[2]}
+      {#features[3]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[3]}
+    </div>
+
+    <div class="grid">
+      {#features[4]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[4]}
+      {#features[5]}
+        <div class="col w-1-2 pad__bottom">
+          <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
+          <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
+        </div>
+      {/features[5]}
     </div>
   </div>
 
