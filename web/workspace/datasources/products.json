@@ -178,31 +178,41 @@
             "**DADI Web** can use a variety of templating languages, providing a simple yet powerful template layer for displaying your data. These include _LinkedIn’s_ [Dust](http://www.dustjs.com/), [Pug](https://pugjs.org/) or [Handlebars](http://handlebarsjs.com/) – or you can easily craft your own."
           ],
           "headlines": [
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons"
+            "Connect with REST APIs to generate data-driven pages",
+            "Search, paginate, sort and filter your data",
+            "Easily create static pages",
+            "Support for database-backed sessions"
           ],
           "features": [
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
-              "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Flexible template engine support",
+              "icon": "chat-alt",
+              "description": "Use Web's default Dust.js template engine or swap in one for Pug.js or Handlebars.js – even craft your own!"
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
-              "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "URL Rewriting Support",
+              "icon": "duplicate",
+              "description": "Includes Apache-like URL rewriting, with full support for redirects and proxying."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
-              "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Events Layer",
+              "icon": "bolt",
+              "description": "Create custom JavaScript events to modify the request and response, or take action based on data loaded from a source."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
-              "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "title": "Data from anywhere",
+              "icon": "cloud",
+              "description": "You're not limited to using DADI API - serve data from static Markdown files or retrieve feeds from Twitter and Wordpress."
+            },
+            {
+              "title": "Preload Data",
+              "icon": "fast-forward",
+              "description": "Speed up access to commonly required data by preloading it when the application boots."
+            },
+            {
+              "title": "Cache pages for faster retrieval",
+              "icon": "performance",
+              "description": "Cache data using a Redis server or the local filesystem, providing faster response times to users. Includes full support for Cache-Control headers."
             }
           ],
           "workswith": [
