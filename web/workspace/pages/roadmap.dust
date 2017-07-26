@@ -18,7 +18,7 @@
       <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
     </div>
     <div class="col w-1-2 normal">
-      <h3>Q2 2017</h3>
+      <h3>Q3 2017</h3>
 
       <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
         <h3>
@@ -29,9 +29,8 @@
         </h3>
       
         <ul>
-          <li>Multiple data store support, removes dependency on MongoDB</li>
-          <li><a href="https://github.com/dadi/api/issues/182" class="txt--blue">Smart Reference fields</a></li>
-          <li>Plugin support</li>
+          <li>Multiple data connector support, removing dependency on MongoDB</li>
+          <li>Data connector for local JSON file</li>
         </ul>
       </div>
 
@@ -44,8 +43,7 @@
         </h3>
         
         <ul>
-          <li>Plugin support</li>
-          <li><a href="https://github.com/dadi/cdn/issues/173">Dynamic test compositing</a></li>
+          <li>Implementation of faster image processing utilities</li>
         </ul>
       </div>
 
@@ -58,67 +56,53 @@
         </h3>
 
         <ul>
-          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/103">Rewrite of template system, allowing choice of templating language</a></li>
-          <li>100% test coverage</li>
-          <li>Plugin Support</li>
-          <li><a class="txt--blue" href="https://github.com/dadi/web/issues/64">Built-in routes &amp; redirects testing tool</a></li>
+          <li>Template engines for ES6 strings, Mustache and Hogan</li>
         </ul>
       </div>
 
-      {! <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
-          <a href="/{params.lang}/platform/publish/">
-            <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
-            Publish
-          </a>
-        </div>
-        <div class="col w-2-3">
-          Version #1 release
-        </div>
-      </div>
+      <h3>Q4 2017</h3>
 
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
-            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="15">
-            Predict
-        </div>
-        <div class="col w-2-3">
-          Version #1 release
-        </div>
-      </div>
-
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
-            <img src="/assets/products/dadi-track.png" class="alignv float--right" width="15">
-            Track
-          </a>
-        </div>
-        <div class="col w-2-3">
-          Version #1 release
-        </div>
-      </div>
-
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
-            <img src="/assets/products/dadi-visualize.png" class="alignv float--right" width="18">
-            Visualize
-        </div>
-        <div class="col w-2-3">
-          Version #1 release
-        </div>
-      </div>
-
-      <div class="grid pad__top">
-        <div class="col w-1-3 fwb">
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
           <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-identity.png" class="alignv float--right" width="8">
-            Identity
+            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
+            API
           </a>
-        </div>
-        <div class="col w-2-3">
-          SAS build complete and available under identity.dadi.tech
-        </div>
-      </div> !}
+        </h3>
+      
+        <ul>
+          <li>Data connectors for Cassandra, CouchDB, Oracle NoSQL and RethinkDB</li>
+        </ul>
+      </div>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
+            CDN
+          </a>
+        </h3>
+        
+        <ul>
+          <li>Dynamic text and image compositing</li>
+          <li>Plugin support</li>
+        </ul>
+      </div>
+
+      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
+        <h3>
+          <a href="/{params.lang}/platform/api/">
+            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
+            Web
+          </a>
+        </h3>
+
+        <ul>
+          <li>Built-in profiling tools</li>
+          <li>Built-in routing testing tool</li>
+        </ul>
+      </div>
+
     </div>  
   </div>
 </div>
