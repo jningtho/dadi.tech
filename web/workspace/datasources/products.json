@@ -47,16 +47,12 @@
           ],
           "workswith": [
             {
-              "product": "api",
-              "description": "**Publish** manages content stored in **API**"
-            },
-            {
-              "product": "cdn",
-              "description": "**Publish** uses **CDN** to store and maniuplate images"
-            },
-            {
               "product": "web",
-              "description": "**Publish** can use **Web** to serve a front-end"
+              "description": "**API** can provide content for **Web**."
+            },
+            {
+              "product": "publish",
+              "description": "Content in **API** can be editied in **Publish**."
             }
           ]
         },
@@ -70,31 +66,41 @@
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
           ],
           "headlines": [
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons",
-            "Lorem Ipsum Dolor Sit Amet Cons"
+            "**Filter and sort** your data with ease",
+            "**Flexible** database support",
+            "Automatic document **versioning**",
+            "Built in support for **oAuth2**"
           ],
           "features": [
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Filter and sort your data with ease",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Harness the power of MongoDB-style querying to filter and sort your data."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Flexible database support",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Support for multiple database connectors including MongoDB, CouchDB and RethinkDB."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Automatic database indexing",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Indexing your underlying database is as simple as adding configuration elements to collections."
             },
             {
-              "title": "Lorem Ipsum Dolor Sit Amet Cons",
+              "title": "Automatic input validation",
               "icon": "database",
-              "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              "description": "Easily configure fields within collections for input validation."
+            },
+            {
+              "title": "Collection-level access control",
+              "icon": "database",
+              "description": "With a fine-grained authorisation layer, control who can access data and how."
+            },
+            {
+              "title": "Cache data for faster retrieval",
+              "icon": "database",
+              "description": "Cache data using a Redis server or the local filesystem, providing faster response times to consumers."
             }
           ],
           "workswith": [
@@ -119,8 +125,8 @@
           "dark-color": "#280816",
           "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution.",
           "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
+            "A full installation of **DADI CDN** is analogous to a traditional CDN (Content Distribution Network) such as [Akamai](https://www.akamai.com/) and [Limelight](https://www.limelight.com/). It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.",
+            "**CDN** has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis."
           ],
           "headlines": [
             "Lorem Ipsum Dolor Sit Amet Cons",
@@ -172,8 +178,8 @@
           "dark-color": "#490b08",
           "overview": "A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application.",
           "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
+            "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.",
+            "**DADI Web** can use a variety of templating languages, providing a simple yet powerful template layer for displaying your data. These include _LinkedIn’s_ [Dust](http://www.dustjs.com/), [Pug](https://pugjs.org/) or [Handlebars](http://handlebarsjs.com/) – or you can easily craft your own."
           ],
           "headlines": [
             "Lorem Ipsum Dolor Sit Amet Cons",
@@ -206,15 +212,11 @@
           "workswith": [
             {
               "product": "api",
-              "description": "**Publish** manages content stored in **API**"
+              "description": "**Web** can display content from **API**."
             },
             {
               "product": "cdn",
-              "description": "**Publish** uses **CDN** to store and maniuplate images"
-            },
-            {
-              "product": "web",
-              "description": "**Publish** can use **Web** to serve a front-end"
+              "description": "**Web** uses **CDN** to serve images, CSS and JS/"
             }
           ]
         }
