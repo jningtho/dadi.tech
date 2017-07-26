@@ -14,7 +14,7 @@
           "color": "#FFBF0D",
           "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimize editorial workflow.",
           "description": [
-            "**DADI Publish** is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. It is built to support the [principles of COPE](http://stage.dadi.tech/en/concepts/api-first-and-cope/) (Create Once Publish Everywhere).",
+            "**DADI Publish** is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. It is built to support the [principles of COPE](./concepts/api-first-and-cope/) (Create Once Publish Everywhere).",
             "Journalists and editors can seamlessly manage output across multiple products from one place, while engineers can configure templates easily to make light work of even the most complex content collections. Publish currently works with **DADI API** but our development roadmap will soon allow use with a variety of data stores."
           ],
           "headlines": [
