@@ -178,10 +178,10 @@
             "**DADI Web** can use a variety of templating languages, providing a simple yet powerful template layer for displaying your data. These include _LinkedIn’s_ [Dust](http://www.dustjs.com/), [Pug](https://pugjs.org/) or [Handlebars](http://handlebarsjs.com/) – or you can easily craft your own."
           ],
           "headlines": [
-            "Connect with REST APIs to generate data-driven pages",
+            "Connect with **REST APIs** to generate data-driven pages",
             "Search, paginate, sort and filter your data",
-            "Easily create static pages",
-            "Support for database-backed sessions"
+            "Easily create **static pages**",
+            "Support for **database-backed** sessions"
           ],
           "features": [
             {
