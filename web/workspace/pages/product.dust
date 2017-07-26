@@ -48,12 +48,12 @@
 
       <div class="col w-1-2">
         <ul class="list--feat medium">
-          {@iter items=features from=0 to=4}         
+          {#features}         
             <li>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.1 19.4"><path fill="{color}" d="M7.9 19.4l-7.9-7 1.3-1.5 6.1 5.4L17.4 0l1.7 1z"/></svg>
-              {@soberMarkdown}{.}{/soberMarkdown}
+              {@soberMarkdown}{title}{/soberMarkdown}
             </li>
-          {/iter}
+          {/features}
         </ul>
 
         <p class="alignl"><a href="#features" style="border-bottom: 1px solid {color}; font-size: 17px">More features &rarr;</a></p>
@@ -67,9 +67,9 @@
         <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> products:</p>
 
         <ul class="list--feat marg__top--x2 medium w-2-3 txt--mid-grey">
-          <li><a href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png"><strong>Publish</strong> manages content stored in <strong>API</strong></a></li>
-          <li><a href="/{params.lang}/cdn/"><img src="/assets/products/dadi-cdn.png"><strong>Publish</strong> uses <strong>CDN</strong> to store and maniuplate images</a></li>
-          <li><a href="/{params.lang}/web/"><img src="/assets/products/dadi-web.png"><strong>Publish</strong> can use <strong>Web</strong> to serve a front-end</a></li>
+          {#workswith}
+            <li><a href="/{params.lang}/{product}/"><img src="/assets/products/dadi-{product}.png">{@soberMarkdown}{description}{/soberMarkdown}</a></li>
+          {/workswith}
         </ul>
       </div>
       <div class="col w-1-2">
@@ -141,9 +141,7 @@
               {/eq}
               {@none}<img src="http://via.placeholder.com/600x350">{/none}
             {/select}
-
           </div>
-
 
           <script type="text/javascript">
             function Gallery(element) {
@@ -203,10 +201,10 @@
     <div class="bdr__top bdr--bdr-grey normal pad__top">
       <div class="grid">
         <div class="col w-1-2">
-          <p>A writer’s window to the world of content creation. <strong>DADI Publish</strong> is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning</p>
+          <p>{description[0]}</p>
         </div>
         <div class="col w-1-2">
-          <p>A writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning</p>
+          <p>{description[1]}</p>
         </div>
       </div>
     </div>
@@ -226,23 +224,23 @@
   <div class="container container--pad normal" id="features" name="features">
     <div class="grid pad__top">
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
-        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[0].icon}.svg" height="30"> {features[0].title}</p>
+        <p class="normal">{@soberMarkdown}{features[0].description}{/soberMarkdown}</p>
       </div>
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[1].icon}.svg" height="30"> {features[1].title}</p>
+        <p class="normal">{@soberMarkdown}{features[1].description}{/soberMarkdown}</p>
       </div>
     </div>
 
     <div class="grid">
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
-        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[2].icon}.svg" height="30"> {features[2].title}</p>
+        <p class="normal">{@soberMarkdown}{features[2].description}{/soberMarkdown}</p>
       </div>
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
-        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
+        <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{features[3].icon}.svg" height="30"> {features[3].title}</p>
+        <p class="normal">{@soberMarkdown}{features[3].description}{/soberMarkdown}</p>
       </div>
     </div>
   </div>
