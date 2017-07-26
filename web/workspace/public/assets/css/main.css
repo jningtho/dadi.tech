@@ -2137,7 +2137,7 @@ abbr {
   position: absolute;
   left: -15%;
   height: 0;
-  padding-top: 80%;
+  padding-top: 81.5%;
   margin-top: -40px; }
 @media handheld, only screen and (max-width: 50em) {
     .product__gallery {
@@ -2214,15 +2214,19 @@ abbr {
     opacity: 1; }
 .gallery code {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px; }
-.gallery blockquote {
+.product__caption {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   left: 20px;
-  width: 60%;
-  color: #000; }
+  background: rgba(33, 38, 45, 0.9);
+  max-width: 60%;
+  color: #fff;
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 6px; }
 /*# sourceMappingURL=main.css.map */

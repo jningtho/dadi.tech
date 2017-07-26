@@ -202,7 +202,7 @@ abbr {
   position: absolute;
   left: -15%;
   height: 0;
-  padding-top: 80%;
+  padding-top: 81.5%;
   margin-top: -40px;
 
   @media #{$break-small} {
@@ -299,15 +299,19 @@ abbr {
 }
 .gallery code {
 	position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     right: 0;
     background: rgba(255,255,255,0.9);
     padding: 20px;
 }
-.gallery blockquote {
+.product__caption {
 	position: absolute;
-	top: 20px; left: 20px;
-	width: 60%;
-	color: #000;
+	bottom: 20px; left: 20px;
+	background: rgba(#21262d, 0.9);
+	max-width: 60%;
+    color: #fff;
+    padding: 4px 12px;
+    display: inline-block;
+    border-radius: 6px;
 }
