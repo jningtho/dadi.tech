@@ -76,20 +76,103 @@
         <div class="product__gallery">
           <div class="product__frame" style="background:#000">
             
-
             {@select key=product}
               {@eq value="api"}
-
                 <asciinema-player src="/assets/illustrations/asciicast-api.json" cols="159" rows="26" autoplay="true" speed="2"></asciinema-player>
 
                 <link rel="stylesheet" type="text/css" href="/assets/illustrations/asciinema-player.css">
                 <script src="/assets/illustrations/asciinema-player.js"></script>
+              {/eq}
+              {@eq value="cdn"}
+                <div class="gallery">
+                  <div>
+                    <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=12-7&resizeStyle=aspectfill">
+
+                   <code class="url txt--grey"><span style="color:#000">&hellip;</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span></code>
+
+                    <blockquote class="normal">Perform complicated manipulations dynamically using an URL structure</blockquote>
+                  </div>
+                  <div>
+                    <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=12-7&resizeStyle=aspectfill&blur=4">
+
+                    <code class="url txt--grey"><span style="color:#000">&hellip;</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">blur</span>=<span style="color:#E02975">4</span></code>
+
+                    <blockquote class="normal">Blur</blockquote>
+                  </div>
+                  <div>
+                    <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=12-7&resizeStyle=aspectfill&flip=x">
+
+                    <code class="url txt--grey"><span style="color:#000">&hellip;</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span></span>&amp;<span style="color:#000">flip</span>=<span style="color:#E02975">x</span></code>
+
+                    <blockquote class="normal">Flip</blockquote>
+                  </div>
+                  <div>
+                    <img src="http://52.213.165.8:8001/samples/mountain.png?width=700&ratio=12-7&resizeStyle=aspectfill&quality=10">
+
+                    <code class="url txt--grey"><span style="color:#000">&hellip;</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span></span>&amp;<span style="color:#000">quality</span>=<span style="color:#E02975">10</span></code>
+
+                    <blockquote class="normal">Compress to save size</blockquote>
+                  </div>
+                </div>
 
               {/eq}
               {@none}<img src="http://via.placeholder.com/600x350">{/none}
             {/select}
 
           </div>
+
+
+          <script type="text/javascript">
+            function Gallery(element) {
+              var self = this;
+              
+              this.element = element;
+              this.images = this.getImages();
+              this.imagesLength = this.images.length;
+              this.activeIndex = 0;
+
+              setInterval(function() {
+                self.nextImage();
+              }, 5000);
+              
+              this.images[0].classList.add("active");
+            }
+
+            Gallery.prototype.getImages = function() {
+              return this.element.querySelectorAll("div");
+            };
+
+            Gallery.prototype.transitionImage = function(to) {
+              if (this.activeImage === to) return;
+              
+              this.images[this.activeIndex].classList.remove("active");
+              this.images[to].classList.add("active");
+              
+              this.activeIndex = to;
+            };
+
+            Gallery.prototype.nextImage = function() {
+              if (this.images[this.activeIndex + 1]) {
+                this.transitionImage(this.activeIndex + 1);
+              } else {
+                this.transitionImage(0);
+              }
+            }
+
+            Gallery.prototype.previousImage = function() {
+              if (this.images[this.activeIndex - 1]) {
+                this.transitionImage(this.activeIndex - 1);
+              } else {
+                this.transitionImage(this.imagesLength - 1);
+              }
+            }
+
+            var galleries = document.querySelectorAll(".gallery");
+
+            [].map.call(galleries, function($gallery) {
+              new Gallery($gallery);
+            });
+          </script>
         </div>
       </div>
     </div>

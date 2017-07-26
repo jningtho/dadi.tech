@@ -2143,7 +2143,7 @@ abbr {
     .product__gallery {
       margin-top: 20px; } }
 .product__frame {
-  background: #fff;
+  background: #000;
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -2151,7 +2151,9 @@ abbr {
   bottom: 0;
   left: 0;
   overflow: hidden;
-  box-shadow: -6px 6px 21px rgba(0, 0, 0, 0.16); }
+  box-shadow: -6px 6px 21px rgba(0, 0, 0, 0.16);
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0); }
 .product__frame img {
   width: 100%;
   height: auto; }
@@ -2195,4 +2197,32 @@ abbr {
 .list--product a:hover {
     color: #000 !important;
     border-bottom-color: #000 !important; }
+.gallery div {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease; }
+.gallery div.active {
+    opacity: 1; }
+.gallery code {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px; }
+.gallery blockquote {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60%;
+  color: #000; }
 /*# sourceMappingURL=main.css.map */
