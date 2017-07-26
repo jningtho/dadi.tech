@@ -180,7 +180,7 @@
               } else {
                 this.transitionImage(0);
               }
-            }
+            };
 
             Gallery.prototype.previousImage = function() {
               if (this.images[this.activeIndex - 1]) {
@@ -188,7 +188,7 @@
               } else {
                 this.transitionImage(this.imagesLength - 1);
               }
-            }
+            };
 
             var galleries = document.querySelectorAll(".gallery");
 
