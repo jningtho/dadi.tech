@@ -133,7 +133,7 @@
           "features": [
             {
               "title": "Crop images based on subject matter",
-              "icon": "database",
+              "icon": "picture",
               "description": "Let CDN decide the focal point of the image and deliver an image containing only the essentials, cropped to your specifications."
             },
             {
@@ -143,22 +143,22 @@
             },
             {
               "title": "One CDN for all asset types",
-              "icon": "database",
+              "icon": "layers",
               "description": "Store and deliver font files and minify all your CSS and JavaScript assets for delivery."
             },
             {
               "title": "Network and device dependent delivery",
-              "icon": "database",
+              "icon": "activity",
               "description": "Let CDN choose the best transformations based on device, network, location or language."
             },
             {
               "title": "Delivery Recipes",
-              "icon": "database",
+              "icon": "id",
               "description": "Store frequently used image manipulation parameters as a 'delivery recipe'."
             },
             {
               "title": "Cache all image sizes for faster delivery",
-              "icon": "database",
+              "icon": "bolt",
               "description": "Converted images can be cached using a Redis server or the local filesystem, providing faster delivery on subsequent requests."
             }
           ],
