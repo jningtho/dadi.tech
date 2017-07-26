@@ -9,6 +9,7 @@
       "type": "static",
       "data": [
         {
+          "hide_docs": true,
           "title": "Publish",
           "product": "publish",
           "color": "#FFBF0D",

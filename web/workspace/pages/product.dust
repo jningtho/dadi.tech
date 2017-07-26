@@ -35,12 +35,12 @@
         <img src="/assets/products/dadi-{product}-full.png" class="" height="45" alt="DADI {title} logo">
 
         <p class="large no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
-        <p class="no-marg-i"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a></p>
+        {^hide_docs}<p class="no-marg-i"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a></p>{/hide_docs}
 
         <ul class="list--product normal marg__top--x2">
           <li><a style="border-bottom-color:{color}" href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">View source on Github</a></li>
           <li><a style="border-bottom-color:{color}" href="https://www.npmjs.com/package/@dadi/{product}" onclick="ga('send','event','NPM','Click','Product');">Install with NPM</a></li>
-          <li><a style="border-bottom-color:{color}" href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>
+          {^hide_docs}<li><a style="border-bottom-color:{color}" href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>{/hide_docs}
           <li><a style="border-bottom-color:{color}" href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Product');">DADI On-demand</a></li>
           {?demo}<li><a href="{demo}">Live demo</a></li>{/demo}
         </ul>
