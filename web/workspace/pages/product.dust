@@ -35,7 +35,13 @@
         <img src="/assets/products/dadi-{product}-full.png" class="" height="45" alt="DADI {title} logo">
 
         <p class="large no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
-        {^hide_docs}<p class="no-marg-i"><a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a></p>{/hide_docs}
+        <p class="no-marg-i">
+          {^hide_docs}
+            <a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a>
+          {:else}
+            <span class="btn btn--disabled">Install guide coming soon</span>
+          {/hide_docs}
+        </p>
 
         <ul class="list--product normal marg__top--x2">
           <li><a style="border-bottom-color:{color}" href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">View source on Github</a></li>
@@ -46,7 +52,7 @@
         </ul>
       </div>
 
-      <div class="col w-1-2">
+      <div class="col w-1-2 marg__bottom--x2 pad__bottom--x2">
         <ul class="list--feat medium">
           {#headlines}         
             <li>
