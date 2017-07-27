@@ -1,83 +1,101 @@
 {>"partials/header" /}
 
-{<header}
-<h1 class="hdr kilo read txt--blue">Heavy lifting, when you need it</h1>
-<p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p>
-<p class="pad__top"><a href="/{params.lang}/success-stories/" class="btn btn--blue normal">See success stories</a></p>
-{/header}
-
 {<title}
-  {?params.solution}
-    {support.results[0].title}
-  {:else}
-    Solutions
-  {/params.solution}
+  Support
 {/title}
 
-{?params.solution}
-  {#support.results}
-    <div class="container pad__bottom--x2 alignc">
-      <img src="/assets/icons/{icon}.svg" class="marg__bottom" height="70">
-      <h1 class="no-marg-i kilo txt--blue marg__bottom">{headline}</h1>
-      <p class="hdr medium alignauto read pad__top--half">{overview}</p>  
+{<header}
+  {! <h1 class="hdr kilo read">Build something cool with our technology.</h1> !}
+  {! <p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p> !}
+  
+  <div class="container cf alignc pad__bottom--half">
+    <div class="col w-1-2">
+      <div class="block pad">
+        <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
+        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
+        <p class="normal no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue normal">support@dadi.tech</a></p>
+      </div>
     </div>
 
-    <div class="container container--divider normal"> 
+    <div class="col w-1-2 bs-alignc">
+      <div class="block pad">
+        <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
+        <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+        <p class="normal no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green normal">sales@dadi.tech</a></p>
+      </div>
+    </div>
+  </div>
+{/header}
+
+{^params.client}
+  <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
+      <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
+      <a href="http://dadi-chat.herokuapp.com/" class="btn">Slack with our devs</a>
+      <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
+  </div>
+
+  {>"partials/success-stories" /}
+{:else}
+  {#successes.results}
+    <div class="container container--pad alignl">
+      <h1 class="inline-block hdr kilo read no-marg-i" style="color:{color}">{title}</h1>
+      <p class="inline-block large hdr">{summary}</p>
+    </div>
+
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/1.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[0]}</p>
+    </div>
+
+    <div class="container container--divider">
       <div class="grid">
-        {?description}
-          <div class="col w-2-3 read">
-            {@markdown}{description}{/markdown}
-          </div>
-        {/description}
-        <div class="col w-1-3">
-          <ul class="list--line pad__top--half">
-            <li><a href="/{params.lang}/support/data-strategy/" {@eq key=params.solution value="data-strategy"}class="fwb txt--blue"{/eq}>Data strategy</a></li>
-            <li><a href="/{params.lang}/support/publishing/" {@eq key=params.solution value="publishing"}class="fwb txt--blue"{/eq}>Publishing</a></li>
-            <li><a href="/{params.lang}/support/product-development/" {@eq key=params.solution value="product-development"}class="fwb txt--blue"{/eq}>Product development</a></li>
-            <li><a href="/{params.lang}/support/crm/" {@eq key=params.solution value="crm"}class="fwb txt--blue"{/eq}>CRM</a></li>
-            <li><a href="/{params.lang}/support/analytics/" {@eq key=params.solution value="analytics"}class="fwb txt--blue"{/eq}>Analytics</a></li>
-            <li><a href="/{params.lang}/support/content-personalisation/" {@eq key=params.solution value="content-personalisation"}class="fwb txt--blue"{/eq}>Content personalisation</a></li>
-            <li><a href="/{params.lang}/support/commerce/" {@eq key=params.solution value="commerce"}class="fwb txt--blue"{/eq}>Commerce</a></li>
-          </ul>
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Requirements</h2>
+          <p class="alignauto normal">{@soberMarkdown}{requirements}{/soberMarkdown}</p>
+        </div>
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Results</h2>
+          <p class="alignauto normal">{results}</p>
         </div>
       </div>
     </div>
 
-    <div class="container container--divider alignc">
-      <p class="large txt--blue alignauto no-marg">{cta}</p>
-      <a href="/{params.lang}/contact/" class="marg__top btn btn--blue normal">Contact us</a>
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/2.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[1]}</p>
     </div>
-  {/support.results}
-{:else}
-  <div class="container pad__bottom--x2">
-    <div class="normal cf grid">
-      {#support.results}
-        <div class="pad__bottom--x2 pad__top grid col w-1-2">
-          <div class="col w-1-4">
-            <img class="float--right" src="/assets/icons/{icon}.svg" height="70">
-          </div>
-          <div class="col w-3-4">
-            <p class="large hdr no-marg-i"> {title}</p>
-            <p class="pad__top--half alignauto normal no-marg-i">{overview}</p>
-            <p><a href="/{params.lang}/support/{handle}/" class="btn btn--blue small">Learn more</a></p>
-          </div>
+
+    <div class="container container--divider">
+      <div class="grid">
+        <div class="col w-1-2 normal">{@markdown}{detail}{/markdown}</div>
+
+        <div class="col w-1-2">
+          <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
+          <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
+
+          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">See more success stories</a></div>
         </div>
+      </div>
+    </div>
 
-      {@math key=$idx method="mod" operand=2}
-        {@eq value=1}
-            </div>
-    <div class="grid normal cf">
-        {/eq}
-      {/math}
-      
-      {/support.results}
-    </ul>
-  </div>
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/3.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[2]}</p>     
+    </div>
 
-  <div class="container container--divider alignc">
-    <p class="large txt--blue alignauto no-marg">Contact us to discuss how we can help you unlock the potential of your data</p>
-    <a href="/{params.lang}/contact/" class="marg__top btn btn--blue normal">Contact us</a>
-  </div>
-{/params.solution}
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/4.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[3]}</p>  
+    </div>
+
+    {?vimeo}
+      <div class="container container--divider">
+        <iframe src="https://player.vimeo.com/video/{vimeo}?title=0&byline=0&portrait=0" width="100%" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="txt--grey fsi">Video overview of the site.</p> 
+      </div>
+    {/vimeo}
+
+  {/successes.results}
+{/params.client}
 
 {>"partials/footer" /}

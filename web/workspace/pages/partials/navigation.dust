@@ -1,0 +1,51 @@
+<nav>
+  <a href="/{params.lang}/" class="inline-block marg__bottom">
+    <img src="/assets/img/dadi-{@select key=page.key}{@eq value="home"}colour{/eq}{@eq value="Products"}dark{/eq}{@none}light{/none}{/select}.svg" width="150" height="35" alt="DADI" class="logo">
+  </a>
+  <ol>
+    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
+    </li>
+    <li><a href="/{params.lang}/on-demand" onclick="ga('send','event','On demand','Click','Header');" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
+    </li>
+    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
+    </li>
+  </ol>
+  <ul>
+    <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">Find us on Github</a>
+    </li>
+    <li><a href="http://docs.dadi.tech" class="txt--blue" onclick="ga('send','event','Documentation','Click','Header');">Documentation</a>
+    </li>
+    <li>
+      <select id="lang">
+        <optgroup label="Languages">
+          <option value="en">English</option>
+        </optgroup>
+        <optgroup label="Coming soon">
+          <option disabled value="fr">Français</option>
+          <option disabled value="de">Deutsche</option>
+          <option disabled value="zh_hans">中文 (CN/SG)</option>
+          <option disabled value="zh_hant">中文 (TW/HK)</option>
+          <option disabled value="ru">Pусский</option>
+          <option disabled value="es">Español</option>
+          <option disabled value="pt">Português</option>
+          <option disabled value="jp">日本語</option>
+      </select>
+    </li>
+  </ul>
+</nav>
+
+{@select key=page.key}
+{@eq key=page.key value="home" /}
+{@eq key=page.key value="Products" /}
+{@none}
+  {?params.product}
+    {>"partials/pattern" primary=products.results[0].dark-color /}
+  {:else}
+    {?page.color}
+      {>"partials/pattern" primary=page.color /}
+    {:else}
+      {>"partials/pattern" primary="#21262d" /}
+    {/page.color}
+  {/params.product}
+{/none}
+{/select}

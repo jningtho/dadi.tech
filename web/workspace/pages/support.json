@@ -1,24 +1,27 @@
 {
   "page": {
-    "key": "Support"
+    "key": "Support",
+    "color": "#15313A"
   },
   "settings": {
     "cache": true
   },
   "datasources": [
-    "support",
+    "successes",
     "latest-footer"
-  ],
-  "requiredDatasources": [
-    "support"
   ],
   "routes": [
     {
       "path": "/:lang/support/"
     },
     {
-      "path": "/:lang/support/:solution",
-      "in": "support"
+      "path": "/:lang/support/:client?",
+      "params": [
+        {
+          "param": "client",
+          "fetch": "successes"
+        }
+      ]
     }
   ]
 } 

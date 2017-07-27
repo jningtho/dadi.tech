@@ -2,64 +2,6 @@
 
 {<bodyClass}home{/bodyClass}
 
-<div id="awwwards" class="nominee black right">
-<a href="http://www.awwwards.com/sites/dadi" target="_blank">Awwwards</a>
-</div>
-
-<style type="text/css">
-/* Base */
-
-#awwwards{
-  position: absolute;
-  top: 50px;
-  width: 90px;
-  height: 135px;
-  text-indent: -666em;
-  overflow: hidden;
-  z-index: 999;
-
-  -webkit-transition: all 1s ease;
-    transition: all 1s ease; 
-}
-#awwwards.right{
-  right: 0;
-}
-
-#awwwards a{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 90px;
-  height: 135px;
-  background-repeat: no-repeat;
-  background-size: 90px 135px;
-}
-
-/* NOMINEE */
-
-
-#awwwards.nominee.black.right a{
-  background-image: url(/assets/img/awwwards_nominee_black_right.png);
-}
-
-@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-
-  /* NOMINEE */
-
-  #awwwards.nominee.black.right a{
-    background-image: url(/assets/img/awwwards_nominee_black_right@2x.png);
-  }
-
-}
-
-@media handheld, only screen and (max-width: 50em) {
-  #awwwards {
-    top: 0;
-  }
-}
-</style>
-
 {>"partials/infographic" /}
 
 <div class="clients">
@@ -107,50 +49,9 @@
   </div>
 </div>
 
-<div class="pad__top pad__bottom bg--dark-blue txt--white">
-  <div class="container">
-    <h2 class="larger alignc">{@i18n}Beautiful interfaces{/i18n}</h2>
-    <p class="normal alignc marg__bottom--x2 bs-marg__bottom">{@i18n}DADI’s editing screens are designed with – and used by – journalists from leading publications. They’ll run a comb through your editorial workflow, so you can concentrate on the content.{/i18n}</p>
-    <img src="/assets/illustrations/publish.png" class="fill block">
-  </div>
-</div>
+{>"partials/publish-gallery" /}
 
-<div class="bdr--grey">
-  <div class="container container--pad">  
-    <h2 class="larger alignc">{@i18n}Web services as connected apps{/i18n}</h2>
-    <p class="alignc normal">{@i18n}Connected applications that can be used in varied combinations – including alongside other technology.{/i18n}</p>
-
-    <div class="grid">
-      {#products.results}
-        <div class="col w-1-3 pad__bottom pad__top--x2">
-          <h3 class="product medium no-marg-i hdr">
-            <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
-            {product}
-          </h3>
-
-          <div class="normal txt--mid-grey pad__top">
-            {overview}
-            <br><br>
-            {?description}
-              <a href="/{params.lang}/{product}/" class="btn small">Learn more</a>
-            {:else}
-              <span class="btn small btn--disabled">{date}</span>
-            {/description}
-          </div>
-        </div>
-
-       {@math key=$idx method="mod" operand=3}
-          {@eq value=2}
-              </div>
-      <div class="grid">
-          {/eq}
-        {/math}
-
-      {/products.results}
-      </div>
-    </div>
-  </div>
-</div>
+{>"partials/products" /}
 
 <div class="bg--light-grey bdr--bdr-grey support">
   <div class="container cf">
@@ -176,24 +77,6 @@
   </div>
 </div>
 
-<div class="container container--pad">
-  <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
-  <p class="alignc normal">See how DADI technology has transformed digital products from publishing to retail:</p>
-
-  <div class="grid marg__top--x2">
-    {#successes.results}
-      <div class="col w-1-1 marg__bottom success__item">
-          <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
-              <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
-                  <p class="hdr large">{title}</p>
-                  <p class="normal">{summary}</p>
-                  <p><span class="btn">{@i18n}Read more{/i18n}</span>
-                  </p>
-              </div>
-          </a>
-      </div>
-    {/successes.results}
-  </div>
-</div>
+{>"partials/success-stories" /}
 
 {>"partials/footer" /}

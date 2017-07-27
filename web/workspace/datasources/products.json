@@ -9,46 +9,120 @@
       "type": "static",
       "data": [
         {
-          "title": "Publish",
-          "product": "publish",
-          "color": "#FFBF0D",
-          "dark-color": "#231A02",
-          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow.",
-          "description": "![Screenshot of DADI Publish](/assets/illustrations/publish.png)\n\nA writer’s window to the world of content creation. DADI Publish is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. Journalists and content-makers can seamlessly manage output across multiple products from one place.",
-          "features": [
-            "Extendable custom fields",
-            "Manage documents across multiple APIs",
-            "Intuitive in-browser editor with the simple drag and drop tool",
-            "Collaborative document editing",
-            "Background tasks to manage big-data operations, analytics and much more",
-            "Reports and alerts built-in (as email and text alerts)",
-            "Centralized media management",
-            "Detailed revision history tools with quick revert",
-            "Article publish scheduling ",
-            "Setup and connect to your DADI API in 30 seconds",
-            "Custom user permissions for Editors, Engineers and Admin"
-          ]
-        },
-        {
           "title": "API",
           "product": "api",
           "color": "#0BA6DD",
-          "dark-color": "#02181E",
           "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE.",
-          "description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NOnhPjp5KEg\" frameborder=\"0\" allowfullscreen></iframe>\n\nYou can consider **DADI API** as the data layer within a platform (including the data model). It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer.\n\nCalls to a **DADI API** can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). It has full support for searching, filtering, limiting, sorting, offsetting, input validation and data aggregation (Map-reduce).\n\n**DADI API** provides a starting point that's further advanced than a framework. It allows you to get a complete data layer up and running in minutes.",
+          "description": [
+            "**DADI API** is a rapid set-up data layer ready to act as the backbone to your digital platform. It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer – and can be used alongside other apps in the DADI technology suite.",
+            "It can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). **DADI API** allows you to get a complete data layer up and running in minutes."
+          ],
+          "headlines": [
+            "**Filter and sort** your data with ease",
+            "**Flexible** database support",
+            "Automatic document **versioning**",
+            "Built in support for **oAuth2**"
+          ],
           "features": [
-            "Built in support for oAuth2",
-            "Provides native document versioning at collection level",
-            "Supports static endpoints",
-            "Includes automatic indexing",
-            "Local and networked caching layer",
-            "Can be run in a clustered configuration",
-            "Search, filter and sort your data with ease",
-            "Collection-level access control",
-            "Automatic input validation",
-            "Support multiple databases connectivity",
-            "Automatic database indexing",
-            "Cache data responses using a shared Redis layer or the filesystem"
+            {
+              "title": "Filter and sort your data with ease",
+              "icon": "folder-open",
+              "description": "Harness the power of MongoDB-style querying to filter and sort your data."
+            },
+            {
+              "title": "Flexible database support",
+              "icon": "database",
+              "description": "Support for multiple database connectors including MongoDB, CouchDB and RethinkDB."
+            },
+            {
+              "title": "Automatic database indexing",
+              "icon": "list",
+              "description": "Indexing your underlying database is as simple as adding configuration elements to collections."
+            },
+            {
+              "title": "Automatic input validation",
+              "icon": "happy",
+              "description": "Easily configure fields within collections for input validation."
+            },
+            {
+              "title": "Collection-level access control",
+              "icon": "locked",
+              "description": "With a fine-grained authorisation layer, control who can access data and how."
+            },
+            {
+              "title": "Cache data for faster retrieval",
+              "icon": "cloud-upload",
+              "description": "Cache data using a Redis server or the local filesystem, providing faster response times."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "**API** can provide dynamic content for **Web**."
+            },
+            {
+              "product": "publish",
+              "description": "**Publish** provides an interface to edit content in **API**."
+            }
+          ]
+        },
+        {
+          "hide_docs": true,
+          "title": "Publish",
+          "product": "publish",
+          "color": "#FFBF0D",
+          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimize editorial workflow.",
+          "description": [
+            "**DADI Publish** is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. It is built to support the [principles of COPE](./concepts/api-first-and-cope/) (Create Once Publish Everywhere).",
+            "Journalists and editors can seamlessly manage output across multiple products from one place, while engineers can make light work of even complex content collections. Publish currently works with **DADI API** but our development roadmap will soon allow use with a variety of data stores."
+          ],
+          "headlines": [
+            "Extendable **custom fields**",
+            "Manage documents across **multiple APIs**",
+            "Intuitive **in-browser editor** with the simple drag and drop tool",
+            "**Background tasks** to manage big-data operations, analytics and much more"
+          ],
+          "features": [
+            {
+              "title": "Centralized media management",
+              "icon": "picture",
+              "description": "Power a suite of digital products from a single content store. Saves time and effort for engineers and editors alike."
+            },
+            {
+              "title": "Article publish scheduling",
+              "icon": "time",
+              "description": "Pre-load content for automatic publishing at a time that suits the content, not your working day. Also create drafts for internal review."
+            },
+            {
+              "title": "Setup and connect in 30 seconds",
+              "icon": "database",
+              "description": "The perfect partner for **DADI API** so you are up and running in days and weeks not weeks and months. Soon to work with other data stores."
+            },
+            {
+              "title": "Custom user permissions",
+              "icon": "locked",
+              "description": "Enhanced features for large teams – keeping the right hands on the right parts of the system. Extends to support editorial workflow."
+            },
+            {
+              "title": "Collaborative document editing",
+              "icon": "user-new",
+              "description": "See where colleagues are in shared articles and avoid treading on toes – work together seamlessly to update content."
+            },
+            {
+              "title": "Revision history with quick revert",
+              "icon": "rewind",
+              "description": "Provides a complete audit trail allowing you to restore to any point in time. Document differentials provide an overview of changes."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "**API** can provide content for **Web**."
+            },
+            {
+              "product": "publish",
+              "description": "Content in **API** can be editied in **Publish**."
+            }
           ]
         },
         {
@@ -57,37 +131,62 @@
           "color": "#e02975",
           "dark-color": "#280816",
           "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution.",
-          "description": "You can consider a full installation of DADI CDN as being analogous to a traditional CDN (Content Distribution Network) such as Akamai and Limelight. It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.\n\nCDN has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis.",
-          "example": true,
-          "demo": "http://docs.dadi.tech/sandbox/cdn/",
-          "features": [
-            "Serve images and assets from Amazon S3, a remote server or the local filesystem",
-            "Easily generate new image sizes for responsive design and mobile devices",
-            "Extensive set of image enhancement and transformation tools",
-            "No need to maintain multiple sizes of each image - CDN generates new variations from a single master image",
-            "Convert between image formats",
-            "Minify CSS and JavaScript assets for delivery"
+          "description": [
+            "**DADI CDN** is analogous to a traditional CDN (Content Distribution Network) such as [Akamai](https://www.akamai.com/) and [Limelight](https://www.limelight.com/). It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.",
+            "**CDN** has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis."
           ],
-          "highlights": {
-            "title": "The perfect marriage of control, flexibility, and speed.",
-            "keyPoints": [
-              {
-                "title": "Connect",
-                "description": "Tell DADI CDN where your files are (no re-uploading required)",
-                "image": "cdn-1.png"
-              },
-              {
-                "title": "Transform",
-                "description": "Enhance and adapt your images by building URLs with simple parameters",
-                "image": "cdn-2.png"
-              },
-              {
-                "title": "Deliver",
-                "description": "Get images to customers fast with CDN’s intelligent caching and routing",
-                "image": "cdn-3.png"
-              }
-            ]
-          } 
+          "headlines": [
+            "Serve from **Amazon S3**, a remote server or the local filesystem",
+            "Dynamically generate images for **responsive design** and mobile devices",
+            "Extensive set of image **enhancement** and **transformation** tools",
+            "Image **format conversion**"
+          ],
+          "features": [
+            {
+              "title": "Crop based on subject matter",
+              "icon": "picture",
+              "description": "Let CDN decide the focal point of the image and deliver an image containing only the essentials, cropped to your specifications."
+            },
+            {
+              "title": "Simplified media storage",
+              "icon": "database",
+              "description": "No need to maintain multiple sizes of each image you upload into an article - CDN generates new variations from a single master image."
+            },
+            {
+              "title": "One CDN for all asset types",
+              "icon": "layers",
+              "description": "Store and deliver font files and minify all your CSS and JavaScript assets for delivery."
+            },
+            {
+              "title": "Intelligent delivery",
+              "icon": "activity",
+              "description": "Let CDN choose the best transformations based on device, network, location or language."
+            },
+            {
+              "title": "Delivery Recipes",
+              "icon": "id",
+              "description": "Store frequently used image manipulation parameters as a 'delivery recipe'."
+            },
+            {
+              "title": "Cache crops for faster delivery",
+              "icon": "bolt",
+              "description": "Converted images can be cached using a Redis server or the local filesystem, providing faster delivery on subsequent requests."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "**Publish** manages content stored in **API**."
+            },
+            {
+              "product": "cdn",
+              "description": "**Publish** uses **CDN** to store and maniuplate images."
+            },
+            {
+              "product": "web",
+              "description": "**Publish** can use **Web** to serve a front-end."
+            }
+          ]
         },
         {
           "title": "Web",
@@ -95,75 +194,58 @@
           "color": "#e42918",
           "dark-color": "#490b08",
           "overview": "A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application.",
-          "description": "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.\n\n**DADI Web** uses [LinkedIn's Dust](http://www.dustjs.com/) templating language which provides a simple yet powerful template layer for displaying your data.",
-          "features": [
-            "Connect to APIs to generate data-driven pages",
-            "Search, paginate, sort and filter your data",
-            "Easily create static pages",
-            "Nginx-style HTTP access logs",
-            "Gzip compression",
-            "Cache data and HTML responses using Redis or the filesystem",
-            "Cache by mime-type",
-            "URL rewriting support",
-            "Database-backed sessions"
+          "description": [
+            "**DADI Web** makes it easy to build custom enterprise-grade web applications. Easily create static pages or connect to APIs to generate data-driven apps giving you the power to search, paginate, sort and filter your data, on the server or in browser.",
+            "**DADI Web** can use a variety of templating languages, providing a simple yet powerful template layer for displaying your data. These include _LinkedIn’s_ [Dust](http://www.dustjs.com/), [Pug](https://pugjs.org/) or [Handlebars](http://handlebarsjs.com/) – or you can easily craft your own."
           ],
-          "highlights": {
-            "title": "Obviously, we built our own site with this. Here are some highlights.",
-            "keyPoints": [
-              {
-                "title": "Flexible events",
-                "description": "Easily manipulate data with events. The [contact form](https://github.com/dadi/dadi.tech/blob/master/web/workspace/events/contact.js) integrates with [Sendgrid](http://sendgrid.com)'s API."
-              },
-              {
-                "title": "Help from Helpers",
-                "description": "Reusable snippets speed up development. We use [Markdown with Smartypants](https://github.com/dadi/dadi.tech/blob/master/web/workspace/utils/helpers/markdown.js) to easily format text."
-              },
-              {
-                "title": "Use external data",
-                "description": "Datasources can not only be from [API](/platform/api/). They can also be static or from [a third-party](https://github.com/dadi/dadi.tech/blob/master/web/workspace/datasources/github-api.json)."
-              }
-            ]
-          } 
-        },
-        {
-          "title": "Track",
-          "product": "track",
-          "color": "#2DBA7A",
-          "dark-color": "#0A281A",
-          "overview": "Real-time, streaming data layer providing accurate metrics at individual and product level. Drives DADI Identity.",
-          "date": "Q3/4 2017"
-        },
-        {
-          "title": "Visualize",
-          "product": "visualize",
-          "color": "#EF711D",
-          "dark-color": "#261205",
-          "overview": "A data visualization interface for Identity and Track, but capable of taking data feeds from virtually any source.",
-          "date": "Q2 2018"
-        },
-        {
-          "title": "Identity",
-          "product": "identity",
-          "color": "#5CC617",
-          "dark-color": "#0F2104",
-          "overview": "Guarantees uniqueness of individuals – and powers segmentation – for anonymous and known users.",
-          "date": "Q3/4 2017"
-        },
-        {
-          "title": "Match",
-          "product": "match",
-          "color": "#71afac",
-          "dark-color": "#000000",
-          "overview": "Taxonomic framework for automated content classification through machine learning. Plugs into Publish.",
-          "date": "Q3 2017"
-        },
-        {
-          "title": "Predict",
-          "product": "predict",
-          "color": "#27DCE0",
-          "dark-color": "#062323",
-          "overview": "A machine learning  layer that predicts user behaviour at an individual level based on past interactions.",
-          "date": "Q4 2017"
+          "headlines": [
+            "Connect with **REST APIs** to generate data-driven pages",
+            "Search, paginate, sort and filter your data",
+            "Easily create **static pages**",
+            "Support for **database-backed** sessions"
+          ],
+          "features": [
+            {
+              "title": "Flexible template engine support",
+              "icon": "chat-alt",
+              "description": "Use Web's default Dust.js template engine or swap in one for Pug.js or Handlebars.js – even craft your own!"
+            },
+            {
+              "title": "URL Rewriting Support",
+              "icon": "duplicate",
+              "description": "Includes Apache-like URL rewriting, with full support for redirects and proxying."
+            },
+            {
+              "title": "Events Layer",
+              "icon": "bolt",
+              "description": "Create custom JavaScript events to modify the request and response, or take action based on data loaded from a source."
+            },
+            {
+              "title": "Data from anywhere",
+              "icon": "cloud",
+              "description": "You're not limited to using DADI API - serve data from static Markdown files or retrieve feeds from Twitter and Wordpress."
+            },
+            {
+              "title": "Preload Data",
+              "icon": "fast-forward",
+              "description": "Speed up access to commonly required data by preloading it when the application boots."
+            },
+            {
+              "title": "Cache pages for faster retrieval",
+              "icon": "performance",
+              "description": "Cache data using a Redis server or the local filesystem, providing faster response times to users. Includes full support for Cache-Control headers."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "**Web** can display content from **API**."
+            },
+            {
+              "product": "cdn",
+              "description": "**Web** uses **CDN** to serve images, CSS and JS."
+            }
+          ]
         }
       ]
     }

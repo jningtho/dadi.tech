@@ -2,7 +2,7 @@
   {@eq value="home" /}
   {@eq value="On demand" /}
   {@eq value="404" /}
-  {@eq value="supporting" /}
+  {@eq value="Support" /}
   {@eq value="Products" /}
   {@eq value="How we work" /}
   {@none}

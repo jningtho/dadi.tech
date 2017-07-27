@@ -1,4 +1,4 @@
-var dust = require('@dadi/web').Dust
+var dust = require('dustjs-linkedin')
 var chroma = require('chroma-js')
 
 function colorScheme(primary, secondary, count, mix) {
@@ -14,7 +14,7 @@ function colorScheme(primary, secondary, count, mix) {
 /*
 * Returns a bunch of colours in a nice little list
 */
-dust.getEngine().helpers.gradient = function(chunk, context, bodies, params) {
+dust.helpers.gradient = function(chunk, context, bodies, params) {
   var scheme = colorScheme(
     'primary' in params && params.primary && params.primary != null ? params.primary : '#fff',
     'secondary' in params ? params.secondary : '#000',

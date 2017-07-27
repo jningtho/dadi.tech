@@ -51,8 +51,8 @@ form {
 }
 
 .product-logo {
-    display: block;
-    height: 80px;
+	display: block;
+	height: 80px;
 }
 @media #{$break-small} {
 	.product-logo-full {
@@ -149,7 +149,7 @@ abbr {
 
 @keyframes scroll {
 	0% { background-position: 0 50%; }
-    100% { background-position: -1536px 50%; }
+	100% { background-position: -1536px 50%; }
 }
 
 
@@ -173,4 +173,164 @@ abbr {
 	.success__desc {
 		width: auto;
 	}
+}
+
+.shadow--top {
+	box-shadow: 0 4px 11px 0 rgba(0,0,0,.04) inset;
+}
+.container--wide {
+	max-width: 1150px;
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.list--feat li {
+	border-bottom: none;
+	position: relative;
+	list-style: none;
+	padding: 0 0 15px 35px;
+}
+.list--feat svg,
+.list--feat img {
+	position: absolute;
+	left: 0; top: 4px;
+	width: 20px;
+}
+
+.product__gallery {
+	position: relative;
+	z-index: 10;
+	padding-top: 81.5%;
+
+	@media #{$break-large} {
+		margin-top: -40px;
+		width: 140%;
+		position: absolute;
+		left: -10%;
+		height: 0;
+	}
+	@media #{$break-small} {
+		margin-top: 20px;
+	}
+}
+.product__frame {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background: #21262d;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: -6px 6px 21px rgba(0,0,0,0.16);
+	transform: translate3d(0, 0, 0);
+}
+.product__frame img {
+	width: 100%;
+	height: auto;
+}
+
+@media #{$break-large} {
+	.product__visuals {
+		height: 460px;
+		position: relative;
+		top: -40px;
+	}
+	.product__workswith {
+		float: left;
+		width: 50%;
+		position: relative;
+	}
+	.product__focus {
+		float: right;
+		width: 50%;
+		position: relative;
+	}
+	.product__features {
+		padding-bottom: 100px;
+	}
+}
+
+.list--products {
+  padding: 0 0 60px;
+
+  @media #{$break-small} {
+	display: none;
+  }
+}
+.list--products li {
+	list-style: none;
+	position: relative;
+}
+.list--products a {
+	padding-left: 40px;
+	margin-right: 45px;
+	display: block;
+	border-right: 1px solid #e0e0e0;
+}
+.list--products li:last-of-type a {
+	border: none;
+}
+.list--products li img {
+	position: absolute;
+	left: 0;  
+	width: 20px; height: auto;
+	margin-top: 7px;
+}
+
+.list--product {
+	list-style: none;
+	font-size: 17px;
+	position: relative;
+	z-index: 1;
+
+	@media #{$break-small} {
+		padding-bottom: 40px;
+	}
+
+	li {
+		margin-bottom: 1px;
+	}
+	a {
+		border-bottom: 1px solid $bdr-grey;
+	}
+	a:hover {
+		color: #000 !important;
+		border-bottom-color: #000 !important;
+	}
+}
+
+.gallery div {
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	pointer-events: none;
+	
+	opacity: 0;
+	transition: opacity 0.5s ease;
+	
+	&.active {
+		opacity: 1;
+	}
+}
+.gallery code {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255,255,255,0.9);
+	padding: 20px;
+}
+.product__caption {
+	position: absolute;
+	bottom: 20px; left: 20px;
+	background: rgba(#21262d, 0.9);
+	max-width: 60%;
+	color: #fff;
+	padding: 4px 12px;
+	display: inline-block;
+	border-radius: 6px;
 }

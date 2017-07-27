@@ -1,0 +1,1350 @@
+{
+  "version": 1,
+  "width": 159,
+  "height": 10,
+  "duration": 198.147633,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.001008,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                              \r \r\u001b]2;ubuntu@127.0.0.1: ~/my-app\u0007\u001b]1;..t/product-api\u0007"
+    ],
+    [
+      0.034488,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[37m~/my-app \u001b[00m\u001b[00m \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      1.104686,
+      "n"
+    ],
+    [
+      0.095948,
+      "\bnp"
+    ],
+    [
+      0.198228,
+      "m"
+    ],
+    [
+      0.111856,
+      " "
+    ],
+    [
+      0.116964,
+      "i"
+    ],
+    [
+      0.143637,
+      "n"
+    ],
+    [
+      0.098426,
+      "s"
+    ],
+    [
+      0.208311,
+      "t"
+    ],
+    [
+      0.232278,
+      "a"
+    ],
+    [
+      0.098219,
+      "l"
+    ],
+    [
+      0.120044,
+      "l"
+    ],
+    [
+      0.268603,
+      " "
+    ],
+    [
+      0.506972,
+      "@"
+    ],
+    [
+      0.271535,
+      "d"
+    ],
+    [
+      0.163409,
+      "a"
+    ],
+    [
+      0.15943,
+      "d"
+    ],
+    [
+      0.084201,
+      "i"
+    ],
+    [
+      0.319048,
+      "/"
+    ],
+    [
+      0.488226,
+      "a"
+    ],
+    [
+      0.104015,
+      "p"
+    ],
+    [
+      0.172621,
+      "i"
+    ],
+    [
+      1.236274,
+      "@"
+    ],
+    [
+      0.361106,
+      "b"
+    ],
+    [
+      0.090383,
+      "e"
+    ],
+    [
+      0.158728,
+      "t"
+    ],
+    [
+      0.085818,
+      "a"
+    ],
+    [
+      0.411215,
+      " "
+    ],
+    [
+      0.323878,
+      "-"
+    ],
+    [
+      0.113224,
+      "-"
+    ],
+    [
+      0.098959,
+      "s"
+    ],
+    [
+      0.15229,
+      "a"
+    ],
+    [
+      0.091672,
+      "v"
+    ],
+    [
+      0.115575,
+      "e"
+    ],
+    [
+      0.293978,
+      "\u001b[?1l\u001b>\r\r\n"
+    ],
+    [
+      0.001315,
+      "\u001b]2;npm install @dadi/api@beta --save\u0007\u001b]1;npm\u0007"
+    ],
+    [
+      0.939748,
+      "\u001b[?25l"
+    ],
+    [
+      0.007573,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠧ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.044436,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠦ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.087477,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.051362,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.051269,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.060037,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.041092,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠴ normalizeTree: \u001b[7msill\u001b[0m \u001b[35minstall\u001b[0m loadCurrentTree\u001b[K\r"
+    ],
+    [
+      0.157577,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠴ postinstall:@dadi/api: \u001b[7msill\u001b[0m \u001b[35mdoSerial\u001b[0m postinstall 471\u001b[K\r"
+    ],
+    [
+      0.050225,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠋ postinstall:aws4: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m aws4@0.3.0~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.052177,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠋ postinstall:caseless: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m caseless@0.12.0~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050462,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠼ postinstall:moment: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m moment@2.17.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049376,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠸ postinstall:underscore: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m underscore@1.5.2~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.060873,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠹ postinstall:forever-agent: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m forever-agent@0.6.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.039863,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠼ postinstall:deep-extend: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m deep-extend@0.4.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051407,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠇ postinstall:block-stream: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m block-stream@0.0.9~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049797,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠙ postinstall:nopt: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m nopt@3.0.6~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049765,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠧ postinstall:strip-json-comments: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m strip-json-comments@2.0.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051829,
+      "⸨\u001b[7m               \u001b[27m\u001b[90m░░░\u001b[0m⸩ ⠇ postinstall:http-signature: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m http-signature@1.1.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.04965,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠹ postinstall:node-pre-gyp: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m node-pre-gyp@0.6.33~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051644,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠦ postinstall:buffer: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m buffer@5.0.6~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.110668,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠸ postinstall:inherits: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m inherits@2.0.3~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.045365,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠼ postinstall:glob-parent: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m glob-parent@2.0.0~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050468,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠏ postinstall:jsbn: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m jsbn@0.1.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050659,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠦ postinstall:map-obj: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m map-obj@1.0.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049716,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠏ postinstall:dtrace-provider: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m dtrace-provider@0.8.2~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051873,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠋ postinstall:pify: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m pify@2.3.0~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051281,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠋ postinstall:pass-stream: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m pass-stream@0.1.5~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050267,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠧ postinstall:repeat-element: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m repeat-element@1.1.2~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051427,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠇ postinstall:sax: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m sax@1.2.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050581,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠇ postinstall:streamifier: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m streamifier@0.1.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.050249,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠧ postinstall:string_decoder: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m string_decoder@1.0.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049695,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠹ postinstall:joi: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m joi@6.10.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049653,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠧ postinstall:readable-stream: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m readable-stream@2.2.10~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051188,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠇ postinstall:uuid: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m uuid@3.0.1~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.051235,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠏ postinstall:bunyan: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m bunyan@1.8.10~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049956,
+      "⸨\u001b[7m                \u001b[27m\u001b[90m░░\u001b[0m⸩ ⠦ postinstall:convict: \u001b[7msill\u001b[0m \u001b[35mlifecycle\u001b[0m convict@3.0.0~postinstall: no script for postinstall, continuing\u001b[K\r"
+    ],
+    [
+      0.049239,
+      "\r\u001b[K\u001b[?25h\r\n> @dadi/api@2.0.0-rc.2 postinstall /Users/jameslambie/my-app/node_modules/@dadi/api\r\n> node ./scripts/copy-config.js && node ./scripts/copy-workspace.js\r\n\r\n"
+    ],
+    [
+      0.277839,
+      "API configuration created at /Users/jameslambie/my-app/config/config.development.json\r\n"
+    ],
+    [
+      0.821933,
+      "API: workspace directory created at /Users/jameslambie/my-app/workspace\r\n"
+    ],
+    [
+      0.056446,
+      "\u001b[?25l"
+    ],
+    [
+      6.7e-05,
+      "⸨\u001b[7m                 \u001b[27m\u001b[90m░\u001b[0m⸩ ⠧ runTopLevelLifecycles: \u001b[7msill\u001b[0m \u001b[35mrunTopLevelLifecycles\u001b[0m Finishing\u001b[K\r"
+    ],
+    [
+      0.797486,
+      "\r\u001b[K\u001b[?25h"
+    ],
+    [
+      0.003999,
+      "product-api@1.0.0 /Users/jameslambie/my-app\r\n└─┬ \u001b[40m\u001b[33m@dadi/api@2.0.0-rc.2\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33m@dadi/cache@1.5.3\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mdbc@3.0.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33munderscore@1.5.2\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mdebug@2.6.8\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mioredis@2.5.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mbluebird@3.5.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mcluster-key-slot@1.0.8\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mdouble-ended-queue@2.1.0-0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mflexbuffer@0.0.6\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mredis-commands@1.3.1\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mredis-parser@1.3.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mnode-redis-streamify@0.1.6\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33munderscore@1.7.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mrecursive-readdir@2.1.1\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mminimatch@3.0.3\u001b[39m\u001b[49m \r\n  │ │   └─┬ \u001b[4"
+    ],
+    [
+      0.000245,
+      "0m\u001b[33mbrace-expansion@1.1.7\u001b[39m\u001b[49m \r\n  │ │     ├── \u001b[40m\u001b[33mbalanced-match@0.4.2\u001b[39m\u001b[49m \r\n  │ │     └── \u001b[40m\u001b[33mconcat-map@0.0.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mredis@2.6.2\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mredis-parser@2.6.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mredis-rstream@0.1.2\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mreadable-stream@1.0.2\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mredis-wstream@0.2.5\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mstream-to-string@1.1.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mpromise-polyfill@1.1.6\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33munderscore-deep-extend@1.1.5\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33m@dadi/format-error@1.3.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mbacktick-template@0.1.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33m@dadi/logger@1.2.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33maws-kinesis-writable@2.0.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mlodash@3.10.1\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mretry@0.9.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40"
+    ],
+    [
+      0.001807,
+      "m\u001b[33mbunyan@1.8.10\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mdtrace-provider@0.8.2\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mmv@2.1.1\u001b[39m\u001b[49m \r\n  │ │ │ ├── \u001b[40m\u001b[33mncp@2.0.0\u001b[39m\u001b[49m \r\n  │ │ │ └─┬ \u001b[40m\u001b[33mrimraf@2.4.5\u001b[39m\u001b[49m \r\n  │ │ │   └─┬ \u001b[40m\u001b[33mglob@6.0.4\u001b[39m\u001b[49m \r\n  │ │ │     └── \u001b[40m\u001b[33minflight@1.0.6\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33msafe-json-stringify@1.0.4\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mkinesis@1.2.2\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33masync@0.9.2\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33maws4@0.3.0\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mlru-cache@2.3.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mawscred@1.2.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mlru-cache@2.7.3\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33monce@1.4.0\u001b[39m\u001b[49m \r\n  │ │   └── \u001b[40m\u001b[33mwrappy@1.0.2\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mmemorystream@0.3.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33m@dadi/status@1.0.3\u001b[39m\u001b[49m \r\n  │ ├──"
+    ],
+    [
+      0.001054,
+      " \u001b[40m\u001b[33masync@1.5.2\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mlatest-version@2.0.0\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mpackage-json@2.4.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mgot@5.7.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mcreate-error-class@3.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mcapture-stack-trace@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mduplexer2@0.1.4\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mreadable-stream@2.2.10\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mis-redirect@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mis-retry-allowed@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mis-stream@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mlowercase-keys@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mnode-status-codes@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mparse-json@2.2.0\u001b[39m\u001b[49m \r\n  │ │   │ │ └─┬ \u001b[40m\u001b[33merror-ex@1.3.1\u001b[39m\u001b[49m \r\n  │ │   │ │   └── \u001b[40m\u001b[33mis-arrayi"
+    ],
+    [
+      0.002362,
+      "sh@0.2.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mpinkie-promise@2.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mpinkie@2.0.4\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mread-all-stream@3.1.0\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mreadable-stream@2.2.10\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mreadable-stream@2.2.10\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mtimed-out@3.1.3\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33munzip-response@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ └─┬ \u001b[40m\u001b[33murl-parse-lax@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │   └── \u001b[40m\u001b[33mprepend-http@1.0.4\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mregistry-auth-token@3.3.1\u001b[39m\u001b[49m \r\n  │ │   │ └─┬ \u001b[40m\u001b[33mrc@1.2.1\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33mdeep-extend@0.4.2\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33mini@1.3.4\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33mminimist@1.2.0\u001b[39m\u001b[49m \r\n  │ │   │   └── \u001b[40m\u001b[33mstrip-json-comments@2.0.1"
+    ],
+    [
+      0.000396,
+      "\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mregistry-url@3.1.0\u001b[39m\u001b[49m \r\n  │ │   └── \u001b[40m\u001b[33msemver@5.3.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mrequest@2.81.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33maws-sign2@0.6.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33maws4@1.6.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mcaseless@0.12.0\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mcombined-stream@1.0.5\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mdelayed-stream@1.0.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mextend@3.0.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mforever-agent@0.6.1\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mform-data@2.1.4\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33masynckit@0.4.0\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mhar-validator@4.2.1\u001b[39m\u001b[49m \r\n  │ │ │ ├─┬ \u001b[40m\u001b[33majv@4.11.8\u001b[39m\u001b[49m \r\n  │ │ │ │ ├── \u001b[40m\u001b[33mco@4.6.0\u001b[39m\u001b[49m \r\n  │ │ │ │ └─┬ \u001b[40m\u001b[33mjson-stable-stringify@1.0.1\u001b[39m\u001b[49m \r\n  │ │ │ │   └── \u001b[40m\u001b[33mjsonif"
+    ],
+    [
+      0.000514,
+      "y@0.0.0\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mhar-schema@1.0.5\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mhawk@3.1.3\u001b[39m\u001b[49m \r\n  │ │ │ ├── \u001b[40m\u001b[33mboom@2.10.1\u001b[39m\u001b[49m \r\n  │ │ │ ├── \u001b[40m\u001b[33mcryptiles@2.0.5\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33msntp@1.0.9\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mhttp-signature@1.1.1\u001b[39m\u001b[49m \r\n  │ │ │ ├── \u001b[40m\u001b[33massert-plus@0.2.0\u001b[39m\u001b[49m \r\n  │ │ │ ├─┬ \u001b[40m\u001b[33mjsprim@1.4.0\u001b[39m\u001b[49m \r\n  │ │ │ │ ├── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │ │ │ ├── \u001b[40m\u001b[33mextsprintf@1.0.2\u001b[39m\u001b[49m \r\n  │ │ │ │ ├── \u001b[40m\u001b[33mjson-schema@0.2.3\u001b[39m\u001b[49m \r\n  │ │ │ │ └── \u001b[40m\u001b[33mverror@1.3.6\u001b[39m\u001b[49m \r\n  │ │ │ └─┬ \u001b[40m\u001b[33msshpk@1.13.0\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33masn1@0.2.3\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33mbcrypt-pbkdf@1.0.1\u001b[39m\u001b[49m \r\n  │ "
+    ],
+    [
+      0.000399,
+      "│ │   ├─┬ \u001b[40m\u001b[33mdashdash@1.14.1\u001b[39m\u001b[49m \r\n  │ │ │   │ └── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33mecc-jsbn@0.1.1\u001b[39m\u001b[49m \r\n  │ │ │   ├─┬ \u001b[40m\u001b[33mgetpass@0.1.7\u001b[39m\u001b[49m \r\n  │ │ │   │ └── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33mjodid25519@1.0.2\u001b[39m\u001b[49m \r\n  │ │ │   ├── \u001b[40m\u001b[33mjsbn@0.1.1\u001b[39m\u001b[49m \r\n  │ │ │   └── \u001b[40m\u001b[33mtweetnacl@0.14.5\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mis-typedarray@1.0.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33misstream@0.1.2\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mjson-stringify-safe@5.0.1\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mmime-types@2.1.15\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mmime-db@1.27.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33moauth-sign@0.8.2\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mperformance-now@0.2.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33msafe-buffer@5.0.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[4"
+    ],
+    [
+      0.006113,
+      "0m\u001b[33mstringstream@0.0.5\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mtough-cookie@2.3.2\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mpunycode@1.4.1\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mtunnel-agent@0.6.0\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33munderscore.string@3.3.4\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33msprintf-js@1.1.1\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mutil-deprecate@1.0.2\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33masync@2.4.1\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mlodash@4.17.4\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33maws-sdk@2.61.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mbuffer@5.0.6\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mbase64-js@1.2.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mieee754@1.1.8\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mcrypto-browserify@1.0.9\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mjmespath@0.15.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mquerystring@0.2.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33msax@1.2.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33murl@0.10.3\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mpunycode@1.3"
+    ],
+    [
+      0.001605,
+      ".2\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mxml2js@0.4.17\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mxmlbuilder@4.2.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mbody-parser@1.17.2\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mbytes@2.4.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mcontent-type@1.0.2\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mdebug@2.6.7\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mdepd@1.1.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mhttp-errors@1.6.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33msetprototypeof@1.0.3\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mstatuses@1.3.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33miconv-lite@0.4.15\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mon-finished@2.3.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mee-first@1.1.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mqs@6.4.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mraw-body@2.2.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33munpipe@1.0.0\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33mtype-is@1.6.15\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mmedia-typer@0.3.0\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mbusboy@0.2"
+    ],
+    [
+      9.8e-05,
+      ".14\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mdicer@0.2.5\u001b[39m\u001b[49m \r\n  │ │ ├─┬ \u001b[40m\u001b[33mreadable-stream@1.1.14\u001b[39m\u001b[49m \r\n  │ │ │ ├── \u001b[40m\u001b[33misarray@0.0.1\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mstring_decoder@0.10.31\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mstreamsearch@0.1.2\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33mreadable-stream@1.1.14\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mcore-util-is@1.0.2\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33misarray@0.0.1\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mstring_decoder@0.10.31\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mchokidar@1.7.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33manymatch@1.3.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33marrify@1.0.1\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mmicromatch@2.3.11\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33marr-diff@2.0.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33marr-flatten@1.0.3\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33marray-unique@0.2.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mbraces@1.8.5\u001b[39m\u001b[49m \r\n  "
+    ],
+    [
+      0.000506,
+      "│ │   │ ├─┬ \u001b[40m\u001b[33mexpand-range@1.8.2\u001b[39m\u001b[49m \r\n  │ │   │ │ └─┬ \u001b[40m\u001b[33mfill-range@2.2.3\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mis-number@2.1.0\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33misobject@2.1.0\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mrandomatic@1.1.6\u001b[39m\u001b[49m \r\n  │ │   │ │   └── \u001b[40m\u001b[33mrepeat-string@1.6.1\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mpreserve@0.2.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mrepeat-element@1.1.2\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mexpand-brackets@0.1.5\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mis-posix-bracket@0.1.1\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mextglob@0.3.2\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mfilename-regex@2.0.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mkind-of@3.2.2\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mis-buffer@1.1.5\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mnormalize-path@2.1.1\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[4"
+    ],
+    [
+      0.001167,
+      "0m\u001b[33mremove-trailing-separator@1.0.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mobject.omit@2.0.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mfor-own@0.1.5\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mfor-in@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mis-extendable@0.1.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mparse-glob@3.0.4\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mglob-base@0.3.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mis-dotfile@1.0.3\u001b[39m\u001b[49m \r\n  │ │   └─┬ \u001b[40m\u001b[33mregex-cache@0.4.3\u001b[39m\u001b[49m \r\n  │ │     ├── \u001b[40m\u001b[33mis-equal-shallow@0.1.3\u001b[39m\u001b[49m \r\n  │ │     └── \u001b[40m\u001b[33mis-primitive@2.0.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33masync-each@1.0.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mfsevents@1.1.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mnan@2.6.2\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mnode-pre-gyp@0.6.33\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mmkdirp@0.5.1\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mminimist@0.0.8\u001b"
+    ],
+    [
+      0.001102,
+      "[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mnopt@3.0.6\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mabbrev@1.1.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mnpmlog@4.0.2\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mare-we-there-yet@1.1.2\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mdelegates@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mreadable-stream@2.2.2\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mconsole-control-strings@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mgauge@2.7.3\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33maproba@1.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mhas-unicode@2.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mobject-assign@4.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33msignal-exit@3.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mstring-width@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mcode-point-at@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └─┬ \u001b[40m\u001b[33mis-fullwidth-code-po"
+    ],
+    [
+      0.001489,
+      "int@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │   └── \u001b[40m\u001b[33mnumber-is-nan@1.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mstrip-ansi@3.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └── \u001b[40m\u001b[33mansi-regex@2.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mwide-align@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mset-blocking@2.0.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mrc@1.1.7\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mdeep-extend@0.4.1\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mini@1.3.4\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mminimist@1.2.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mstrip-json-comments@2.0.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mrequest@2.79.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33maws-sign2@0.6.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33maws4@1.6.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mcaseless@0.11.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mcombined-stream@1.0.5\u001b[39m\u001b[49m \r\n  │ │   │ "
+    ],
+    [
+      0.050159,
+      "│ └── \u001b[40m\u001b[33mdelayed-stream@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mextend@3.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mforever-agent@0.6.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mform-data@2.1.2\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33masynckit@0.4.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mhar-validator@2.0.6\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mchalk@1.1.3\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mansi-styles@2.2.1\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mescape-string-regexp@1.0.5\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mhas-ansi@2.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └── \u001b[40m\u001b[33msupports-color@2.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mcommander@2.9.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └── \u001b[40m\u001b[33mgraceful-readlink@1.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mis-my-json-valid@2.15.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mge"
+    ],
+    [
+      0.001041,
+      "nerate-function@2.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├─┬ \u001b[40m\u001b[33mgenerate-object-property@1.2.0\u001b[39m\u001b[49m \r\n  │ │   │ │ │ │ └── \u001b[40m\u001b[33mis-property@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mjsonpointer@4.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └── \u001b[40m\u001b[33mxtend@4.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │ └─┬ \u001b[40m\u001b[33mpinkie-promise@2.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │   └── \u001b[40m\u001b[33mpinkie@2.0.4\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mhawk@3.1.3\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mboom@2.10.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mcryptiles@2.0.5\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33mhoek@2.16.3\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33msntp@1.0.9\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mhttp-signature@1.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │ ├── \u001b[40m\u001b[33massert-plus@0.2.0\u001b[39m\u001b[49m \r\n  │ │   │ │ ├─┬ \u001b[40m\u001b[33mjsprim@1.3.1\u001b[39m\u001b[49m \r\n  │ │   │ │ "
+    ],
+    [
+      0.001631,
+      "│ ├── \u001b[40m\u001b[33mextsprintf@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │ │ ├── \u001b[40m\u001b[33mjson-schema@0.2.3\u001b[39m\u001b[49m \r\n  │ │   │ │ │ └── \u001b[40m\u001b[33mverror@1.3.6\u001b[39m\u001b[49m \r\n  │ │   │ │ └─┬ \u001b[40m\u001b[33msshpk@1.10.2\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33masn1@0.2.3\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mbcrypt-pbkdf@1.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │   ├─┬ \u001b[40m\u001b[33mdashdash@1.14.1\u001b[39m\u001b[49m \r\n  │ │   │ │   │ └── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mecc-jsbn@0.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │   ├─┬ \u001b[40m\u001b[33mgetpass@0.1.6\u001b[39m\u001b[49m \r\n  │ │   │ │   │ └── \u001b[40m\u001b[33massert-plus@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mjodid25519@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │   ├── \u001b[40m\u001b[33mjsbn@0.1.1\u001b[39m\u001b[49m \r\n  │ │   │ │   └── \u001b[40m\u001b[33mtweetnacl@0.14.5\u001b"
+    ],
+    [
+      0.000823,
+      "[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mis-typedarray@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33misstream@0.1.2\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mjson-stringify-safe@5.0.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mmime-types@2.1.14\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mmime-db@1.26.0\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33moauth-sign@0.8.2\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mqs@6.3.1\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mstringstream@0.0.5\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mtough-cookie@2.3.2\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mpunycode@1.4.1\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mtunnel-agent@0.4.3\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33muuid@3.0.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mrimraf@2.5.4\u001b[39m\u001b[49m \r\n  │ │   │ └─┬ \u001b[40m\u001b[33mglob@7.1.1\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33mfs.realpath@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33minf"
+    ],
+    [
+      0.00151,
+      "light@1.0.6\u001b[39m\u001b[49m \r\n  │ │   │   ├─┬ \u001b[40m\u001b[33mminimatch@3.0.3\u001b[39m\u001b[49m \r\n  │ │   │   │ └─┬ \u001b[40m\u001b[33mbrace-expansion@1.1.6\u001b[39m\u001b[49m \r\n  │ │   │   │   ├── \u001b[40m\u001b[33mbalanced-match@0.4.2\u001b[39m\u001b[49m \r\n  │ │   │   │   └── \u001b[40m\u001b[33mconcat-map@0.0.1\u001b[39m\u001b[49m \r\n  │ │   │   ├── \u001b[40m\u001b[33monce@1.4.0\u001b[39m\u001b[49m \r\n  │ │   │   └── \u001b[40m\u001b[33mpath-is-absolute@1.0.1\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33msemver@5.3.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mtar@2.2.1\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mblock-stream@0.0.9\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mfstream@1.0.10\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mgraceful-fs@4.1.11\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33minherits@2.0.3\u001b[39m\u001b[49m \r\n  │ │   └─┬ \u001b[40m\u001b[33mtar-pack@3.3.0\u001b[39m\u001b[49m \r\n  │ │     ├─┬ \u001b[40m\u001b[33mdebug@2.2.0\u001b[39m\u001b[49m \r\n  │ │     │ └── \u001b[40m\u001b[33mms@0.7.1\u001b[39m\u001b[49m \r\n  │ │     ├──"
+    ],
+    [
+      0.001536,
+      " \u001b[40m\u001b[33mfstream-ignore@1.0.5\u001b[39m\u001b[49m \r\n  │ │     ├─┬ \u001b[40m\u001b[33monce@1.3.3\u001b[39m\u001b[49m \r\n  │ │     │ └── \u001b[40m\u001b[33mwrappy@1.0.2\u001b[39m\u001b[49m \r\n  │ │     ├─┬ \u001b[40m\u001b[33mreadable-stream@2.1.5\u001b[39m\u001b[49m \r\n  │ │     │ ├── \u001b[40m\u001b[33mbuffer-shims@1.0.0\u001b[39m\u001b[49m \r\n  │ │     │ ├── \u001b[40m\u001b[33mcore-util-is@1.0.2\u001b[39m\u001b[49m \r\n  │ │     │ ├── \u001b[40m\u001b[33misarray@1.0.0\u001b[39m\u001b[49m \r\n  │ │     │ ├── \u001b[40m\u001b[33mprocess-nextick-args@1.0.7\u001b[39m\u001b[49m \r\n  │ │     │ ├── \u001b[40m\u001b[33mstring_decoder@0.10.31\u001b[39m\u001b[49m \r\n  │ │     │ └── \u001b[40m\u001b[33mutil-deprecate@1.0.2\u001b[39m\u001b[49m \r\n  │ │     └── \u001b[40m\u001b[33muid-number@0.0.6\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mglob-parent@2.0.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33minherits@2.0.3\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mis-binary-path@1.0.1\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mbinary-extensions@1.8.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mis-glob@2.0.1\u001b[39m\u001b[49m \r\n  │ │ └── "
+    ],
+    [
+      0.000804,
+      "\u001b[40m\u001b[33mis-extglob@1.0.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mpath-is-absolute@1.0.1\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33mreaddirp@2.1.0\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mreadable-stream@2.2.10\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mset-immediate-shim@1.0.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mcli-prompt@0.6.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mkeypress@0.2.1\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33mcolors@1.1.2\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mconcat-stream@1.6.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mreadable-stream@2.2.10\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33misarray@1.0.0\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mprocess-nextick-args@1.0.7\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mstring_decoder@1.0.1\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mtypedarray@0.0.6\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mconsole-stamp@0.2.5\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mchalk@1.1.3\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mansi-styles@2.2.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mescape-string-regexp@1.0.5\u001b[39m\u001b[49m \r\n "
+    ],
+    [
+      0.001825,
+      " │ │ ├─┬ \u001b[40m\u001b[33mhas-ansi@2.0.0\u001b[39m\u001b[49m \r\n  │ │ │ └── \u001b[40m\u001b[33mansi-regex@2.1.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mstrip-ansi@3.0.1\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33msupports-color@2.0.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mdateformat@1.0.12\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mget-stdin@4.0.1\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mmeow@3.7.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mcamelcase-keys@2.1.0\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mcamelcase@2.1.1\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mdecamelize@1.2.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mloud-rejection@1.6.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mcurrently-unhandled@0.4.1\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33marray-find-index@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33msignal-exit@3.0.2\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mmap-obj@1.0.1\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mminimist@1.2.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b["
+    ],
+    [
+      0.005066,
+      "33mnormalize-package-data@2.3.8\u001b[39m\u001b[49m \r\n  │ │   │ ├── \u001b[40m\u001b[33mhosted-git-info@2.4.2\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mis-builtin-module@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mbuiltin-modules@1.1.1\u001b[39m\u001b[49m \r\n  │ │   │ └─┬ \u001b[40m\u001b[33mvalidate-npm-package-license@3.0.1\u001b[39m\u001b[49m \r\n  │ │   │   ├─┬ \u001b[40m\u001b[33mspdx-correct@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │   │ └── \u001b[40m\u001b[33mspdx-license-ids@1.2.2\u001b[39m\u001b[49m \r\n  │ │   │   └── \u001b[40m\u001b[33mspdx-expression-parse@1.0.4\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mobject-assign@4.1.1\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mread-pkg-up@1.0.1\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mfind-up@1.1.2\u001b[39m\u001b[49m \r\n  │ │   │ │ └── \u001b[40m\u001b[33mpath-exists@2.1.0\u001b[39m\u001b[49m \r\n  │ │   │ └─┬ \u001b[40m\u001b[33mread-pkg@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │   ├─┬ \u001b[40m\u001b[33mload-json-file@1.1.0\u001b[39m\u001b[49m \r\n  │ │   │   │ ├── \u001b[40m\u001b[33mpify@2.3.0\u001b[39m\u001b[49m \r\n"
+    ],
+    [
+      0.000133,
+      "  │ │   │   │ └─┬ \u001b[40m\u001b[33mstrip-bom@2.0.0\u001b[39m\u001b[49m \r\n  │ │   │   │   └── \u001b[40m\u001b[33mis-utf8@0.2.1\u001b[39m\u001b[49m \r\n  │ │   │   └── \u001b[40m\u001b[33mpath-type@1.1.0\u001b[39m\u001b[49m \r\n  │ │   ├─┬ \u001b[40m\u001b[33mredent@1.0.0\u001b[39m\u001b[49m \r\n  │ │   │ ├─┬ \u001b[40m\u001b[33mindent-string@2.1.0\u001b[39m\u001b[49m \r\n  │ │   │ │ └─┬ \u001b[40m\u001b[33mrepeating@2.0.1\u001b[39m\u001b[49m \r\n  │ │   │ │   └─┬ \u001b[40m\u001b[33mis-finite@1.0.2\u001b[39m\u001b[49m \r\n  │ │   │ │     └── \u001b[40m\u001b[33mnumber-is-nan@1.0.1\u001b[39m\u001b[49m \r\n  │ │   │ └── \u001b[40m\u001b[33mstrip-indent@1.0.1\u001b[39m\u001b[49m \r\n  │ │   └── \u001b[40m\u001b[33mtrim-newlines@1.0.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mmerge@1.2.0\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mconvict@3.0.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mdepd@1.1.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mjson5@0.5.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mlodash.clonedeep@4.5.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mminimist@1.2.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mmoment@2.17"
+    ],
+    [
+      0.000101,
+      ".1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mvalidator@7.0.0\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33mvarify@0.2.0\u001b[39m\u001b[49m \r\n  │   ├─┬ \u001b[40m\u001b[33mredeyed@1.0.1\u001b[39m\u001b[49m \r\n  │   │ └── \u001b[40m\u001b[33mesprima@3.0.0\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mthrough@2.3.8\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mfs-extra@3.0.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mgraceful-fs@4.1.11\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mjsonfile@3.0.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33muniversalify@0.1.0\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33mimagesize@1.0.0\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mjsonwebtoken@7.4.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mjoi@6.10.1\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mhoek@2.16.3\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33misemail@1.2.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mtopo@1.1.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mjws@3.1.4\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mbase64url@2.0.0\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mjwa@1.1.5\u001b[39m\u001b[49m \r\n  │ │   ├── \u001b[40m\u001b[33mbuffer-equal-cons"
+    ],
+    [
+      8.8e-05,
+      "tant-time@1.0.1\u001b[39m\u001b[49m \r\n  │ │   └── \u001b[40m\u001b[33mecdsa-sig-formatter@1.0.9\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mlodash.once@4.1.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mms@2.0.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mxtend@4.0.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mlength-stream@0.1.1\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mpass-stream@0.1.5\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mmkdirp@0.5.1\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mminimist@0.0.8\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33mmoment@2.18.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mmongodb@2.2.28\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mes6-promise@3.2.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mmongodb-core@2.1.12\u001b[39m\u001b[49m \r\n  │ │ ├── \u001b[40m\u001b[33mbson@1.0.4\u001b[39m\u001b[49m \r\n  │ │ └─┬ \u001b[40m\u001b[33mrequire_optional@1.0.0\u001b[39m\u001b[49m \r\n  │ │   └── \u001b[40m\u001b[33mresolve-from@2.0.0\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33mreadable-stream@2.2.7\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mbuffer-shims@1.0.0\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mparse-comments@0.4.3\u001b[39m\u001b[49m"
+    ],
+    [
+      0.006253,
+      " \r\n  │ ├─┬ \u001b[40m\u001b[33marrayify-compact@0.1.0\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33marray-flatten@2.1.1\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mextract-comments@0.7.3\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mis-whitespace@0.3.0\u001b[39m\u001b[49m \r\n  │ ├─┬ \u001b[40m\u001b[33mgfm-code-blocks@0.2.2\u001b[39m\u001b[49m \r\n  │ │ └── \u001b[40m\u001b[33mgfm-code-block-regex@0.2.3\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33minflection@1.12.0\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mlodash@3.10.1\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mparse-code-context@0.1.3\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mpath-to-regexp@1.7.0\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33misarray@0.0.1\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33mserve-static@1.12.3\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mencodeurl@1.0.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mescape-html@1.0.3\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mparseurl@1.3.1\u001b[39m\u001b[49m \r\n  │ └─┬ \u001b[40m\u001b[33msend@0.15.3\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mdebug@2.6.7\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mdestroy@1.0.4\u001b[39m\u001b[4"
+    ],
+    [
+      9.8e-05,
+      "9m \r\n  │   ├── \u001b[40m\u001b[33metag@1.8.0\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mfresh@0.5.0\u001b[39m\u001b[49m \r\n  │   ├── \u001b[40m\u001b[33mmime@1.3.4\u001b[39m\u001b[49m \r\n  │   └── \u001b[40m\u001b[33mrange-parser@1.2.0\u001b[39m\u001b[49m \r\n  ├─┬ \u001b[40m\u001b[33msha1@1.1.1\u001b[39m\u001b[49m \r\n  │ ├── \u001b[40m\u001b[33mcharenc@0.0.2\u001b[39m\u001b[49m \r\n  │ └── \u001b[40m\u001b[33mcrypt@0.0.2\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33mstack-trace@0.0.10\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33mstreamifier@0.1.1\u001b[39m\u001b[49m \r\n  ├── \u001b[40m\u001b[33munderscore@1.8.3\u001b[39m\u001b[49m \r\n  └── \u001b[40m\u001b[33muuid@3.0.1\u001b[39m\u001b[49m \r\n\r\n"
+    ],
+    [
+      0.002331,
+      "\u001b[37;40mnpm\u001b[0m"
+    ],
+    [
+      0.003707,
+      " \u001b[0m\u001b[30;43mWARN\u001b[0m\u001b[35m\u001b[0m product-api@1.0.0 No description\r\n\u001b[0m"
+    ],
+    [
+      0.00118,
+      "\u001b[37;40mnpm\u001b[0m"
+    ],
+    [
+      0.000251,
+      " \u001b[0m"
+    ],
+    [
+      9.2e-05,
+      "\u001b[30;43mWARN\u001b[0m"
+    ],
+    [
+      3.7e-05,
+      "\u001b[35m\u001b[0m product-api@1.0.0 No repository field.\r\n\u001b[0m"
+    ],
+    [
+      0.313586,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                              \r \r"
+    ],
+    [
+      0.001938,
+      "\u001b]2;ubuntu@127.0.0.1: ~/my-app\u0007\u001b]1;..t/product-api\u0007"
+    ],
+    [
+      0.058384,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[37m~/my-app \u001b[00m\u001b[00m \u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      13.643778,
+      "n"
+    ],
+    [
+      0.072848,
+      "\bna"
+    ],
+    [
+      0.093181,
+      "n"
+    ],
+    [
+      0.381588,
+      "o"
+    ],
+    [
+      0.176058,
+      " "
+    ],
+    [
+      0.125156,
+      "i"
+    ],
+    [
+      0.171053,
+      "n"
+    ],
+    [
+      0.108723,
+      "d"
+    ],
+    [
+      0.119303,
+      "e"
+    ],
+    [
+      0.157537,
+      "x"
+    ],
+    [
+      0.11307,
+      "."
+    ],
+    [
+      0.559069,
+      "j"
+    ],
+    [
+      0.087908,
+      "s"
+    ],
+    [
+      0.343171,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      5.4e-05,
+      "\r\r\n"
+    ],
+    [
+      0.014027,
+      "\u001b]2;nano index.js\u0007\u001b]1;nano\u0007"
+    ],
+    [
+      0.018024,
+      "\u001b[?1049h\u001b[1;38r\u001b(B\u001b[m\u001b[4l\u001b[?7h\u001b[?12l\u001b[?25h"
+    ],
+    [
+      9.6e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      8.9e-05,
+      "\u001b[?1h\u001b=\u001b[?1h\u001b="
+    ],
+    [
+      0.001753,
+      "\u001b[39;49m\u001b[39;49m\u001b(B\u001b[m\u001b[H\u001b[2J\u001b(B\u001b[0;7m  GNU nano 2.0.6                                         File: index.js                                                                                        \u001b[36;74H[ New File ]\r\u001b[37d^G\u001b(B\u001b[m Get Help\u001b[37;27H\u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut\u001b[37;53H\u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File\u001b[37;79H\u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page\u001b[37;105H\u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text\u001b[37;131H\u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\r\u001b[38d\u001b(B\u001b[0;7m^X\u001b(B\u001b[m Exit\u001b[38;27H\u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify\u001b[38;53H\u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is\u001b[38;79H\u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page\u001b[38;105H\u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text\u001b[38;131H\u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\r\u001b[3d"
+    ],
+    [
+      4.390707,
+      "\u001b[1;150H\u001b(B\u001b[0;7mModified\r\u001b[3d\u001b(B\u001b[mconst server = require('@dadi/api')\r\u001b[5dserver.run(() => {\u001b[6;3Hconsole.log('Demo API: Running...')\r\u001b[36d\u001b[K\u001b[7d})"
+    ],
+    [
+      1.073043,
+      "\r\u001b[36d\u001b(B\u001b[0;7mFile Name to Write: index.js                                                                                                                                   \u001b[37;27H\u001b(B\u001b[m             \u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Files\u001b[14X\u001b[37;79H\u001b(B\u001b[0;7mM-M\u001b(B\u001b[m Mac Format\u001b[37;105H             \u001b(B\u001b[0;7mM-P\u001b(B\u001b[m Prepend\u001b[K\u001b[38;2H\u001b(B\u001b[0;7mC\u001b(B\u001b[m Cancel\u001b[38;27H             \u001b(B\u001b[0;7mM-D\u001b(B\u001b[m DOS Format          \u001b[38;79H\u001b(B\u001b[0;7mM-A\u001b(B\u001b[m Append  \u001b[38;105H             \u001b(B\u001b[0;7mM-B\u001b(B\u001b[m Backup File\u001b[K\u001b[36;29H"
+    ],
+    [
+      0.405417,
+      "\u001b[1;150H\u001b[39;49m\u001b(B\u001b[0;7m        \u001b[36;71H\u001b(B\u001b[m\u001b[1K \u001b(B\u001b[0;7m[ Wrote 5 lines ]\u001b(B\u001b[m\u001b[K\u001b[37;27H\u001b(B\u001b[0;7m^O\u001b(B\u001b[m WriteOut\u001b[15X\u001b[37;53H\u001b(B\u001b[0;7m^R\u001b(B\u001b[m Read File\u001b[37;79H\u001b(B\u001b[0;7m^Y\u001b(B\u001b[m Prev Page  \u001b[37;105H\u001b(B\u001b[0;7m^K\u001b(B\u001b[m Cut Text\u001b[15X\u001b[37;131H\u001b(B\u001b[0;7m^C\u001b(B\u001b[m Cur Pos\u001b[38;2H\u001b(B\u001b[0;7mX\u001b(B\u001b[m Exit  \u001b[38;27H\u001b(B\u001b[0;7m^J\u001b(B\u001b[m Justify\u001b[16X\u001b[38;53H\u001b(B\u001b[0;7m^W\u001b(B\u001b[m Where Is\u001b[38;79H\u001b(B\u001b[0;7m^V\u001b(B\u001b[m Next Page\u001b[38;105H\u001b(B\u001b[0;7m^U\u001b(B\u001b[m UnCut Text             \u001b(B\u001b[0;7m^T\u001b(B\u001b[m To Spell\u001b[7;3H"
+    ],
+    [
+      0.523091,
+      "\r\u001b[37d\u001b[J\u001b[38;159H\u001b[38;1H\u001b[?1049l\r\u001b[?1l\u001b>"
+    ],
+    [
+      0.00331,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                              \r \r"
+    ],
+    [
+      8.7e-05,
+      "\u001b]2;ubuntu@127.0.0.1: ~/my-app\u0007\u001b]1;..t/product-api\u0007"
+    ],
+    [
+      0.033039,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[37m~/my-app \u001b[00m\u001b[00m "
+    ],
+    [
+      5.4e-05,
+      "\u001b[K"
+    ],
+    [
+      0.000146,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.569631,
+      "N"
+    ],
+    [
+      0.198851,
+      "\bNO"
+    ],
+    [
+      0.100041,
+      "D"
+    ],
+    [
+      0.080407,
+      "E"
+    ],
+    [
+      0.576229,
+      "_"
+    ],
+    [
+      0.247644,
+      "E"
+    ],
+    [
+      0.139829,
+      "N"
+    ],
+    [
+      0.316741,
+      "V"
+    ],
+    [
+      0.779361,
+      "="
+    ],
+    [
+      0.224858,
+      "d"
+    ],
+    [
+      0.222828,
+      "e"
+    ],
+    [
+      0.247437,
+      "v"
+    ],
+    [
+      0.144511,
+      "e"
+    ],
+    [
+      0.114985,
+      "l"
+    ],
+    [
+      0.177055,
+      "o"
+    ],
+    [
+      0.13264,
+      "p"
+    ],
+    [
+      0.382297,
+      "m"
+    ],
+    [
+      0.073252,
+      "e"
+    ],
+    [
+      0.171909,
+      "n"
+    ],
+    [
+      0.123179,
+      "t"
+    ],
+    [
+      0.454033,
+      " "
+    ],
+    [
+      0.235833,
+      "n"
+    ],
+    [
+      0.399215,
+      "p"
+    ],
+    [
+      0.278644,
+      "m"
+    ],
+    [
+      0.105915,
+      " "
+    ],
+    [
+      0.135395,
+      "e"
+    ],
+    [
+      0.14864,
+      "x"
+    ],
+    [
+      0.123695,
+      "p"
+    ],
+    [
+      0.184,
+      "l"
+    ],
+    [
+      0.163769,
+      "o"
+    ],
+    [
+      0.116355,
+      "r"
+    ],
+    [
+      0.118843,
+      "e"
+    ],
+    [
+      3.124544,
+      " "
+    ],
+    [
+      0.424676,
+      "@"
+    ],
+    [
+      0.285131,
+      "d"
+    ],
+    [
+      0.150075,
+      "a"
+    ],
+    [
+      0.145788,
+      "d"
+    ],
+    [
+      0.07811,
+      "i"
+    ],
+    [
+      0.649155,
+      "/"
+    ],
+    [
+      0.169927,
+      "a"
+    ],
+    [
+      0.119204,
+      "p"
+    ],
+    [
+      0.205638,
+      "i"
+    ],
+    [
+      0.285486,
+      " "
+    ],
+    [
+      0.350609,
+      "-"
+    ],
+    [
+      0.116393,
+      "-"
+    ],
+    [
+      0.133646,
+      " "
+    ],
+    [
+      0.474177,
+      "n"
+    ],
+    [
+      0.431736,
+      "p"
+    ],
+    [
+      0.236034,
+      "m"
+    ],
+    [
+      0.091662,
+      " "
+    ],
+    [
+      0.172035,
+      "r"
+    ],
+    [
+      0.093188,
+      "u"
+    ],
+    [
+      0.155212,
+      "n"
+    ],
+    [
+      0.069321,
+      " "
+    ],
+    [
+      0.15971,
+      "c"
+    ],
+    [
+      0.24648,
+      "r"
+    ],
+    [
+      0.142186,
+      "e"
+    ],
+    [
+      0.175039,
+      "a"
+    ],
+    [
+      0.011128,
+      "s"
+    ],
+    [
+      0.073303,
+      "t"
+    ],
+    [
+      0.088914,
+      "e"
+    ],
+    [
+      0.467137,
+      "\b \b"
+    ],
+    [
+      0.132467,
+      "\b \b"
+    ],
+    [
+      0.114882,
+      "\b \b"
+    ],
+    [
+      0.603675,
+      "t"
+    ],
+    [
+      0.092914,
+      "e"
+    ],
+    [
+      0.760532,
+      "-"
+    ],
+    [
+      0.331165,
+      "c"
+    ],
+    [
+      0.09171,
+      "l"
+    ],
+    [
+      0.217652,
+      "i"
+    ],
+    [
+      0.188652,
+      "e"
+    ],
+    [
+      0.577929,
+      "\b \b"
+    ],
+    [
+      0.573975,
+      "e"
+    ],
+    [
+      0.087689,
+      "n"
+    ],
+    [
+      0.178802,
+      "t"
+    ],
+    [
+      0.40796,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      5.9e-05,
+      "\r\r\n"
+    ],
+    [
+      0.001829,
+      "\u001b]2;NODE_ENV=development npm explore @dadi/api -- npm run create-client\u0007\u001b]1;npm\u0007"
+    ],
+    [
+      1.235813,
+      "\u001b[?25l"
+    ],
+    [
+      0.007844,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ : \u001b[32minfo\u001b[0m \u001b[35musing\u001b[0m node@v6.9.2\u001b[K\r"
+    ],
+    [
+      0.001275,
+      "\r\u001b[K\u001b[?25h"
+    ],
+    [
+      0.826394,
+      "\u001b[?25l"
+    ],
+    [
+      0.007785,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ : \u001b[32minfo\u001b[0m \u001b[35musing\u001b[0m node@v6.9.2\u001b[K\r"
+    ],
+    [
+      0.042786,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠦ : \u001b[32minfo\u001b[0m \u001b[35musing\u001b[0m node@v6.9.2\u001b[K\r"
+    ],
+    [
+      0.009202,
+      "\r\u001b[K\u001b[?25h"
+    ],
+    [
+      0.002536,
+      "\r\n> @dadi/api@2.0.0-rc.2 create-client /Users/jameslambie/my-app/node_modules/@dadi/api\r\n> cd ../../.. && node ./node_modules/@dadi/api/utils/create-client.js\r\n\r\n"
+    ],
+    [
+      1.500344,
+      "Warning: configuration param 'secondary' not declared in the schema\r\nconfiguration param 'testdb' not declared in the schema\r\n"
+    ],
+    [
+      1.161996,
+      "{\"name\":\"dadi-dadi-api\",\"hostname\":\"Jamess-MacBook.local\",\"pid\":59381,\"level\":30,\"module\":\"server\",\"msg\":\"Server logging started.\",\"time\":\"2017-06-02T14:35:59.028Z\",\"v\":0}\r\n"
+    ],
+    [
+      0.017002,
+      "{\"name\":\"dadi-dadi-api\",\"hostname\":\"Jamess-MacBook.local\",\"pid\":59381,\"level\":30,\"msg\":\"Log directory created at /Users/jameslambie/my-app/log\",\"time\":\"2017-06-02T14:35:59.046Z\",\"v\":0}\r\n"
+    ],
+    [
+      0.044766,
+      "Token index: \"tokenStore.token_1_tokenExpire_1'\r\n"
+    ],
+    [
+      0.004238,
+      "Token expiry index: \"tokenStore.created_1', with expireAfterSeconds = 1800\r\n"
+    ],
+    [
+      0.99041,
+      "\r\n==================================\r\n"
+    ],
+    [
+      0.000114,
+      " DADI API Client Record Generator \r\n==================================\r\n\r\n"
+    ],
+    [
+      0.002234,
+      "-> Client identifier: (testClient) "
+    ],
+    [
+      1.382943,
+      "t"
+    ],
+    [
+      0.057317,
+      "e"
+    ],
+    [
+      0.131157,
+      "s"
+    ],
+    [
+      0.076167,
+      "t"
+    ],
+    [
+      0.159924,
+      "1"
+    ],
+    [
+      0.354832,
+      "\r\n"
+    ],
+    [
+      0.002775,
+      "-> Secret access key: (secretSquirrel) "
+    ],
+    [
+      0.677272,
+      "s"
+    ],
+    [
+      0.134186,
+      "e"
+    ],
+    [
+      0.15586,
+      "c"
+    ],
+    [
+      0.185452,
+      "r"
+    ],
+    [
+      0.106375,
+      "e"
+    ],
+    [
+      0.108219,
+      "t"
+    ],
+    [
+      0.166335,
+      "1"
+    ],
+    [
+      0.383121,
+      "\r\n"
+    ],
+    [
+      0.00203,
+      "-> Access type (admin, user): (user) "
+    ],
+    [
+      1.541874,
+      "u"
+    ],
+    [
+      0.098379,
+      "s"
+    ],
+    [
+      0.148814,
+      "e"
+    ],
+    [
+      0.11187,
+      "r"
+    ],
+    [
+      0.185969,
+      "\r\n"
+    ],
+    [
+      0.000486,
+      "(!) Is this ok?: (y/n) "
+    ],
+    [
+      0.962554,
+      "y"
+    ],
+    [
+      0.374007,
+      "\r\n"
+    ],
+    [
+      0.018249,
+      "\r\n(*) Client created successfully:\r\n\r\n"
+    ],
+    [
+      0.000669,
+      "{ clientId: 'test1',\r\n  secret: 'secret1',\r\n  accessType: 'user',\r\n  _id: 593177d764447ae7f598de90 }\r\n"
+    ],
+    [
+      4.6e-05,
+      "\r\n"
+    ],
+    [
+      0.057811,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000262,
+      "\u001b]2;ubuntu@127.0.0.1: ~/my-app\u0007"
+    ],
+    [
+      5.7e-05,
+      "\u001b]1;..t/product-api\u0007"
+    ],
+    [
+      0.027193,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[37m~/my-app \u001b[00m\u001b[00m "
+    ],
+    [
+      4.6e-05,
+      "\u001b[K"
+    ],
+    [
+      0.000153,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      2.904178,
+      "n"
+    ],
+    [
+      0.215102,
+      "\bno"
+    ],
+    [
+      0.093295,
+      "d"
+    ],
+    [
+      0.056298,
+      "e"
+    ],
+    [
+      0.110608,
+      " "
+    ],
+    [
+      0.137137,
+      "i"
+    ],
+    [
+      0.176172,
+      "n"
+    ],
+    [
+      0.898416,
+      "d"
+    ],
+    [
+      0.119435,
+      "e"
+    ],
+    [
+      0.165827,
+      "x"
+    ],
+    [
+      0.581043,
+      "."
+    ],
+    [
+      0.358685,
+      "j"
+    ],
+    [
+      0.083389,
+      "s"
+    ],
+    [
+      0.422562,
+      " "
+    ],
+    [
+      0.203501,
+      "|"
+    ],
+    [
+      0.202499,
+      " "
+    ],
+    [
+      0.733103,
+      "b"
+    ],
+    [
+      0.128731,
+      "u"
+    ],
+    [
+      0.297062,
+      "n"
+    ],
+    [
+      0.356148,
+      "y"
+    ],
+    [
+      0.137532,
+      "a"
+    ],
+    [
+      0.102934,
+      "n"
+    ],
+    [
+      0.375362,
+      " "
+    ],
+    [
+      0.637421,
+      "-"
+    ],
+    [
+      0.26202,
+      "o"
+    ],
+    [
+      0.126848,
+      " "
+    ],
+    [
+      0.143208,
+      "s"
+    ],
+    [
+      0.088444,
+      "h"
+    ],
+    [
+      0.474812,
+      "o"
+    ],
+    [
+      0.220087,
+      "r"
+    ],
+    [
+      0.12009,
+      "t"
+    ],
+    [
+      0.127696,
+      "\u001b[?1l\u001b>\r\r\n"
+    ],
+    [
+      0.001281,
+      "\u001b]2;node index.js | bunyan -o short\u0007\u001b]1;node\u0007"
+    ],
+    [
+      1.181765,
+      "Warning: configuration param 'secondary' not declared in the schema\r\n"
+    ],
+    [
+      0.001318,
+      "configuration param 'testdb' not declared in the schema\r\n"
+    ],
+    [
+      0.93194,
+      "14:36:20.863Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mServer logging started.\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.003946,
+      "14:36:20.866Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mStarting DADI API in single thread mode.\u001b[39m\r\n"
+    ],
+    [
+      0.025151,
+      "14:36:20.905Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mCache logging started.\u001b[39m (module=cache)\r\n"
+    ],
+    [
+      0.020934,
+      "14:36:20.924Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mHook loaded: slugify\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.01008,
+      "14:36:20.933Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mCollection loaded: books\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.001789,
+      "14:36:20.936Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mCollection loaded: users\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.001395,
+      "14:36:20.939Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mMedia collection loaded: mediaStore\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.004233,
+      "14:36:20.942Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mMedia collection loaded: mediaStore\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.00417,
+      "14:36:20.948Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mEndpoint loaded: hello\u001b[39m (module=server)\r\n"
+    ],
+    [
+      0.003649,
+      "14:36:20.951Z \u001b[36m INFO\u001b[39m dadi-dadi-api: \u001b[36mProcess 59407 is listening for incoming requests\u001b[39m\r\n"
+    ],
+    [
+      0.009342,
+      "[2017-06-02 22:36:20.959] [LOG]   \r\n"
+    ],
+    [
+      0.000108,
+      "\r\n  ----------------------------\r\n  Repo Default\r\n  Started 'DADI API'\r\n  ----------------------------\r\n  Server:      127.0.0.1:3000\r\n  Version:     2.0.0-rc.2\r\n  Node.JS:     6.9\r\n  Environment: development\r\n"
+    ],
+    [
+      3.8e-05,
+      "  ----------------------------\r\n\r\n\r\n  Copyright © 2015-2017 DADI+ Limited (https://dadi.tech)\r\n"
+    ],
+    [
+      0.00014,
+      "\r\n"
+    ],
+    [
+      0.060254,
+      "[2017-06-02 22:36:21.020] [LOG]   Token index: \"tokenStore.token_1_tokenExpire_1'\r\n"
+    ],
+    [
+      0.001314,
+      "[2017-06-02 22:36:21.023] [LOG]   Created cache directory /Users/jameslambie/my-app/cache\r\n"
+    ],
+    [
+      0.001259,
+      "[2017-06-02 22:36:21.025] [LOG]   Token expiry index: \"tokenStore.created_1', with expireAfterSeconds = 1800\r\n"
+    ],
+    [
+      3.785306,
+      "^C"
+    ],
+    [
+      0.016712,
+      "\u001b[0m"
+    ],
+    [
+      0.002589,
+      "\r\n"
+    ],
+    [
+      0.000466,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                              \r \r"
+    ],
+    [
+      0.000773,
+      "\u001b]2;ubuntu@127.0.0.1: ~/my-app\u0007\u001b]1;..t/product-api\u0007"
+    ],
+    [
+      0.026382,
+      "All done!"
+    ],
+    [
+      0.000449,
+      "\u001b[K\u001b[?1h\u001b="
+    ],
+    [
+      0.325304,
+      "\r\r\n"
+    ]
+  ]
+}

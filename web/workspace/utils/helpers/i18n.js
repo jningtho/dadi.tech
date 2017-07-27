@@ -1,9 +1,9 @@
-var dust = require('@dadi/web').Dust
+var dust = require('dustjs-linkedin')
 
 /*
 * Let's you use grab translations from the `i18l` JSON object on a page
 */
-dust.getEngine().helpers.i18n = function(chunk, context, bodies, params) {
+dust.helpers.i18n = function(chunk, context, bodies, params) {
   if (bodies.block) {
     return chunk.capture(bodies.block, context, function(string, chunk) {
       if (
