@@ -275,6 +275,10 @@
     </div>
   </div>
 
+  {@eq key=product value="publish"}
+    {>"partials/publish-gallery" /}
+  {/eq}
+
   <div class="bg--light-grey shadow--top pad__top"> 
     {>"partials/products" /}
   </div>
