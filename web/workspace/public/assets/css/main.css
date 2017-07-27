@@ -1876,13 +1876,22 @@ select {
   position: absolute;
   color: #43595F;
   width: 300px; }
+.explainer__blurb a {
+    transition: 0.2s all;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    display: block; }
+.explainer__blurb a:hover {
+    color: #000;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
 .explainer__blurb p {
   margin: 8px 0 0;
   font-size: 14px;
   line-height: 18px; }
 .explainer__blurb img {
   float: left;
-  margin: 13px 17px 0 0; }
+  margin: 4px 17px 0 0; }
 .b-api {
   left: 37%;
   top: 274px; }
