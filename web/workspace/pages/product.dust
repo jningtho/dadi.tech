@@ -260,13 +260,13 @@
 
     <div class="grid">
       {#features[4]}
-        <div class="col w-1-2 pad__bottom">
+        <div class="col w-1-2">
           <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
           <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
         </div>
       {/features[4]}
       {#features[5]}
-        <div class="col w-1-2 pad__bottom">
+        <div class="col w-1-2">
           <p class="hdr large" style="color:{color}"><img class="alignv marg__right float--left" src="/assets/icons/{icon}.svg" height="30"> {title}</p>
           <p class="normal">{@soberMarkdown}{description}{/soberMarkdown}</p>
         </div>
