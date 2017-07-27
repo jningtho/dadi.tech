@@ -15,11 +15,11 @@
 
 <h3 id="meaning">1. What does "DADI" mean?</h3>
 
-<p>DADI is an acronym for Development Architecture for Data Intelligence.</p>
+<p>DADI is an acronym for Decentralised Architecture for a Democratic Internet.</p>
 
 <h3 id="why">2. There are a lot of platform choices. Why choose DADI?</h3>
 
-<p>DADI does things differently. It is a microservices framework with data at its heart, enabling the creation of real time, individually targeted experiences driven by machine learning. No other technology stack, framework or content management system provides this functionality.</p>
+<p>DADI does things differently. It is a web services framework with data at its heart, enabling the creation of real time, individually targeted experiences driven by machine learning. No other technology stack, framework or content management system provides this functionality.</p>
 
 <p>It&#8217;s Open Source; and it powers some of the largest and most popular products on the Web.</p>
 
@@ -39,7 +39,7 @@
 
 <p>We value innovation and stability. We are careful about sacrificing one for the other, so we work on balance. Because DADI is used widely in production, every single line of code that goes into DADI&#8217;s core is meticulously scrutinized. Most changes to core go through dozens, if not hundreds, of revisions before being included.</p>
 
-<p>We&#8217;re also aware of the time great software design, development, translation, and testing takes. Because DADI is a set of microservices, and because our focus is on keeping the core app set to essential functionality, encouraging contributed modules to extend it, our version release cycle happens a far greater pace than alternative solutions.</p>
+<p>We&#8217;re also aware of the time great software design, development, translation, and testing takes. Because DADI is built around a microservices architecture, and because our focus is on keeping the core app set to essential functionality, encouraging contributed modules to extend it, our version release cycle happens a far greater pace than alternative solutions.</p>
 
 <h3 id="releases">5. When and how are new versions released?</h3>
 
@@ -67,7 +67,7 @@
 
 <h3 id="migrate">1. Can I migrate a WordPress/Drupal/whatever site to DADI?</h3>
 
-<p>Yes. And given the development pace achievable with DADI, doing so does not usually represent a significant amount of work. Data mappings to import your content into DADI API will be required and your templates will need to be moved to DADI web. And that&#8217;s about it.</p>
+<p>Yes. And given the development pace achievable with DADI, doing so does not usually represent a significant amount of work. Data mappings to import your content into DADI API will be required and your templates will need to be moved to DADI Web  (which supports multiple template languages, meaning that you probably need to redevelop them). And that&#8217;s about it.</p>
 
 <p><em>&#8220;Products built with DADI are delivered in days and weeks, not weeks and months.&#8221;</em></p>
 
@@ -93,7 +93,7 @@
 
 <h3 id="workwith">5. Where can I get help working with DADI?</h3>
 
-<p>Check out the <a href="/{params.lang}/support/" onclick="ga('send','event','Support','Click','FAQ');">Solutions section</a> of our site for help getting started with the DADI platform. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
+<p>Reach out to us on our public Slack. Or drop us a line. The issue queue in Git for each of the apps in the DADI platform is how we bring issues to the community&#8217;s attention.</p>
 </div>
 </div>
 
