@@ -24,7 +24,7 @@
       <ul>
         <li class="col w-1-5"><a href="/{params.lang}/"><img src="/assets/img/d-dark.png" style="width:27px;margin-top:11px">All our<br>applications</a></li>
         <li class="col w-1-5"><a {@eq key=product value="api"}class="fwb"{/eq} href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png">Start an API in<br>30 seconds</a></li>
-        <li class="col w-1-5"><a {@eq key=product value="publish"}class="fwb"{/eq} href="/{params.lang}/publish/"><img src="/assets/products/dadi-publish.png">Add a CMS<br>interface</a></li>
+        <li class="col w-1-5"><a {@eq key=product value="publish"}class="fwb"{/eq} href="/{params.lang}/publish/"><img src="/assets/products/dadi-publish.png">Flexible CMS<br>interface</a></li>
         <li class="col w-1-5"><a {@eq key=product value="web"}class="fwb"{/eq} href="/{params.lang}/web/"><img src="/assets/products/dadi-web.png" style="width:26px">Build your<br>frontend</a></li>
         <li class="col w-1-5"><a {@eq key=product value="cdn"}class="fwb"{/eq} href="/{params.lang}/cdn/"><img src="/assets/products/dadi-cdn.png">Serve optimised<br>images</a></li>
       </ul>
