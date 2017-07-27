@@ -22,7 +22,7 @@
   <div class="container container--wide product__bg alignl">
     <div class="list--products alignl cf">
       <ul>
-        <li class="col w-1-5"><a href="/{params.lang}/"><img src="/assets/img/d-dark.png" style="width:27px;margin-top:11px">Products<br> overview</a></li>
+        <li class="col w-1-5"><a href="/{params.lang}/"><img src="/assets/img/d-dark.png" style="width:27px;margin-top:11px">All our<br>applications</a></li>
         <li class="col w-1-5"><a {@eq key=product value="api"}class="fwb"{/eq} href="/{params.lang}/api/"><img src="/assets/products/dadi-api.png">Start an API in<br>30 seconds</a></li>
         <li class="col w-1-5"><a {@eq key=product value="publish"}class="fwb"{/eq} href="/{params.lang}/publish/"><img src="/assets/products/dadi-publish.png">Add a CMS<br>interface</a></li>
         <li class="col w-1-5"><a {@eq key=product value="web"}class="fwb"{/eq} href="/{params.lang}/web/"><img src="/assets/products/dadi-web.png" style="width:26px">Build your<br>frontend</a></li>
@@ -70,7 +70,7 @@
       <div class="col w-1-2">
         <img src="/assets/explainer/connect-4.svg" class="marg__bottom" style="pointer-events: none;">
 
-        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> products:</p>
+        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> applications:</p>
 
         <ul class="list--feat marg__top--x2 medium w-2-3 txt--mid-grey">
           {#workswith}
