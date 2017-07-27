@@ -132,7 +132,7 @@
           "dark-color": "#280816",
           "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution.",
           "description": [
-            "A full installation of **DADI CDN** is analogous to a traditional CDN (Content Distribution Network) such as [Akamai](https://www.akamai.com/) and [Limelight](https://www.limelight.com/). It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.",
+            "**DADI CDN** is analogous to a traditional CDN (Content Distribution Network) such as [Akamai](https://www.akamai.com/) and [Limelight](https://www.limelight.com/). It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.",
             "**CDN** has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis."
           ],
           "headlines": [
@@ -150,7 +150,7 @@
             {
               "title": "Simplified media storage",
               "icon": "database",
-              "description": "No need to maintain multiple sizes of each image - CDN generates new variations from a single master image."
+              "description": "No need to maintain multiple sizes of each image you upload into an article - CDN generates new variations from a single master image."
             },
             {
               "title": "One CDN for all asset types",
