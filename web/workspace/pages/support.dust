@@ -1,38 +1,36 @@
 {>"partials/header" /}
 
-{<header}
-<h1 class="hdr kilo read">Build something cool with our technology.</h1>
-{! <p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p> !}
-<p class="pad__top">
-  <a href="http://dadi-chat.herokuapp.com/" class="btn  normal">Slack with our devs</a>
-  <a href="https://github.com/dadi/" class="btn  normal marg__left">Raise issues in Github</a>
-</p>
-{/header}
-
 {<title}
   Support
 {/title}
 
-<div class="support">
-  <div class="container cf">
-    <div class="col w-1-2 alignr bs-alignc">
-      <div class="block pad support__self">
-        {! <img class="alignv marg__top" src="/assets/icons/industry.svg" height="60"> !}
-        <h2 class="txt--blue larger">{@i18n}Need a hand getting started with our platform?{/i18n}</h2>
+{<header}
+  {! <h1 class="hdr kilo read">Build something cool with our technology.</h1> !}
+  {! <p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p> !}
+  
+  <div class="container cf alignc pad__bottom--half">
+    <div class="col w-1-2">
+      <div class="block pad">
+        <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
         <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
-        <p class="normal"><a href="mailto:support@dadi.tech" class="btn btn--blue small">support@dadi.tech</a></p>
+        <p class="normal no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue normal">support@dadi.tech</a></p>
       </div>
     </div>
 
     <div class="col w-1-2 bs-alignc">
-      <div class="block pad support__team">
-       {!  <img class="alignv marg__top" src="/assets/icons/paint.svg" height="60"> !}
-        <h2 class="txt--green larger">{@i18n}Looking for enterprise support?{/i18n}</h2>
+      <div class="block pad">
+        <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
         <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
-        <p class="normal"><a href="mailto:sales@dadi.tech" class="btn btn--green small">sales@dadi.tech</a></p>
+        <p class="normal no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green normal">sales@dadi.tech</a></p>
       </div>
     </div>
   </div>
+{/header}
+
+<div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
+    <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
+    <a href="http://dadi-chat.herokuapp.com/" class="btn">Slack with our devs</a>
+    <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
 </div>
 
 {>"partials/success-stories" /}

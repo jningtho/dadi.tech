@@ -32,7 +32,7 @@ nav ul li a.on {
 @media handheld, only screen and (min-width: 50em) {
   nav ol { float: left; }
   nav ul { float: right; }
-  nav img.logo { position: relative; left: -16px; }
+  nav img.logo { position: relative; left: 35px; }
 }
 
 @media #{$break-small} {
