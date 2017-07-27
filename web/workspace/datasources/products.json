@@ -9,6 +9,64 @@
       "type": "static",
       "data": [
         {
+          "title": "API",
+          "product": "api",
+          "color": "#0BA6DD",
+          "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE.",
+          "description": [
+            "**DADI API** is a rapid set-up data layer ready to act as the backbone to your digital platform. It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer – and can be used alongside other apps in the DADI technology suite.",
+            "It can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). **DADI API** allows you to get a complete data layer up and running in minutes."
+          ],
+          "headlines": [
+            "**Filter and sort** your data with ease",
+            "**Flexible** database support",
+            "Automatic document **versioning**",
+            "Built in support for **oAuth2**"
+          ],
+          "features": [
+            {
+              "title": "Filter and sort your data with ease",
+              "icon": "folder-open",
+              "description": "Harness the power of MongoDB-style querying to filter and sort your data."
+            },
+            {
+              "title": "Flexible database support",
+              "icon": "database",
+              "description": "Support for multiple database connectors including MongoDB, CouchDB and RethinkDB."
+            },
+            {
+              "title": "Automatic database indexing",
+              "icon": "list",
+              "description": "Indexing your underlying database is as simple as adding configuration elements to collections."
+            },
+            {
+              "title": "Automatic input validation",
+              "icon": "happy",
+              "description": "Easily configure fields within collections for input validation."
+            },
+            {
+              "title": "Collection-level access control",
+              "icon": "locked",
+              "description": "With a fine-grained authorisation layer, control who can access data and how."
+            },
+            {
+              "title": "Cache data for faster retrieval",
+              "icon": "cloud-upload",
+              "description": "Cache data using a Redis server or the local filesystem, providing faster response times."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "**API** can provide dynamic content for **Web**."
+            },
+            {
+              "product": "publish",
+              "description": "**Publish** provides an interface to edit content in **API**."
+            }
+          ]
+        },
+        {
           "hide_docs": true,
           "title": "Publish",
           "product": "publish",
@@ -64,64 +122,6 @@
             {
               "product": "publish",
               "description": "Content in **API** can be editied in **Publish**."
-            }
-          ]
-        },
-        {
-          "title": "API",
-          "product": "api",
-          "color": "#0BA6DD",
-          "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE.",
-          "description": [
-            "**DADI API** is a rapid set-up data layer ready to act as the backbone to your digital platform. It is designed to be plugged into a templating layer, a mobile application or to be used with any other data consumer – and can be used alongside other apps in the DADI technology suite.",
-            "It can contain your business/domain logic (the part of a platform that encodes the real-world business rules that determine how data is created, displayed, stored and changed). **DADI API** allows you to get a complete data layer up and running in minutes."
-          ],
-          "headlines": [
-            "**Filter and sort** your data with ease",
-            "**Flexible** database support",
-            "Automatic document **versioning**",
-            "Built in support for **oAuth2**"
-          ],
-          "features": [
-            {
-              "title": "Filter and sort your data with ease",
-              "icon": "folder-open",
-              "description": "Harness the power of MongoDB-style querying to filter and sort your data."
-            },
-            {
-              "title": "Flexible database support",
-              "icon": "database",
-              "description": "Support for multiple database connectors including MongoDB, CouchDB and RethinkDB."
-            },
-            {
-              "title": "Automatic database indexing",
-              "icon": "list",
-              "description": "Indexing your underlying database is as simple as adding configuration elements to collections."
-            },
-            {
-              "title": "Automatic input validation",
-              "icon": "happy",
-              "description": "Easily configure fields within collections for input validation."
-            },
-            {
-              "title": "Collection-level access control",
-              "icon": "locked",
-              "description": "With a fine-grained authorisation layer, control who can access data and how."
-            },
-            {
-              "title": "Cache data for faster retrieval",
-              "icon": "cloud-upload",
-              "description": "Cache data using a Redis server or the local filesystem, providing faster response times."
-            }
-          ],
-          "workswith": [
-            {
-              "product": "web",
-              "description": "**API** can provide dynamic content for **Web**."
-            },
-            {
-              "product": "publish",
-              "description": "**Publish** provides an interface to edit content in **API**."
             }
           ]
         },

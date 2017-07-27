@@ -6,12 +6,12 @@
       "type": "static",
       "data": [
         {
-          "product": "publish",
-          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow."
-        },
-        {
           "product": "api",
           "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE."
+        },
+        {
+          "product": "publish",
+          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow."
         },
         {
           "product": "cdn",
