@@ -52,7 +52,7 @@
         </ul>
       </div>
 
-      <div class="col w-1-2 marg__bottom--x2 pad__bottom--x2">
+      <div class="col w-1-2 product__features">
         <ul class="list--feat medium">
           {#headlines}         
             <li>
@@ -66,19 +66,8 @@
       </div>
     </div>
 
-    <div class="grid marg__top product__visuals">
-      <div class="col w-1-2">
-        <img src="/assets/explainer/connect-4.svg" class="marg__bottom bs-hide" style="pointer-events: none;position: relative;left: -35%;">
-
-        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> applications:</p>
-
-        <ul class="cf list--feat marg__top--x2 medium txt--mid-grey">
-          {#workswith}
-            <li class="w-2-3 bs-w-1-1"><a href="/{params.lang}/{product}/"><img src="/assets/products/dadi-{product}.png">{@soberMarkdown}{description}{/soberMarkdown}</a></li>
-          {/workswith}
-        </ul>
-      </div>
-      <div class="col w-1-2">
+    <div class="cf product__visuals">
+      <div class="product__focus">
         <div class="product__gallery">
           <div class="product__frame" {@eq key=product value="api"}style="background:#000"{/eq}>
             
@@ -202,6 +191,18 @@
           </script>
         </div>
       </div>
+
+      <div class="product__workswith">
+        <img src="/assets/explainer/connect-4.svg" class="marg__bottom bs-hide" style="pointer-events: none;position: relative;left: -25%;">
+
+        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> applications:</p>
+
+        <ul class="cf list--feat marg__top--x2 medium txt--mid-grey">
+          {#workswith}
+            <li class="w-2-3 bs-w-1-1"><a href="/{params.lang}/{product}/"><img src="/assets/products/dadi-{product}.png">{@soberMarkdown}{description}{/soberMarkdown}</a></li>
+          {/workswith}
+        </ul>
+      </div>      
     </div>
 
     <div class="bdr__top bdr--bdr-grey normal pad__top">

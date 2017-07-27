@@ -198,39 +198,54 @@ abbr {
 }
 
 .product__gallery {
-	width: 140%;
-	position: absolute;
-	left: -15%;
-	height: 0;
+	position: relative;
+	z-index: 10;
 	padding-top: 81.5%;
-	margin-top: -40px;
 
+	@media #{$break-large} {
+		margin-top: -40px;
+		width: 140%;
+		position: absolute;
+		left: -10%;
+		height: 0;
+	}
 	@media #{$break-small} {
 		margin-top: 20px;
-		position: static;
 	}
 }
 .product__frame {
-  background: #21262d;
-  border-radius: 6px;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  overflow: hidden;
-  box-shadow: -6px 6px 21px rgba(0,0,0,0.16);
-  transform: translate3d(0, 0, 0);
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background: #21262d;
+	border-radius: 6px;
+	overflow: hidden;
+	box-shadow: -6px 6px 21px rgba(0,0,0,0.16);
+	transform: translate3d(0, 0, 0);
 }
 .product__frame img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
-.product__visuals {
-  height: 460px;
-  position: relative;
-  top: -40px;
 
-  @media #{$break-small} {
-  	height: auto;
-  }
+@media #{$break-large} {
+	.product__visuals {
+		height: 460px;
+		position: relative;
+		top: -40px;
+	}
+	.product__workswith {
+		float: left;
+		width: 50%;
+		position: relative;
+	}
+	.product__focus {
+		float: right;
+		width: 50%;
+		position: relative;
+	}
+	.product__features {
+		padding-bottom: 100px;
+	}
 }
 
 .list--products {
@@ -284,7 +299,6 @@ abbr {
 
 .gallery div {
 	display: block;
-	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -292,7 +306,7 @@ abbr {
 	margin: auto;
 	max-width: 100%;
 	max-height: 100%;
-	
+	position: absolute;
 	pointer-events: none;
 	
 	opacity: 0;
