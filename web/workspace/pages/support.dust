@@ -12,7 +12,7 @@
     <div class="col w-1-2">
       <div class="block pad">
         <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
-        <p class="normal">{@i18n}Roll up your sleeves and get into our code. DADI technology is fully open source and free to use.{/i18n}</p>
+        <p class="normal">{@i18n}DADI technology is fully open source and free to use, but if you need help just drop us a line.{/i18n}</p>
         <p class="normal no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue normal">support@dadi.tech</a></p>
       </div>
     </div>
