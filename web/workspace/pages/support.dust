@@ -27,12 +27,75 @@
   </div>
 {/header}
 
-<div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
-    <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
-    <a href="http://dadi-chat.herokuapp.com/" class="btn">Slack with our devs</a>
-    <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
-</div>
+{^params.client}
+  <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
+      <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
+      <a href="http://dadi-chat.herokuapp.com/" class="btn">Slack with our devs</a>
+      <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
+  </div>
 
-{>"partials/success-stories" /}
+  {>"partials/success-stories" /}
+{:else}
+  {#successes.results}
+    <div class="container container--pad alignl">
+      <h1 class="inline-block hdr kilo read no-marg-i" style="color:{color}">{title}</h1>
+      <p class="inline-block large hdr">{summary}</p>
+    </div>
+
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/1.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[0]}</p>
+    </div>
+
+    <div class="container container--divider">
+      <div class="grid">
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Requirements</h2>
+          <p class="alignauto normal">{@soberMarkdown}{requirements}{/soberMarkdown}</p>
+        </div>
+        <div class="col w-1-2">
+          <h2 class="large read alignauto no-marg-i txt--grey">Results</h2>
+          <p class="alignauto normal">{results}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/2.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[1]}</p>
+    </div>
+
+    <div class="container container--divider">
+      <div class="grid">
+        <div class="col w-1-2 normal">{@markdown}{detail}{/markdown}</div>
+
+        <div class="col w-1-2">
+          <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
+          <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
+
+          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">See more success stories</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/3.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[2]}</p>     
+    </div>
+
+    <div class="container container--divider">
+      <img class="fill" src="/assets/successes/{handle}/4.jpg" alt="{title} case study image">
+      <p class="txt--grey fsi">{captions[3]}</p>  
+    </div>
+
+    {?vimeo}
+      <div class="container container--divider">
+        <iframe src="https://player.vimeo.com/video/{vimeo}?title=0&byline=0&portrait=0" width="100%" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <p class="txt--grey fsi">Video overview of the site.</p> 
+      </div>
+    {/vimeo}
+
+  {/successes.results}
+{/params.client}
 
 {>"partials/footer" /}

@@ -13,6 +13,15 @@
   "routes": [
     {
       "path": "/:lang/support/"
+    },
+    {
+      "path": "/:lang/support/:client?",
+      "params": [
+        {
+          "param": "client",
+          "fetch": "successes"
+        }
+      ]
     }
   ]
 } 

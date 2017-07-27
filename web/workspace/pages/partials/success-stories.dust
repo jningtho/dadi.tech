@@ -5,7 +5,7 @@
   <div class="grid marg__top--x2">
     {#successes.results}
       <div class="col w-1-1 marg__bottom success__item">
-          <a href="/{params.lang}/success-stories/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
+          <a href="/{params.lang}/support/{handle}/" class="cf block pad txt--white " style="background-color:{color};background-image:url(/assets/successes/{handle}.jpg);background-size:cover;background-position:50% 50%;">
               <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
                   <p class="hdr large">{title}</p>
                   <p class="normal">{summary}</p>

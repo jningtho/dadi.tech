@@ -30,7 +30,7 @@
       <div class="col w-1-3 pad__bottom">
         <ul class="list--line normal txt--blue">
           <li><a href="/{params.lang}/contact/">Contact us</a></li>
-          <li><a href="/{params.lang}/success-stories/">Success stories</a></li>
+          <li><a href="/{params.lang}/support/">Support</a></li>
           <li><a href="/{params.lang}/latest/">Latest</a></li>
           <li><a href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Footer');">On demand</a></li>
           <li><a href="/{params.lang}/about/">Working with DADI</a>
