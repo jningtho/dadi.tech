@@ -1,6 +1,6 @@
 <div class="container container--pad">
   <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
-  <p class="alignc normal">See how our support services scale from helping hand to full-service build:</p>
+  <p class="alignc normal">See how DADI technology has transformed digital products from publishing to retail:</p>
 
   <div class="grid marg__top--x2">
     {#successes.results}
