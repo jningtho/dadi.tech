@@ -2141,9 +2141,10 @@ abbr {
   margin-top: -40px; }
 @media handheld, only screen and (max-width: 50em) {
     .product__gallery {
-      margin-top: 20px; } }
+      margin-top: 20px;
+      position: static; } }
 .product__frame {
-  background: #000;
+  background: #21262d;
   border-radius: 6px;
   position: absolute;
   top: 0;
@@ -2163,7 +2164,7 @@ abbr {
   top: -40px; }
 @media handheld, only screen and (max-width: 50em) {
     .product__visuals {
-      height: 750px; } }
+      height: auto; } }
 .list--products {
   padding: 0 0 60px; }
 @media handheld, only screen and (max-width: 50em) {

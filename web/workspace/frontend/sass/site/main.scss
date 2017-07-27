@@ -207,10 +207,11 @@ abbr {
 
 	@media #{$break-small} {
 		margin-top: 20px;
+		position: static;
 	}
 }
 .product__frame {
-  background: #000;
+  background: #21262d;
   border-radius: 6px;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -228,7 +229,7 @@ abbr {
   top: -40px;
 
   @media #{$break-small} {
-  	height: 750px;
+  	height: auto;
   }
 }
 
