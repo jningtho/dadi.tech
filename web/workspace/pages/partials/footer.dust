@@ -34,7 +34,6 @@
           <li><a href="/{params.lang}/support/">Support</a></li>
           <li><a href="/{params.lang}/latest/">Latest</a></li>
           <li><a href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Footer');">On demand</a></li>
-          <li><a href="/{params.lang}/about/">Working with DADI</a>
           <li><a href="/{params.lang}/how-we-work/">How we work</a>
           <li><a href="/{params.lang}/faq/">FAQ</a>
           <li><a href="/{params.lang}/privacy/">Privacy</a></li>
