@@ -7,7 +7,7 @@
     </li>
     <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
     </li>
-    <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');" {@eq key=page.key value="On demand"}class="on"{/eq}>DADI ICO</a>
+    <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
     </li>    
   </ol>
   <ul>
