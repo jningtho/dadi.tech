@@ -5,10 +5,10 @@
   <ol>
     <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
     </li>
-    <li><a href="/{params.lang}/on-demand" onclick="ga('send','event','On demand','Click','Header');" {@eq key=page.key value="On demand"}class="on"{/eq}>On demand</a>
-    </li>
     <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
     </li>
+    <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
+    </li>    
   </ol>
   <ul>
     <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">Find us on Github</a>
