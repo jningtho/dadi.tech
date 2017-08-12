@@ -30,7 +30,7 @@
 {^params.client}
   <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
       <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
-      <a href="http://dadi-chat.herokuapp.com/" class="btn">Slack with our devs</a>
+      <a href="http://chat.dadi.tech/" class="btn">Slack with our devs</a>
       <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
   </div>
 
