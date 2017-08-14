@@ -1072,8 +1072,9 @@ nav ul li a.on {
   nav ul {
     float: right; }
   nav img.logo {
-    position: relative;
-    left: 35px; } }
+    position: absolute;
+    left: auto;
+    right: auto; } }
 @media handheld, only screen and (max-width: 50em) {
   nav ul {
     border-top: 1px solid rgba(170, 170, 170, 0.3);
@@ -1083,7 +1084,7 @@ header {
   padding-bottom: 30px;
   overflow: hidden; }
 body.home header {
-  padding-bottom: 0;
+  padding-bottom: 20px;
   background: #f9f9f9;
   color: #21262D; }
 .pattern {

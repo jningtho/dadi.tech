@@ -1,4 +1,4 @@
-<nav>
+<nav class="cf">
   <a href="/{params.lang}/" class="inline-block marg__bottom">
     <img src="/assets/img/dadi-{@select key=page.key}{@eq value="home"}colour{/eq}{@eq value="Products"}dark{/eq}{@none}light{/none}{/select}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>

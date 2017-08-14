@@ -32,7 +32,11 @@ nav ul li a.on {
 @media handheld, only screen and (min-width: 50em) {
   nav ol { float: left; }
   nav ul { float: right; }
-  nav img.logo { position: relative; left: 35px; }
+  nav img.logo {
+    position: absolute;
+    left: auto;
+    right: auto;
+  }
 }
 
 @media #{$break-small} {
@@ -48,7 +52,7 @@ header {
   overflow: hidden;
 }
 body.home header {
-  padding-bottom: 0;
+  padding-bottom: 20px;
   background: #f9f9f9;
   color: #21262D;
 }
