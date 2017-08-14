@@ -17,7 +17,7 @@
             {?date}
               <span class="btn small btn--disabled">{date}</span>
             {:else}
-              <a href="/{params.lang}/{product}/" class="btn small">Learn more</a>
+              <a href="/{params.lang}/{product}/" class="btn small">{@i18n}Learn more{/i18n}</a>
             {/date}
           </div>
         </div>

@@ -149,7 +149,7 @@
   <div class="explainer__blurb b-cdn">
     <a href="/{params.lang}/cdn/">
       <img src="/assets/products/dadi-cdn.png" width="22">
-      <p class="small">Manipulate images using URL paramaters</p>
+      <p class="small">{@i18n}Manipulate images using URL parameters{/i18n}</p>
     </a>
   </div>
 
