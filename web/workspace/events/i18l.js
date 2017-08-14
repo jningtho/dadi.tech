@@ -12,6 +12,7 @@ var Event = function (req, res, data, callback) {
   if (data.params && data.params.lang && data.params.lang) {
     var rmvLang = new RegExp('^\/' + data.params.lang, 'gmi')
     toPath = toPath.replace(rmvLang, '')
+    data.pathNoLang = toPath
   }
 
   // Do nothing if default language

@@ -18,8 +18,8 @@
     <li>
       <select id="lang">
         <optgroup label="Languages">
-          <option value="en" {@eq key=params.lang value="en"}selected{/eq}>English</option>
-          <option value="de" {@eq key=params.lang value="de"}selected{/eq}>Deutsche</option>
+          <option value="/en{pathNoLang}" {@eq key=params.lang value="en"}selected{/eq}>English</option>
+          <option value="/de{pathNoLang}" {@eq key=params.lang value="de"}selected{/eq}>Deutsche</option>
         </optgroup>
         <optgroup label="Coming soon">
           <option disabled value="fr">Français</option>

@@ -18,5 +18,9 @@ var tab = function(event) {
 };
 
 domready(function () {
-  document.getElementById('tabs').addEventListener('click', tab, false);
+  var tabs = document.getElementById('tabs');
+
+  if (tabs) {
+    tabs.addEventListener('click', tab, false);
+  }
 });
