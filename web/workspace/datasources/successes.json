@@ -119,8 +119,7 @@
           "captions": [
             "Seitenumfassende Lösung: Von der Homepage zum Einkaufswagen.",
             "iOS App designt und aufgebaut, aufgezogen durch eine einzige API.",
-            "Cross-Endgeräte Verfügbarkeit von Audioinhalten, sowohl in Echtzeit als auch On-Demand.",
-            "Video Überblick über die Seite."
+            "Cross-Endgeräte Verfügbarkeit von Audioinhalten, sowohl in Echtzeit als auch On-Demand."
           ]
         },
         {
@@ -146,6 +145,31 @@
             "Early design concept work.",
             "Integration with Themoviedb.org allows editors to select high quality images easily.",
             "Hub pages allow content to be organised around titles."
+          ]
+        },
+        {
+          "lang": "de",
+          "handle": "empire",
+          "title": "Empire",
+          "color": "#ff0000",
+          "summary": "Neuaufsetzen der Webseite und des Content Management um das Usererlebnis und den editoriellen Workflow zu optimieren - alles musste innerhalb kürzester Zeit geliefert werden.",
+          "components": [
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Empire litt an schlechten Usererlebnissen und verursachte dem Editorteam Kopfschmerzen. Es brauchte eine Auffrischung des Designs und ein Reboot des Content Management - und es blieben nur 12 Wochen Zeit dafür.",
+          "results": "Ein Mix der DADI Microservices lieferte schnell eine neue Smartphone responsive Homepage betrieben durch easy-to-use Content Management Systeme. Dies ist die Grundlage für iterative Evolution in Co-Entwicklung.",
+          "detail": "Bauer entschied sich für DADI Technology für die Auffrischung von Empire im Sommer 2015 und wir lieferten eine komplett neu aufgesetze Seite bevor sich noch die Blätter im Herbst gelb färbten.\n\nDas neue Produkt ist eine API-first Version, das wenig editoriellen Workflow unterstützt, ein störungsfreies Usererlebnis über alle Endgeräte hinweg ermöglicht und erweiterte SEO Funktionen hat. Anfangs wurde es als minimal realisierbares Produkt definiert aber nach dem Start wurde es in die kontinuerliche Iterationen gemessen an den Nutzerdaten überführt.\n\nDADI arbeitet nun mit Empire an einem Release, um die neuste Version von Publish einzubinden und erweitert die Plattformtechnologie anderer Produkte des Bauer Portfolios. Ein einzelnes Benutzerverzeichnis unterstützt Registrierung des digitalen Produkts, Anmeldung zu Emailbenachrichtigungen, Einkäufe im Monocle Shop sowie digitale und Magazin Abonnements. Dies führte zu gezielteren Nachrichten, was sowohl für die Marke als auch für den Benutzer effektiver ist.\n\nDie DADI Plattform managt auch den editoriellen Inhalt vom Browser und den Apps, während unser Support Team für die Unternehmen in der Co-Entwicklung mit den Entwicklern von Monocle gearbeitet hat, in dem es Unterstützung gegeben hat, das sich von technologischen Schwergewichten bis zu UX und Design erstreckte - eine Partnerschaft, die Monocle.com etliche Awards für ihr digitales Produkt bescherte.",
+          "quote": {
+            "body": "Die DADI Plattform bietet einzigartige und marktführende SEO Funktionalität",
+            "cite": "Searchleiter, **Bauer Media**"
+          },
+          "captions": [
+            "Voll responsive Homepage.",
+            "Frühe Design Konzeptartbeit.",
+            "Integration in Themoviedb.org ermöglicht es Designern, qualitativ hochwertige Bilder leicht auszuwählen.",
+            "Hub Seiten ermöglichen die Organisation des Inhalts um Titel herum"
           ]
         },
         {
@@ -175,6 +199,32 @@
           ]
         },
         {
+          "lang": "de",
+          "handle": "virgin",
+          "title": "Virgin Limited Edition",
+          "color": "#333",
+          "summary": "Ein digitales Premiumprodukt für luxuriöse Urlaubsinseln und Immobilien, persönlich ausgewählt durch Richard Branson.",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Virgin Limited Edition brauchte mehr als nur eine Broschürenwebseite um den luxuriösen Mix aus privaten Inseln, aufregenden Safaris und Luxusimmobilien zu repräsentieren. Es benötigte ein umfassendes UX und nahtloses CRM.",
+          "results": "DADI Technology liefert flexiblen Content Management und Premium Usererlebnisse, inklusive eines abgespeckten CRM, das als Klebstoff zwischen Buchungssystem, digitaler Kommunikation und Face-to-Face Kundenservice fungiert.",
+          "detail": "Virgin Limited Edition nutzt DADI Technology um Content Management zu betreiben und Beziehungen zu seinen Kunden zu pflegen. Es ist eine API-first Version, die vom DADI Unternehmenssupportteam zusammengestellt und gemanagt wird.\n\nDie höhste Priorität war die Präsentation - die Seite wurde geplant, designt und aufgebaut um dem Benutzer das Eintauchen in die Produktdetails zu ermöglichen - aber die DADI Plattform ermöglicht auch die flexible Kontrolle über die Art, wie der Inhalt präsentiert wird, sodass das Team auch individuelle Vorlagen oder Entwicklerhilfen erstellen kann.\n\nEin Blick hinter die Kulissen verrät, dass eine einzelne Benutzerdatei Informationen aus verschiedenen Quellen mischt und so die eine Wahrheit liefert - unverzichtbar für das Anpassen einer kundenorientierte Strategie in einer fordernden Gesellschaft.",
+          "quote": {
+            "body": "DADI wurde ein essentieller Teil unserer Wachstumsstrategie, in dem sie nicht nur unsere 'Schaufenster' Webseite aufgebaut haben, sondern uns auch dabei unterstützt haben, unsere Kundendaten intelligenter zu managen.",
+            "cite": "Chef des Marketing, **Virgin Limited Edition**"
+          },
+          "captions": [
+            "Ein einzelnes Designsystem, das sich jedem der neun Eigenschaften anpasst.",
+            "Kleine interaktive Zusätze sind auf der Seite verstreut.",
+            "Hochauflösende Bildergallerie präsentiert die luxoriösen Erlebnisse.",
+            "Der Virgin Limited Edition Blog hilft den Besuchern, mehr über die Individualität eines jeden Ortes zu erfahren."
+          ]
+        },
+        {
           "lang": "en",
           "handle": "lifestyle-one",
           "title": "Lifestyle.one",
@@ -197,6 +247,31 @@
             "Heat World.",
             "Closer.",
             "Cross-site integrated search, tagging and celebrity database."
+          ]
+        },
+        {
+          "lang": "de",
+          "handle": "lifestyle-one",
+          "title": "Lifestyle.one",
+          "color": "#9530bd",
+          "summary": "Ein ambitioniertes Projekt, das verschiedene Titel und Editorteams zu einer einzigen Lösung mit einem erweiterten Einkommensstrom kombiniert.",
+          "components": [
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Grazia, Closer and Heat magazines were a disjointed digital portfolio using multiple content management and advertising delivery systems. Lifestyle.one sought to bring together these products into a single streamlined package.",
+          "results": "DADI Technology betreibt alle drei Titel von einer einzigen Codebasis, während kleinere darstellungstechnische Anpassungen je nach Anforderungen der Marke vorgenommen wurden. Inhalt von mehreren Jahren wurde zu einem einzigen Ort überführt, was sowohl die Werbe- als auch die editoriellen Arbeitsabläufe spürbar verbesserte.",
+          "detail": "Eine weitere End-to-End Version, die die Suite von DADI Technology benutzt, ist Lifestyle.one; eine einzige Front-End Präsentation, die verschiedene gewerbliche und editorielle Anforderungen titelübergreifend beherbergt - und Bedingungen für den Workflow aus verschiedenen Editorteams miteinander verzahnt.\n\nDie Version erweiterte die Publish Content Management Lösung, die für das Empire Magazin erstellt wurde, was vorteilhaft war für kombinierte Veröffentlichungen und Updates quer über die vier Titel in dem erweiterten Portfolio.\n\nDas Ergebnis ist ein einfacheres digitales Produkt, das weniger technische, gewerbliche und editorielle Ressourcen verschlingt. Es begünstig Cross-Promotion und erreicht ein Publikum mit dem Inhaltsportfolio, was auch zu mehr Einkommensmöglichkeiten führt.",
+          "quote": {
+            "body": "Mit DADI erstellte Produkte werden innerhalb von Tagen und Wochen fertiggestellt, nicht innerhalb von Wochen oder Monaten.",
+            "cite": "Technischer Direktor, **Bauer Media**"
+          },
+          "captions": [
+            "Jede Magazinseite leitet sich von einer einheitlichen Codebasis ab. (Grazia)",
+            "Heat World.",
+            "Closer.",
+            "Seitenübergreifende integrierte Suchfunktion, Tag und Celebrity Datenbank."
           ]
         }
       ]

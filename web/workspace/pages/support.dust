@@ -91,7 +91,7 @@
     {?vimeo}
       <div class="container container--divider">
         <iframe src="https://player.vimeo.com/video/{vimeo}?title=0&byline=0&portrait=0" width="100%" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <p class="txt--grey fsi">Video overview of the site.</p> 
+        <p class="txt--grey fsi">{@i18n}Video overview of the site.{/i18n}</p> 
       </div>
     {/vimeo}
 
