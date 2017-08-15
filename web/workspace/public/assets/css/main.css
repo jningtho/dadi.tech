@@ -2187,7 +2187,7 @@ abbr {
   .product__features {
     padding-bottom: 100px; } }
 .list--products {
-  padding: 0 0 60px; }
+  padding: 20px 0 60px; }
 @media handheld, only screen and (max-width: 50em) {
     .list--products {
       display: none; } }
