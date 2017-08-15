@@ -2,13 +2,21 @@
   "datasource": {
     "key": "successes",
     "name": "DADI platform case studies",
-    "requestParams": [{
-      "param": "client", "field": "handle"
-    }],
+    "requestParams": [
+      {
+        "param": "client",
+        "field": "handle"
+      },
+      {
+        "param": "lang",
+        "field": "lang"
+      }
+    ],
     "source": {
       "type": "static",
       "data": [
         {
+          "lang": "en",
           "handle": "whatcar",
           "title": "What Car?",
           "color": "#e32116",
@@ -34,6 +42,33 @@
           ]
         },
         {
+          "lang": "de",
+          "handle": "whatcar",
+          "title": "What Car?",
+          "color": "#e32116",
+          "summary": "End-to-end Neuauflage basierend auf DADI Technologie um den Workflow zu optimieren, Bindungen zu verbessern und neue geschäftliche Möglichkeiten zu unterstützen.",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "What Car? wurde aufgebaut auf einer veralteten antiken Plattform, die eine vergängliche, desktop-only User Erfahrung ermöglichte mit verschiedenen, unzusammenhängenden editoriellen Arbeitsgruppen. Neue Systeme wurden benötigt, damit Autoren wieder mehr Zeit auf den Inhalt verwenden können anstellte von Admin - und damit die User eine nahtlose Erfahrung auf all ihren Endgeräten genießen.",
+          "results": "DADI Technology liefert eine API-first Plattform Lösung die Inhalt von der Darbietung loslöst, was bedeutet, dass ein Topf voll Inhalt und ein editorieller Workflow verschiedene digitale Produkte vom Desktop PC über das Tablet bis hin zum Smartphone bedienen kann.",
+          "detail": "Haymarket Media Group hat sich dazu entschlossen, DADI Technology zu nutzen um die Seite whatcar.com neu aufzusetzen, damals basierend auf veralteter Technologie, die erhöhte Anforderungen an editorielle Ressurcen stellte und eine schlechte Usererfahrung bot.\n\nFirmeninterne Entwickler arbeiteten zusammen mit DADI Entwicklern und Strategen an einem neuen, iterativen Entwicklungsplan - um die vielen Probleme der alternden Plattform auszubessern und eine 'reviews' website erweitern zu einem komplette Autohandel.\n\nEin neuer Content Store und eine Management Oberfläche wurde entwickelt, zugeschnitten auf die Bedingungen des editoriellen Workflow und fähig, Desktop, Tablet, Smartphone und zukünftige Endgeräte durch eine einzige Quelle zu unterstützen. Dies wurde dann in ein aktuelles, voll ansprechendes Front-End Design integriert mit zukünftiger Personalisierung des Inhalts im Hinterkopf - basierend auf den Nutzungsdaten, die durch die DADI Plattform gesammelt wurden. Dies ist eine Modellvorstellung aus Inhalt und Geschäft. ",
+          "quote": {
+            "body": "Der Umzug von whatcar.com zu DADI hat die Kosten für die Infrastruktur erheblich gesenkt.",
+            "cite": "Produktleiter, **Haymarket Consumer Media**"
+          },
+          "captions": [
+            "Whatcar.com homepage",
+            "Verschiedene Datenquellen werden kombiniert um neue Einsichten offenzulegen.",
+            "Vollbild Gallerien präsentieren großartige Fotografien.",
+            "Planungsarbeit für die viel beachteten What Car? Car of the Year Awards."
+          ]
+        },
+        {
+          "lang": "en",
           "handle": "monocle",
           "title": "Monocle",
           "color": "#fc0",
@@ -61,6 +96,35 @@
           ]
         },
         {
+          "lang": "de",
+          "handle": "monocle",
+          "title": "Monocle",
+          "color": "#fc0",
+          "text-color": "#000",
+          "summary": "Eine neue Plattform aufgebaut mit der Unterstützung von einzelnen Usern und Abonnenten - und um die volle Bandbreite eines digitalen Produkts vom Browser zur App zu ermöglichen.",
+          "components": [
+            "User data management",
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Monocle digital products were driven by a disconnected platform with no correlation between magazine subscribers, shop customers and website users. A new solution was needed to facilitate single subscriber view across web and mobile – and drive a focussed CRM strategy.",
+          "results": "The DADI platform underpins a new data driven strategy that identifies the individual and optimizes user experience, delivering an 88% increase in visitors, 49% more registered users, 25% greater shop sales and a 44% increase in paid subscribers – and inside six months.",
+          "detail": "Monocle nutzt DADI Technology um eine verbesserte CRM Strategie im Druck, Digital, Radio und Verkauf zu betreiben. Es zieht sich alle Nutzerdaten in einen Topf und arbeitet daran, ein nahtloses datengesteuertes Erlebnis bereitzustellen, rivalisierend zu dem Premium Service, den man in den materiellen Monocle Stores finden kann.\n\nEin einzelnes Benutzerverzeichnis unterstützt Registrierung des digitalen Produkts, Anmeldung zu Email Neuigkeiten, Einkäufe im Monocle Shop sowie digitale und Magazin Abonnements. Dies führte zu gezielteren Nachrichten, was sowohl für die Marke als auch für den Benutzer effektiver ist.\n\nDie DADI Plattform managt auch den editoriellen Inhalt vom Browser und den Apps, während unser Support Team für die Unternehmen in der Co-Entwicklung mit den Entwicklern von Monocle gearbeitet hat, indem es Unterstützung gegeben hat, das sich von technologischen Schwergewichten bis zu UX und Design erstreckte - eine Partnerschaft, die Monocle.com etliche Awards für ihr digitales Produkt bescherte.",
+          "quote": {
+            "body": "DADI Technology gab unseren Benutzerdaten einen Sinn und ermöglichte Premium Online Erlebnisse von einer Qualität, die unsere Leser auch in unseren Printmagazinen finden.",
+            "cite": "Chef der Digitalabteilung, **Monocle**"
+          },
+          "vimeo": "66093926",
+          "captions": [
+            "Seitenumfassende Lösung: Von der Homepage zum Einkaufswagen.",
+            "iOS App designt und aufgebaut, aufgezogen durch eine einzige API.",
+            "Cross-Endgeräte Verfügbarkeit von Audioinhalten, sowohl in Echtzeit als auch On-Demand.",
+            "Video Überblick über die Seite."
+          ]
+        },
+        {
+          "lang": "en",
           "handle": "empire",
           "title": "Empire",
           "color": "#ff0000",
@@ -85,6 +149,7 @@
           ]
         },
         {
+          "lang": "en",
           "handle": "virgin",
           "title": "Virgin Limited Edition",
           "color": "#333",
@@ -110,6 +175,7 @@
           ]
         },
         {
+          "lang": "en",
           "handle": "lifestyle-one",
           "title": "Lifestyle.one",
           "color": "#9530bd",

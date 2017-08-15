@@ -29,9 +29,9 @@
 
 {^params.client}
   <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
-      <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
-      <a href="http://chat.dadi.tech/" class="btn">Slack with our devs</a>
-      <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
+      <span class="pad__right hdr normal inline-block">{@i18n}Alternatively you can…{/i18n}</span>
+      <a href="http://chat.dadi.tech/" class="btn">{@i18n}Slack with our devs{/i18n}</a>
+      <a href="https://github.com/dadi/" class="btn marg__left">{@i18n}Raise issues in Github{/i18n}</a>
   </div>
 
   {>"partials/success-stories" /}
@@ -50,11 +50,11 @@
     <div class="container container--divider">
       <div class="grid">
         <div class="col w-1-2">
-          <h2 class="large read alignauto no-marg-i txt--grey">Requirements</h2>
+          <h2 class="large read alignauto no-marg-i txt--grey">{@i18n}Requirements{/i18n}</h2>
           <p class="alignauto normal">{@soberMarkdown}{requirements}{/soberMarkdown}</p>
         </div>
         <div class="col w-1-2">
-          <h2 class="large read alignauto no-marg-i txt--grey">Results</h2>
+          <h2 class="large read alignauto no-marg-i txt--grey">{@i18n}Results{/i18n}</h2>
           <p class="alignauto normal">{results}</p>
         </div>
       </div>
@@ -73,7 +73,7 @@
           <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
           <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
 
-          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">See more success stories</a></div>
+          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">{@i18n}See more success stories{/i18n}</a></div>
         </div>
       </div>
     </div>
