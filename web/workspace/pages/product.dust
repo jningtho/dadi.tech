@@ -37,18 +37,18 @@
         <p class="large no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
         <p class="no-marg-i">
           {^hide_docs}
-            <a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">How to install</a>
+            <a href="http://docs.dadi.tech/{product}/getting-started/installing/" class="btn">{@i18n}How to install{/i18n}</a>
           {:else}
-            <span class="btn btn--disabled">Install guide coming soon</span>
+            <span class="btn btn--disabled">{@i18n}Install guide coming soon{/i18n}</span>
           {/hide_docs}
         </p>
 
         <ul class="list--product normal marg__top--x2">
-          <li><a style="border-bottom-color:{color}" href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">View source on Github</a></li>
-          <li><a style="border-bottom-color:{color}" href="https://www.npmjs.com/package/@dadi/{product}" onclick="ga('send','event','NPM','Click','Product');">Install with NPM</a></li>
-          {^hide_docs}<li><a style="border-bottom-color:{color}" href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">Documentation</a></li>{/hide_docs}
+          <li><a style="border-bottom-color:{color}" href="https://github.com/dadi/{product}" href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Product');">{@i18n}View source on Github{/i18n}</a></li>
+          <li><a style="border-bottom-color:{color}" href="https://www.npmjs.com/package/@dadi/{product}" onclick="ga('send','event','NPM','Click','Product');">{@i18n}Install with NPM{/i18n}</a></li>
+          {^hide_docs}<li><a style="border-bottom-color:{color}" href="http://docs.dadi.tech/{product}" onclick="ga('send','event','Documentation','Click','Product');">{@i18n}Documentation{/i18n}</a></li>{/hide_docs}
           <li><a style="border-bottom-color:{color}" href="/{params.lang}/on-demand/" onclick="ga('send','event','On demand','Click','Product');">DADI On-demand</a></li>
-          {?demo}<li><a href="{demo}">Live demo</a></li>{/demo}
+          {?demo}<li><a href="{demo}">{@i18n}Live demo{/i18n}</a></li>{/demo}
         </ul>
       </div>
 
@@ -195,7 +195,7 @@
       <div class="product__workswith">
         <img src="/assets/explainer/connect-4.svg" class="marg__bottom bs-hide" style="pointer-events: none;position: relative;left: -25%;">
 
-        <p class="pad__top--half txt--mid-grey">Use with other <strong>DADI</strong> applications:</p>
+        <p class="pad__top--half txt--mid-grey">{@i18n}Use with other <strong>DADI</strong> applications:{/i18n}</p>
 
         <ul class="cf list--feat marg__top--x2 medium txt--mid-grey">
           {#workswith}

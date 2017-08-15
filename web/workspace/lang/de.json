@@ -5,7 +5,7 @@
   "Install a content editing interface for your API": "Installieren sie eine Oberfläche zum Bearbeiten des Inhalts auf ihrem API.",
   "Manipulate images using URL parameters": "Bearbeiten sie Bilder mit Hilfe von URL Parametern.",
   "Easily define new pages with complex data structures and routing": "Legen sie ganz einfach neue Seiten mit komplexer Datenstruktur und Steuerung an.",
-  "Already used around the web…": "Bereits überall im Internet genutzt ….",
+  "Already used around the web…": "Bereits überall im Internet genutzt…",
   "API-first and COPE": "API-first und Cope",
   "Connects your content to everything: drive multiple products from a single editorial workflow.": "Verbindet ihren Inhalt mit Allem: Steuern sie verschiedene Produkte mit einem einzigen editorialen Arbeitsablauf",
   "Open source": "Open source",
@@ -52,5 +52,10 @@
   "Documentation": "Dokumentation",
   "Follow us on Twitter": "Folgen sie uns auf Twitter",
   "Find us on Github": "Finden sie uns auf Github",
-  "View the repo for this site": "Repo dieser Seite aufrufen"
+  "View the repo for this site": "Repo dieser Seite aufrufen",
+  "View source on Github": "Quelle auf GitHub anschauen",
+  "Install with NPM": "Mit NPM installieren",
+  "How to install": "Installationsanleitung",
+  "Install guide coming soon": "Installationsanleitung bald verfügbar",
+  "Use with other <strong>DADI</strong> applications:": "Benutzung mit anderen <strong>DADI</strong> Anwendungen:"
 }
