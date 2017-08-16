@@ -1,0 +1,25 @@
+{
+  "datasource": {
+    "key": "about",
+    "requestParams": [
+      {
+        "param": "lang",
+        "field": "lang"
+      }
+    ],
+    "source": {
+      "type": "static",
+      "data": [
+        {
+          "lang": "en",
+          "intro": "From full-stack engineers and heavy-lifting technologists to expert product strategists and heavyweight project directors: we only hire senior, talented team players with impressive talent.",
+          "body": "But with high standards come hard choices. And in assembling the ideal team for our forward-thinking technology company, we've learnt a few things:\n\n* The best talent doesn't always live within an hour of central London\n* The brightest people aren't necessarily in it for the 9 to 5\n* Inspiration can strike at any time – we need the tools to record and deploy when it does\n\nHence a [radical way of working for DADI](../how-we-work/): a flexible attitude and unique approach to recruitment that make us quite the draw for smart people (even if we say so ourselves).",
+          "environment": "To attract the best people we have to be flexible – and trust our people to work however suits them.\n\n**We think it makes DADI a pretty special place to work.**",
+          "quote": "We don't do 'hack' or 'innovation' days because everyday, engineers get to personally innovate.\n\nWe don't piggy-back off old technology or patch and hack our way to delivering something we aren't proud of.\n\nWe research and experiment with bleeding edge technologies and collaborate to build out the perfect set of platform services.\n\nWe peer review and share vital engineering knowledge, encouraging each other to step up and embrace the most challenging of technical tasks.\n\nAll of those things are awesome.",
+          "principals": "## Principles\n\n**Work asynchronously.** Individual team members more or less works at their own pace, with collaboration and agreement being handled by asynchronous mechanisms.\n\n**No 9 to 5.** Get the job done on time (and don't upset the client) and you can work the hours you want.\n\n*Work at your own pace.* We handle things like collaboration and sign off through the best tools for the job, all in support of asynchronous working.\n\n**Minimal meetings.** Unless we really need to powwow in person, we keep in touch using cloud-based tools like Slack (much more efficient, believe us).\n\n**Work where you want.** Yes, be diligent, stick to deadlines and do great work. But where and how you do it is up to you.",
+          "perks": "## Perks\n\n* A job that works around your life (not the other way round)\n* Work with some of the most talented people in the world\n* No need to commute\n* No need to be tied to a desk\n* Plenty of excuses to meet up with the rest of the team\n* Work on things you'll love\n* Get paid for giving a shit"
+        }
+      ]
+    }
+  }
+}
