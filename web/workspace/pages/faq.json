@@ -3,6 +3,7 @@
     "key": "FAQ"
   },
   "datasources": [
+    "faq",
     "latest-footer"
   ],
   "routes": [
