@@ -2,6 +2,11 @@
   "app": {
     "name": "dadi.co website - development"
   },
+  "caching": {
+    "directory": {
+      "enabled": true
+    }
+  },
   "server": {
     "host": "localhost",
     "port": 4113
@@ -18,7 +23,6 @@
     "secret":"superSecret"
   },
   "global": {
-    "description": "DADI reinvents the technology of the web. It enables real-time, personalised experiences driven by machine learning.",
     "protocol": "http"
   },
   "globalEvents": [
@@ -58,13 +62,5 @@
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
   },
-  "engines": {
-      "dust": {
-      "whitespace": true
-    }
-  },
-  "allowJsonView": true,
-  "virtualDirectories": [
-    { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }
-  ]
+  "allowJsonView": true
 }

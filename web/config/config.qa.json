@@ -2,6 +2,11 @@
   "app": {
     "name": "dadi.co website - Stage"
   },
+  "caching": {
+    "directory": {
+      "enabled": true
+    }
+  },
   "server": {
     "host": "0.0.0.0",
     "port": 80
@@ -18,7 +23,6 @@
     "secret":"superSecret"
   },
   "global": {
-    "description": "DADI is a powerful, API-first content management solution for products of all sizes and scale. It enables real-time, personalized experiences driven by machine learning.",
     "protocol": "http"
   },
   "globalEvents": [
@@ -57,8 +61,5 @@
   "rewrites": {
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
-  },
-  "virtualDirectories": [
-    { "path": "content/docs", "index": "index.html", "forceTrailingSlash": false }
-  ]
+  }
 }
