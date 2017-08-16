@@ -1,21 +1,21 @@
 {>"partials/header" /}
 
 <div class="container container--pad">
-  <h1 class="no-marg-i kilo txt--green marg__bottom">Roadmap</h1>
+  <h1 class="no-marg-i kilo txt--green marg__bottom">{@i18n}Roadmap{/i18n}</h1>
 
-  <p class="medium marg__top">DADI is produced and maintained under an iterative and incremental development cycle. We manage development through Git Issues and Projects and operate a prioritized roadmap for major releases, focusing on a few, high impact features at a time.</p>
+  <p class="medium marg__top">{@i18n}DADI is produced and maintained under an iterative and incremental development cycle. We manage development through Git Issues and Projects and operate a prioritized roadmap for major releases, focusing on a few, high impact features at a time.{/i18n}</p>
 </div>
 
 <div class="container container--divider">
   <div class="grid pad__bottom--x2">
     <div class="col w-1-2">
-      <p class="larger hdr txt--green marg__bottom">You can help us improve DADI (or change this roadmap)</p>
+      <p class="larger hdr txt--green marg__bottom">{@i18n}You can help us improve DADI (or change this roadmap){/i18n}</p>
 
-      <p class="normal">Want to contribute to the work on this roadmap, or suggest new ideas? Volunteer your time, or Propose an initiative. To contribute as an organization or business, consider joining one of our supporter programs that fund this work.</p>
+      <p class="normal">{@i18n}Want to contribute to the work on this roadmap, or suggest new ideas? Volunteer your time, or Propose an initiative. To contribute as an organization or business, consider joining one of our supporter programs that fund this work.{/i18n}</p>
 
-      <p class="normal fwb">Your support can make a difference.</p>
-      <a href="/{params.lang}/contact/" class="btn btn--blue small">Contact us</a><br><br>
-      <a href="https://github.com/dadi" class="btn btn--blue small">Find us on Github</a>
+      <p class="normal fwb">{@i18n}Your support can make a difference.{/i18n}</p>
+      <a href="/{params.lang}/contact/" class="btn btn--blue small">{@i18n}Contact us{/i18n}</a><br><br>
+      <a href="https://github.com/dadi" class="btn btn--blue small">{@i18n}Find us on Github{/i18n}</a>
     </div>
     <div class="col w-1-2 normal">
       <h3>Q3 2017</h3>
