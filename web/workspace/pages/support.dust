@@ -1,30 +1,35 @@
 {>"partials/header" /}
 
-{<title}
-  Support
-{/title}
+{<title}{@i18n}Support{/i18n}{/title}
 
 {<header}
-  {! <h1 class="hdr kilo read">Build something cool with our technology.</h1> !}
-  {! <p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p> !}
-  
-  <div class="container cf alignc pad__bottom--half">
-    <div class="col w-1-2">
-      <div class="block pad">
-        <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
-        <p class="normal">{@i18n}DADI technology is fully open source and free to use, but if you need help just drop us a line.{/i18n}</p>
-        <p class="normal no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue normal">support@dadi.tech</a></p>
+  {^params.client}
+   <div class="container cf pad__bottom--x2 alignl bs-alignc">  
+      <div class="block pad__left pad__right pad__bottom marg__bottom">
+        <div class="grid">
+          <div class="col w-1-2 alignr bs-alignc">
+            <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
+          </div>
+          <div class="col w-1-2">
+            <p class="normal">{@i18n}DADI technology is fully open source and free to use, but if you need help just drop us a line.{/i18n}</p>
+            <p class="no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue small">support@dadi.tech</a></p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="col w-1-2 bs-alignc">
-      <div class="block pad">
-        <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
-        <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
-        <p class="normal no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green normal">sales@dadi.tech</a></p>
+      <div class="block pad__top pad__left pad__right bdr__top" style="border-color:rgba(255,255,255,0.2)">
+        <div class="grid">
+          <div class="col w-1-2 alignr bs-alignc">
+            <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
+          </div>
+          <div class="col w-1-2">
+            <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+            <p class="no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green small">sales@dadi.tech</a></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  {/params.client}
 {/header}
 
 {^params.client}
