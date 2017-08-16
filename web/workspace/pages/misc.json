@@ -2,9 +2,6 @@
   "page": {
     "key": "supporting"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "supporting",
     "latest-footer"

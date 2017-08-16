@@ -2,9 +2,6 @@
   "page": {
     "key": "Products"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "products",
     "products-list",

@@ -3,9 +3,6 @@
     "key": "Support",
     "color": "#15313A"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "successes",
     "latest-footer"

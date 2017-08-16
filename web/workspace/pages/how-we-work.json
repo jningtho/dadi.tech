@@ -2,9 +2,6 @@
   "page": {
   	"key": "How we work"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "latest-footer"
   ],
