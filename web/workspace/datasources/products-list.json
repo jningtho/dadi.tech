@@ -2,49 +2,109 @@
   "datasource": {
     "key": "products-list",
     "name": "Information about DADI products",
+    "requestParams": [
+      {
+        "param": "lang",
+        "field": "lang"
+      }
+    ],
     "source": {
       "type": "static",
       "data": [
         {
+          "lang": "en",
           "product": "api",
           "overview": "A high-performance RESTful API layer designed in support of API-first development and the principles of COPE."
         },
         {
+          "lang": "de",
+          "product": "api",
+          "overview": "Eine high-performance RESTful API Oberfläche, gestaltet mit Unterstützung der API-first Entwicklung und den Prinzipe von COPE."
+        },
+        {
+          "lang": "en",
           "product": "publish",
           "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow."
         },
         {
+          "lang": "de",
+          "product": "publish",
+          "overview": "Das Fenster zur Welt der Inhaltsschaffung eines Autors. Flexible Oberflächen, gestaltet um den editoriellen Workflow zu optimieren."
+        },
+        {
+          "lang": "en",
           "product": "cdn",
           "overview": "A just-in-time asset manipulation and delivery layer designed as a modern, global content distribution solution."
         },
         {
+          "lang": "de",
+          "product": "cdn",
+          "overview": "Eine Echtzeit Asset und Delivery Oberfläche, gestaltet als moderne, weltweite Content Distribution Lösung."
+        },
+        {
+          "lang": "en",
           "product": "web",
           "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow."
         },
         {
+          "lang": "de",
+          "product": "web",
+          "overview": "Eine schemalose Vorlagenebene, die entweder als Standalone Plattform betrieben werden kann oder mit API als eine allumfassende Internetanwendung."
+        },
+        {
+          "lang": "en",
           "product": "track",
           "overview": "Real-time, streaming data layer providing accurate metrics at individual and product level. Drives DADI Identity.",
           "date": "Q3/4 2017"
         },
         {
+          "lang": "de",
+          "product": "track",
+          "overview": "Echtzeit und Streaming Datenoberfläche um maßgeschneiderte Lösungen auf der individuellen Ebene und der Produktebene zu garantieren. Betreibt DADI Identity."
+        },
+        {
+          "lang": "en",
           "product": "visualize",
           "overview": "A data visualization interface for Identity and Track, but capable of taking data feeds from virtually any source.",
           "date": "Q2 2018"
         },
         {
+          "lang": "de",
+          "product": "visualize",
+          "overview": "Eine Visualitierungsplattform für Daten aus Identity und Track, aber es ist möglich, Datenströme von jeder virtuellen Quelle zu erfassen."
+        },
+        {
+          "lang": "en",
           "product": "identity",
           "overview": "Guarantees uniqueness of individuals – and powers segmentation – for anonymous and known users.",
           "date": "Q3/4 2017"
         },
         {
+          "lang": "de",
+          "product": "identity",
+          "overview": "Garantiert die Einzigartigkeit des Individuums - und ermöglicht Unterteilung - für anonyme und bekannte User."
+        },
+        {
+          "lang": "en",
           "product": "match",
           "overview": "Taxonomic framework for automated content classification through machine learning. Plugs into Publish.",
           "date": "Q3 2017"
         },
         {
+          "lang": "de",
+          "product": "match",
+          "overview": "Taxonomische Rahmenbedingungen für automatisierte Inhaltsklassifikationen durch maschinelles Lernen. Als Plug-in für Publish möglich."
+        },
+        {
+          "lang": "en",
           "product": "predict",
           "overview": "A machine learning  layer that predicts user behaviour at an individual level based on past interactions.",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "de",
+          "product": "predict",
+          "overview": "Maschinelle Lernoberfläche, die individuelles Benutzerverhalten basierend auf vergangenen Interaktionen vorhersagt."
         }
       ]
     }
