@@ -8,8 +8,8 @@
 {/title}
 
 {<header}
-<h1 class="txt--white kilo">Platform concepts</h1>
-<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">Explore the core principles behind our platform.</p>
+<h1 class="txt--white kilo pad__top--x2 no-marg-i pad__bottom--half">{@i18n}Platform concepts{/i18n}</h1>
+<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">{@i18n}Explore the core principles behind our platform.{/i18n}</p>
 {/header}
 
 {^params.concept}
