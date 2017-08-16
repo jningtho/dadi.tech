@@ -43,17 +43,7 @@
 <div class="container container--divider pad__bottom--x2">
   <div class="grid">
     <div class="col w-1-2 read normal">
-      {@markdown}{about.results[0].principles}{/markdown}
-      <h2>Principles</h2>
-      <p class="normal"><strong>Work asynchronously.</strong> Individual team members more or less works at their own pace, with collaboration and agreement being handled by asynchronous mechanisms.</p>
-
-      <p class="normal"><strong>No 9 to 5.</strong> Get the job done on time (and don't upset the client) and you can work the hours you want.</p>
-
-      <p class="normal"><strong>Work at your own pace.</strong> We handle things like collaboration and sign off through the best tools for the job, all in support of asynchronous working.</p>
-
-      <p class="normal"><strong>Minimal meetings.</strong> Unless we really need to powwow in person, we keep in touch using cloud-based tools like Slack (much more efficient, believe us).</p>
-
-      <p class="normal"><strong>Work where you want.</strong> Yes, be diligent, stick to deadlines and do great work. But where and how you do it is up to you.</p>
+      {@markdown}{about.results[0].principals}{/markdown}
     </div>
     <div class="col w-1-2 list--tick normal">
       {@markdown}{about.results[0].perks}{/markdown}
