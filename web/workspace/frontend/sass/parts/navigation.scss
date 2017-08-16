@@ -48,8 +48,11 @@ nav ul li a.on {
 }
 
 header {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
   overflow: hidden;
+}
+header nav {
+  padding-bottom: 20px;
 }
 body.home header {
   padding-bottom: 20px;
