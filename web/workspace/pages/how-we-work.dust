@@ -1,109 +1,18 @@
 {>"partials/header" /}
 
-{<title}
-  How we work
-{/title}
+{<title}{@i18n}How we work{/i18n}{/title}
 
 {<header}
-<h1 class="hdr kilo"><span class="txt--green block">How we work</span></h1>
+<h1 class="hdr kilo"><span class="txt--green block">{@i18n}How we work{/i18n}</span></h1>
 <div class="read">
-<p class="medium alignauto">At DADI+ we've ripped up everything we thought we knew about work and have started again, structuring the business around how we want to live.
-</p>
+<p class="medium alignauto">{@soberMarkdown}{how-we-work.results[0].intro}{/soberMarkdown}</p>
 </div>
-<p class="normal alignauto">By <strong>Joseph Denne</strong></p>
+<p class="normal alignauto">{@i18n}By{/i18n} <strong>Joseph Denne</strong></p>
 {/header}
 
 <div class="container pad__bottom--x2">
   <div class="alignl read alignauto normal documentation">
-<p>My partners and I have been running businesses of various sizes for over fifteen years, from a two man operation to organisations with global scale and reach.</p>
-<p>Despite huge differences in scale and offering, the physical structures of work remained constant throughout. We had an office. We had a working day. We structured teams around disciplines. We had regular meetings. Basically everything that jumps to mind when you hear the word “work”.</p>
-<p>That’s not to say that it wasn’t fun. This is our office on the curtain road, in the early days of Airlock (look at the size of some of those monitors!) -</p>
-<p><img src="/assets/how-we-work/airlock.jpg" alt="Our old office"></p>
-<p>…but we structured our lives around our work: pulling all nighters was common and interruptions to holiday a given.</p>
-<p>When we started DADI+ we decided to rip up everything we thought we knew about work. We started again from scratch, structuring everything around one core principle -</p>
-<p><strong>Work should fit around our lives, not the other way round.</strong></p>
-<h2 id="dropping-the-office">Dropping the office</h2>
-<p>The most obvious change for us was also the hardest: getting rid of our office.</p>
-<p>There is an incredibly strong link between environment and work. If you spend your life “leaving for work”, taking away a physical destination asks some serious questions about your definition and understanding of the very concept of work.</p>
-<p>Which is of course exactly what we wanted to challenge.</p>
-<p>At our last business we choose our offices based on finding the most equal commute for all of our staff. In practice this meant that the average trip into the office was a little over an hour. That’s over a day a week spent commuting for every single person in the company: 300 hours a week lost to the underground and the pollution of central London.</p>
-<p>Even if you can’t see the obvious human strain that this represents, consider it financially: 300 hours a week is time worth around £100,000 a month. That’s not to say that this is time that would otherwise be worked, simply that the collective time lost to the commute can be staggering high.</p>
-<p>We also noticed a trend that will be familiar to many: everyone wearing large headphones in an open plan office.</p>
-<p>Technology started significantly and noticeably shifting the way that we work a decade or so ago. It is now common to use instant messaging to speak with the person two desks down from you, rather than actually talking to them. This along with the prevalence of headphones is a signifier of change in working practices; a move away from a traditional, synchronous method of work to one of asynchronicity.</p>
-<p>Not having a central office embraces this change. It enables us to work in entirely new ways, and has removed the traditional structures and politics that come with location-based working. For us, everything is asynchronous.</p>
-<p>This change has also enabled us to think about hiring entirely differently. It is a false conceit to think that the best coders, designers and strategists live within an hour of central London. Not having an office means that we can look far and wide for the best possible talent.</p>
-<p>We have team members who prefer a traditional working environment for whom we provide cover for the rental of a shared office space. We have team members who cafe hop. We have team members who have a home office (I’m sat in mine as I type). We have team members in London. We have team members outside of London. We have team members in different countries.</p>
-<p>And of course it is impossible to generalise about the time of day that we are at our most productive. A commute is an avoidable disruption, just like the time we choose to eat or whether or not we put on clothes. Giving individuals the freedom to organise their time according to their own productivity peaks and troughs avoids the breaking of a train of thought in order to jump on a train.</p>
-<h3 id="extreme-remoting">Extreme remoting</h3>
-<p>This is Jim -</p>
-<p><img src="/assets/how-we-work/jim.jpg" alt="Mr James Lambie"></p>
-<p>He’s one of our Lead Developers. Tomorrow he leaves for the first day of a 15,000 mile - ! - bike ride that will take him all the way to New Zealand. He’s starting in Brighton.</p>
-<p>While he’ll be on the road for the majority of the time, he is staying on as part of our team, leading the development on some of our core underlying technologies. We like to think that he’ll be cycling with one hand on the handlebars and one hand typing furiously on a laptop strapped to the side of his bike, but in reality he’ll be contributing in fits and starts, working blocks of time from key cities en route, predominantly through the cold winter months.</p>
-<p>This is an extreme example of what asynchronous working enables, but it proves the point. There is no way that this trip could have been accommodated at our last agency.</p>
-<p>You can follow Jim’s amazing journey on <a href="http://www.agreatdistance.org">agreatdistance.org</a>, which includes a wealth of data, from his current coordinates - useful if you want to wave him on! - to the distance he has travelled.</p>
-<p>He is raising money for both Diabetes UK and Diabetes NZ during the journey. You can donate <a href="http://www.justgiving.com/agreatdistance">here</a>.</p>
-<h2 id="meetings-are-still-toxic">Meetings are still ███████ toxic</h2>
-<p>37signals originated “meetings are toxic” in their book, <a href="https://gettingreal.37signals.com/">Getting Real</a>.</p>
-<p>Meetings are traditionally called when something needs hashing out. They tend to invite more people than necessary, reflect the hierarchy and politics within the organisation and usually last much longer than necessary.</p>
-<p>In short, meetings kill productivity.</p>
-<p>In technology it makes far more sense and is far more productive to just get on with it - to push a branch up, check out the diff, and then iterate on that diff rather than to assume that you’re going to perfectly whiteboard a system architecture ahead of time.</p>
-<p>What is true of programming is true for every other aspect of business.</p>
-<p>Even if you take notes in a meeting, you can’t capture everything. You make a judgement at a point in time as to what to write down. Then a week later you try to remember what wasn’t written down as it becomes apparent that that portion of the discussion was more important.</p>
-<p>You don’t have this problem with chat transcripts. Forcing people to reduce their otherwise rambling thoughts into concrete sentences helps focus discussion.</p>
-<p>Of course we still have meetings at DADI+ from time to time, but they are the exception rather than the rule.</p>
-<h3 id="rules-to-live-by">Rules to live by</h3>
-<ul>
-<li>Do not attend any meeting without an agenda</li>
-<li>If a decision can be taken over phone or by chat, do so instead of arranging or attending a meeting</li>
-<li>No meeting should be more than 30 minutes in length</li>
-<li>Only the most important people should attend a meeting. Others can be informed by email</li>
-<li>Never hold meetings to review output. Reviews should be handled offline first, with a meeting for discussion of the output only held where absolutely necessary</li>
-</ul>
-<h2 id="working-asynchronously">Working asynchronously</h2>
-<p>A synchronous working style is one where some or all of the members of a team regularly stop what they’re doing, meet, discuss and agree on the next steps to take, before getting back to work implementing those steps. These synchronous “join points” are frequent, unavoidable, and built into the structure of the work.</p>
-<p>An asynchronous working style is one where the entire team rarely, if ever, gets together for big agreements and discussions. Each individual team member more or less works on their own and at their own pace, with collaboration and agreement being handled by asynchronous mechanisms.</p>
-<p><img src="/assets/how-we-work/working-asynchronously.png" alt="The future of work"></p>
-<p>Asynchronous working centres around shared artefacts, with each member of a team gradually accreting layers and complexity onto those artefacts. The most common example is commits to a source code repository. Another good example is online document sharing, with multiple editors and commenters. Team members usually have multiple related threads of work running simultaneously, so that if one is blocked on input from someone else, another thread can be picked up in order to maintain forward momentum.</p>
-<p>Working asynchronously enables our team to be geographically distributed and to choose the hours that suit them the best.</p>
-<p>In short it enables our team to put their lives first.</p>
-<h2 id="the-right-tools-for-the-job">The right tools for the job</h2>
-<p>Of course none of this would work without the right tools in support.</p>
-<p>After our staff, the most important aspect of how we work is the tools that we use on a daily basis. In the event that a particular tool doesn’t work for us, we’ll move on to something else. We think about this stuff frequently. Are we still working well together today, even though we are double the size we were six months ago?</p>
-<p>The tools make the difference.</p>
-<h3 id="slack">Slack</h3>
-<p>Slack is probably most important tool in use at DADI+. It’s a chat platform organised around public and private channels.</p>
-<p>Slack is asynchronous. Asynchronous communication means that I can step out for lunch and catch up on transcripts when I get back. It means that I can ask a colleague a question and not worry about bothering her, as she’ll get back to me when she’s available. Asynchronous communication means I can go to rural Somerset and work a normal day.</p>
-<p><img src="/assets/how-we-work/slack.png" alt="Slack"></p>
-<p>Find out more: <a href="https://slack.com/">slack.com</a></p>
-<h3 id="speek">Speek</h3>
-<p>Speek is a conference call service that does things a little differently. It’s a visual service that shows you who is connected and who is speaking. It allows you to chat and to take notes, record conference calls and share files to one or more of the people on a call.</p>
-<p>It’s what Skype could have been.</p>
-<p><img src="/assets/how-we-work/speek.png" alt="Speek"></p>
-<p>Find out more: <a href="https://www.speek.com/">speek.com</a></p>
-<h3 id="github">Github</h3>
-<p>Github allows you to collaborate on anything. It’s a version control system, but one that doesn’t suck.</p>
-<p>We predominantly use it for source code control, but are increasingly using it for everything else as well.</p>
-<p><img src="/assets/how-we-work/github.png" alt="Github"></p>
-<p>Find out more: <a href="https://github.com/">github.com</a></p>
-<h3 id="droplr">Droplr</h3>
-<p>Droplr is a better version of Drop Box. It ditches the concept of the folder to provide a frictionless, sync-less sharing platform.</p>
-<p>It is an integral part of our daily workflow, used for secure sharing internally, with our clients and with our suppliers.</p>
-<p><img src="/assets/how-we-work/droplr.png" alt="Droplr"></p>
-<p>Find out more: <a href="https://droplr.com/hello">droplr.com</a></p>
-<h3 id="trello">Trello</h3>
-<p>Trello is a super simple, web-based team coordination system. We use it in support of delivery for our clients, where it is perfectly aligned to our development approach (KANBAN and continuous integration).</p>
-<p>Trello offers several benefits over traditional “todo list” software -</p>
-<ul>
-<li>The ability to see not just whether a task has been completed or not, but what stage of completion it is in</li>
-<li>The ability to limit the amount of work you have in progress at any one time</li>
-<li>The ability to easily collaborate with others, where each person has their own cards but they are all posted to the same board</li>
-</ul>
-<p><img src="/assets/how-we-work/trello.png" alt="Trello"></p>
-<p>Find out more: <a href="https://trello.com/">trello.com</a></p>
-<h2 id="the-result-of-all-this-">The result of all this?</h2>
-<p>We are more productive than we ever have been. Startlingly so. And we are producing a standard of work way and above even our highest expectations. Change is good.</p>
-<h2 id="join-us">Join us</h2>
-<p>Interested in shaking up your working life? We’re hiring. <a href="/careers">Find out more</a>.</p>
+  	{@markdown}{how-we-work.results[0].body}{/markdown}
   </div>
 </div>
 

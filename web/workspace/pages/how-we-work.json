@@ -3,6 +3,7 @@
   	"key": "How we work"
   },
   "datasources": [
+    "how-we-work",
     "latest-footer"
   ],
   "routes": [
