@@ -1,22 +1,14 @@
 {>"partials/header" /}
 
-{<title}About &amp; Careers{/title}
+{<title}{@i18n}About &amp; Careers{/i18n}{/title}
 
-{<header}<h1 class="txt--white kilo">About &amp; Careers</h1>{/header}
+{<header}<h1 class="txt--white kilo">{@i18n}About &amp; Careers{/i18n}</h1>{/header}
 
 <div class="container pad__bottom--x2">
   <div class="grid">
-    <div class="col w-1-2">
-      <h2>From full-stack engineers and heavy-lifting technologists to expert product strategists and heavyweight project directors: we only hire senior, talented team players with impressive talent.</h2>
-      <p class="normal">But with high standards come hard choices. And in assembling the ideal team for our forward-thinking technology company, we've learnt a few things:</p>
-      <div class="read">
-      <ul class="list__line normal">
-        <li>The best talent doesn't always live within an hour of central London</li>
-        <li>The brightest people aren't necessarily in it for the 9 to 5</li>
-        <li>Inspiration can strike at any time – we need the tools to record and deploy when it does</li>
-      </ul>
-      </div>
-      <p class="normal">Hence a <a href="/{params.lang}/how-we-work/">radical way of working for DADI</a>: a flexible attitude and unique approach to recruitment that make us quite the draw for smart people (even if we say so ourselves).</p>
+    <div class="col w-1-2 normal read">
+      <p class="hdr large">{about.results[0].intro}</p>
+      {@markdown}{about.results[0].body}{/markdown}
     </div>
     <div class="photos col w-1-2 marg__top pad__top--half" style="line-height:0">
       <p style="line-height:normal" class="small bg--black no-marg-i pad--half txt--white fwb delta">Our founders – Joseph Denne, Will Lebens &amp; Christopher Mair</p>
@@ -35,12 +27,11 @@
 
 <div class="container container--divider marg__top">
   <div class="grid">
-    <div class="col w-1-2 documentation">
-      <p class="medium">To attract the best people we have to be flexible – and trust our people to work however suits them.</p>
-      <p class="medium fwb">We think it makes DADI a pretty special place to work.</p>
+    <div class="col w-1-2 read medium">
+      {@markdown}{about.results[0].environment}{/markdown}
     </div>
     <div class="col w-1-2">
-      <blockquote class="cf normal txt--mid-grey"><p>“We don't do 'hack' or 'innovation' days because everyday, engineers get to personally innovate.<br><br>We don't piggy-back off old technology or patch and hack our way to delivering something we aren't proud of.<br><br>We research and experiment with bleeding edge technologies and collaborate to build out the perfect set of platform services.<br><br>We peer review and share vital engineering knowledge, encouraging each other to step up and embrace the most challenging of technical tasks.<br><br>All of those things are awesome.”</p></blockquote>
+      <blockquote class="cf normal txt--mid-grey">{@markdown}{about.results[0].quote}{/markdown}</blockquote>
       <div class="block cf">
         <img src="/assets/img/arthur.jpg" class="float--left marg__right" width="80"><br>
         <p class="small no-marg"><strong>Arthur Mingard,</strong><br>Principal Engineer</p>
@@ -51,29 +42,11 @@
 
 <div class="container container--divider pad__bottom--x2">
   <div class="grid">
-    <div class="col w-1-2 documentation">
-      <h2>Principles</h2>
-      <p class="normal"><strong>Work asynchronously.</strong> Individual team members more or less works at their own pace, with collaboration and agreement being handled by asynchronous mechanisms.</p>
-
-      <p class="normal"><strong>No 9 to 5.</strong> Get the job done on time (and don't upset the client) and you can work the hours you want.</p>
-
-      <p class="normal"><strong>Work at your own pace.</strong> We handle things like collaboration and sign off through the best tools for the job, all in support of asynchronous working.</p>
-
-      <p class="normal"><strong>Minimal meetings.</strong> Unless we really need to powwow in person, we keep in touch using cloud-based tools like Slack (much more efficient, believe us).</p>
-
-      <p class="normal"><strong>Work where you want.</strong> Yes, be diligent, stick to deadlines and do great work. But where and how you do it is up to you.</p>
+    <div class="col w-1-2 read normal">
+      {@markdown}{about.results[0].principals}{/markdown}
     </div>
-    <div class="col w-1-2">
-      <h2>Perks</h2>
-      <ul class="normal list--tick">
-      <li>A job that works around your life (not the other way round)</li>
-      <li>Work with some of the most talented people in the world</li>
-      <li>No need to commute</li>
-      <li>No need to be tied to a desk</li>
-      <li>Plenty of excuses to meet up with the rest of the team</li>
-      <li>Work on things you'll love</li>
-      <li>Get paid for giving a shit</li>
-      </ul>
+    <div class="col w-1-2 list--tick normal">
+      {@markdown}{about.results[0].perks}{/markdown}
     </div>
   </div>
 </div>

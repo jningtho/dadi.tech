@@ -1,37 +1,42 @@
 {>"partials/header" /}
 
-{<title}
-  Support
-{/title}
+{<title}{@i18n}Support{/i18n}{/title}
 
 {<header}
-  {! <h1 class="hdr kilo read">Build something cool with our technology.</h1> !}
-  {! <p class="inline-block normal read no-marg-i">Our support team can help you grow your business by optimising your data strategies and improving the way that you engage with your customers across all channels.</p> !}
-  
-  <div class="container cf alignc pad__bottom--half">
-    <div class="col w-1-2">
-      <div class="block pad">
-        <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
-        <p class="normal">{@i18n}DADI technology is fully open source and free to use, but if you need help just drop us a line.{/i18n}</p>
-        <p class="normal no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue normal">support@dadi.tech</a></p>
+  {^params.client}
+   <div class="container cf pad__bottom--x2 alignl bs-alignc">  
+      <div class="block pad__left pad__right pad__bottom marg__bottom">
+        <div class="grid">
+          <div class="col w-1-2 alignr bs-alignc">
+            <h2 class="txt--blue kilo">{@i18n}Need a hand getting started?{/i18n}</h2>
+          </div>
+          <div class="col w-1-2">
+            <p class="normal">{@i18n}DADI technology is fully open source and free to use, but if you need help just drop us a line.{/i18n}</p>
+            <p class="no-marg-i"><a href="mailto:support@dadi.tech" class="btn btn--blue small">support@dadi.tech</a></p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="col w-1-2 bs-alignc">
-      <div class="block pad">
-        <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
-        <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
-        <p class="normal no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green normal">sales@dadi.tech</a></p>
+      <div class="block pad__top pad__left pad__right bdr__top" style="border-color:rgba(255,255,255,0.2)">
+        <div class="grid">
+          <div class="col w-1-2 alignr bs-alignc">
+            <h2 class="txt--green kilo">{@i18n}Looking for enterprise support?{/i18n}</h2>
+          </div>
+          <div class="col w-1-2">
+            <p class="normal">{@i18n}We offer a range of services from product strategy to full support to deliver our technology.{/i18n}</p>
+            <p class="no-marg-i"><a href="mailto:sales@dadi.tech" class="btn btn--green small">sales@dadi.tech</a></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  {/params.client}
 {/header}
 
 {^params.client}
   <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
-      <span class="pad__right hdr normal inline-block">Alternatively you can…</span>
-      <a href="http://chat.dadi.tech/" class="btn">Slack with our devs</a>
-      <a href="https://github.com/dadi/" class="btn marg__left">Raise issues in Github</a>
+      <span class="pad__right hdr normal inline-block">{@i18n}Alternatively you can…{/i18n}</span>
+      <a href="http://chat.dadi.tech/" class="btn">{@i18n}Slack with our devs{/i18n}</a>
+      <a href="https://github.com/dadi/" class="btn marg__left">{@i18n}Raise issues in Github{/i18n}</a>
   </div>
 
   {>"partials/success-stories" /}
@@ -50,11 +55,11 @@
     <div class="container container--divider">
       <div class="grid">
         <div class="col w-1-2">
-          <h2 class="large read alignauto no-marg-i txt--grey">Requirements</h2>
+          <h2 class="large read alignauto no-marg-i txt--grey">{@i18n}Requirements{/i18n}</h2>
           <p class="alignauto normal">{@soberMarkdown}{requirements}{/soberMarkdown}</p>
         </div>
         <div class="col w-1-2">
-          <h2 class="large read alignauto no-marg-i txt--grey">Results</h2>
+          <h2 class="large read alignauto no-marg-i txt--grey">{@i18n}Results{/i18n}</h2>
           <p class="alignauto normal">{results}</p>
         </div>
       </div>
@@ -73,7 +78,7 @@
           <p class="alignauto larger hdr no-marg-i pad__top">“{@soberMarkdown}{quote.body}{/soberMarkdown}”</p>
           <p class="alignauto txt--red">{@soberMarkdown}{quote.cite}{/soberMarkdown}</p>
 
-          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">See more success stories</a></div>
+          <div class="pad__top marg__top pad__bottom"><a href="/{params.lang}/support/" class="btn btn--red small">{@i18n}See more success stories{/i18n}</a></div>
         </div>
       </div>
     </div>
@@ -91,7 +96,7 @@
     {?vimeo}
       <div class="container container--divider">
         <iframe src="https://player.vimeo.com/video/{vimeo}?title=0&byline=0&portrait=0" width="100%" height="570" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <p class="txt--grey fsi">Video overview of the site.</p> 
+        <p class="txt--grey fsi">{@i18n}Video overview of the site.{/i18n}</p> 
       </div>
     {/vimeo}
 

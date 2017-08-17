@@ -2,10 +2,8 @@
   "page": {
   	"key": "How we work"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
+    "how-we-work",
     "latest-footer"
   ],
   "routes": [

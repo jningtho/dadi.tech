@@ -2,9 +2,6 @@
   "page": {
   	"key": "On demand"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "latest-footer"
   ],

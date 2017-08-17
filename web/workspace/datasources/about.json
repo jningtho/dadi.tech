@@ -1,0 +1,34 @@
+{
+  "datasource": {
+    "key": "about",
+    "requestParams": [
+      {
+        "param": "lang",
+        "field": "lang"
+      }
+    ],
+    "source": {
+      "type": "static",
+      "data": [
+        {
+          "lang": "en",
+          "intro": "From full-stack engineers and heavy-lifting technologists to expert product strategists and heavyweight project directors: we only hire senior, talented team players with impressive talent.",
+          "body": "But with high standards come hard choices. And in assembling the ideal team for our forward-thinking technology company, we've learnt a few things:\n\n* The best talent doesn't always live within an hour of central London\n* The brightest people aren't necessarily in it for the 9 to 5\n* Inspiration can strike at any time – we need the tools to record and deploy when it does\n\nHence a [radical way of working for DADI](../how-we-work/): a flexible attitude and unique approach to recruitment that make us quite the draw for smart people (even if we say so ourselves).",
+          "environment": "To attract the best people we have to be flexible – and trust our people to work however suits them.\n\n**We think it makes DADI a pretty special place to work.**",
+          "quote": "“We don't do 'hack' or 'innovation' days because everyday, engineers get to personally innovate.\n\nWe don't piggy-back off old technology or patch and hack our way to delivering something we aren't proud of.\n\nWe research and experiment with bleeding edge technologies and collaborate to build out the perfect set of platform services.\n\nWe peer review and share vital engineering knowledge, encouraging each other to step up and embrace the most challenging of technical tasks.\n\nAll of those things are awesome.”",
+          "principals": "## Principles\n\n**Work asynchronously.** Individual team members more or less works at their own pace, with collaboration and agreement being handled by asynchronous mechanisms.\n\n**No 9 to 5.** Get the job done on time (and don't upset the client) and you can work the hours you want.\n\n**Work at your own pace.** We handle things like collaboration and sign off through the best tools for the job, all in support of asynchronous working.\n\n**Minimal meetings.** Unless we really need to powwow in person, we keep in touch using cloud-based tools like Slack (much more efficient, believe us).\n\n**Work where you want.** Yes, be diligent, stick to deadlines and do great work. But where and how you do it is up to you.",
+          "perks": "## Perks\n\n* A job that works around your life (not the other way round)\n* Work with some of the most talented people in the world\n* No need to commute\n* No need to be tied to a desk\n* Plenty of excuses to meet up with the rest of the team\n* Work on things you'll love\n* Get paid for giving a shit"
+        },
+        {
+          "lang": "de",
+          "intro": "Von Full-Stack Entwicklern und schwerst arbeitenden Technologen zu Experten der Produkstrategie und Projektleitern, die echt Schwergewichte sind: Wir beschäftigen nur ranghohe, talentierte Teamplayer mit außergewöhnlichem Talent.",
+          "body": "Allerdings kommt mit hohem Standard auch eine harte Auswahl. Wir haben einige Dinge gelernt, während wir das ideale Team für unsere zukunftsfähge Technologiefirma zusammengestellt haben:\n\n* Die größten Talente leben nicht unbedingt eine Stunde vom Londoner Zentrum weg\n* Die cleversten Menschen wollen nicht unbedingt von 9 bis 5 arbeiten\n* Inspiration kann einen jederzeit treffen - wir brauchen die Tools um diese aufzunehmen und umzusetzen, wenn sie auftritt\n\nDeshalb [eine radikale Weise um für DADI zu arbeiten(../how-we-work/): Eine flexible Einstellung und eine einzigartige Herangehensweise an das Recruitment, das uns großartige Talente beschert (selbst wenn wir das von uns selbst behaupten).",
+          "environment": "Um die besten Menschen anzuziehen, müssen wir flexibel sein - und darauf vertrauen, dass unsere Leute arbeiten, wann es ihnen passt.\n\n**Wir denken, dass dies DADI zu einem sehr außergewöhnlichen Arbeitsplatz macht.**",
+          "quote": "“Wir führen keine 'Hack' oder 'Innovations-' Tage durch, weil bei uns die Entwickler jeden Tag persönlich Neuerungen einbringen können.\n\nWir nehmen keine alte Technologie Huckepack oder patchen und hacken auf unsere Weise, um etwas zu entwickeln, worauf wir nicht stolz sind.\n\nWir forschen und experimentieren mit der aktuellsten Technologie und arbeiten eng zusammen, um die perfekte Zusammenstellung von Plattform Services zu entwickeln.\n\nWir unterziehen uns einem Peer Review Verfahren und tauschen essentielle Entwicklungserkenntnisse aus, was uns gegenseitig ermutigt, aufzustehen und die herausfordernsten technischen Aufgaben anzugehen.\n\nAll diese Dinge sind wunderbar”",
+          "principals": "## Prinzipien\n\n**Asynchron Arbeiten.** Die einzelnen Teammitglieder arbeiten mehr oder weniger in ihrer eigenen Geschwindigkeit, in Zusammenarbeit und Zustimmung, durch asynchrone Mechanismen behandelt zu werden.\n\n**Kein 9 bis 5.** Erledige den Job rechtzeitig (und verärgere den Kunden nicht), dann kannst Du arbeiten, wann du möchtest.\n\n**Arbeite nach deiner eigenen Geschwindigkeit.** Zusammenarbeit und Genehmigungen werden bei uns durch die besten Tools für diesen Job erledigt, um die Asynchronität des Arbeitens zu gewährleisten.\n\n**Meetings auf dem Minimum.** Wenn wir nicht gerade unbedingt Kriegsrat halten müssen, halten wir uns durch cloud-based Tools wie Slack auf dem Laufenden (das ist wesentlich effizienter, das kannst Du uns glauben).\n\n**Arbeiten von wo Du willst.** Ja, sei gewissenhaft, halte die Deadlines ein und mache einen guten Job. Aber wo und wie Du das tust, ist Dir überlassen.",
+          "perks": "## Vorteile\n\n* Ein Job, der sich deinem Leben anpasst (Nicht anders herum)\n* Arbeite mit einigen der talentiertesten Menschen der Welt\n* Pendeln nicht nötig\n* Du bist nicht an einen Schreibtisch gebunden\n* Zahlreiche Ausreden, um den Rest des Teams zu treffen\n* Arbeite an den Dingen, die Du liebst\n* Werde bezahlt dafür, dass Du dich ein Dreck scheren kannst"
+        }
+      ]
+    }
+  }
+}

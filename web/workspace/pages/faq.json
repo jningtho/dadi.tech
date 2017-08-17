@@ -2,10 +2,8 @@
   "page": {
     "key": "FAQ"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
+    "faq",
     "latest-footer"
   ],
   "routes": [

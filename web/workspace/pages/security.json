@@ -2,10 +2,8 @@
   "page": {
     "key": "Security"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
+    "security",
     "latest-footer"
   ],
   "routes": [

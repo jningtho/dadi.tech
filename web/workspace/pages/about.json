@@ -3,10 +3,8 @@
     "key": "Working with DADI",
     "color": "#031A07"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
+    "about",
     "latest-footer"
   ],
   "routes": [

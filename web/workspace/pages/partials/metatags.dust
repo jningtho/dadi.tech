@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Language" content="{params.lang}">
 
-<title>{+title}Open Source web services.{/title}{?title} / DADI{/title}</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1500977605">
+<title>{+title}{@i18n}Open Source web services{/i18n}{/title}{?title} / DADI{/title}</title>
+<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1500977607">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
 <meta property="og:site_name" content="DADI">
@@ -10,19 +10,19 @@
 
 <link rel="canonical" href="{global.protocol}://{host}{pathname}">
 
-<meta property="og:title" content="{+title}Open Source web services.{/title}{?title} / DADI{/title}">
-<meta name="description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
-<meta name="og:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
+<meta property="og:title" content="{+title}{@i18n}Open Source web services{/i18n}{/title}{?title} / DADI{/title}">
+<meta name="description" content="{^page.description}{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}{:else}{page.description}{/page.description}">
+<meta name="og:description" content="{^page.description}{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}{:else}{page.description}{/page.description}">
 <meta property="og:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@dadi">
-<meta name="twitter:title" content="{+title}Open Source web services.{/title}{?title} / DADI{/title}">
-<meta name="twitter:description" content="{^page.description}{global.description}{:else}{page.description}{/page.description}">
+<meta name="twitter:title" content="{+title}{@i18n}Open Source web services{/i18n}{/title}{?title} / DADI{/title}">
+<meta name="twitter:description" content="{^page.description}{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}{:else}{page.description}{/page.description}">
 <meta name="twitter:image" content="{global.protocol}://{host}{pathname}assets/img/og.jpg">
 
 <meta name="geo.placename" content="London, UK">
-<meta name="dc.language" content="en">
+<meta name="dc.language" content="{params.lang}">
 <meta name="geo.country" content="gb">
 
 <meta name="google-site-verification" content="6HNzGapV7i7XnjwpD1-eB5MF5iNb9OLT6aqmlP8CCtY" />

@@ -7,7 +7,7 @@
 <div class="clients">
   <div class="normal alignc container overflow-touch">
     <div class="pad__top pad__bottom">
-      <p class="inline-block hdr large txt--grey alignv">Already used around the web…</p>
+      <p class="inline-block hdr large txt--grey alignv">{@i18n}Already used around the web…{/i18n}</p>
     </div>
   </div>
 </div>
@@ -16,34 +16,34 @@
   <div class="container container--pad normal">
     <div class="grid pad__top">
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> API-first and COPE</p>
-        <p class="normal">Connects your content to everything: drive multiple products from a single editorial workflow.</p>
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/database.svg" height="30"> {@i18n}API-first and COPE{/i18n}</p>
+        <p class="normal">{@i18n}Connects your content to everything: drive multiple products from a single editorial workflow.{/i18n}</p>
       </div>
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> Open source</p>
-        <p class="normal">Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.</p>
-      </div>
-    </div>
-
-    <div class="grid">
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Microservices technology</p>
-        <p class="normal">A platform built as small, independent processes enabling flexibility and high performance.</p>
-      </div>
-      <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> Data-driven experiences</p>
-        <p class="normal">Conceived to enable customized experiences for individuals across multiple touch points.</p>
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/secure.svg" height="30"> {@i18n}Open source{/i18n}</p>
+        <p class="normal">{@i18n}Dive in and use straight away: enterprise muscle without the fat – or the greedy licence fees.{/i18n}</p>
       </div>
     </div>
 
     <div class="grid">
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> Bulletproof at scale</p>
-        <p class="normal">Powering over 190 products for major publishers and reaching a monthly audience of 150 million users.</p>
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> {@i18n}Microservices technology{/i18n}</p>
+        <p class="normal">{@i18n}A platform built as small, independent processes enabling flexibility and high performance.{/i18n}</p>
       </div>
       <div class="col w-1-2 pad__bottom">
-        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> Speed to live</p>
-        <p class="normal">Products built using DADI technology are delivered in days and weeks, not weeks and months.</p>
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> {@i18n}Data-driven experiences{/i18n}</p>
+        <p class="normal">{@i18n}Conceived to enable customized experiences for individuals across multiple touch points.{/i18n}</p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/layers.svg" height="30"> {@i18n}Bulletproof at scale{/i18n}</p>
+        <p class="normal">{@i18n}Powering over 190 products for major publishers and reaching a monthly audience of 150 million users.{/i18n}</p>
+      </div>
+      <div class="col w-1-2 pad__bottom">
+        <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/colors.svg" height="30"> {@i18n}Speed to live{/i18n}</p>
+        <p class="normal">{@i18n}Products built using DADI technology are delivered in days and weeks, not weeks and months.{/i18n}</p>
       </div>
     </div>
   </div>

@@ -2,9 +2,6 @@
   "page": {
     "key": "home"
   },
-  "settings": {
-    "cache": true
-  },
   "datasources": [
     "successes",
     "products-list",
