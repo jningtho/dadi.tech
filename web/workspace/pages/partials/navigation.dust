@@ -3,9 +3,9 @@
     <img src="/assets/img/dadi-{@select key=page.key}{@eq value="home"}colour{/eq}{@eq value="Products"}dark{/eq}{@none}light{/none}{/select}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>
   <ol>
-    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>Technology</a>
+    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>{@i18n}Technology{/i18n}</a>
     </li>
-    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>Support</a>
+    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>{@i18n}Support{/i18n}</a>
     </li>
     <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
     </li>    
