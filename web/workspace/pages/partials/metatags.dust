@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Language" content="{params.lang}">
 
 <title>{+title}{@i18n}Open Source web services{/i18n}{/title}{?title} / DADI{/title}</title>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1500977607">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css?v=1500977608">
 
 <meta name="copyright" content="{@formatDate unix=global.timestamp format="YYYY"/}">
 <meta property="og:site_name" content="DADI">

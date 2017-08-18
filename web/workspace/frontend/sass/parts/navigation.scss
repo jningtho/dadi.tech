@@ -30,13 +30,12 @@ nav ul li a.on {
 }
 
 @media handheld, only screen and (min-width: 50em) {
-  nav ol { float: left; }
-  nav ul { float: right; }
-  nav img.logo {
+  nav ol, nav ul {
     position: absolute;
-    left: auto;
-    right: auto;
+    top: 0;
   }
+  nav ol { left: 0 }
+  nav ul { right: 0 }
 }
 
 @media #{$break-small} {
@@ -48,14 +47,13 @@ nav ul li a.on {
 }
 
 header {
-	padding-bottom: 20px;
   overflow: hidden;
 }
 header nav {
   padding-bottom: 20px;
+  position: relative;
 }
 body.home header {
-  padding-bottom: 20px;
   background: #f9f9f9;
   color: #21262D;
 }

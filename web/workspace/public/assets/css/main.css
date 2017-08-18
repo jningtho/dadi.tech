@@ -1067,26 +1067,24 @@ nav ul li a.on {
   background: #E5462C;
   color: #fff; }
 @media handheld, only screen and (min-width: 50em) {
-  nav ol {
-    float: left; }
-  nav ul {
-    float: right; }
-  nav img.logo {
+  nav ol, nav ul {
     position: absolute;
-    left: auto;
-    right: auto; } }
+    top: 0; }
+  nav ol {
+    left: 0; }
+  nav ul {
+    right: 0; } }
 @media handheld, only screen and (max-width: 50em) {
   nav ul {
     border-top: 1px solid rgba(170, 170, 170, 0.3);
     padding: 10px 0 0;
     margin-top: 10px; } }
 header {
-  padding-bottom: 20px;
   overflow: hidden; }
 header nav {
-  padding-bottom: 20px; }
-body.home header {
   padding-bottom: 20px;
+  position: relative; }
+body.home header {
   background: #f9f9f9;
   color: #21262D; }
 .pattern {
@@ -2189,7 +2187,7 @@ abbr {
   .product__features {
     padding-bottom: 100px; } }
 .list--products {
-  padding: 20px 0 60px; }
+  padding: 0 0 60px; }
 @media handheld, only screen and (max-width: 50em) {
     .list--products {
       display: none; } }
