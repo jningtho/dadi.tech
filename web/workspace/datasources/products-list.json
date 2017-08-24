@@ -44,7 +44,7 @@
         {
           "lang": "en",
           "product": "web",
-          "overview": "A writer’s window to the world of content creation. Flexible interfaces designed to optimise editorial workflow."
+          "overview": "A schemaless templating layer that can operate as a standalone platform or with API as a full stack web application."
         },
         {
           "lang": "de",
