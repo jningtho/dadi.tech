@@ -1,8 +1,8 @@
 {>"partials/header" /}
 
-{<title}{i18n.results[0].about_careers}{/title}
+{<title}{i18n.results[0].about_careers|s}{/title}
 
-{<header}<h1 class="txt--white kilo">{i18n.results[0].about_careers}</h1>{/header}
+{<header}<h1 class="txt--white kilo">{i18n.results[0].about_careers|s}</h1>{/header}
 
 <div class="container pad__bottom--x2">
   <div class="grid">

@@ -5,11 +5,11 @@
     <div class="bdr__bottom bdr--bdr-grey marg__bottom--x2 pad__bottom">
       <div class="grid feed">
         <div class="col w-1-2">
-        <p class="normal">{i18n.results[0].thefeed}</p>
+        <p class="normal">{i18n.results[0].thefeed|s}</p>
         </div>
         <div class="col w-1-2 normal pad__top">
           <form action="https://dadi.createsend.com/t/d/s/irhyjh/" method="post">
-            <p class="no-marg-i pad--half txt--grey">{i18n.results[0].thefeed_inbox}</p>
+            <p class="no-marg-i pad--half txt--grey">{i18n.results[0].thefeed_inbox|s}</p>
             <input type="text" name="cm-irhyjh-irhyjh" class="email text" placeholder="{i18n.results[0].youremail}"><button class="btn btn--blue" type="submit">{i18n.results[0].subscribe}</button>
           </form>
         </div>
@@ -30,7 +30,7 @@
       <div class="col w-1-3 pad__bottom">
         <ul class="list--line normal txt--blue">
           <li><a href="/{params.lang}/contact/">{i18n.results[0].contact}</a></li>
-          <li><a href="/{params.lang}/about/">{i18n.results[0].about_careers}</a></li>
+          <li><a href="/{params.lang}/about/">{i18n.results[0].about_careers|s}</a></li>
           <li><a href="/{params.lang}/support/">{i18n.results[0].support}</a></li>
           <li><a href="/{params.lang}/latest/">{i18n.results[0].latest}</a></li>
           <li><a href="/{params.lang}/how-we-work/">{i18n.results[0].howwework}</a>

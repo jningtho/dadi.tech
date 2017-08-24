@@ -195,7 +195,7 @@
       <div class="product__workswith">
         <img src="/assets/explainer/connect-4.svg" class="marg__bottom bs-hide" style="pointer-events: none;position: relative;left: -25%;">
 
-        <p class="pad__top--half txt--mid-grey">{i18n.results[0].otherapps}</p>
+        <p class="pad__top--half txt--mid-grey">{i18n.results[0].otherapps|s}</p>
 
         <ul class="cf list--feat marg__top--x2 medium txt--mid-grey">
           {#workswith}
