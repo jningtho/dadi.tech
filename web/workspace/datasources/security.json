@@ -16,19 +16,9 @@
           "body": "Out of the box, DADI access passwords are encrypted, salted and repeatedly hashed.\n\nIndustry standard authentication practices are fully supported, including SSL and 2-factor authentication."
         },
         {
-          "lang": "de",
-          "title": "Sicherer Zugang",
-          "body": "Out of the box, DADI Zugriffspasswörter sind verschlüsselt, salted und mehrfach gehasht.\n\nStandards der Authentifizierung aus der Industrie werden ganzheitlich unterstützt, miteingeschlossen SSL und Zwei-Faktor-Authentifizierung."
-        },
-        {
           "lang": "en",
           "title": "Granular User Access Control",
           "body": "DADI provides administrators with complete control over who can see and who can modify every part of a product. DADI operates based on a system of extensible user roles and access permissions.\n\nAdministrators can create user roles and give them specific, limited permissions. For example, your editorial interfaces might need an author role that can create and update content, but not publish or delete it (permissions reserved for the editor role), while administrative settings are reserved for a separate role entirely. Authenticated users can be assigned any number of roles, and their permissions are cumulative. Menu links and features are automatically hidden from users who do not have appropriate access."
-        },
-        {
-          "lang": "de",
-          "title": "Granulare Benutzerzugangskontrolle",
-          "body": "DADI stattet Administratoren mit der kompletten Kontrolle darüber aus, wer einzelne Teile des Produkts sehen und bearbeiten kann. DADI arbeitet auf Grundlage von erweiterbaren Benutzerkonten und Zugriffsberechtigungen.\n\nAdministratoren können Benutzerkonten erstellen und ihnen spezielle, begrenzte Rechte geben. Zum Beispiel benötigt die editorielle Oberfläche ein Autorenkonto, mit dem man Inhalt erstellen und updaten kann, aber nicht veröffentlichen oder löschen kann (dieses Recht ist dem Editor Konto vorbehalten), während die Administratorenrechte einem komplett gesonderten Konto zugewiesen sind. Authentifizierten Benutzern können eine Reihe von Konten zugewiesen werden und ihre Zugriffsrechte sind kumulativ. Menüeinträge und Funktionen werden automatisch für Benutzer ausgeblendet, die nicht die entsprechende Zugriffsberechtigung haben."
         },
         {
           "lang": "en",
@@ -36,29 +26,14 @@
           "body": "In high security applications, DADI can be configured for extremely strong data encryption.\n\nWhen whole-database encryption is not desired, very high granularity is available to protect more specific information: user accounts, specific forms, and even the values of specific fields can be encrypted. The encryption system can be configured to pass the strictest PCI, HIPAA, and state privacy laws, including offsite encryption key management."
         },
         {
-          "lang": "de",
-          "title": "Datenverschlüsselung",
-          "body": "Für Hochsicherheitsanwedungen kann DADI auf extrem strenge Datenverschlüsselung konfiguriert werden.\n\nWenn eine komplette Datenbankverschlüsselung nicht gewünscht ist, ist ein hohes Maß an Granularität verfügbar um eher spezielle Informationen zu schützen: Benutzeraccounts, spezielle Formulare, und sogar der Wert einzelner Felder kann verschlüsselt werden. Das Verschlüsselungssystem kann so konfiguriert werden, dass es auch die strengsten PCI, HPAA und Datenschutzgesetze aller Staaten, inklusive eines Offsite Verschlüsselungs Key Management Systems, erfüllt."
-        },
-        {
           "lang": "en",
           "title": "Preventing XSS, CSRF, and other malicious data entry",
           "body": "DADI’s Events layer ensures that data is validated and scrubbed before entry into your data layer. The system tests all given data to ensure that it matches prescribed, expected formats and values.\n\nTokens are injected into front end forms as they are generated, to protect against potential CSRF attacks.\n\nThe complete separation of concerns within DADI enables every layer within your platform - Your API, templating system, editorial interfaces, tracking tools etc. - to perform and handle security checks appropriate to their concerns independently."
         },
         {
-          "lang": "de",
-          "title": "Verhindern von XSS, CSRF, und anderen schädlichen Dateneinträgen",
-          "body": "DADIs Events Oberfläche stellt sicher, dass Daten validiert und bereinigt werden, bevor sie den Weg in ihre Datenoberfläche finden. Das System testet alle existierenden Daten, um sicherzustellen, dass diese die vorgeschriebenen und erwarteten Formate und Werte erfüllen.\n\nIn den Frontendformularen werden Tokens eingefügt, um sie gegen potentielle CSRF Attacken zu schützen. Die komplette Teilung der Zuständigkeiten innerhalb DADI erlaubt es jeder Oberfläche der Plattform - Ihrem API, Vorlagensysteme, Editorielle Schnittstellen, Tracking tools, etc. - Sicherheitsüberprüfungen, gemäß ihrer Belange, unabhängig zu bedienen und durchzuführen" 
-        },
-        {
           "lang": "en",
           "title": "Brute Force Detection",
           "body": "DADI protects against brute-force password attacks by limiting the number of login attempts from a single IP address and username over a predefined period of time."
-        },
-        {
-          "lang": "de",
-          "title": "Brute Force Detection",
-          "body": "DADI schützt sich gegen Brute-Force Passwort Attacken, indem es die Nummer der Anmeldeversuche von einer einzigen IP Adresse und einem Usernamen über eine vorher festgelegte Zeitperiode limitiert."
         },
         {
           "lang": "en",
@@ -67,8 +42,63 @@
         },
         {
           "lang": "de",
+          "title": "Sicherer Zugang",
+          "body": "Out of the box, DADI Zugriffspasswörter sind verschlüsselt, salted und mehrfach gehasht.\n\nStandards der Authentifizierung aus der Industrie werden ganzheitlich unterstützt, miteingeschlossen SSL und Zwei-Faktor-Authentifizierung."
+        },
+        {
+          "lang": "de",
+          "title": "Granulare Benutzerzugangskontrolle",
+          "body": "DADI stattet Administratoren mit der kompletten Kontrolle darüber aus, wer einzelne Teile des Produkts sehen und bearbeiten kann. DADI arbeitet auf Grundlage von erweiterbaren Benutzerkonten und Zugriffsberechtigungen.\n\nAdministratoren können Benutzerkonten erstellen und ihnen spezielle, begrenzte Rechte geben. Zum Beispiel benötigt die editorielle Oberfläche ein Autorenkonto, mit dem man Inhalt erstellen und updaten kann, aber nicht veröffentlichen oder löschen kann (dieses Recht ist dem Editor Konto vorbehalten), während die Administratorenrechte einem komplett gesonderten Konto zugewiesen sind. Authentifizierten Benutzern können eine Reihe von Konten zugewiesen werden und ihre Zugriffsrechte sind kumulativ. Menüeinträge und Funktionen werden automatisch für Benutzer ausgeblendet, die nicht die entsprechende Zugriffsberechtigung haben."
+        },
+        {
+          "lang": "de",
+          "title": "Datenverschlüsselung",
+          "body": "Für Hochsicherheitsanwedungen kann DADI auf extrem strenge Datenverschlüsselung konfiguriert werden.\n\nWenn eine komplette Datenbankverschlüsselung nicht gewünscht ist, ist ein hohes Maß an Granularität verfügbar um eher spezielle Informationen zu schützen: Benutzeraccounts, spezielle Formulare, und sogar der Wert einzelner Felder kann verschlüsselt werden. Das Verschlüsselungssystem kann so konfiguriert werden, dass es auch die strengsten PCI, HPAA und Datenschutzgesetze aller Staaten, inklusive eines Offsite Verschlüsselungs Key Management Systems, erfüllt."
+        },
+        {
+          "lang": "de",
+          "title": "Verhindern von XSS, CSRF, und anderen schädlichen Dateneinträgen",
+          "body": "DADIs Events Oberfläche stellt sicher, dass Daten validiert und bereinigt werden, bevor sie den Weg in ihre Datenoberfläche finden. Das System testet alle existierenden Daten, um sicherzustellen, dass diese die vorgeschriebenen und erwarteten Formate und Werte erfüllen.\n\nIn den Frontendformularen werden Tokens eingefügt, um sie gegen potentielle CSRF Attacken zu schützen. Die komplette Teilung der Zuständigkeiten innerhalb DADI erlaubt es jeder Oberfläche der Plattform - Ihrem API, Vorlagensysteme, Editorielle Schnittstellen, Tracking tools, etc. - Sicherheitsüberprüfungen, gemäß ihrer Belange, unabhängig zu bedienen und durchzuführen" 
+        },
+        {
+          "lang": "de",
+          "title": "Brute Force Detection",
+          "body": "DADI schützt sich gegen Brute-Force Passwort Attacken, indem es die Nummer der Anmeldeversuche von einer einzigen IP Adresse und einem Usernamen über eine vorher festgelegte Zeitperiode limitiert."
+        },
+        {
+          "lang": "de",
           "title": "Entschärfen von Denial of Service (DoS) Attacken",
           "body": "DADI unterstützt allumfassendes Chaching auf jeder Oberfläche der Plattform. Unterstützung durch gemeinsames Caching durch Redis, lokales Caching und Client Caching Methoden sind als Teil des Kernanwendungssatzes verfügbar.\n\nDiese mehrlagige Cachestruktur ist extrem widerstandsfähig gegenüber hohem Aufkommen von Traffic und das macht DADI zu dem System der Wahl bei einigen der höhsten Trafficaufkommen der Welt."
+        }, 
+        {
+          "lang": "jp",
+          "title": "セキュアアクセス",
+          "body": "箱から取り出してDADIのアクセス・パスワードは暗号化されて、ソルトが付与され、繰り返しハッシュ計算されます。\n\nSSLや2要素認証を含む業界標準の認証方法が完全にサポートされています。"
+        },
+        {
+          "lang": "jp",
+          "title": "粒度の細かいユーザーアクセス制御",
+          "body": "DADIは、プロダクトの全ての部分について、誰が閲覧したり変更したりできるかの完全な制御を管理者に与えます。DADIは、拡張可能なユーザーロールとアクセス許可のシステムに基づいて動作します。\n\n管理者はユーザーロールを作成して、特定の制限付きのアクセス許可を与えることができます。たとえば、編集者のインターフェースには、コンテンツを作成および更新できるが公開や削除はできないという執筆者ロール (エディタロール用に用意されている権限) が必要でしょう。一方で、管理者の設定は別の役割のために予約されています。認証されたユーザーには、任意の数のロールを割り当てることができ、その権限は重複可能です。メニューのリンクや機能は、適切なアクセス権を持たないユーザーから自動的に隠されます。"
+        },
+        {
+          "lang": "jp",
+          "title": "データ暗号化",
+          "body": "高度なセキュリティアプリケーションでは、DADIは非常に強力なデータ暗号を行う設定にすることができます。\n\nデータベース全体の暗号化が望まれない場合、特定の情報を保護するために、非常に細かい細分化が利用できます。ユーザーアカウント、特定のフォーム、特定のフィールドの値を暗号化することができます。暗号化システムは、オフサイトの暗号化キー管理を含む厳密なPCI、HIPAA、および州のプライバシー法を通過するように設定できます。"
+        },
+        {
+          "lang": "jp",
+          "title": "XSS、CSRF、その他の悪意のあるデータ入力を防止する",
+          "body": "DADIのEventsレイヤーでは、データレイヤーに入る前にデータの検証と洗浄が行われます。システムは、指定されたすべてのデータをテストして、規定されたフォーマットや値と一致することを確認します。\n\n潜在的なCSRF攻撃から保護するために、トークンは生成時にフロントエンドのフォームに投入されます。\n\nDADI内の懸念を完全に分離することで、プラットフォーム内の各レイヤー (API、テンプレートシステム、編集インターフェース、トラッキングツールなど) が、自分の懸念に適したセキュリティチェックを個別に実行して取り扱うことができます。"
+        },
+        {
+          "lang": "jp",
+          "title": "ブルートフォース検出",
+          "body": "DADIは、事前定義された期間にわたって同一のIPアドレスとユーザー名からのログイン試行回数を制限することにより、ブルートフォースパスワード攻撃から保護します。"
+        },
+        {
+          "lang": "jp",
+          "title": "サービス拒否 (DoS) 攻撃の緩和",
+          "body": "DADIは、プラットフォームの各レイヤーにおける包括的なキャッシュをサポートしています。Redisによる共有キャッシングのサポート、ローカルキャッシングおよびクライアントキャッシングのアプローチはすべて、コアアプリケーションセットの一部として利用できます。\n\nこのマルチレイヤーのキャッシュ構造は大量のトラフィックに非常に強く、DADIを世界で最もトラフィックの多い施設のいくつかにより選択されるシステムとしました。"
         }
       ]
     }

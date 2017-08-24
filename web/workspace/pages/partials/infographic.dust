@@ -137,11 +137,11 @@
     <div class="w-publish__body">
       <div class="w-publish__field">
         <label>Title</label>
-        <input type="text" value="Open Source web services">
+        <input type="text" value="{i18n.results[0].tagline}">
       </div>
       <div class="w-publish__field">
         <label>Intro</label>
-        <textarea>DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.</textarea>
+        <textarea>{i18n.results[0].about}</textarea>
       </div>
     </div>
   </div>
