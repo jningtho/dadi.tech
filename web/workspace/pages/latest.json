@@ -4,6 +4,7 @@
     "color": "#191502"
   },
   "datasources": [
+    "i18n",
     "latest",
     "latest-footer",
     "github-api",

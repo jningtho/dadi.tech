@@ -3,6 +3,7 @@
     "key": "supporting"
   },
   "datasources": [
+    "i18n",
     "supporting",
     "latest-footer"
   ],

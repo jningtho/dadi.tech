@@ -1,6 +1,6 @@
 {>"partials/header" /}
 
-{<title}{@i18n}FAQ{/i18n}{/title}
+{<title}{i18n.results[0].faq}{/title}
 
 <div class="container pad__bottom--x2 normal">
 <div class="documentation">

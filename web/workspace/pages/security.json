@@ -3,6 +3,7 @@
     "key": "Security"
   },
   "datasources": [
+    "i18n",
     "security",
     "latest-footer"
   ],

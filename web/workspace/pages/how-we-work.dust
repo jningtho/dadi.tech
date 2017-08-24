@@ -1,13 +1,13 @@
 {>"partials/header" /}
 
-{<title}{@i18n}How we work{/i18n}{/title}
+{<title}{i18n.results[0].howwework}{/title}
 
 {<header}
-<h1 class="hdr kilo"><span class="txt--green block">{@i18n}How we work{/i18n}</span></h1>
+<h1 class="hdr kilo"><span class="txt--green block">{i18n.results[0].howwework}</span></h1>
 <div class="read">
 <p class="medium alignauto">{@soberMarkdown}{how-we-work.results[0].intro}{/soberMarkdown}</p>
 </div>
-<p class="normal alignauto">{@i18n}By{/i18n} <strong>Joseph Denne</strong></p>
+<p class="normal alignauto">{i18n.results[0].by} <strong>Joseph Denne</strong></p>
 {/header}
 
 <div class="container pad__bottom--x2">

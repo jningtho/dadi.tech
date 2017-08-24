@@ -3,6 +3,7 @@
     "key": "home"
   },
   "datasources": [
+    "i18n",
     "successes",
     "products-list",
     "latest-footer"

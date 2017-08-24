@@ -4,6 +4,7 @@
     "color": "#15313A"
   },
   "datasources": [
+    "i18n",
     "successes",
     "latest-footer"
   ],

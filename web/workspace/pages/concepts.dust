@@ -4,12 +4,12 @@
   {?params.concept}
     {concepts.results[0].title} / 
   {/params.concept}
-  {@i18n}Platform concepts{/i18n}
+  {i18n.results[0].concepts_header}
 {/title}
 
 {<header}
-<h1 class="txt--white kilo">{@i18n}Platform concepts{/i18n}</h1>
-<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">{@i18n}Explore the core principles behind our platform.{/i18n}</p>
+<h1 class="txt--white kilo">{i18n.results[0].concepts_header}</h1>
+<p class="cf no-marg-i inline-block normal read txt--grey pad__bottom">{i18n.results[0].concepts_overview}</p>
 {/header}
 
 {^params.concept}
@@ -21,7 +21,7 @@
             <p class="hdr larger txt--blue">{title}</p>
             <p class="normal">{@soberMarkdown}{overview}{/soberMarkdown}</p>
           </a>
-          <a href="/{params.lang}/platform/concepts/{handle}/" class="btn btn--blue">Find out more</a>
+          <a href="/{params.lang}/platform/concepts/{handle}/" class="btn btn--blue">{i18n.results[0].learn_more}</a>
         </div>
       {/concepts.results}
     </div>

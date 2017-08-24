@@ -1,7 +1,7 @@
 <div class="bdr--grey">
   <div class="container container--pad">  
-    <h2 class="larger alignc">{@i18n}Web services as connected apps{/i18n}</h2>
-    <p class="alignc normal">{@i18n}Connected applications that can be used in varied combinations – including alongside other technology.{/i18n}</p>
+    <h2 class="larger alignc">{i18n.results[0].services_header}</h2>
+    <p class="alignc normal">{i18n.results[0].services_overview}</p>
 
     <div class="grid">
       {#products-list.results}
@@ -17,7 +17,7 @@
             {?date}
               <span class="btn small btn--disabled">{date}</span>
             {:else}
-              <a href="/{params.lang}/{product}/" class="btn small">{@i18n}Learn more{/i18n}</a>
+              <a href="/{params.lang}/{product}/" class="btn small">{i18n.results[0].learn_more}</a>
             {/date}
           </div>
         </div>

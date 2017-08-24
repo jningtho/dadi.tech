@@ -2,8 +2,8 @@
 
 <div class="container container--pad">
   <div class="grid alignc">
-    <h1 class="no-marg-i kilo txt--red marg__bottom">{@i18n}Secure by default{/i18n}</h1>
-    <p class="hdr larger alignauto">{@i18n}Designed from the ground up with security front and center{/i18n}</p>  
+    <h1 class="no-marg-i kilo txt--red marg__bottom">{i18n.results[0].security_header}</h1>
+    <p class="hdr larger alignauto">{i18n.results[0].security_overview}</p>  
   </div>
 </div>
 

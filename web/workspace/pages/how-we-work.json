@@ -3,6 +3,7 @@
   	"key": "How we work"
   },
   "datasources": [
+    "i18n",
     "how-we-work",
     "latest-footer"
   ],

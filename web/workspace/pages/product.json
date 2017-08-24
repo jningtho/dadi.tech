@@ -3,6 +3,7 @@
     "key": "Products"
   },
   "datasources": [
+    "i18n",
     "products",
     "products-list",
     "latest-footer"

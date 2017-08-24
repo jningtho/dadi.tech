@@ -4,6 +4,9 @@ var path = require('path')
 // Set the primary language
 var primaryLang = 'en'
 
+// Set what we support
+var supportedLangs = ['en','de']
+
 var Event = function (req, res, data, callback) {
   // Path without trailing slash & default lang
   var toPath = url.parse(req.url, true).pathname.replace(/\/+$/, '')
@@ -22,10 +25,7 @@ var Event = function (req, res, data, callback) {
 
   // See if this is a language we speak
   else {
-    try {
-      data.i18l = require(path.join(__dirname,'/../lang/', data.params.lang + '.json'))
-    } catch (err) {
-      // Redirect to default language
+    if (!supportedLangs.includes(data.params.lang)) {    
       res.writeHead(302, { Location: '/' + primaryLang + toPath })
       return res.end()
     }

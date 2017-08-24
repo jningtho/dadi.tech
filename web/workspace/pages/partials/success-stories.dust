@@ -1,6 +1,6 @@
 <div class="container container--pad">
-  <h2 class="larger alignc">{@i18n}Success stories{/i18n}</h2>
-  <p class="alignc normal">{@i18n}See how DADI technology has transformed digital products from publishing to retail:{/i18n}</p>
+  <h2 class="larger alignc">{i18n.results[0].successstories_header}</h2>
+  <p class="alignc normal">{i18n.results[0].successstories_overview}</p>
 
   <div class="grid marg__top--x2">
     {#successes.results}
@@ -9,7 +9,7 @@
               <div class="read inline-block success__desc pad bg--black" style="background-color:{color}; color:{text-color}">
                   <p class="hdr large">{title}</p>
                   <p class="normal">{summary}</p>
-                  <p><span class="btn">{@i18n}Learn more{/i18n}</span>
+                  <p><span class="btn">{i18n.results[0].learn_more}</span>
                   </p>
               </div>
           </a>

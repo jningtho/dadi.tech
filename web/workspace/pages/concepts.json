@@ -3,6 +3,7 @@
     "key": "Concepts"
   },
   "datasources": [
+    "i18n",
     "concepts",
     "latest-footer"
   ],

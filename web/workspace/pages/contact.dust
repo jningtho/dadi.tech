@@ -1,8 +1,8 @@
 {>"partials/header" /}
 
-{<title}Contact us{/title}
+{<title}{i18n.results[0].contact}{/title}
 
-{<header}<h1 class="txt--white kilo">{@i18n}Get in touch with the team.{/i18n}</h1>{/header}
+{<header}<h1 class="txt--white kilo">{i18n.results[0].contact_header}</h1>{/header}
 
 <div class="container pad__bottom--x2">
   {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
@@ -10,25 +10,25 @@
   <form action="/contact/" method="post" class="grid">
     <ul class="list--no-style col w-1-2">
       <li class="pad__bottom">
-        <label class="hdr" for="name">{@i18n}Name{/i18n}</label>
+        <label class="hdr" for="name">{i18n.results[0].name}</label>
         <input autofocus id="name" name="name" placeholder="Your full name" class="normal" type="text">
       </li>
       <li class="pad__bottom">
-        <label class="hdr" for="email">{@i18n}Email{/i18n}</label>
+        <label class="hdr" for="email">{i18n.results[0].email}</label>
         <input id="email" name="email" required placeholder="Your email address" class="normal" type="email">
       </li>
       <li class="pad__bottom">
-        <label class="hdr" for="phone">{@i18n}Phone{/i18n}</label>
+        <label class="hdr" for="phone">{i18n.results[0].phone}</label>
         <input id="phone" name="phone" placeholder="Contact telephone number" class="normal" type="text">
       </li>
     </ul>
     <ul class="list--no-style col w-1-2">
       <li class="pad__bottom">
-        <label class="hdr" for="message">{@i18n}Message{/i18n}</label>
+        <label class="hdr" for="message">{i18n.results[0].message}</label>
         <textarea style="min-height:166px" rows="5" id="message" name="message" required placeholder="What do you want to talk about?" class="normal" type="email"></textarea>
       </li>
       <li>
-        <button type="submit" class="btn btn--blue" style="border-radius:5px">{@i18n}Send message{/i18n}</button>
+        <button type="submit" class="btn btn--blue" style="border-radius:5px">{i18n.results[0].send}</button>
       </li>
     </ul>
   </form>
@@ -37,22 +37,22 @@
 <div class="container container--divider normal">
   <div class="grid">
     <div class="col w-1-4 read">
-      <h3>{@i18n}Client engagement{/i18n}</h3>
+      <h3>{i18n.results[0].client_engagement}</h3>
       <p><a href="mailto:makesomething@dadi.co">makesomething@dadi.co</a><br>
       +44 (0) 20 7205 2902</p>
     </div>
     <div class="col w-1-4 read">
-      <h3>{@i18n}Media enquiries{/i18n}</h3>
+      <h3>{i18n.results[0].media_enquiries}</h3>
       <p><a href="mailto:press@dadi.co">press@dadi.co</a><br>
     +44 (0) 20 7205 2901</p>
     </div>
     <div class="col w-1-4 read">
-      <h3>{@i18n}Careers{/i18n}</h3>
+      <h3>{i18n.results[0].careers}</h3>
       <p><a href="mailto:joinus@dadi.co">joinus@dadi.co</a><br>
     +44 (0) 20 7205 2903</p>
     </div>
     <div class="col w-1-4 read">
-      <h3>{@i18n}Everything else{/i18n}</h3>
+      <h3>{i18n.results[0].everything_else}</h3>
       <p><a href="mailto:hello@dadi.tech">hello@dadi.tech</a><br>
       +44 (0) 20 7205 2900<br>
       <a href="https://twitter.com/dadi">@dadi</a></p>

@@ -1,13 +1,13 @@
 <div class="explainer">
   <div class="explainer__intro">
-    <h2 class="kilo">{@i18n}Open Source web services{/i18n}</h2>
-    <p class="normal">{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}</p>
+    <h2 class="kilo">{i18n.results[0].tagline}</h2>
+    <p class="normal">{i18n.results[0].about}</p>
   </div>
 
   <div class="explainer__blurb b-api">
     <a href="/{params.lang}/api/">
       <img src="/assets/products/dadi-api.png" width="22">
-      <p class="small">{@i18n}Developers can start an API in 30 seconds via NPM{/i18n}</p>
+      <p class="small">{i18n.results[0].infographic_api}</p>
     </a>
   </div>
 
@@ -21,7 +21,7 @@
   <div class="explainer__blurb b-web">
     <a href="/{params.lang}/web/">
       <img src="/assets/products/dadi-web.png" width="26">
-      <p class="small">{@i18n}Easily define new pages with complex data structures and routing{/i18n}</p>
+      <p class="small">{i18n.results[0].infographic_web}</p>
     </a>
   </div>
 
@@ -125,7 +125,7 @@
   <div class="explainer__blurb b-publish">
     <a href="/{params.lang}/publish/">
       <img src="/assets/products/dadi-publish.png" width="22">
-      <p class="small">{@i18n}Install a content editing interface for your API{/i18n}</p>
+      <p class="small">{i18n.results[0].infographic_api}</p>
     </a>
   </div>
 
@@ -136,12 +136,12 @@
 
     <div class="w-publish__body">
       <div class="w-publish__field">
-        <label>{@i18n}Title{/i18n}</label>
-        <input type="text" value="{@i18n}Open Source web services{/i18n}">
+        <label>Title</label>
+        <input type="text" value="Open Source web services">
       </div>
       <div class="w-publish__field">
-        <label>{@i18n}Intro{/i18n}</label>
-        <textarea>{@i18n}DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.{/i18n}</textarea>
+        <label>Intro</label>
+        <textarea>DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.</textarea>
       </div>
     </div>
   </div>
@@ -149,7 +149,7 @@
   <div class="explainer__blurb b-cdn">
     <a href="/{params.lang}/cdn/">
       <img src="/assets/products/dadi-cdn.png" width="22">
-      <p class="small">{@i18n}Manipulate images using URL parameters{/i18n}</p>
+      <p class="small">{i18n.results[0].infographic_cdn}</p>
     </a>
   </div>
 

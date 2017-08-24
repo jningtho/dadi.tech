@@ -4,6 +4,7 @@
     "color": "#031A07"
   },
   "datasources": [
+    "i18n",
     "latest-footer"
   ],
   "routes": [

@@ -3,6 +3,7 @@
     "key": "FAQ"
   },
   "datasources": [
+    "i18n",
     "faq",
     "latest-footer"
   ],

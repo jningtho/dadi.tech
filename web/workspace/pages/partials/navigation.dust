@@ -3,17 +3,17 @@
     <img src="/assets/img/dadi-{@select key=page.key}{@eq value="home"}colour{/eq}{@eq value="Products"}dark{/eq}{@none}light{/none}{/select}.svg" width="150" height="35" alt="DADI" class="logo">
   </a>
   <ol>
-    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>{@i18n}Technology{/i18n}</a>
+    <li><a href="/{params.lang}/" {@eq key=page.key value="home"}class="on"{/eq}>{i18n.results[0].technology}</a>
     </li>
-    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>{@i18n}Support{/i18n}</a>
+    <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>{i18n.results[0].support}</a>
     </li>
     <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
     </li>    
   </ol>
   <ul>
-    <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">{@i18n}Find us on Github{/i18n}</a>
+    <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">{i18n.results[0].github_find}</a>
     </li>
-    <li><a href="http://docs.dadi.tech" class="txt--blue" onclick="ga('send','event','Documentation','Click','Header');">{@i18n}Documentation{/i18n}</a>
+    <li><a href="http://docs.dadi.tech" class="txt--blue" onclick="ga('send','event','Documentation','Click','Header');">{i18n.results[0].documentation}</a>
     </li>
     <li>
       <select id="lang">

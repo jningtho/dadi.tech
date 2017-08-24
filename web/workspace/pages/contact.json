@@ -3,6 +3,7 @@
     "key": "Contact"
   },
   "datasources": [
+    "i18n",
     "latest-footer"
   ],
   "events": [
