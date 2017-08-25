@@ -84,27 +84,32 @@
         {
           "lang": "de",
           "product": "track",
-          "overview": "Echtzeit und Streaming Datenoberfläche um maßgeschneiderte Lösungen auf der individuellen Ebene und der Produktebene zu garantieren. Betreibt DADI Identity."
+          "overview": "Echtzeit und Streaming Datenoberfläche um maßgeschneiderte Lösungen auf der individuellen Ebene und der Produktebene zu garantieren. Betreibt DADI Identity.",
+          "date": "Q3/4 2017"
         },
         {
           "lang": "de",
           "product": "visualize",
-          "overview": "Eine Visualitierungsplattform für Daten aus Identity und Track, aber es ist möglich, Datenströme von jeder virtuellen Quelle zu erfassen."
+          "overview": "Eine Visualitierungsplattform für Daten aus Identity und Track, aber es ist möglich, Datenströme von jeder virtuellen Quelle zu erfassen.",
+          "date": "Q2 2018"
         },
         {
           "lang": "de",
           "product": "identity",
-          "overview": "Garantiert die Einzigartigkeit des Individuums - und ermöglicht Unterteilung - für anonyme und bekannte User."
+          "overview": "Garantiert die Einzigartigkeit des Individuums - und ermöglicht Unterteilung - für anonyme und bekannte User.",
+          "date": "Q3/4 2017"
         },
         {
           "lang": "de",
           "product": "match",
-          "overview": "Taxonomische Rahmenbedingungen für automatisierte Inhaltsklassifikationen durch maschinelles Lernen. Als Plug-in für Publish möglich."
+          "overview": "Taxonomische Rahmenbedingungen für automatisierte Inhaltsklassifikationen durch maschinelles Lernen. Als Plug-in für Publish möglich.",
+          "date": "Q3 2017"
         },
         {
           "lang": "de",
           "product": "predict",
-          "overview": "Maschinelle Lernoberfläche, die individuelles Benutzerverhalten basierend auf vergangenen Interaktionen vorhersagt."
+          "overview": "Maschinelle Lernoberfläche, die individuelles Benutzerverhalten basierend auf vergangenen Interaktionen vorhersagt.",
+          "date": "Q4 2017"
         },
         {
           "lang": "jp",
@@ -129,27 +134,32 @@
         {
           "lang": "jp",
           "product": "track",
-          "overview": "個別かつプロダクトレベルの正確なメトリックを提供するリアルタイムのストリーミングデータレイヤー。DADI Identifyを支えます。"
+          "overview": "個別かつプロダクトレベルの正確なメトリックを提供するリアルタイムのストリーミングデータレイヤー。DADI Identifyを支えます。",
+          "date": "Q3/4 2017"
         },
         {
           "lang": "jp",
           "product": "visualize",
-          "overview": "IdentityとTrackのためのデータ可視化インターフェース。事実上あらゆるソースからデータフィードを取得することができます。"
+          "overview": "IdentityとTrackのためのデータ可視化インターフェース。事実上あらゆるソースからデータフィードを取得することができます。",
+          "date": "Q2 2018"
         },
         {
           "lang": "jp",
           "product": "identity",
-          "overview": "個人の一意性の保証。さらに権限の区分け。匿名および既知のユーザのためのものです。"
+          "overview": "個人の一意性の保証。さらに権限の区分け。匿名および既知のユーザのためのものです。",
+          "date": "Q3/4 2017"
         },
         {
           "lang": "jp",
           "product": "match",
-          "overview": "機械学習を通じた自動コンテンツ分類器のための分類学的フレームワーク。Publishに接続されます。"
+          "overview": "機械学習を通じた自動コンテンツ分類器のための分類学的フレームワーク。Publishに接続されます。",
+          "date": "Q3 2017"
         },
         {
           "lang": "jp",
           "product": "predict",
-          "overview": "過去のやりとりに基づいて個人レベルでのユーザの行動を予測する機械学習レイヤー。"
+          "overview": "過去のやりとりに基づいて個人レベルでのユーザの行動を予測する機械学習レイヤー。",
+          "date": "Q4 2017"
         }
       ]
     }
