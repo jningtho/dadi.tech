@@ -743,7 +743,7 @@
               "description": "WebはCDNを使用して画像、CSS、JSを提供します。"
             }
           ]
-        },
+        }
       ]
     }
   }
