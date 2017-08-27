@@ -19,7 +19,8 @@ var Event = function (req, res, data, callback) {
   }
 
   // Do nothing if default language
-  if (!~(supportedLangs.indexOf(data.params.lang)) || !(data.params.lang || data.params)) { 
+  if (!~(supportedLangs.indexOf(data.params.lang)) || !data.params.lang || !data.params) { 
+    console.log('no lang')
     res.writeHead(302, { Location: '/' + primaryLang + toPath })
     return res.end()
   }

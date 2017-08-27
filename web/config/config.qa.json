@@ -26,8 +26,8 @@
     "protocol": "http"
   },
   "globalEvents": [
-    "globals",
-    "i18l"
+    "i18l",
+    "globals"
   ],
   "headers": {
     "useGzipCompression": true,
