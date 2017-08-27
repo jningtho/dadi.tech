@@ -25,7 +25,7 @@ var Event = function (req, res, data, callback) {
 
   // See if this is a language we speak
   else {
-    if (!supportedLangs.includes(data.params.lang)) {    
+    if (!~(supportedLangs.indexOf(data.params.lang))) {    
       res.writeHead(302, { Location: '/' + primaryLang + toPath })
       return res.end()
     }
