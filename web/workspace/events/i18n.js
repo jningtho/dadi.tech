@@ -19,19 +19,12 @@ var Event = function (req, res, data, callback) {
   }
 
   // Do nothing if default language
-  if (data.params && data.params.lang && data.params.lang === primaryLang) {
-    callback()
+  if (!~(supportedLangs.indexOf(data.params.lang)) || !(data.params.lang || data.params)) { 
+    res.writeHead(302, { Location: '/' + primaryLang + toPath })
+    return res.end()
   }
-
-  // See if this is a language we speak
-  else {
-    if (!~(supportedLangs.indexOf(data.params.lang)) || !data.params.lang) {    
-      res.writeHead(302, { Location: '/' + primaryLang + toPath })
-      return res.end()
-    }
-
-    callback()
-  }
+  
+  callback()
 }
 
 module.exports = function (req, res, data, callback) {
