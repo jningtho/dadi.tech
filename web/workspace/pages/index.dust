@@ -32,7 +32,7 @@
       </div>
       <div class="col w-1-2 pad__bottom">
         <p class="hdr large txt--blue"><img class="alignv marg__right float--left" src="/assets/icons/performance.svg" height="30"> {i18n.results[0].datadriven_header}</p>
-        <p class="normal">{i18n.results[0].datadriven_header}</p>
+        <p class="normal">{i18n.results[0].datadriven_body}</p>
       </div>
     </div>
 
