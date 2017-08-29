@@ -12,6 +12,4 @@
   {+header/}
 </header>
 
-{>"partials/breadcrumb" /}
-
 <main>
