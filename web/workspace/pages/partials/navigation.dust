@@ -22,12 +22,12 @@
           <option value="/de{pathNoLang}" {@eq key=params.lang value="de"}selected{/eq}>Deutsche</option>
           <option value="/jp{pathNoLang}" {@eq key=params.lang value="jp"}selected{/eq}>日本語</option>
           <option value="/fr{pathNoLang}" {@eq key=params.lang value="fr"}selected{/eq}>Français</option>
+          <option value="/es{pathNoLang}" {@eq key=params.lang value="es"}selected{/eq}>Español</option>
         </optgroup>
         <optgroup label="Coming soon">
           <option disabled value="zh_hans">中文 (CN/SG)</option>
           <option disabled value="zh_hant">中文 (TW/HK)</option>
           <option disabled value="ru">Pусский</option>
-          <option disabled value="es">Español</option>
           <option disabled value="pt">Português</option>
       </select>
     </li>

@@ -129,6 +129,36 @@
           "lang": "fr",
           "title": "Atténuer les interdictions de déni de service (DoS)",
           "body": "DADI prend en charge la mise en cache complète dans chaque couche de votre plate-forme. La prise en charge de mise en cache partagée via Redis, la mise en cache locale et les approches de mise en cache des clients sont tous disponibles dans le cadre du jeu d'applications principal.\n\nCette architecture de cache multi-couches est extrêmement résistante aux grands volumes de trafic et fait de DADI le système de choix pour certaines des propriétés les plus performantes du monde."
+        },
+        {
+          "lang": "es",
+          "title": "Acceso seguro",
+          "body": "Las creativas contraseñas de acceso DADI están cifradas, saladas y troceadas repetidamente.\n\nLas prácticas de autenticación estándar de la industria son totalmente compatibles, incluyendo SSL y autenticación de dos factores."
+        },
+        {
+          "lang": "es",
+          "title": "Control de acceso de usuario granular",
+          "body": "DADI proporciona a los administradores un control completo sobre quién puede ver y quién puede modificar cada parte de un producto... DADI opera basado en un sistema de funciones de usuario extensibles y permisos de acceso.\n\nLos administradores pueden crear funciones de usuario y otorgarles permisos específicos y limitados. Por ejemplo, es posible que sus interfaces editoriales necesiten un rol de autor que pueda crear y actualizar contenido, pero no publicarlo o eliminarlo (permisos reservados para el rol de editor), mientras que las configuraciones administrativas están reservadas para un rol independiente. A los usuarios autenticados se les puede asignar cualquier número de funciones y sus permisos son acumulativos. Los vínculos y funciones de los menús se ocultan automáticamente a los usuarios que no tienen acceso adecuado."
+        },
+        {
+          "lang": "es",
+          "title": "Cifrado de datos",
+          "body": "En aplicaciones de alta seguridad, DADI se puede configurar para un cifrado de datos extremadamente fuerte.\n\nCuando no se desea cifrar toda la base de datos, se dispone de granularidad muy alta para proteger información más específica: se pueden cifrar las cuentas de usuario, formularios específicos e incluso los valores de campos específicos. El sistema de encriptación puede configurarse para que se ajuste a las más estrictas leyes de privacidad de PCI, HIPAA y estado, incluyendo la administración de claves de encriptación externa."
+        },
+        {
+          "lang": "es",
+          "title": "Prevención de XSS, CSRF y otros datos maliciosos",
+          "body": "La capa de eventos de DADI asegura que los datos se validan y se depuran antes de entrar en su capa de datos. El sistema prueba todos los datos dados para asegurar que coinciden con los formatos y valores prescritos y esperados.\n\nLos tokens se inyectan en las formas front end mientras se generan, para protegerse contra posibles ataques CSRF.\n\nLa completa separación de las preocupaciones dentro de DADI permite que cada capa dentro de su plataforma, su API, sistema de plantillas, interfaces editoriales, herramientas de seguimiento, etc, lleve a cabo y maneje las verificaciones de seguridad adecuadas a sus preocupaciones de forma independiente "
+        },
+        {
+          "lang": "es",
+          "title": "Detección de Fuerza Bruta",
+          "body": "DADI protege contra ataques de contraseña de fuerza bruta al limitar el número de intentos de inicio de sesión desde una única dirección IP y nombre de usuario durante un período de tiempo predefinido."
+        },
+        {
+          "lang": "es",
+          "title": "Mitigación de ataques de denegación de servicio (DoS)",
+          "body": "DADI es compatible con el almacenamiento en caché completo en cada capa de su plataforma. La compatibilidad del almacenamiento en caché compartido a través de Redis, el almacenamiento en caché local y los métodos de almacenamiento en caché de clientes están disponibles en el marco del conjunto de aplicaciones principales.\n\nEsta arquitectura de caché de capas múltiples es extremadamente resistente a grandes volúmenes de tráfico y hace que DADI sea el sistema de elección para algunas de las propiedades de mayor tráfico del mundo."
         }
       ]
     }

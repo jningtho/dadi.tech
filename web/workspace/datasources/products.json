@@ -986,6 +986,249 @@
               "description": "Le Web utilise CDN pour servir des images, CSS et JS."
             }
           ]
+        },
+        {
+          "lang": "es",
+          "title": "API",
+          "product": "api",
+          "color": "#0BA6DD",
+          "overview": "Una capa de API de alto rendimiento tranquila diseñada para apoyar el desarrollo de API-first y los principios de COPE.",
+          "description": [
+            "La API de DADI es una capa de datos de configuración rápida lista para actuar como columna vertebral de su plataforma digital y está diseñada para ser conectada a una capa de plantillas, una aplicación móvil o para ser utilizada con cualquier otro consumidor de datos, y se puede usar junto con otras aplicaciones de la serie tecnológica DADI.",
+            "Puede contener la lógica de su negocio/dominio (la parte de una plataforma que codifica las reglas de negocio del mundo real que determinan cómo se crean, muestran, almacenan y cambian los datos). La API de DADI le permite tener una capa de datos completa en funcionamiento en cuestión de minutos."
+          ],
+          "headlines": [
+            "Filtre y clasifique sus datos con facilidad",
+            "Soporte flexible de bases de datos",
+            "Versión automática de documentos",
+            "Construido en compatibilidad con oAuth2"
+          ],
+          "features": [
+            {
+              "title": "Filtre y ordene sus datos con facilidad",
+              "icon": "folder-open",
+              "description": "Aproveche la potencia de la consulta estilo MongoDB para filtrar y clasificar sus datos."
+            },
+            {
+              "title": "Soporte flexible de bases de datos",
+              "icon": "database",
+              "description": "Compatibilidad con múltiples conectores de bases de datos como MongoDB, CouchDB y RethinkDB."
+            },
+            {
+              "title": "Indexación automática de bases de datos",
+              "icon": "list",
+              "description": "La indexación de su base de datos subyacente es tan simple como añadir elementos de configuración a las colecciones."
+            },
+            {
+              "title": "Validación automática de entrada",
+              "icon": "happy",
+              "description": "Configure fácilmente los campos dentro de las colecciones para la validación de entrada."
+            },
+            {
+              "title": "Control de acceso a nivel de colección",
+              "icon": "locked",
+              "description": "Con una capa de autorización de grano fino, controle quién puede acceder a los datos y cómo."
+            },
+            {
+              "title": "Datos de caché para una recuperación más rápida",
+              "icon": "cloud-upload",
+              "description": "Datos de caché que utilizan un servidor Redis o el sistema de archivos local, proporcionando tiempos de respuesta más rápidos."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "La API puede proporcionar contenido dinámico para la web."
+            },
+            {
+              "product": "publish",
+              "description": "Publish proporciona una interfaz para editar contenido en la API."
+            }
+          ]
+        },
+        {
+          "lang": "es",
+          "hide_docs": true,
+          "title": "Publish",
+          "product": "publish",
+          "color": "#FFBF0D",
+          "overview": "La ventana de un escritor al mundo de la creación de contenidos. Interfaces flexibles diseñadas para optimizar el flujo de trabajo editorial.",
+          "description": [
+            "**DADI Publish** is developed to optimize editorial workflow with flexible interfaces that adapt to your requirements, meaning more time can be spent making content than wasting time managing it. It is built to support the [principles of COPE](./concepts/api-first-and-cope/) (Create Once Publish Everywhere).",
+            "Journalists and editors can seamlessly manage output across multiple products from one place, while engineers can make light work of even complex content collections. Publish currently works with **DADI API** but our development roadmap will soon allow use with a variety of data stores."
+          ],
+          "headlines": [
+            "Campos personalizados ampliables",
+            "Administre documentos entre varias API",
+            "Editor en el navegador intuitivo con la simple herramienta de arrastrar y soltar",
+            "Tareas de fondo para administrar grandes operaciones de datos, análisis y mucho más"
+          ],
+          "features": [
+            {
+              "title": "Gestión de medios centralizada",
+              "icon": "picture",
+              "description": "Permite el funcionamiento de una serie de productos digitales de una sola tienda de contenido. Ahorra tiempo y esfuerzo tanto para ingenieros como para editores."
+            },
+            {
+              "title": "Programación de la publicación del artículo",
+              "icon": "time",
+              "description": "Precargue el contenido para la publicación automática en un momento que se adapte al contenido, no a su día de trabajo. También cree borradores para revisión interna."
+            },
+            {
+              "title": "Configuración y conexión en 30 segundos",
+              "icon": "database",
+              "description": "El compañero perfecto para la API de DADI, para que esté operativo en días y semanas, no semanas y meses. Trabaje pronto con otros almacenes de datos."
+            },
+            {
+              "title": "Permisos de usuario personalizados",
+              "icon": "locked",
+              "description": "Funciones mejoradas para equipos grandes: manteniendo las manos adecuadas en las partes adecuadas del sistema. Se amplía para apoyar el flujo de trabajo editorial."
+            },
+            {
+              "title": "Edición de documentos colaborativos",
+              "icon": "user-new",
+              "description": "Vea dónde están sus colegas en los artículos compartidos y evite pasarles por encima: trabajen juntos sin problemas para actualizar el contenido."
+            },
+            {
+              "title": "Historial de revisiones con el inversor rápido",
+              "icon": "rewind",
+              "description": "Proporciona un registro de auditoría completo que le permite restaurar a cualquier punto en el tiempo. Los diferenciales de documentos proporcionan una visión general de los cambios."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "API puede proporcionar contenido para la Web."
+            },
+            {
+              "product": "publish",
+              "description": "El contenido de la API se puede editar en Publish."
+            }
+          ]
+        },
+        {
+          "lang": "es",
+          "title": "CDN",
+          "product": "cdn",
+          "color": "#e02975",
+          "dark-color": "#280816",
+          "overview": "Una capa de manipulación y entrega de activos justo a tiempo diseñada como una solución moderna de distribución de contenido global.",
+          "description": [
+            "**DADI CDN** is analogous to a traditional CDN (Content Distribution Network) such as [Akamai](https://www.akamai.com/) and [Limelight](https://www.limelight.com/). It is designed to carry the processing and delivery load associated with image manipulation and asset delivery (CSS/JS/fonts) and acts autonomously as a layer on top of your core product.",
+            "**CDN** has full support for caching, header control, image manipulation, image compression and image format conversion. An authenticated API allows for fine grained cache control in the form of content invalidation on an individual file or collective path basis."
+          ],
+          "headlines": [
+            "Sirve desde Amazon S3, un servidor remoto o el sistema de archivos local",
+            "Genera dinámicamente imágenes para diseño sensible y dispositivos móviles",
+            "Amplio conjunto de herramientas de mejora y transformación de imágenes",
+            "Conversión de formato de imagen"
+          ],
+          "features": [
+            {
+              "title": "Recortar en función del tema",
+              "icon": "picture",
+              "description": "Deje que CDN decida el punto focal de la imagen y entregue una imagen que contenga solo lo esencial, recortada según sus especificaciones."
+            },
+            {
+              "title": "Almacenamiento multimedia simplificado",
+              "icon": "database",
+              "description": "No es necesario mantener múltiples tamaños de cada imagen que suba a un artículo: CDN genera nuevas variantes de una sola imagen maestra."
+            },
+            {
+              "title": "Una CDN para todos los tipos de activos",
+              "icon": "layers",
+              "description": "Almacene y entregue archivos de fuentes y minimice todos sus activos CSS y JavaScript para su entrega."
+            },
+            {
+              "title": "Entrega inteligente",
+              "icon": "activity",
+              "description": "Permita que CDN elija las mejores transformaciones basadas en el dispositivo, la red, la ubicación o el idioma."
+            },
+            {
+              "title": "Recetas de entrega",
+              "icon": "id",
+              "description": "Almacene los parámetros de manipulación de imágenes utilizados con frecuencia como una \"receta de entrega\"."
+            },
+            {
+              "title": "La caché se recorta para una entrega más rápida",
+              "icon": "bolt",
+              "description": "Las imágenes convertidas se pueden almacenar en caché utilizando un servidor Redis o el sistema de archivos local, proporcionando una entrega más rápida en las solicitudes posteriores."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Publish gestiona el contenido almacenado en la API."
+            },
+            {
+              "product": "cdn",
+              "description": "Publish utiliza CDN para almacenar y manipular imágenes."
+            },
+            {
+              "product": "web",
+              "description": "Publish puede utilizar la web para atender a un front-end."
+            }
+          ]
+        },
+        {
+          "lang": "es",
+          "title": "Web",
+          "product": "web",
+          "color": "#e42918",
+          "dark-color": "#490b08",
+          "overview": "Una capa de plantilla sin esquema que puede funcionar como una plataforma independiente o con API como una aplicación web full stack.",
+          "description": [
+            "La web de DADI facilita la creación de aplicaciones web personalizadas de calidad empresarial Cree fácilmente páginas estáticas o conecte con la API para generar aplicaciones orientadas a datos que le permitan buscar, paginar, ordenar y filtrar sus datos en el servidor o en el navegador.",
+            "La web de DADI puede utilizar diversos lenguajes de plantilla, proporcionando una capa de plantilla simple pero potente para mostrar sus datos. Éstos incluyen Dust, Pug o Handlebars de LinkedIn; o puede hacer fácilmente los suyos propios."
+          ],
+          "headlines": [
+            "Conecte con las API REST para generar páginas basadas en datos",
+            "Busque, pagine, clasifique y filtre sus datos",
+            "Cree fácilmente páginas estáticas",
+            "Compatibilidad con sesiones respaldadas por bases de datos"
+          ],
+          "features": [
+            {
+              "title": "Compatibilidad con motor de plantilla flexible",
+              "icon": "chat-alt",
+              "description": "Utilice el motor predeterminado de la plantilla de Dust.js de la web o intercambie uno por Pug.js o Handlebars.js: ¡incluso diseñe los suyos propios!"
+            },
+            {
+              "title": "Soporte de reescritura de URL",
+              "icon": "duplicate",
+              "description": "Incluye reescritura de URL similar a Apache, con soporte completo para redirecciones y proxy."
+            },
+            {
+              "title": "Capa de eventos",
+              "icon": "bolt",
+              "description": "Cree eventos de JavaScript personalizados para modificar la solicitud y la respuesta, o tome medidas basadas en datos cargados desde una fuente."
+            },
+            {
+              "title": "Datos desde cualquier lugar",
+              "icon": "cloud",
+              "description": "No está limitado a usar datos de la API de DADI: sírvase de archivos de Markdown estáticos o recupere canales de Twitter y Wordpress."
+            },
+            {
+              "title": "Datos de precarga",
+              "icon": "fast-forward",
+              "description": "Acelere el acceso a los datos comúnmente requeridos precargando cuando la aplicación se inicie."
+            },
+            {
+              "title": "Páginas de caché para una recuperación más rápida",
+              "icon": "performance",
+              "description": "Datos de caché que utilizan un servidor Redis o el sistema de archivos local, proporcionando tiempos de respuesta más rápidos a los usuarios. Incluye compatibilidad completa con los encabezados de control de caché."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "La web puede mostrar contenido de la API."
+            },
+            {
+              "product": "cdn",
+              "description": "La web utiliza CDN para atender las imágenes, CSS y JS."
+            }
+          ]
         }
       ]
     }

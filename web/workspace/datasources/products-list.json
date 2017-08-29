@@ -210,6 +210,56 @@
           "product": "predict",
           "overview": "Une couche d'apprentissage machine qui prédit le comportement de l'utilisateur à un niveau individuel en fonction des interactions passées.",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "es",
+          "product": "api",
+          "overview": "Una capa API de alto rendimiento diseñada para apoyar el desarrollo de API-first y los principios de COPE."
+        },
+        {
+          "lang": "es",
+          "product": "publish",
+          "overview": "La ventana de un escritor al mundo de la creación de contenidos. Interfaces flexibles diseñadas para optimizar el flujo de trabajo editorial."
+        },
+        {
+          "lang": "es",
+          "product": "cdn",
+          "overview": "Una capa de manipulación y entrega de activos justo a tiempo diseñada como solución moderna de distribución de contenido global."
+        },
+        {
+          "lang": "es",
+          "product": "web",
+          "overview": "Una capa de plantilla sin esquema que puede funcionar como plataforma independiente o con API como aplicación web full stack."
+        },
+        {
+          "lang": "es",
+          "product": "track",
+          "overview": "Capa de datos de streaming en tiempo real que proporciona métricas precisas a nivel individual y de producto. Dirige la Identidad de DADI.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "es",
+          "product": "visualize",
+          "overview": "Una interfaz de visualización de datos para identidad y seguimiento, pero capaz de tomar canales de datos de prácticamente cualquier fuente.",
+          "date": "Q2 2018"
+        },
+        {
+          "lang": "es",
+          "product": "identity",
+          "overview": "Garantiza la unicidad de los individuos, y potencia la segmentación, para usuarios anónimos y conocidos.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "es",
+          "product": "match",
+          "overview": "Marco taxonómico para la clasificación automatizada de contenido a través del aprendizaje automático. Se conecta a Publicar.",
+          "date": "Q3 2017"
+        },
+        {
+          "lang": "es",
+          "product": "predict",
+          "overview": "Una capa de aprendizaje automático que predice el comportamiento del usuario en un nivel individual en función de interacciones pasadas.",
+          "date": "Q4 2017"
         }
       ]
     }
