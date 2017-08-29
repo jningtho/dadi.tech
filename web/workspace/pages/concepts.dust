@@ -23,6 +23,14 @@
           </a>
           <a href="/{params.lang}/platform/concepts/{handle}/" class="btn btn--blue">{i18n.results[0].learn_more}</a>
         </div>
+
+        {@math key=$idx method="mod" operand=2}
+          {@eq value=1}
+              </div>
+      <div class="grid">
+          {/eq}
+        {/math}
+
       {/concepts.results}
     </div>
   </div>

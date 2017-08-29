@@ -160,6 +160,56 @@
           "product": "predict",
           "overview": "過去のやりとりに基づいて個人レベルでのユーザの行動を予測する機械学習レイヤー。",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "fr",
+          "product": "api",
+          "overview": "Une couche API RESTful à haute performance conçue pour soutenir le premier développement de l'API et les principes de COPE."
+        },
+        {
+          "lang": "fr",
+          "product": "publish",
+          "overview": "Une fenêtre d'écrivain vers le monde de la création de contenu. Des interfaces flexibles conçues pour optimiser le flux de travail éditorial."
+        },
+        {
+          "lang": "fr",
+          "product": "cdn",
+          "overview": "Une solution de manipulation et de distribution d'actifs juste à temps conçue comme une solution de distribution de contenu mondiale moderne."
+        },
+        {
+          "lang": "fr",
+          "product": "web",
+          "overview": "Une couche de modélisation sans schéma qui peut fonctionner comme une plate-forme autonome ou avec API en tant qu'application Web full stack."
+        },
+        {
+          "lang": "fr",
+          "product": "track",
+          "overview": "Couche de données en temps réel en continu fournissant des mesures précises au niveau individuel et du produit. Dirige DADI Identity.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "fr",
+          "product": "visualize",
+          "overview": "Une interface de visualisation de données pour Identity et Track, mais capable de prendre des flux de données de pratiquement n'importe quelle source.",
+          "date": "Q2 2018"
+        },
+        {
+          "lang": "fr",
+          "product": "identity",
+          "overview": "Garantit l'unicité des individus – et la segmentation des pouvoirs – pour les utilisateurs anonymes et connus.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "fr",
+          "product": "match",
+          "overview": "Cadre taxonomique pour la classification automatisée du contenu par apprentissage machine. S'applique à la publication.",
+          "date": "Q3 2017"
+        },
+        {
+          "lang": "fr",
+          "product": "predict",
+          "overview": "Une couche d'apprentissage machine qui prédit le comportement de l'utilisateur à un niveau individuel en fonction des interactions passées.",
+          "date": "Q4 2017"
         }
       ]
     }

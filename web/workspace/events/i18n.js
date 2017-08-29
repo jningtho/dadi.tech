@@ -5,7 +5,7 @@ var path = require('path')
 var primaryLang = 'en'
 
 // Set what we support
-var supportedLangs = ['en','de','jp']
+var supportedLangs = ['en','de','jp', 'fr']
 
 var Event = function (req, res, data, callback) {
   // Path without trailing slash & default lang
@@ -20,7 +20,6 @@ var Event = function (req, res, data, callback) {
 
   // Do nothing if default language
   if (!~(supportedLangs.indexOf(data.params.lang)) || !data.params.lang || !data.params) { 
-    console.log('no lang')
     res.writeHead(302, { Location: '/' + primaryLang + toPath })
     return res.end()
   }

@@ -743,6 +743,249 @@
               "description": "WebはCDNを使用して画像、CSS、JSを提供します。"
             }
           ]
+        },
+        {
+          "lang": "fr",
+          "title": "API",
+          "product": "api",
+          "color": "#0BA6DD",
+          "overview": "Une couche API RESTful à haute performance conçue pour soutenir le développement d'API-first et les principes de COPE.",
+          "description": [
+            "L'API de DADI est une couche de données de configuration rapide, prête à être l'épine dorsale de votre plate-forme numérique. Elle est conçue pour être branchée dans une couche de modèle, une application mobile ou pour être utilisée avec tout autre consommateur de données - et peut être utilisée aux côtés d'autres applications de l'ensemble technologique DADI.",
+            "Elle peut contenir votre logique métier/domaine (la partie d'une plate-forme qui encode les règles commerciales du monde réel qui déterminent comment les données sont créées, affichées, stockées et modifiées). L'API de DADI vous permet de mettre en œuvre une couche de données complète en quelques minutes."
+          ],
+          "headlines": [
+            "Filtrez et triez vos données avec facilité",
+            "Prise en charge de la base de données flexible",
+            "Version automatique du document",
+            "Construite pour soutenir oAuth2"
+          ],
+          "features": [
+            {
+              "title": "Filtrez et triez vos données avec facilité",
+              "icon": "folder-open",
+              "description": "Profitez de la puissance des recherches de type MongoDB pour filtrer et trier vos données."
+            },
+            {
+              "title": "Prise en charge de la base de données flexible",
+              "icon": "database",
+              "description": "Prise en charge de plusieurs connecteurs de base de données incluant MongoDB, CouchDB et RethinkDB."
+            },
+            {
+              "title": "Indexation automatique des bases de données",
+              "icon": "list",
+              "description": "L'indexation de votre base de données sous-jacente est aussi simple qu'ajouter des éléments de configuration aux collections."
+            },
+            {
+              "title": "Validation d'entrée automatique",
+              "icon": "happy",
+              "description": "Configurez facilement les champs dans les collections pour la validation des entrées."
+            },
+            {
+              "title": "Contrôle d'accès au niveau de la collecte",
+              "icon": "locked",
+              "description": "Avec une couche d'autorisation à grain fin, contrôlez qui peut accéder aux données et comment."
+            },
+            {
+              "title": "Données de cache pour une récupération plus rapide",
+              "icon": "cloud-upload",
+              "description": "Données de cache à l'aide d'un serveur Redis ou du système de fichiers local, offrant des temps de réponse plus rapides."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "L'API peut fournir un contenu dynamique pour le Web."
+            },
+            {
+              "product": "publish",
+              "description": "Publish fournit une interface pour éditer le contenu dans l'API."
+            }
+          ]
+        },
+        {
+          "lang": "fr",
+          "hide_docs": true,
+          "title": "Publish",
+          "product": "publish",
+          "color": "#FFBF0D",
+          "overview": "Une fenêtre d'écrivains vers le monde de la création de contenu. Des interfaces flexibles conçues pour optimiser le flux de travail éditorial.",
+          "description": [
+            "DADI Publish est développé pour optimiser le flux de travail éditorial avec des interfaces flexibles qui s'adaptent à vos besoins, ce qui signifie que plus de temps peut être consacré à faire du contenu qu'à perdre le temps à le gérer. Il est conçu pour prendre en charge les principes de COPE (Create Once Publish Everywhere).",
+            "Les journalistes et les éditeurs peuvent gérer de manière facie la sortie de plusieurs produits à partir d'un endroit, tandis que les ingénieurs peuvent faire du travail léger même des collections de contenu complexes. Publish fonctionne actuellement avec l'API de DADI, mais notre feuille de route de développement permettra bientôt l'utilisation avec une variété de magasins de données."
+          ],
+          "headlines": [
+            "Des champs personnalisés extensibles",
+            "Gérez des documents dans plusieurs API",
+            "Éditeur dans le navigateur intuitif avec l'outil simple de glisser-déposer",
+            "Des tâches d'arrière-plan pour gérer les opérations de mégadonnées, les analyses et bien plus encore"
+          ],
+          "features": [
+            {
+              "title": "Gestion centralisée des médias",
+              "icon": "picture",
+              "description": "Faites fonctionner une suite de produits numériques à partir d'un seul magasin de contenu. Économise du temps et des efforts pour les ingénieurs et les éditeurs."
+            },
+            {
+              "title": "Calendrier de publication des articles",
+              "icon": "time",
+              "description": "Préchargez le contenu pour la publication automatique au moment qui convient au contenu, pas à votre journée de travail. Créez également des projets pour l'examen interne."
+            },
+            {
+              "title": "Configurez et connectez-vous en 30 secondes",
+              "icon": "database",
+              "description": "Le partenaire idéal pour l'API de DADI, pour que vous soyez prêt et fonctionnel en des jours et des semaines, pas en des semaines et des mois. Fonctionnera bientôt avec d'autres magasins de données."
+            },
+            {
+              "title": "Autorisations d'utilisateur personnalisées",
+              "icon": "locked",
+              "description": "Fonctionnalités améliorées pour les grandes équipes - garder les bonnes mains sur les bonnes parties du système. Prolonge le flux de travail éditorial."
+            },
+            {
+              "title": "Édition de documents collaborative",
+              "icon": "user-new",
+              "description": "Voyez où sont les collègues dans des articles partagés et évitez d'envahir leur territoire - travaillez ensemble de manière transparente pour mettre à jour le contenu."
+            },
+            {
+              "title": "Historique de commentaires avec retour rapide",
+              "icon": "rewind",
+              "description": "Fournit une piste d'audit complète vous permettant de restaurer à tout moment. Les écarts de documents donnent un aperçu des changements."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "L'API peut fournir du contenu pour le Web."
+            },
+            {
+              "product": "publish",
+              "description": "Le contenu dans l'API peut être édité dans Publish."
+            }
+          ]
+        },
+        {
+          "lang": "fr",
+          "title": "CDN",
+          "product": "cdn",
+          "color": "#e02975",
+          "dark-color": "#280816",
+          "overview": "Une solution de manipulation et de distribution d'actifs juste à temps conçue comme une solution de distribution de contenu mondiale et moderne.",
+          "description": [
+            "Le CDN de DADI est analogue à un CDN (réseau de distribution de contenu) traditionnel tel qu'Akamai et Limelight. Il est conçu pour asummer le traitement et la charge de livraison associés à la manipulation d'images et à la livraison d'actifs (CSS/JS/polices) et agit de manière autonome comme couche en plus de votre produit de base.",
+            "CDN prend pleinement en charge la mise en cache, le contrôle d'en-tête, la manipulation d'images, la compression d'images et la conversion du format d'image. Une API authentifiée permet un contrôle de cache à grain fin sous la forme d'une invalidation de contenu sur un fichier individuel ou une base de cheminement collectif. Le Web de DADI peut utiliser une variété de langages de modèles, fournissant une couche de modèle simple mais puissante pour afficher vos données. Ceux-ci incluent Dust, Pug ou Handlebars de LinkedIn - ou vous pouvez facilement créer le vôtre."
+          ],
+          "headlines": [
+            "Servez depuis Amazon S3, depuis un serveur distant ou depuis le système de fichiers local",
+            "Générez dynamiquement des images pour la conception réactive et les appareils mobiles",
+            "Ensemble étendu d'outils d'amélioration et de transformation d'images",
+            "Conversion du format d'image "
+          ],
+          "features": [
+            {
+              "title": "Culture basée sur des sujets",
+              "icon": "picture",
+              "description": "Laissez CDN décider le point focal de l'image et fournir une image contenant uniquement les éléments essentiels, découpés selon vos spécifications."
+            },
+            {
+              "title": "Stockage multimédia simplifié",
+              "icon": "database",
+              "description": "Il n'est pas nécessaire de maintenir plusieurs tailles de chaque image que vous téléchargez dans un article - CDN génère de nouvelles variantes à partir d'une seule image maître."
+            },
+            {
+              "title": "Un CDN pour tous les types d'actifs",
+              "icon": "layers",
+              "description": "Stockez et fournissez des fichiers de police et minimisez tous vos actifs CSS et JavaScript pour la livraison."
+            },
+            {
+              "title": "Livraison intelligente",
+              "icon": "activity",
+              "description": "Laissez CDN choisir les meilleures transformations en fonction de l'appareil, du réseau, de l'emplacement ou de la langue."
+            },
+            {
+              "title": "Recettes de livraison",
+              "icon": "id",
+              "description": "Conservez les paramètres de manipulation des images fréquemment utilisés comme une « recette de livraison »."
+            },
+            {
+              "title": "Le cache est découpé pour une livraison plus rapide",
+              "icon": "bolt",
+              "description": "Les images converties peuvent être mises en cache à l'aide d'un serveur Redis ou d'un système de fichiers local, fournissant une livraison plus rapide sur les demandes ultérieures."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Publish gère le contenu stocké dans l'API."
+            },
+            {
+              "product": "cdn",
+              "description": "Publish utilise CDN pour stocker et manipuler des images."
+            },
+            {
+              "product": "web",
+              "description": "Publish peut utiliser le Web pour servir un front-end."
+            }
+          ]
+        },
+        {
+          "lang": "fr",
+          "title": "Web",
+          "product": "web",
+          "color": "#e42918",
+          "dark-color": "#490b08",
+          "overview": "Une couche de modélisation sans schéma qui peut fonctionner comme une plate-forme autonome ou avec API en tant qu'application Web full stack.",
+          "description": [
+            "DADI Web facilite la création d'applications Web commerciales personnalisées. Créez facilement des pages statiques ou connectez-vous à des API pour générer des applications basées sur les données, ce qui vous permet de rechercher, de paginer, de trier et de filtrer vos données, sur le serveur ou dans le navigateur.",
+            "DADI Web peut utiliser une variété de langages de modèles, fournissant une couche de modèle simple mais puissante pour afficher vos données. Ceux-ci incluent Dust, Pug ou Handlebars de LinkedIn - ou vous pouvez facilement créer le vôtre."
+          ],
+          "headlines": [
+            "Connectez-vous avec les API REST pour générer des pages guidées par les données",
+            "Recherchez, paginez, triez et filtrez vos données",
+            "Créez facilement des pages statiques",
+            "Prise en charge des sessions soutenues par la base de données"
+          ],
+          "features": [
+            {
+              "title": "Prise en charge du moteur de modèle flexible",
+              "icon": "chat-alt",
+              "description": "Utilisez le moteur de modèle Dust.js par défaut du Web ou remplacez-en un par Pug.js ou Handlebars.js - créez même le vôtre !"
+            },
+            {
+              "title": "Compatibilité avec la réécriture d'URL",
+              "icon": "duplicate",
+              "description": "Comprend une réécriture d'URL similaire à Apache, avec une compatibilité complète avec les redirections et la mise en page."
+            },
+            {
+              "title": "Couche des événements",
+              "icon": "bolt",
+              "description": "Créez des événements JavaScript personnalisés pour modifier la demande et la réponse, ou prenez des mesures en fonction des données chargées à partir d'une source"
+            },
+            {
+              "title": "Données provenant de n'importe où",
+              "icon": "cloud",
+              "description": "Vous n'êtes pas limité à l'utilisation de l'API de DADI - utilisez les données des fichiers Markdown statiques ou récupérez les flux de Twitter et de Wordpress."
+            },
+            {
+              "title": "Pré-chargez les données",
+              "icon": "fast-forward",
+              "description": "Accélérez l'accès aux données communément requises en les préchargeant lorsque l'application démarre."
+            },
+            {
+              "title": "Pages de cache pour une récupération plus rapide",
+              "icon": "performance",
+              "description": "Données de cache à l'aide d'un serveur Redis ou du système de fichiers local, offrant des temps de réponse plus rapides aux utilisateurs. Comprend une prise en charge complète pour les en-têtes Cache-Contrôle."
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Le Web peut afficher le contenu de l'API."
+            },
+            {
+              "product": "cdn",
+              "description": "Le Web utilise CDN pour servir des images, CSS et JS."
+            }
+          ]
         }
       ]
     }

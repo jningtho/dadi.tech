@@ -99,6 +99,36 @@
           "lang": "jp",
           "title": "サービス拒否 (DoS) 攻撃の緩和",
           "body": "DADIは、プラットフォームの各レイヤーにおける包括的なキャッシュをサポートしています。Redisによる共有キャッシングのサポート、ローカルキャッシングおよびクライアントキャッシングのアプローチはすべて、コアアプリケーションセットの一部として利用できます。\n\nこのマルチレイヤーのキャッシュ構造は大量のトラフィックに非常に強く、DADIを世界で最もトラフィックの多い施設のいくつかにより選択されるシステムとしました。"
+        },
+        {
+          "lang": "fr",
+          "title": "Accès sécurisé",
+          "body": "Les mots de passe d'accès DADI originaux sont cryptés, salés et hachés à plusieurs reprises.\n\nLes pratiques d'authentification standard de l'industrie sont entièrement compatibles, y compris l'authentification SSL et à deux facteurs "
+        },
+        {
+          "lang": "fr",
+          "title": "Contrôle d'accès à l'utilisateur granulaire",
+          "body": "DADI fournit aux administrateurs un contrôle total sur les personnes qui peuvent voir et qui peuvent modifier chaque partie d'un produit. DADI fonctionne en fonction d'un système de rôles d'utilisateur extensibles et d'autorisations d'accès.\n\nLes administrateurs peuvent créer des rôles utilisateur et leur donner des autorisations spécifiques et limitées. Par exemple, vos interfaces éditoriales peuvent avoir besoin d'un rôle d'auteur qui peut créer et mettre à jour le contenu, mais ne pas le publier ou le supprimer (autorisations réservées au rôle de l'éditeur), alors que les paramètres administratifs sont entièrement réservés pour un rôle distinct. Les utilisateurs authentifiés peuvent recevoir n'importe quel nombre de rôles et leurs autorisations sont cumulatives. Les liens et les fonctionnalités du menu sont automatiquement cachés aux utilisateurs qui n'ont pas l'accès approprié."
+        },
+        {
+          "lang": "fr",
+          "title": "Cryptage des données",
+          "body": "Dans les applications de haute sécurité, DADI peut être configuré pour un cryptage de données extrêmement important.\n\nLorsque le cryptage de la base de données complète n'est pas souhaité, une granularité très élevée est disponible pour protéger des informations plus spécifiques : les comptes d'utilisateurs, les formulaires spécifiques et même les valeurs de champs spécifiques peuvent être cryptées. Le système de cryptage peut être configuré pour passer les lois PCI, HIPAA et de confidentialité d'état les plus strictes, y compris la gestion des clés de cryptage hors site."
+        },
+        {
+          "lang": "fr",
+          "title": "Prévenir XSS, CSRF et autres saisies de données malveillantes",
+          "body": "La couche d'événements de DADI garantit que les données sont validées et effacées avant d'entrer dans votre couche de données. Le système teste toutes les données saisies afin de s'assurer qu'elles correspondent aux formats et aux valeurs prescrits et attendus.\n\nLes jetons sont injectés dans les formulaires front end puisqu'ils sont générés, pour protéger contre les éventuelles attaques CSRF.\n\nLa séparation complète des problèmes au sein de DADI permet à chaque couche de votre plate-forme - votre API, votre système de planification, vos interfaces éditoriales, vos outils de suivi, etc. - d'effectuer et de gérer des contrôles de sécurité appropriés à leurs problèmes indépendamment."
+        },
+        {
+          "lang": "fr",
+          "title": "Détection de la force brute",
+          "body": "DADI protège contre les attaques par mot de passe de force brute en limitant le nombre de tentatives de connexion d'une seule adresse IP et d'un nom d'utilisateur pendant une période prédéfinie"
+        },
+        {
+          "lang": "fr",
+          "title": "Atténuer les interdictions de déni de service (DoS)",
+          "body": "DADI prend en charge la mise en cache complète dans chaque couche de votre plate-forme. La prise en charge de mise en cache partagée via Redis, la mise en cache locale et les approches de mise en cache des clients sont tous disponibles dans le cadre du jeu d'applications principal.\n\nCette architecture de cache multi-couches est extrêmement résistante aux grands volumes de trafic et fait de DADI le système de choix pour certaines des propriétés les plus performantes du monde."
         }
       ]
     }
