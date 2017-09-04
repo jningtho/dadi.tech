@@ -5,7 +5,7 @@
 
     <div class="grid">
       {#products-list.results}
-        <div class="col w-1-3 pad__bottom pad__top--x2">
+        <div class="col w-1-2 pad__bottom pad__top--x2">
           <h3 class="product medium no-marg-i hdr">
             <img src="/assets/products/dadi-{product}.png" height="35" class="alignv pad__right--half">
             {product}
@@ -17,13 +17,13 @@
             {?date}
               <span class="btn small btn--disabled">{date}</span>
             {:else}
-              <a href="/{params.lang}/{product}/" class="btn small">{i18n.results[0].learn_more}</a>
+              <a href="{?url}{url}{:else}/{params.lang}/{product}/{/url}" class="btn small">{i18n.results[0].learn_more}</a>
             {/date}
           </div>
         </div>
 
-       {@math key=$idx method="mod" operand=3}
-          {@eq value=2}
+       {@math key=$idx method="mod" operand=2}
+          {@eq value=1}
               </div>
       <div class="grid">
           {/eq}

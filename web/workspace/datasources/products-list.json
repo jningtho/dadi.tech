@@ -62,6 +62,12 @@
           "date": "Q4 2017"
         },
         {
+          "lang": "en",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+        },
+        {
           "lang": "de",
           "product": "api",
           "overview": "Eine high-performance RESTful API Oberfläche, gestaltet mit Unterstützung der API-first Entwicklung und den Prinzipe von COPE."
@@ -110,6 +116,12 @@
           "product": "predict",
           "overview": "Maschinelle Lernoberfläche, die individuelles Benutzerverhalten basierend auf vergangenen Interaktionen vorhersagt.",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "de",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
         },
         {
           "lang": "jp",
@@ -162,6 +174,12 @@
           "date": "Q4 2017"
         },
         {
+          "lang": "jp",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+        },
+        {
           "lang": "fr",
           "product": "api",
           "overview": "Une couche API RESTful à haute performance conçue pour soutenir le premier développement de l'API et les principes de COPE."
@@ -210,6 +228,12 @@
           "product": "predict",
           "overview": "Une couche d'apprentissage machine qui prédit le comportement de l'utilisateur à un niveau individuel en fonction des interactions passées.",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "fr",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
         },
         {
           "lang": "es",
@@ -262,6 +286,12 @@
           "date": "Q4 2017"
         },
         {
+          "lang": "es",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+        },
+        {
           "lang": "ru",
           "product": "api",
           "overview": "Высокопроизводительный REST-слой API поддерживает разработку по принципу API-first и соответствует принципам COPE."
@@ -310,6 +340,12 @@
           "product": "predict",
           "overview": "Слой машинного обучения, который предсказывает поведение пользователя на индивидуальном уровне на основе прошлых взаимодействий.",
           "date": "Q4 2017"
+        },
+        {
+          "lang": "ru",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
         }
       ]
     }
