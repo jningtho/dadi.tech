@@ -346,6 +346,62 @@
           "product": "queue",
           "url": "https://github.com/dadi/queue",
           "overview": "Легкая, асинхронная очередь задач с поддержкой RSMQ с простой маршрутизацией задач и дросселированием."
+        },
+        {
+          "lang": "pt",
+          "product": "api",
+          "overview": "Um serviço API RESTful de alta performance desenhada em suporte de um desenvolvimento API-first e dos princípios de COPE."
+        },
+        {
+          "lang": "pt",
+          "product": "publish",
+          "overview": "A janela de um escritor para o mundo da criação de conteúdos. Interfaces flexíveis desenhados para optimizar o processo editorial."
+        },
+        {
+          "lang": "pt",
+          "product": "cdn",
+          "overview": "Um serviço para manipulação de recursos just-in-time, desenhada para ser uma solução moderna de distribuição global de conteúdos."
+        },
+        {
+          "lang": "pt",
+          "product": "web",
+          "overview": "Um serviço para templates sem lógica de negócio que pode operar sozinha ou com API, formando uma aplicação web full stack."
+        },
+        {
+          "lang": "pt",
+          "product": "track",
+          "overview": "Um serviço de dados em tempo real, gerando métricas precisas ao nível do produto e do indivíduo. Alimenta o DADI Identity.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "pt",
+          "product": "visualize",
+          "overview": "Um interface de visualização de dados para Identity e Track, mas capaz de monitorizar feeds de dados de praticamente qualquer fonte.",
+          "date": "Q2 2018"
+        },
+        {
+          "lang": "pt",
+          "product": "identity",
+          "overview": "Garante a unicidade de indivíduos - e gera a segmentação - para utilizadores anónimos e conhecidos.",
+          "date": "Q3/4 2017"
+        },
+        {
+          "lang": "pt",
+          "product": "match",
+          "overview": "Uma estrutura taxonómica para a classificação automática de conteúdos através de machine learning. Liga com Publish.",
+          "date": "Q3 2017"
+        },
+        {
+          "lang": "pt",
+          "product": "predict",
+          "overview": "Um serviço de machine learning que prevê o comportamento dos utilizadores a um nível individual, baseado em interacções passadas.",
+          "date": "Q4 2017"
+        },
+        {
+          "lang": "pt",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "Uma fila de tarefas assíncronas com suporte RSMQ, com roteamento e aceleração de tarefas simples."
         }
       ]
     }

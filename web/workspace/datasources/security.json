@@ -189,6 +189,36 @@
           "lang": "ru",
           "title": "Устранение атак типа \"Отказ в обслуживании\" (DoS)",
           "body": "DADI поддерживает всестороннее кэширование в каждом слое вашей платформы. В рамках основного набора приложений доступна поддержка общего кэширования с помощью Redis, локального кэширования и кэширования клиентов.\n\nЭта многоуровневая архитектура кэширования чрезвычайно устойчива к большим объемам трафика, что делает DADI оптимальной системой для площадок с самыми высокими показателями трафика в мире."
+        },
+        {
+          "lang": "pt",
+          "title": "Acesso seguro",
+          "body": "Por defeito, passwords de acesso DADI são encriptadas, \"salteadas\" e repetidamente \"hashed\".\n\nPráticas de autenticação que são padrões de indústria são totalmente suportadas, incluindo SSL e autenticação de 2 factores."
+        },
+        {
+          "lang": "pt",
+          "title": "Controlo Granular de Acesso de Utilizadores",
+          "body": "DADI oferece aos administradores controlo completo sobre quem pode ver e quem pode modificar cada parte do produto. DADI opera sobre um sistema de tipos de utilizador e permissões de acesso extensíveis.\n\nOs administradores podem criar tipos de utilizador e dar-lhes permissões específicas e limitadas. Por exemplo, os teus interfaces editoriais podem necessitar de um autor que possa criar e actualizar conteúdo, mas não publicar ou apagar (permissões reservadas ao tipo de utilizador \"editor\"), ao passo que configurações administrativas estão reservadas para um tipo de utilizador completamente diferente. Utilizadores autenticados podem ter um número infinito de tipos e as suas permissões são acumulativas. Links em menus e funcionalidades são automaticamente escondidas de utilizadores que não tenham o nível de acesso necessário."
+        },
+        {
+          "lang": "pt",
+          "title": "Encriptação de Dados",
+          "body": "Em aplicações de alta segurança, DADI pode ser configurado para ter uma forte encriptação de dados.\n\nQuando encriptação total ao nível da base de dados não é necessária, é possível proteger informação mais específica com grande granularidade: contas de utilizador, formulários específicos, e até os valores de determinados campos podem ser encriptados. O sistema de encriptação pode ser configurado para passar as rigorosas PCI, HIPAA, e as leis estatais de privacidade, incluindo a gestão externa de chaves de encriptação."
+        },
+        {
+          "lang": "pt",
+          "title": "Prevenir XSS, CSRF, e outras tentativas maliciosas de introdução de dados",
+          "body": "A camada de Eventos DADI garante que os dados são validados e passados a pente fino antes de entrarem na tua camada de dados. O sistema testa todos os dados para garantir que cumpre todos os formatos e valores prescritos e esperados.\n\nSão inseridas chaves (tokens) nos formulários front-end à medida que estes são gerados, por forma a evitar ataques CSRF.\n\nEsta completa separação de responsabilidades na plataforma DADI permite que cada camada – a tua API, o teu sistema de templates, interfaces editoriais, ferramentas de tracking, etc. – acarretem testes de segurança adequados às suas responsabilidades independentemente."
+        },
+        {
+          "lang": "pt",
+          "title": "Detecção de Força Bruta",
+          "body": "DADI protege contra ataques a passwords por força bruta limitando o número de tentativas de login feitas de um único endereço de IP e username dentro de um determinado período de tempo."
+        },
+        {
+          "lang": "pt",
+          "title": "Mitigando Ataques Denial of Service (DoS)",
+          "body": "DADI suporta caching completo em todas as camadas da tua plataforma. Partilha de suporte de cache via Redis, cache local e cache no cliente são todas abordagens disponíveis, parte do núcleo de aplicações.\n\nEsta arquitectura multi-cache é extremamente resistente a altos volumes de tráfego, e torna DADI o sistema escolhido para algumas das propriedades com maior tráfego no mundo."
         }
       ]
     }

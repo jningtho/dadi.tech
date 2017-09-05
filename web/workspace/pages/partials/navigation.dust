@@ -24,11 +24,11 @@
           <option value="/fr{pathNoLang}" {@eq key=params.lang value="fr"}selected{/eq}>Français</option>
           <option value="/es{pathNoLang}" {@eq key=params.lang value="es"}selected{/eq}>Español</option>
           <option value="/ru{pathNoLang}" {@eq key=params.lang value="ru"}selected{/eq}>Pусский</option>
+          <option value="/pt{pathNoLang}" {@eq key=params.lang value="pt"}selected{/eq}>Português</option>
         </optgroup>
         <optgroup label="Coming soon">
           <option disabled value="zh_hans">中文 (CN/SG)</option>
           <option disabled value="zh_hant">中文 (TW/HK)</option>
-          <option disabled value="pt">Português</option>
       </select>
     </li>
   </ul>
