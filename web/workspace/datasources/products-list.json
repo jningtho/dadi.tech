@@ -121,7 +121,7 @@
           "lang": "de",
           "product": "queue",
           "url": "https://github.com/dadi/queue",
-          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+          "overview": "Eine leichte, RSMQ-angetriebene asynchrone Task-Warteschlange mit einfacher Task-Routing und Throttling."
         },
         {
           "lang": "jp",
@@ -177,7 +177,7 @@
           "lang": "jp",
           "product": "queue",
           "url": "https://github.com/dadi/queue",
-          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+          "overview": "シンプルなタスクルーティングとスロットル機能を備えた、軽量でRSMQ対応の非同期タスクキュー。"
         },
         {
           "lang": "fr",
@@ -233,7 +233,7 @@
           "lang": "fr",
           "product": "queue",
           "url": "https://github.com/dadi/queue",
-          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+          "overview": "Une ligne de tâches asynchrones légère et à assistance RSMQ offrant un routage et une limitation des tâches simples."
         },
         {
           "lang": "es",
@@ -289,7 +289,7 @@
           "lang": "es",
           "product": "queue",
           "url": "https://github.com/dadi/queue",
-          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+          "overview": "Una cola de tareas asíncronas, ligera y RSMQ, que ofrece un enrutamiento y un estrangulamiento de tareas sencillos."
         },
         {
           "lang": "ru",
@@ -345,7 +345,7 @@
           "lang": "ru",
           "product": "queue",
           "url": "https://github.com/dadi/queue",
-          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+          "overview": "Легкая, асинхронная очередь задач с поддержкой RSMQ с простой маршрутизацией задач и дросселированием."
         }
       ]
     }
