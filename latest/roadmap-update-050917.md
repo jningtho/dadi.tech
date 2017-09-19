@@ -3,7 +3,7 @@ date: 2017-09-05
 title: Roadmap Update
 handle: roadmap-update-040917
 author: James Lambie
-preface: DADI releases are coming thick and fast, with milestone releases of both API and Web due immanently, hot on the heals of CDN version 1.12.0, released last week.
+preface: DADI releases are coming thick and fast, with milestone releases of both API and Web due imminently, hot on the heels of CDN version 1.12.0, released last week.
 category: roadmap
 ---
 
