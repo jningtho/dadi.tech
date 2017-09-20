@@ -125,7 +125,7 @@
   <div class="explainer__blurb b-publish">
     <a href="/{params.lang}/publish/">
       <img src="/assets/products/dadi-publish.png" width="22">
-      <p class="small">{i18n.results[0].infographic_api}</p>
+      <p class="small">{i18n.results[0].infographic_publish}</p>
     </a>
   </div>
 
