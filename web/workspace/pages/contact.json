@@ -1,6 +1,7 @@
 {
   "page": {
-    "key": "Contact"
+    "key": "Contact",
+    "description": "DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture. Contact the team"
   },
   "datasources": [
     "i18n",
