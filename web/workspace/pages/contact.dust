@@ -7,7 +7,7 @@
 <div class="container pad__bottom--x2">
   {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
 
-  <form action="/contact/" method="post" class="grid">
+  <form action="/en/contact/" method="post" class="grid">
     <ul class="list--no-style col w-1-2">
       <li class="pad__bottom">
         <label class="hdr" for="name">{i18n.results[0].name}</label>
