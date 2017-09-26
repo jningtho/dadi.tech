@@ -1,27 +1,12 @@
 {
   "app": {
-    "name": "dadi.co website - development"
-  },
-  "caching": {
-    "directory": {
-      "enabled": true
-    }
+    "name": "dadi.tech website - development"
   },
   "server": {
     "host": "localhost",
-    "port": 4113
+    "port": 4114
   },
   "cluster": false,
-  "api": {
-    "host": "127.0.0.1",
-    "port": 4111,
-    "enabled": false
-  },
-  "auth": {
-    "tokenUrl":"/token",
-    "clientId":"testClient",
-    "secret":"superSecret"
-  },
   "global": {
     "protocol": "http"
   },
@@ -29,35 +14,6 @@
     "i18n",
     "globals"
   ],
-  "headers": {
-    "useGzipCompression": true,
-    "cacheControl": {
-      "301": "no-cache",
-      "302": "no-cache",
-      "307": "no-cache",
-      "text/css": "public, max-age=2592000",
-      "text/javascript": "public, max-age=2592000",
-      "image/jpeg": "public, max-age=2592000",
-      "image/png": "public, max-age=2592000",
-      "image/svg+xml": "public, max-age=2592000",
-      "application/javascript": "public, max-age=2592000"
-    },
-    "cors": {
-      "Access-Control-Allow-Origin": "*"
-    }
-  },
-  "paths": {
-    "datasources": "./workspace/datasources",
-    "events": "./workspace/events",
-    "media": "./workspace/media",
-    "middleware": "./workspace/middleware",
-    "pages": "./workspace/pages",
-    "partials": "./workspace/partials",
-    "public": "./workspace/public",
-    "routes": "./workspace/routes",
-    "helpers": "./workspace/utils/helpers",
-    "filters": "./workspace/utils/filters"
-  },
   "rewrites": {
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
