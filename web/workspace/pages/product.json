@@ -2,6 +2,9 @@
   "page": {
     "key": "Products"
   },
+  "events": [
+    "globals"
+  ],
   "datasources": [
     "i18n",
     "products",

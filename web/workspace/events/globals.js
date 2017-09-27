@@ -11,9 +11,16 @@ var Event = function (req, res, data, callback) {
   // Date and time to play with
   data.global.timestamp = new Date().getTime()
 
-  // Override page meta description (latest section)
+  // Override page meta description
+  // Latest section
   if (data.params && data.params.article && data.latest && data.latest.results) {
     data.page.description = data.latest.results[0].attributes.meta
+  }
+
+  // Microservices
+  if (data.params && data.params.product && data.products && data.products.results) {
+    console.log('hello')
+    data.page.description = data.products.results[0].overview
   }
  
   // Fin
