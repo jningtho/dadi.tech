@@ -19,8 +19,8 @@ var Event = function (req, res, data, callback) {
 
   // Microservices
   if (data.params && data.params.product && data.products && data.products.results) {
-    console.log('hello')
     data.page.description = data.products.results[0].overview
+    data.page.og_image = `dadi-${data.products.results[0].product}-og.jpg`
   }
  
   // Fin
