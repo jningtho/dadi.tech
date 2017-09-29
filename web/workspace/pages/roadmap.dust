@@ -8,7 +8,7 @@
 
 <div class="container container--divider">
   <div class="grid pad__bottom--x2">
-    <div class="col w-1-2">
+    <div class="col w-1-2 col--right">
       <p class="larger hdr txt--green marg__bottom">{i18n.results[0].roadmap_help}</p>
       <p class="normal">{i18n.results[0].roadmap_contribute}</p>
       <p class="normal fwb">{i18n.results[0].roadmap_support}</p>
@@ -16,92 +16,120 @@
       <a href="https://github.com/dadi" class="btn btn--blue small">{i18n.results[0].github_find}</a>
     </div>
     <div class="col w-1-2 normal">
-      <h3>Q3 2017</h3>
+      <div class="read">
 
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
-            API
-          </a>
-        </h3>
-      
-        <ul>
-          <li>Multiple data connector support, removing dependency on MongoDB</li>
-          <li>Data connector for local JSON file</li>
-        </ul>
+  <h2 class="txt--green" id="q4-2017">Q4 2017</h2>
+  <h3 id="beta-release-of-publish">Beta release of Publish</h3>
+  <p>Full public release of DADI publishing interfaces: production ready build, complete with baseline test coverage.</p>
+  <ul>
+    <li>
+      <a href="https://dadi.tech/en/publish/">More information</a>
+    </li>
+    <li>
+      <a href="https://github.com/dadi/publish">View source on Github</a>
+    </li>
+  </ul>
+  <p><em>Documentation &amp; NPM release coming soon</em></p>
+  
+  <h3 id="web-milestone-release-v4-0-">Web milestone release (v4.0)</h3>
+  <p>Version 4.0 of DADI Web brings several performance enhancements and a simplified codebase for easier maintenance.</p>
+  <ul>
+    <li>
+      <a href="https://dadi.tech/en/web/">More information</a>
+    </li>
+    <li>
+      <a href="https://github.com/dadi/web">View source on Github</a>
+    </li>
+    <li>
+      <a href="https://www.npmjs.com/package/@dadi/web">Install with NPM</a>
+    </li>
+    <li>
+      <a href="https://docs.dadi.tech/#web">Documentation</a>
+    </li>
+  </ul>
+  <h2 class="txt--green" id="q1-2018">Q1 2018</h2>
+  <h3 id="beta-release-of-store">Beta release of Store</h3>
+  <p>Full public release of DADI cloud storage solution: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="cdn-milestone-release">CDN milestone release</h3>
+  <p>Significant feature release of DADI CDN, details to be confirmed.</p>
+  <ul>
+    <li>
+      <a href="https://dadi.tech/en/cdn/">More information</a>
+    </li>
+    <li>
+      <a href="https://github.com/dadi/cdn">View source on Github</a>
+    </li>
+    <li>
+      <a href="https://www.npmjs.com/package/@dadi/cdn">Install with NPM</a>
+    </li>
+    <li>
+      <a href="https://docs.dadi.tech/#cdn">Documentation</a>
+    </li>
+  </ul>
+  <h3 id="publish-milestone-release">Publish milestone release</h3>
+  <p>Significant feature release of DADI CDN, details to be confirmed.</p>
+  <ul>
+    <li>
+      <a href="https://dadi.tech/en/publish/">More information</a>
+    </li>
+    <li>
+      <a href="https://github.com/dadi/publish">View source on Github</a>
+    </li>
+  </ul>
+  <p><em>Documentation &amp; NPM release coming soon</em></p>
+  <h3 id="alpha-release-of-track">Alpha release of Track</h3>
+  <p>First release of DADI’s enterprise-strength web, mobile and event analytics platform. Private Alpha for testing and development.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="alpha-release-of-identity">Alpha release of Identity</h3>
+  <p>First release of DADI’s core CRM tool that collects and stores data on anonymous and known users.</p>
+  <p>Private Alpha for testing and development.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+ 
+  <h2 class="txt--green" id="q2-2018">Q2 2018</h2>
+  <h3 id="alpha-release-of-visualize">Alpha release of Visualize</h3>
+  <p>First release of DADI’s data visualization interface for Identity and Track. Private Alpha for testing and development.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="beta-release-of-track">Beta release of Track</h3>
+  <p>Full public release of DADI’s web, mobile and event analytics platform: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="api-milestone-release">API milestone release</h3>
+  <p>Significant feature release of DADI API, details to be confirmed</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="web-milestone-release">Web milestone release</h3>
+  <p>Significant feature release of DADI Web, details to be confirmed</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h2 class="txt--green" id="q3-2018">Q3 2018</h2>
+  <h3 id="alpha-release-of-match">Alpha release of Match</h3>
+  <p>First release of DADI’s taxonomic framework for automated content classification through machine learning. Private Alpha for testing and development.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="alpha-release-of-predict">Alpha release of Predict</h3>
+  <p>First release of DADI’s taxonomic framework for automated content classification through machine learning. Private Alpha for testing and development.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="beta-release-of-visualize">Beta release of Visualize</h3>
+  <p>Full public release of DADI’s data visualization interface for Identity and Track: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="beta-release-of-identity">Beta release of Identity</h3>
+  <p>Full public release of DADI’s anonymous and known user data store: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="cdn-milestone-release">CDN milestone release</h3>
+  <p>Significant feature release of DADI CDN, details to<br>
+  be confirmed</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="publish-milestone-release">Publish milestone release</h3>
+  <p>Significant feature release of DADI Publish, details to be confirmed</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h2 class="txt--green" id="q4-2018">Q4 2018</h2>
+  <h3 id="beta-release-of-match">Beta release of Match</h3>
+  <p>Full public release of DADI’s taxonomic framework<br>
+  for automated content classification through machine learning: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+  <h3 id="beta-release-of-predict">Beta release of Predict</h3>
+  <p>Full public release of DADI’s taxonomic framework for automated content classification through machine learning: production ready build, complete with baseline test coverage.</p>
+  <p><em>More information: Details and links available soon.</em></p>
+ 
       </div>
-
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
-            CDN
-          </a>
-        </h3>
-        
-        <ul>
-          <li>Implementation of faster image processing utilities</li>
-        </ul>
-      </div>
-
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
-            Web
-          </a>
-        </h3>
-
-        <ul>
-          <li>Template engines for ES6 strings, Mustache and Hogan</li>
-        </ul>
-      </div>
-
-      <h3 class="marg__top--x2">Q4 2017</h3>
-
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-api.png" class="alignv float--right" width="20" style="box-shadow:none">
-            API
-          </a>
-        </h3>
-      
-        <ul>
-          <li>Data connectors for Cassandra, CouchDB, Oracle NoSQL and RethinkDB</li>
-        </ul>
-      </div>
-
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="20" style="box-shadow:none">
-            CDN
-          </a>
-        </h3>
-        
-        <ul>
-          <li>Dynamic text and image compositing</li>
-          <li>Plugin support</li>
-        </ul>
-      </div>
-
-      <div class="marg__top--x2 documentation bdr__top bdr--bdr-grey">
-        <h3>
-          <a href="/{params.lang}/platform/api/">
-            <img src="/assets/products/dadi-web.png" class="alignv float--right" width="24" style="box-shadow:none">
-            Web
-          </a>
-        </h3>
-
-        <ul>
-          <li>Built-in profiling tools</li>
-          <li>Built-in routing testing tool</li>
-        </ul>
-      </div>
-
-    </div>  
+    </div> 
   </div>
 </div>
 
