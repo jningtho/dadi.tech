@@ -37,7 +37,7 @@
         <p class="large no-marg-i pad__top--half pad__bottom">{@soberMarkdown}{overview}{/soberMarkdown}</p>
         <p class="no-marg-i">
           {^hide_docs}
-            <a href="http://docs.dadi.tech/#{product}/installation/" class="btn">{i18n.results[0].install_howto}</a>
+            <a href="http://docs.dadi.tech/#{product}/installation" class="btn">{i18n.results[0].install_howto}</a>
           {:else}
             <span class="btn btn--disabled">{i18n.results[0].install_soon}</span>
           {/hide_docs}
