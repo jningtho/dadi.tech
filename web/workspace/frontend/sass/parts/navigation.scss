@@ -48,12 +48,17 @@ nav ul li a.on {
 
 header {
   overflow: hidden;
+  padding-bottom: 20px;
 }
 header nav {
-  padding-bottom: 20px;
   position: relative;
+  padding-bottom: 20px;
+}
+body.home header nav {
+  padding-bottom: 0px;
 }
 body.home header {
+  padding-bottom: 0;
   background: #f9f9f9;
   color: #21262D;
 }
