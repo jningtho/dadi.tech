@@ -68,6 +68,12 @@
           "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
         },
         {
+          "lang": "en",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
+        },
+        {
           "lang": "de",
           "product": "api",
           "overview": "Eine high-performance RESTful API Oberfläche, gestaltet mit Unterstützung der API-first Entwicklung und den Prinzipe von COPE."
@@ -122,6 +128,12 @@
           "product": "queue",
           "url": "https://github.com/dadi/queue",
           "overview": "Eine leichte, RSMQ-angetriebene asynchrone Task-Warteschlange mit einfacher Task-Routing und Throttling."
+        },
+        {
+          "lang": "de",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
         },
         {
           "lang": "jp",
@@ -180,6 +192,12 @@
           "overview": "シンプルなタスクルーティングとスロットル機能を備えた、軽量でRSMQ対応の非同期タスクキュー。"
         },
         {
+          "lang": "jp",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
+        },
+        {
           "lang": "fr",
           "product": "api",
           "overview": "Une couche API RESTful à haute performance conçue pour soutenir le premier développement de l'API et les principes de COPE."
@@ -234,6 +252,12 @@
           "product": "queue",
           "url": "https://github.com/dadi/queue",
           "overview": "Une ligne de tâches asynchrones légère et à assistance RSMQ offrant un routage et une limitation des tâches simples."
+        },
+        {
+          "lang": "fr",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
         },
         {
           "lang": "es",
@@ -292,6 +316,12 @@
           "overview": "Una cola de tareas asíncronas, ligera y RSMQ, que ofrece un enrutamiento y un estrangulamiento de tareas sencillos."
         },
         {
+          "lang": "es",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
+        },
+        {
           "lang": "ru",
           "product": "api",
           "overview": "Высокопроизводительный REST-слой API поддерживает разработку по принципу API-first и соответствует принципам COPE."
@@ -348,6 +378,12 @@
           "overview": "Легкая, асинхронная очередь задач с поддержкой RSMQ с простой маршрутизацией задач и дросселированием."
         },
         {
+          "lang": "ru",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
+        },
+        {
           "lang": "pt",
           "product": "api",
           "overview": "Um serviço API RESTful de alta performance desenhada em suporte de um desenvolvimento API-first e dos princípios de COPE."
@@ -402,6 +438,12 @@
           "product": "queue",
           "url": "https://github.com/dadi/queue",
           "overview": "Uma fila de tarefas assíncronas com suporte RSMQ, com roteamento e aceleração de tarefas simples."
+        },
+        {
+          "lang": "pt",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
         }
       ]
     }
