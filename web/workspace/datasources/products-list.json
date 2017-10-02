@@ -35,7 +35,7 @@
           "lang": "en",
           "product": "track",
           "overview": "Real-time, streaming data layer providing accurate metrics at individual and product level. Drives DADI Identity.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "en",
@@ -47,19 +47,19 @@
           "lang": "en",
           "product": "identity",
           "overview": "Guarantees uniqueness of individuals – and powers segmentation – for anonymous and known users.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "en",
           "product": "match",
           "overview": "Taxonomic framework for automated content classification through machine learning. Plugs into Publish.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "en",
           "product": "predict",
           "overview": "A machine learning  layer that predicts user behaviour at an individual level based on past interactions.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "en",
@@ -97,7 +97,7 @@
           "lang": "de",
           "product": "track",
           "overview": "Echtzeit und Streaming Datenoberfläche um maßgeschneiderte Lösungen auf der individuellen Ebene und der Produktebene zu garantieren. Betreibt DADI Identity.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "de",
@@ -109,19 +109,19 @@
           "lang": "de",
           "product": "identity",
           "overview": "Garantiert die Einzigartigkeit des Individuums - und ermöglicht Unterteilung - für anonyme und bekannte User.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "de",
           "product": "match",
           "overview": "Taxonomische Rahmenbedingungen für automatisierte Inhaltsklassifikationen durch maschinelles Lernen. Als Plug-in für Publish möglich.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "de",
           "product": "predict",
           "overview": "Maschinelle Lernoberfläche, die individuelles Benutzerverhalten basierend auf vergangenen Interaktionen vorhersagt.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "de",
@@ -159,7 +159,7 @@
           "lang": "jp",
           "product": "track",
           "overview": "個別かつプロダクトレベルの正確なメトリックを提供するリアルタイムのストリーミングデータレイヤー。DADI Identifyを支えます。",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "jp",
@@ -171,19 +171,19 @@
           "lang": "jp",
           "product": "identity",
           "overview": "個人の一意性の保証。さらに権限の区分け。匿名および既知のユーザのためのものです。",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "jp",
           "product": "match",
           "overview": "機械学習を通じた自動コンテンツ分類器のための分類学的フレームワーク。Publishに接続されます。",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "jp",
           "product": "predict",
           "overview": "過去のやりとりに基づいて個人レベルでのユーザの行動を予測する機械学習レイヤー。",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "jp",
@@ -221,7 +221,7 @@
           "lang": "fr",
           "product": "track",
           "overview": "Couche de données en temps réel en continu fournissant des mesures précises au niveau individuel et du produit. Dirige DADI Identity.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "fr",
@@ -233,19 +233,19 @@
           "lang": "fr",
           "product": "identity",
           "overview": "Garantit l'unicité des individus – et la segmentation des pouvoirs – pour les utilisateurs anonymes et connus.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "fr",
           "product": "match",
           "overview": "Cadre taxonomique pour la classification automatisée du contenu par apprentissage machine. S'applique à la publication.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "fr",
           "product": "predict",
           "overview": "Une couche d'apprentissage machine qui prédit le comportement de l'utilisateur à un niveau individuel en fonction des interactions passées.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "fr",
@@ -283,7 +283,7 @@
           "lang": "es",
           "product": "track",
           "overview": "Capa de datos de streaming en tiempo real que proporciona métricas precisas a nivel individual y de producto. Dirige la Identidad de DADI.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "es",
@@ -295,19 +295,19 @@
           "lang": "es",
           "product": "identity",
           "overview": "Garantiza la unicidad de los individuos, y potencia la segmentación, para usuarios anónimos y conocidos.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "es",
           "product": "match",
           "overview": "Marco taxonómico para la clasificación automatizada de contenido a través del aprendizaje automático. Se conecta a Publicar.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "es",
           "product": "predict",
           "overview": "Una capa de aprendizaje automático que predice el comportamiento del usuario en un nivel individual en función de interacciones pasadas.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "es",
@@ -345,7 +345,7 @@
           "lang": "ru",
           "product": "track",
           "overview": "Слой потоковых данных в режиме реального времени, обеспечивающий точные показатели на индивидуальном уровне и на уровне продукта. Обеспечивает работу DADI Identity.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "ru",
@@ -357,19 +357,19 @@
           "lang": "ru",
           "product": "identity",
           "overview": "Гарантирует уникальность индивидуумов и обеспечивает сегментацию для анонимных и известных пользователей.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "ru",
           "product": "match",
           "overview": "Таксономический фреймворк для автоматизированной классификации контента с помощью машинного обучения. Подключается к Publish.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "ru",
           "product": "predict",
           "overview": "Слой машинного обучения, который предсказывает поведение пользователя на индивидуальном уровне на основе прошлых взаимодействий.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "ru",
@@ -407,7 +407,7 @@
           "lang": "pt",
           "product": "track",
           "overview": "Um serviço de dados em tempo real, gerando métricas precisas ao nível do produto e do indivíduo. Alimenta o DADI Identity.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "pt",
@@ -419,19 +419,19 @@
           "lang": "pt",
           "product": "identity",
           "overview": "Garante a unicidade de indivíduos - e gera a segmentação - para utilizadores anónimos e conhecidos.",
-          "date": "Q3/4 2017"
+          "date": "Q1 2018"
         },
         {
           "lang": "pt",
           "product": "match",
           "overview": "Uma estrutura taxonómica para a classificação automática de conteúdos através de machine learning. Liga com Publish.",
-          "date": "Q3 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "pt",
           "product": "predict",
           "overview": "Um serviço de machine learning que prevê o comportamento dos utilizadores a um nível individual, baseado em interacções passadas.",
-          "date": "Q4 2017"
+          "date": "Q3 2018"
         },
         {
           "lang": "pt",
