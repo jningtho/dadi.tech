@@ -1715,6 +1715,249 @@
               "description": "Web usa CDN para servir imagens, CSS e JS."
             }
           ]
+        },
+        {
+          "lang": "zh_hant",
+          "title": "API",
+          "product": "api",
+          "color": "#0BA6DD",
+          "overview": "為支援 API 優先開發模式和 COPE 原則所設計的高效能 RESTful API 層級架構",
+          "description": [
+            "DADI API 是一種可快速安裝使用、能為你的數位平台提供堅實後盾的資料層。專為連接範本層、行動應用程式或使用於其他任何資訊客戶所設計——也可與 DADI 技術套件的其他應用程式併用。",
+            "可包含你的商業／網域邏輯（這是可將真實世界中決定資訊如何創造、顯示、儲存和變更的商業規則進行編碼的平台一部分）。DADI API 可讓你能在幾分鐘內就取得完整的資料層級。"
+          ],
+          "headlines": [
+            "輕鬆過濾與排序你的資料",
+            "靈活的資料庫技術支援",
+            "自動檔案同步",
+            "內建支援 oAuth2"
+          ],
+          "features": [
+            {
+              "title": "輕鬆過濾與排序你的資料",
+              "icon": "folder-open",
+              "description": "利用 MongoDB 風格的查詢功能來過濾與排序你的資料。"
+            },
+            {
+              "title": "靈活的資料庫支援",
+              "icon": "database",
+              "description": "支援 MongoDB、CouchDB 和 RethinkDB 等多種資料庫連接器"
+            },
+            {
+              "title": "自動資料庫索引",
+              "icon": "list",
+              "description": "為你的基礎資料庫建立索引就像新增組態元件到集合一樣簡單"
+            },
+            {
+              "title": "自動輸入驗證",
+              "icon": "happy",
+              "description": "輕鬆組態集合內的欄位來進行輸入驗證"
+            },
+            {
+              "title": "集合級存取控制",
+              "icon": "locked",
+              "description": "精細的授權層級能控制資料存取的對象及方式"
+            },
+            {
+              "title": "快取資料來更快擷取",
+              "icon": "cloud-upload",
+              "description": "使用 Redis 伺服器或本地檔案系統來快取資料能提供更快的回應時間"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "API 可為 Web 服務提供動態內容。"
+            },
+            {
+              "product": "publish",
+              "description": "Publish 可提供介面來編輯 API 裡的內容。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "hide_docs": true,
+          "title": "Publish",
+          "product": "publish",
+          "color": "#FFBF0D",
+          "overview": "為作者提供一扇內容創建世界之窗。為優化編輯工作流程設計的彈性介面",
+          "description": [
+            "DADI Publish 是為優化編輯工作流程和提供符合你需求的靈活介面功能來設計，代表能節省更多耗費在管理上的時間來專心創作內容。專為支援 COPE 原則（一次創建，多次出版）創建。",
+            "新聞工作者和編輯可以在一個地方就能跨多項產品無縫地管理輸出，工程師也能減少對複雜內容集合的工作量。Publish 目前只能在 DADI API 下作業，但我們的開發藍圖即將很快開放支援多種資料儲存庫。"
+          ],
+          "headlines": [
+            "可延伸的自訂欄位",
+            "可跨多個 API 來管理文件",
+            "配有簡易拖放工具的直覺式的瀏覽器編輯器",
+            "可管理大數據作業、分析和更多功能的背景工作執行"
+          ],
+          "features": [
+            {
+              "title": "中心化媒體管理",
+              "icon": "picture",
+              "description": "支援透過單一內容儲存庫的數位產品組合。為工程師和編輯等有關工作者節省時間與精力"
+            },
+            {
+              "title": "文章發表排程",
+              "icon": "time",
+              "description": "預載內容來自動發佈符合內容時程的作業，而不是你的工作日。另外也可為內部審查製作草稿"
+            },
+            {
+              "title": "可在 30 秒內完成安裝連接",
+              "icon": "database",
+              "description": "這是 DADI API 最佳的組合，因此你無須長達數週到數月的時間就能在幾天到幾週內完成。我們也即將開放支援其他資料儲存庫"
+            },
+            {
+              "title": "自訂使用者權限",
+              "icon": "locked",
+              "description": "為大型團隊設計的強化功能——將適合的人手分配在適合的系統中工作。可延伸支援編輯工作流程 "
+            },
+            {
+              "title": "協作式文件編輯",
+              "icon": "user-new",
+              "description": "查看同事在共享文章的部分並避免重複他人工作——一起無縫接軌工作來更新內容"
+            },
+            {
+              "title": "可快速還原的文件修訂歷史",
+              "icon": "rewind",
+              "description": "完整的系統審計追蹤讓你能回復到任何時間點。文件差異比對可讓你一覽所有變更內容"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "API 可為 Web 服務提供內容。"
+            },
+            {
+              "product": "publish",
+              "description": "API 的內容可在 Publish 進行編輯。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "title": "CDN",
+          "product": "cdn",
+          "color": "#e02975",
+          "dark-color": "#280816",
+          "overview": "以現代、全球的內容分發解決方案來設計的及時資產操作與傳遞層級。",
+          "description": [
+            "DADI CDN 是類似像是 Akamai 和 Limelight 的傳統 CDN（內容傳遞網路），專為執行處理作業與傳遞有關影像處理和資產傳遞（CSS／JavaScript／字型）的載量所設計，並可自動作為你核心產品頂層的層級。",
+            "CDN 可完整支援快取、標頭控制、影像處理、影像壓縮及影像格式轉換。已驗證的 API 可允許以內容無效形式來為個人檔案或集體路徑基礎進行精細快取控制。 DADI Web 可使用多種範本語言，為你的資料展示提供簡易但強大的範本層。 這包含了 LinkedIn 的 Dust.js、Pug 或 Handlebars——或者你也可以輕鬆製作屬於你的。"
+          ],
+          "headlines": [
+            "可由 Amazon S3、遠端伺服器或本地檔案系統供應",
+            "可為響應式設計和行動裝置來動態生成影像",
+            "廣大的影像強化和轉換工具套件",
+            "影像格式轉換"
+          ],
+          "features": [
+            {
+              "title": "可根據題材來裁剪",
+              "icon": "picture",
+              "description": "讓內容傳遞網路決定影像焦點並傳遞只含基本要素、依你需求來裁切的內容"
+            },
+            {
+              "title": "簡化媒體儲存空間",
+              "icon": "database",
+              "description": "無須將每張你所上傳到文章裡的影像維持多種尺寸大小——內容傳遞網路能從一張主影像產生各種新變化的版本"
+            },
+            {
+              "title": "支援所有資產類型的內容傳遞網路",
+              "icon": "layers",
+              "description": "儲存、傳遞字型檔，並將你所有要傳遞的 CSS 和 Javascript 資產迷你化"
+            },
+            {
+              "title": "智慧傳遞技術",
+              "icon": "activity",
+              "description": "讓內容傳遞網路選擇根據裝置、網路、地點或語言的最佳轉化"
+            },
+            {
+              "title": "傳遞配置",
+              "icon": "id",
+              "description": "將常用的影像操作參數儲存為「影像參數傳遞配置」"
+            },
+            {
+              "title": "可快取裁剪內容來獲得更快的傳遞速度",
+              "icon": "bolt",
+              "description": "轉換的影像檔可用 Redis 伺服器或本地檔案系統進行快取，為後續的請求提供更快的傳遞"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Publish 可管理在 API 的儲存內容。"
+            },
+            {
+              "product": "cdn",
+              "description": "Publish 可用內容傳遞網路來儲存和操作影像。"
+            },
+            {
+              "product": "web",
+              "description": "Publish 可用 Web 服務來支援前端。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "title": "Web",
+          "product": "web",
+          "color": "#e42918",
+          "dark-color": "#490b08",
+          "overview": "能以獨立平台或與 API 作為完整堆疊網路應用程式來作業的無綱要式模板層級。",
+          "description": [
+            "DADI Web 能讓建立自訂的企業級網路應用程式變得輕鬆。可輕鬆製作靜態網頁或連結到 API 來創造出數據驅動的應用程式，讓你在伺服器或瀏覽器內的資料搜尋、分頁、排序和過濾更加有力。",
+            "DADI Web 可使用多種範本語言，提供簡單但有力的範本層級來顯示你的資料。這包含了 LinkedIn 的 Dust.js、Pug 或 Handlebars——或者你也可以輕鬆製作屬於你的。"
+          ],
+          "headlines": [
+            "與 REST API 連結來產生數據驅動的網頁",
+            "為你的資料進行搜尋、分頁、排序與過濾",
+            "可輕鬆創造的靜態網頁",
+            "可支援資料庫備份的工作階段"
+          ],
+          "features": [
+            {
+              "title": "靈活的樣板引擎支援",
+              "icon": "chat-alt",
+              "description": "可用 Web 服務預設的 Dust.js 模板引擎或者切換成 Pug.js 或 Handlebars.js——甚至創造屬於你自己的！"
+            },
+            {
+              "title": "網址重寫支援",
+              "icon": "duplicate",
+              "description": "包含完整支援重新導向和 Proxy 處理的 Apache 配置風格網址重寫。"
+            },
+            {
+              "title": "事件層級",
+              "icon": "bolt",
+              "description": "建立自訂的 JavaScript 事件來修改請求和回應，或根據來源載入的資訊來採取行動"
+            },
+            {
+              "title": "支援各種資訊",
+              "icon": "cloud",
+              "description": "不僅限使用 DADI API 而已，你還能透過靜態的 Markdown 檔案來提供資料或者從 Twitter 和 WordPress 來擷取摘要資訊"
+            },
+            {
+              "title": "預載資料",
+              "icon": "fast-forward",
+              "description": "在應用程式啟動時預載以加速常用資料的存取"
+            },
+            {
+              "title": "快取網頁來更快擷取資訊",
+              "icon": "performance",
+              "description": "使用 Redis 伺服器或本地檔案系統來快取資料能為使用者提供更快的回應時間。包括對快取控制標頭的完整支援"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Web 可顯示來自 API 的內容。"
+            },
+            {
+              "product": "cdn",
+              "description": "Web 使用內容傳遞網路來供應影像、CSS 和 JavaScript。"
+            }
+          ]
         }
       ]
     }

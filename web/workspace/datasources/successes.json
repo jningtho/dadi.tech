@@ -923,6 +923,136 @@
             "Closer.",
             "Função de procura integrada através dos vários sites, tagging e base de dados de celebridades."
           ]
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "whatcar",
+          "title": "What Car?",
+          "color": "#e32116",
+          "summary": "以 DADI 技術來重建的端到端流程架構可優化工作流程、改善互動及支援新的商業機會。",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "「What Car?」是架構在一座日漸老舊、使用者經驗設計薄弱且限定桌面版本，並設有多個斷線編輯工作流的的「遺產平台」(legacy platform t)。需要全面更新系統來讓作者能擁有更多時間在編輯內容上而不是管理，同時也能提供使用者一個無縫連接的跨裝置體驗。",
+          "results": "DADI 技術傳遞一種可從展示摘要內容的 API 優先網路平台解決方案，代表著只要一份內容和一種編輯工作流程就能跨桌面、平板及行動裝置滿足多種數位產品。",
+          "detail": "Haymarket 媒體集團選擇使用 DADI 技術來傳遞 Whatcar.com 的改造工程；由於原本的網站內容使用了混合的老舊技術，使得編輯資源的需求過重及使用者體驗不良。\n\n於是內部開發人員與 DADI 工程師及策略師群透過共同協作設計了一個全新的反覆式產品藍圖，不但修正許多老舊遺產平台的缺點，也將「評論」網站拓展成一項完整的汽車買賣零售服務。\n\n成功開發出一個針對編輯工作流程需求並能以單一來源支援桌面、平板、行動裝置和未來產品的全新數位內容商店和管理介面。接著將其與一個以未來內容個人化概念設計的最新完全響應式前端進行整合——以 DADI 平台所收集的使用數據為基礎；是一座結合了內容與商務的模型。",
+          "quote": {
+            "body": "將 Whatcar.com 轉移到 DADI 大幅減低了我們的基礎建設花費",
+            "cite": "Haymarket 消費者媒體 產品經理"
+          },
+          "captions": [
+            "Whatcar.com 響應式首頁",
+            "結合多個資料來源來揭露新洞見。",
+            "全螢幕影像庫展示最佳編輯照片",
+            "負責為備受尊崇的「What Car? 年度汽車獎」設計"
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "monocle",
+          "title": "Monocle",
+          "color": "#fc0",
+          "text-color": "#000",
+          "summary": "為支援單一使用者與訂閱者瀏覽所創建的全新平台——以及支援從瀏覽器到應用程式的完整數位產品組合。",
+          "components": [
+            "User data management",
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Monocle 數位產品是由一個與雜誌訂閱者、商店顧客和網站使用者並無相關的斷線平台所驅動。需要一個新的解決方案來促進跨網路和行動裝置的單一訂閱者瀏覽——及推動一個重點的顧客關係管理經營策略。",
+          "results": "DADI 平台支援一個能辨識個人與優化使用者經驗的全新數據驅動策略——在六個月內即增加 88% 的訪客、超過 49% 以上的註冊用戶、25% 的商店銷售及 44% 的付費訂閱人數。",
+          "detail": "Monocle 使用 DADI 技術來啟動一個跨紙本、數位、廣播和零售的強化顧客關係管理策略，這將所有使用者資料拖曳進同一地方來提供無縫連接的數據驅動體驗與 Monocle 實體商店的優質服務競爭。\n\n單一使用者紀錄可支援數位產品註冊、郵件訊息訂閱、Monocle 商店購物加上數位與紙本雜誌訂閱。這促進了更多目標客群的訊息傳送，讓品牌和相關使用者都能更有效率。\n\nDADI 平台也負責管理跨瀏覽器網站與應用程式的編輯內容，同時我們的企業支援團隊也持續與 Monocle 的內部工程師一起共同進行開發，提供從大數據深度學習演算 (heavy-lfiting) 到使用者經驗設計的支援服務——這樣的合作關係也讓  Monocle.com 獲得了多個關於數位產品的獎項殊榮。",
+          "quote": {
+            "body": "DADI 技術了解我們的使用者資料並啟動具備我們讀者對紙本品質相同需求的優質網路體驗",
+            "cite": "Monocle 數位長"
+          },
+          "vimeo": "66093926",
+          "captions": [
+            "全站優化解決方案：從首頁到購物車",
+            "專為 iOS 應用程式製作設計，由單一 API 驅動",
+            "兼具即時性和隨選服務的跨裝置語音內容傳遞",
+            "Integration with Vimeo.com allows uploading of video content from the editorial interface."
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "empire",
+          "title": "Empire",
+          "color": "#ff0000",
+          "summary": "重建網站及內容管理來精簡使用者經驗和編輯工作流程——全部都可異步傳遞",
+          "components": [
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Empire 欠佳的使用者經驗問題為有關編輯團隊帶來相當程度的困擾。整體設計需要全面更新，也需要重新啟動內容管理——並且只有 12 週可以進行",
+          "results": "DADI 混合的微服務成功傳遞了一座由使用簡易的內容管理介面所驅動的全新行動響應式網站。這為共同開發中的反覆式演進奠定了穩固的基礎",
+          "detail": "鮑爾媒體集團 (Bauer Media Group) 在 2015 年夏天選擇使用 DADI 技術來為旗下品牌 Empire 進行全面改造，並且在秋天之前就順利呈現出一座全面改造的網站服務。\n\n這是以 API 優先來支援精簡編輯工作流程的全新產品，可呈現簡明的跨多裝置使用者體驗設計及強化的搜尋引擎優化功能。此專案原先被定義為最小可行性的產品，但在上市階段後即蛻變成可根據使用數據測量、持續反覆式開發模式的產品。\n\nDADI 目前正與 Empire 共同為一款將包含 Publish 最新版本的新發佈努力，並且推出同時橫跨鮑爾產品組合內其他標題的平台技術。另有可支援數位產品註冊、郵件訊息訂閱、Monocle 商店購物加上數位與紙本雜誌訂閱的單一使用者紀錄。這促進了更多目標客群的訊息傳送，讓品牌和相關使用者都能更有效率。\n\nDADI 平台也負責管理跨瀏覽器網站與應用程式的編輯內容，同時我們的企業支援團隊也持續與 Monocle 的內部工程師一起共同進行開發，提供從大數據深度學習演算 (heavy-lfiting) 到使用者經驗設計的支援服務——這樣的合作關係也讓  Monocle.com 獲得了多個關於數位產品的獎項殊榮。",
+          "quote": {
+            "body": "DADI 平台提供獨特且市場領先的搜尋引擎優化功能",
+            "cite": "鮑爾媒體 搜尋導覽長"
+          },
+          "captions": [
+            "全面響應式首頁",
+            "早期設計概念作品",
+            "與 Themoviedb.org 的整合能讓編輯輕鬆選擇高畫質的影像",
+            "中樞頁面 (hub pages) 能允許將內容組織在標題四周"
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "virgin",
+          "title": "Virgin Limited Edition",
+          "color": "#333",
+          "summary": "一項由創辦人理查德·布蘭森爵士精選豪華渡假島嶼和房產的頂級數位產品",
+          "components": [
+            "Content management",
+            "User data management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "維珍限量版 (Virgin Limited Edition) 需要架設一個以上的型錄網站來呈現該品牌獨家精選的私人島嶼、刺激冒險和豪華房產。網站需要以沉浸式的使用者經驗設計和無縫連結的客戶關係管理系統來設計",
+          "results": "DADI 技術不僅成功傳遞了彈性靈活的內容管理及頂級的使用者體驗，也提供可緊密結合預訂搜尋引擎、數位通訊和面對面客戶服務三方的輕量級顧客關係管理系統 ",
+          "detail": "維珍限量版用 DADI 技術來啟動內容管理和管理使用者關係。這是一個使用 API 優先架構組合並由 DADI 企業支援團隊負責管理的網站。\n\n首要優先考量是呈現方式——網站以讓使用者可身歷其境房屋細節為目標來規劃、設計和架設——而由於 DADI 平台可彈性控制內容的呈現方式，DADI 團隊可因此排除開發者的介入建立個人範本。\n\n在網站幕後設有一座單一使用者的資料儲存庫可融合來自多個來源的資訊並提供單一事實——這對從不同需求的客戶群協調出適合的顧客接觸策略十分重要",
+          "quote": {
+            "body": "DADI 已成為我們企業成長策略中的重要一環，不僅為我們建立了如同「商店展示窗」的網站，也幫我們更聰明地管理客戶資料",
+            "cite": "維珍限量版 行銷總監"
+          },
+          "captions": [
+            "可適用每種九項產品屬性的單一設計系統",
+            "遍佈全網站的互動式附加元件",
+            "展示奢華體驗的高解析影像中心",
+            "維珍限量版部落格讓訪客可了解關於每個地方的獨特性"
+          ]
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "lifestyle-one",
+          "title": "Lifestyle.one",
+          "color": "#9530bd",
+          "summary": "一個意欲將多個標題和編輯團隊整合為一個具強化收益流解決方案的雄心計畫",
+          "components": [
+            "Content management",
+            "API first",
+            "Create Once Publish Anywhere"
+          ],
+          "requirements": "Grazia、Closer 和 Heat Magazine 是一個使用多種內容管理和廣告傳遞系統的分離數位專案組合。Lifestyle.one 所尋求的是讓這些產品轉化成一個精簡的套裝組合",
+          "results": "DADI 技術由同一編碼庫來驅動全部三種標題，並為各個品牌需求進行展示上的微調整。累積多年的內容皆統一轉移至同一地方，使得廣告宣傳和編輯工作流程大幅提升",
+          "detail": "另一個也選擇採用 DADI 技術套件的端到端模式網站是 Lifestyle.one：一個可支援跨混合標題下各種商務和編輯需求的單一前端展示建置——並且可配合跨編輯團隊的工作流程需求。\n\n此建置擴展了為 Empire Magazine 所建立的 Publish 內容管理解決方案，為合併發行帶來更多優勢、也為這項跨四種標題的廣大專案組合提供更新。\n\n最終所產生的成果是一項較不過度需要技術、商務和編輯維護相關資源的更精簡數位產品。不但可促進交叉宣傳，也因聚集內容組合四周的客群而帶來更大的收益機會",
+          "quote": {
+            "body": "使用 DADI 技術所建立的產品可在幾天和幾週內就達成，而非數週到數個月。",
+            "cite": "鮑爾媒體首席技術長 "
+          },
+          "captions": [
+            "每個雜誌網站皆是從一座統一的程式碼庫所衍生。(Grazia)",
+            "Heat World.",
+            "Closer.",
+            "跨站整合搜尋、標籤和名人資料庫"
+          ]
         }
       ]
     }
