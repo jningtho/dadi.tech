@@ -5,7 +5,8 @@
   },
   "datasources": [
     "i18n",
-    "latest-footer"
+    "latest-footer",
+    "roadmap"
   ],
   "routes": [
     {
