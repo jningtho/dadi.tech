@@ -507,6 +507,68 @@
           "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
           "date": "Q1 2018"
         },
+        {
+          "lang": "zh_hans",
+          "product": "api",
+          "overview": "高性能 RESTful API 层，其设计支持 API 优先开发和 COPE 原则。"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "publish",
+          "overview": "写作者通往内容创作世界的一个窗口。灵活的界面，采用了编辑工作流程优化设计。"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "cdn",
+          "overview": "即时 (JIT) 素材处理和交付层，采用了现代化全球内容分发解决方案设计。"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "web",
+          "overview": "无模式模板层，可作为独立平台运行，也可作为完整的堆栈 Web 应用程序与 API 配合运行。"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "track",
+          "overview": "实时流处理数据层，在个人和产品层提供准确的指标。驱动 DADI Identity。",
+          "date": "Q1 2018"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "visualize",
+          "overview": "一种用于标识和跟踪的数据可视化界面，但可以采用几乎任何来源的数据馈送。",
+          "date": "Q2 2018"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "identity",
+          "overview": "保证匿名和已知用户的个体唯一性，并支持细分。",
+          "date": "Q1 2018"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "match",
+          "overview": "分类框架，可通过机器学习自动完成内容分类。插入式发布。",
+          "date": "Q3 2018"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "predict",
+          "overview": "一个机器学习层，可根据过去的互动在个体层面预测用户行为。",
+          "date": "Q3 2018"
+        },
+        {
+          "lang": "zh_hans",
+          "product": "queue",
+          "url": "https://github.com/dadi/queue",
+          "overview": "A lightweight, RSMQ-powered asynchronous task queue featuring simple task routing and throttling."
+        },
+        {
+          "lang": "zh_hans",
+          "product": "store",
+          "overview": "A cloud storage solution for all types of data, with built-in security, privacy and redundancy.",
+          "date": "Q1 2018"
+        }
       ]
     }
   }
