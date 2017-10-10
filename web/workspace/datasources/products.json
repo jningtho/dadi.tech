@@ -1958,6 +1958,248 @@
               "description": "Web 使用內容傳遞網路來供應影像、CSS 和 JavaScript。"
             }
           ]
+        },
+        {
+          "lang": "zh_hans",
+          "title": "API",
+          "product": "api",
+          "color": "#0BA6DD",
+          "overview": "高性能 RESTful API 层，其设计支持 API 优先开发和 COPE",
+          "description": [
+            "DADI API 一个快速设置数据层，可以充当数字平台的中枢。它被设计成可以插入到模板层、移动应用程序或者可用于任何其他数据使用端，并且可与 DADI 技术套件中的其他应用程序一起使用。",
+            "它可以包含您的业务/领域逻辑（对现实世界业务规则编码的平台部分；这些规则确定数据的创建、显示、存储和更改的方式）。DADI API 可让您在几分钟内设置并运行一个完整的数据层。"
+          ],
+          "headlines": [
+            "轻松筛选数据以及进行数据排序",
+            "灵活的数据库支持",
+            "自动文档版本控制",
+            "内置 oAuth2 支持"
+          ],
+          "features": [
+            {
+              "title": "轻松筛选数据以及进行数据排序",
+              "icon": "folder-open",
+              "description": "驾驭 MongoDB 风格查询的力量来筛选数据以及进行数据排序。"
+            },
+            {
+              "title": "灵活的数据库支持",
+              "icon": "database",
+              "description": "支持多个数据库连接器，其中包括 MongoDB、CouchDB 和 RethinkDB"
+            },
+            {
+              "title": "自动建立数据库索引",
+              "icon": "list",
+              "description": "建立底层数据库索引很简单，将配置元素添加到集合中即可"
+            },
+            {
+              "title": "自动输入验证",
+              "icon": "happy",
+              "description": "轻松配置集合中的字段以便进行输入验证"
+            },
+            {
+              "title": "集合级访问控制",
+              "icon": "locked",
+              "description": "利用细粒度的授权层，控制谁可以访问数据以及访问方式"
+            },
+            {
+              "title": "缓存数据以加快检索速度",
+              "icon": "cloud-upload",
+              "description": "使用 Redis 服务器或本地文件系统缓存数据，从而缩短响应时间"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "API 可以提供动态 Web 内容。"
+            },
+            {
+              "product": "publish",
+              "description": "Publish 提供在 API 中编辑内容的界面。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hans",
+          "hide_docs": true,
+          "title": "Publish",
+          "product": "publish",
+          "color": "#FFBF0D",
+          "overview": "写作者通往内容创作世界的一个窗口。灵活的界面，采用了编辑工作流程优化设计",
+          "description": [
+            "开发 DADI Publish 的目的是用可适应要求的灵活界面来优化编辑工作流程，从而可将更多时间用于制作内容，而不是将时间浪费在内容管理上。其构建目的是支持 COPE（一次创建，随处发布）原则。",
+            "撰稿人和编辑人员可以从一个地方跨产品无缝管理输出，而工程师则可以让复杂的内容收集工作变得轻松。Publish 当前与 DADI API 配合使用，但开发路线图将很快允许其用于各种数据存储库。"
+          ],
+          "headlines": [
+            "可扩展的自定义字段",
+            "管理涉及多个 API 的文档",
+            "直观的浏览器内编辑器，有简单的拖放工具",
+            "后台任务，可管理大数据操作、分析等大量事项"
+          ],
+          "features": [
+            {
+              "title": "集中媒体管理",
+              "icon": "picture",
+              "description": "通过一个内容存储库支持一套数字产品。节约工程师和编辑人员等的时间和精力"
+            },
+            {
+              "title": "文章发布日程安排",
+              "icon": "time",
+              "description": "预加载内容供在适合内容的某个非工作日时间自动发布。创作草稿供内部审阅"
+            },
+            {
+              "title": "30 秒内设置并连接",
+              "icon": "database",
+              "description": "DADI API 的完美补充，使您只需几天或几周（而非几个月）就能投入运行。很快将用于其他数据存储库"
+            },
+            {
+              "title": "自定义用户权限",
+              "icon": "locked",
+              "description": "大团队强化功能：让恰当的人负责系统的恰当部分。扩展后可支持编辑工作流程"
+            },
+            {
+              "title": "协作文档编辑",
+              "icon": "user-new",
+              "description": "了解同事在共享文章中所处的位置，避免冲突：在更新内容时无缝合作"
+            },
+            {
+              "title": "修订历史记录，可迅速还原",
+              "icon": "rewind",
+              "description": "提供完整的审核踪迹，可以恢复到任何时间点。列出文档差异，可了解更改概况"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "web",
+              "description": "API 可以提供 Web 内容。"
+            },
+            {
+              "product": "publish",
+              "description": "可以在 Publish 中编辑 API 中的内容。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hans",
+          "title": "CDN",
+          "product": "cdn",
+          "color": "#e02975",
+          "dark-color": "#280816",
+          "overview": "即时 (JIT) 素材处理和交付层，采用了现代化全球内容分发解决方案",
+          "description": [
+            "DADI CDN 类似于传统的 CDN（内容分发网络），如 Akamai 和 Limelight。其设计目的是承载与图像操作和素材交付（CSS/JS/字体）关联的处理和交付负荷，并自主发挥核心产品顶层的作用。",
+            "CDN 完全支持缓存、标头控制、图像操作、图像压缩和图像格式转换。经过验证的 API 支持在单个文件或集体路径的基础上，以内容验证的形式实现细粒度缓存控制 DADI Web 可以使用各种模板语言，因此可以提供简单而强大的模板层来显示数据。其中包括 LinkedIn 的 Dust、Pug 或 Handlebars；您也可以轻松定制自己的模板。"
+          ],
+          "headlines": [
+            "通过 Amazon S3、远程服务器或本地文件系统提供服务",
+            "为快速响应设计和移动设备动态生成图像",
+            "丰富的图像增强和转化工具集",
+            "图像格式转换"
+          ],
+          "features": [
+            {
+              "title": "基于主题事项的裁剪",
+              "icon": "picture",
+              "description": "让 CDN 确定图像的焦点，交付仅包含必要信息的图像，按您的规格裁剪"
+            },
+            {
+              "title": "简化的媒体存储",
+              "icon": "database",
+              "description": "不需要为您上传到文件中的每个图像维护多个尺寸：CDN 会根据单个主图像生成新的变体"
+            },
+            {
+              "title": "一个 CDN 适用于所有素材类型",
+              "icon": "layers",
+              "description": "存储和交付字体文件，缩小所有 CSS 和 JavaScript 素材供交付。"
+            },
+            {
+              "title": "智能交付",
+              "icon": "activity",
+              "description": "让 CDN 根据设备、网络、位置和语言选择最佳转化"
+            },
+            {
+              "title": "交付配方",
+              "icon": "id",
+              "description": "将常用的图像操作参数另存为“交付配方”"
+            },
+            {
+              "title": "裁剪缓存以加快交付速度",
+              "icon": "bolt",
+              "description": "可以使用 Redis 服务器或本地文件系统缓存转换后的图像，从而加快后续请求的交付速度"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Publish 管理 API 中存储的内容。"
+            },
+            {
+              "product": "cdn",
+              "description": "Publish 使用 CDN 来存储和操作图像。"
+            },
+            {
+              "product": "web",
+              "description": "Publish 可以使用 Web 为前端服务。"
+            }
+          ]
+        },
+        {
+          "lang": "zh_hans",
+          "title": "Web",
+          "product": "web",
+          "color": "#e42918",
+          "dark-color": "#490b08",
+          "overview": "无模式模板层，可作为独立平台运行，也可作为完整的堆栈 Web 应用程序与 API 配合运行。",
+          "description": [
+            "利用 DADI Web 可以轻松构建自定义企业级 Web 应用程序。轻松创建静态页面或连接到 API 以生成数据驱动的应用程序，使您能够在服务器上或在浏览器中对数据执行搜索、分页、排序和筛选操作。", "DADI Web 可以使用各种模板语言，因此可以提供简单而强大的模板层来显示数据。其中包括 LinkedIn 的 Dust、Pug 或 Handlebars；您也可以轻松定制自己的模板。"
+          ],
+          "headlines": [
+            "与 REST API 连接以生成数据驱动的页面",
+            "对数据执行搜索、分页、排序和筛选操作",
+            "轻松创建静态页面",
+            "支持基于数据库的会话"
+          ],
+          "features": [
+            {
+              "title": "灵活的模板引擎支持",
+              "icon": "chat-alt",
+              "description": "使用 Web 默认的 Dust.js 模板引擎或者换成 Pug.js 或 Handlebars.js，甚至定制您自己的模板引擎！"
+            },
+            {
+              "title": "URL 重写支持",
+              "icon": "duplicate",
+              "description": "包括 Apache 类的 URL 重写，完全支持重定向和代理。"
+            },
+            {
+              "title": "事件层",
+              "icon": "bolt",
+              "description": "创建自定义 JavaScript 事件以修改请求和响应，或者根据从来源中加载的数据采取措施"
+            },
+            {
+              "title": "来自任何地方的数据",
+              "icon": "cloud",
+              "description": "您不会受限于使用 DADI API：可以处理来自静态 Markdown 文件的数据，也可以从 Twitter 和 Wordpress 检索馈送内容"
+            },
+            {
+              "title": "预加载数据",
+              "icon": "fast-forward",
+              "description": "通过在应用程序启动时预加载常用数据，加快访问速度"
+            },
+            {
+              "title": "缓存页面以加快检索速度",
+              "icon": "performance",
+              "description": "使用 Redis 服务器或本地文件系统缓存数据，从而缩短对用户的响应时间。包括完全支持缓存控制标头"
+            }
+          ],
+          "workswith": [
+            {
+              "product": "api",
+              "description": "Web 可以显示来自 API 的内容。"
+            },
+            {
+              "product": "cdn",
+              "description": "Web 使用 CDN 来处理图像、CSS 和 JS。"
+            }
+          ]
         }
       ]
     }

@@ -1066,18 +1066,18 @@
             "API first",
             "Create Once Publish Anywhere"
           ],
-          "requirements": "What Car? was built on an ageing legacy platform that presented a brittle, desktop-only user experience with multiple disconnected editorial workstreams. New systems were required so that writers could spend more time on content than admin – and users could have a seamless experience across devices.",
-          "results": "DADI technology delivers an API-first platform solution that abstracts content from presentation, meaning one pot of content and one editorial workflow can feed multiple digital products across desktop, tablet and mobile.",
-          "detail": "Haymarket Media group chose to use DADI technology to deliver a rebuild of whatcar.com, which used a mix of ageing technology that placed excessive demands on editorial resource and provided a poor user experience.\n\nIn-house developers worked in collaboration with DADI engineers and strategists against a new, iterative product roadmap – fixing the many shortcomings of the legacy platform and extending a 'reviews' website into a full car-buying retail service.\n\nA new content store and management interface was developed, tailored to editorial workflow requirement and capable of powering desktop, tablet, mobile and future products from a single source. This was then integrated with an updated fully responsive front-end designed with future content personalisation in mind – based on usage data collected by the DADI platform. It is a model bend of content and commerce.",
+          "requirements": "What Car? 建在一个陈旧的平台上，仅提供脆弱的桌面用户体验，多个编辑工作流程之间互不关联。他们需要一个新系统，以便让写作者将更多时间用于内容而不是管理，并且用户可以获得流畅的跨设备体验。",
+          "results": "DADI 技术提供了一个 API 优先平台解决方案，可以从演示文稿中提取内容；也就是说，一组内容和一个编辑工作流程可以跨桌面、平板电脑和手机馈送多个数字产品。",
+          "detail": "Haymarket Media 集团选择使用 DADI 技术来重建 whatcar.com；该网络原来采用了各种陈旧的技术，给编辑资源带来了额外的负担，并且用户体验不佳。\n\n内部开发人员与 DADI 工程师及策略师按新的迭代产品路线图合作：修复了旧平台的许多缺点，并将一个“评论”网站扩展成拥有全套购车零售服务。\n\n开发了一个按编辑工作流程要求定制的新内容存储库和管理界面，可以从单个来源支持桌面、平板电脑、手机和将来的产品。然后，根据 DADI 平台收集的使用数据，将此界面与更新后的全速响应前端集成（该前端在设计时就已考虑将来的内容个性化功能）。这是内容和商务模式的大变化。",
           "quote": {
-            "body": "Moving whatcar.com to DADI significantly reduced our infrastructure costs",
-            "cite": "Product Lead, **Haymarket Consumer Media**"
+            "body": "将 whatcar.com 迁移到 DADI 后，极大地降低了我们的基础设施成本",
+            "cite": "Haymarket 消费者媒体部门产品主管"
           },
           "captions": [
             "Whatcar.com 快速响应主页",
-            "Combining multiple data sources to reveal new insights.",
-            "Full screen image galleries showcase the great editorial photography.",
-            "Design work for the much respected What Car? Car of the Year Awards."
+            "结合多个数据源来发现新的见解。",
+            "全屏图像图库展示了出色的编辑摄影技术",
+            "为备受推崇的 What Car 设计作品？年度汽车奖"
           ]
         },
         {
@@ -1086,25 +1086,25 @@
           "title": "Monocle",
           "color": "#fc0",
           "text-color": "#000",
-          "summary": "A new platform built in support of single user and subscriber view – and to power a full suite of digital product from browser to app.",
+          "summary": "一个新平台，支持单用户和订阅者视图，可以支持从浏览器到应用程序在内的全套数字产品。",
           "components": [
             "User data management",
             "Content management",
             "API first",
             "Create Once Publish Anywhere"
           ],
-          "requirements": "Monocle digital products were driven by a disconnected platform with no correlation between magazine subscribers, shop customers and website users. A new solution was needed to facilitate single subscriber view across web and mobile – and drive a focussed CRM strategy.",
-          "results": "The DADI platform underpins a new data driven strategy that identifies the individual and optimizes user experience, delivering an 88% increase in visitors, 49% more registered users, 25% greater shop sales and a 44% increase in paid subscribers – and inside six months.",
-          "detail": "Monocle uses DADI technology to power an enhanced CRM strategy across print, digital, radio and retail. It pulls all user data into a single pot and works to provide a seamless data driven experience to rival the premium service found in physical Monocle stores.\n\nA single user record supports registration with digital product, sign up to email bulletins, purchases made in the Monocle Shop plus both digital and magazine subscriptions. This has allowed for more targeted messaging which is more effective for both brand and users alike.\n\nThe DADI platform also manages editorial content across browser site and apps, while our enterprise support team has been working in co-development with engineers at Monocle offering support ranging from tech heavy lifting to UX and design – a partnership that has rewarded Monocle.com with several awards for its digital product.",
+          "requirements": "Monocle 数字产品由不联网的平台驱动，杂志订户、商店顾客和网站用户之间没有关联。需要新解决方案来简化 Web 和手机上的单订户视图，并推动重点 CRM 策略。",
+          "results": "DADI 平台巩固了新的数据驱动型策略，可以标识个人与优化用户体验，从而在 6 个月内实现了 88% 的访问量增长、49% 的注册用户增长、25% 的商店销售额增长以及 44% 的付费订户增长。",
+          "detail": "Monocle 采用 DADI 技术支持强化的 CRM 策略，涉及印刷、数字媒体、无线电广播和零售。它将所有用户数据拉取到单个容器中，并设法提供流畅的数据驱动型体验，与实体 Monocle 存储库中的优质服务相媲美。\n\n单用户记录支持数字产品注册、电子邮件公告注册、在 Monocle Shop 中购买以及数字内容订阅和杂志订阅。这样可实现更具针对性的消息传送，可为品牌和用户等带来更好的效果。\n\nDADI 还可管理浏览器站点和应用程序中的编辑内容，而我们的企业支持团队一直与 Monocle 的工程师们合作开发，提供从技术提升到用户体验和设计在内的系列支持：这种合作关系为 Monocle.com 带来了数字产品方面的多种好处。",
           "quote": {
-            "body": "DADI technology made sense of our user data and enabled a premium online experience of the quality our readers find in print.",
-            "cite": "Head of Digital, **Monocle**"
+            "body": "DADI 技术理顺了我们用户数据的价值，让我们的读者获得了与印刷品相同的优质在线体验",
+            "cite": "Monocle 数字媒体主管"
           },
           "vimeo": "66093926",
           "captions": [
-            "Site-wide solution: from the homepage to the shopping cart.",
-            "iOS app designed and built, pulling from a single API.",
-            "Cross-device delivery of audio content, both real-time and on-demand.",
+            "全网站解决方案：从主页到购物车",
+            "设计和构建的 iOS 应用程序从单个 API 拉取数据",
+            "以实时及点播方式跨设备提供音频内容",
             "Integration with Vimeo.com allows uploading of video content from the editorial interface."
           ]
         },
@@ -1113,24 +1113,24 @@
           "handle": "empire",
           "title": "Empire",
           "color": "#ff0000",
-          "summary": "Rebuilt website and content management to streamline user experience and editorial workflow – all delivered against the clock.",
+          "summary": "重建网站和内容管理以精简用户体验和编辑工作流程 — 一切均按时交付",
           "components": [
             "Content management",
             "API first",
             "Create Once Publish Anywhere"
           ],
-          "requirements": "Empire was suffering with poor user experience and bringing headaches to its editorial team. It needed a design refresh and content management reboot – and there was only 12 weeks to do it.",
-          "results": "A mix of DADI microservices rapidly delivers a new mobile responsive website driven by easy-to-use content management interfaces. It lays the ground for iterative evolution in co-development.",
-          "detail": "Bauer chose DADI technology for its Empire refresh in Summer 2015 and delivered a fully rebuilt site before the leaves turned yellow in Autumn.\n\nThe new product is an API-first built in support of lean editorial workflow, clutter-free user experience across multiple devices and enhanced SEO functionality. The project was initially defined as a minimum viable product and after the launch phase moved into continuous iteration measured against usage data.\n\nDADI is now working with Empire on a release to include the latest version of Publish and is rolling out platform technology across other titles in the Bauer portfolio.",
+          "requirements": "Empire 以前一直饱受用户体验差之苦，也给其编辑团队带来麻烦。它需要重建一个设计精良的刷新和内容管理系统，并且仅有 12 周的时间完成这个任务",
+          "results": "一套 DADI 微服务迅速实现了一个新的快速响应移动网站，并采用了易于使用的内容管理界面驱动。它为合作开发过程中的迭代式演变奠定了基础",
+          "detail": "Bauer 选择了 DADI 技术支持其 2015 年夏季的 Empire 休闲活动，并在秋季树叶转黄之前交付了完全重建的网站。\n\n新产品是一种 API 优先的内置支持，支持精益编辑工作流程、有条理的跨设备用户体验以及增强的 SEO 功能。该项目最初定为最低程度可行产品，在推出后阶段根据使用数据继续采取迭代措施。\n\nDADI 目前正与 Empire 合作推出一个版本，将纳入最新版本的 Publish，并在 Bauer 产品组合的其他出版物中部署平台技术。单用户记录支持数字产品注册、电子邮件公告注册、在 Monocle Shop 中购买以及数字内容订阅和杂志订阅。这样可实现更具针对性的消息传送，可为品牌和用户等带来更好的效果。\n\nDADI 还可管理浏览器站点和应用程序中的编辑内容，而我们的企业支持团队一直与 Monocle 的工程师们合作开发，提供从技术提升到用户体验和设计在内的系列支持：这种合作关系为 Monocle.com 带来了数字产品方面的多种好处。",
           "quote": {
-            "body": "The DADI platform provides unique and market-leading SEO functionality",
-            "cite": "Head of Search, **Bauer Media**"
+            "body": "DADI 平台提供市场主导的独特 SEO 功能",
+            "cite": "Bauer Media 搜索主管"
           },
           "captions": [
-            "Fully responsive homepage.",
-            "Early design concept work.",
-            "Integration with Themoviedb.org allows editors to select high quality images easily.",
-            "Hub pages allow content to be organised around titles."
+            "全速响应主页",
+            "早期设计概念工作",
+            "与 Themoviedb.org 集成后，编辑人员可以轻松选择高品质图像",
+            "利用中心页面，可以围绕出版物来组织内容"
           ]
         },
         {
@@ -1138,25 +1138,25 @@
           "handle": "virgin",
           "title": "Virgin Limited Edition",
           "color": "#333",
-          "summary": "A premium digital product worthy of exclusive luxury holiday islands and properties selected personally by Richard Branson.",
+          "summary": "一种高端数字产品，与 Richard Branson 亲自选择的独占豪华度假岛和物业价值相当",
           "components": [
             "Content management",
             "User data management",
             "API first",
             "Create Once Publish Anywhere"
           ],
-          "requirements": "Virgin Limited Edition needed more than a brochure site to represent its unique mix of private islands, thrilling safaris and luxury properties. It needed immersive UX and seamless CRM.",
-          "results": "DADI technology delivers flexible content management and premium user experience, plus a lightweight CRM  that acts as the glue between booking engine, digital communication and face-to-face customer service.",
-          "detail": "Virgin Limited Edition uses DADI technology to power content management and manage relationships with its users. It's an API-first build assembled and managed by the DADI enterprise support team.\n\nFirst priority was presentation – the site was planned, designed and built to immerse the user in property detail – but the DADI platform also allows flexible control over the way the content is presented, so the team can build individual templates without developer intervention.\n\nBehind the scenes, a single user data store mixes information from multiple sources and provides a single version of the truth – vital for being able to tune a customer contact strategy for a demanding demographic.",
+          "requirements": "Virgin Limited Edition 需要宣传册网站之外的手段来展示其独特的私家岛屿、精彩探险和豪华物业组合。它需要沉浸式用户体验和流畅的 CRM",
+          "results": "DADI 技术可提供灵活的内容管理和优质用户体验，其提供的轻量型 CRM 可以将预订引擎、数字通信和面对面客户服务关联起来",
+          "detail": "Virgin Limited Edition 使用 DADI 技术支持内容管理，以及管理与其用户的关系。这是一种 API 优先构造，由 DADI 企业支持团队装配和管理。\n\n最重要的是演示（该网站当初的规划、设计和建设都是为了让用户沉浸于物业的细节），但 DADI 平台还支持灵活控制内容的演示方式，因此团队可以构建个别模板而无需开发人员介入。\n\n在后台，单个用户数据存储库会混合多个来源的信息，提供唯一的真实信息：这对微调要求苛刻的人群的客户联系策略至关重要",
           "quote": {
-            "body": "DADI has become an essential part of our growth strategy, building not only our ‘shop-front window’ website, but also helping us manage our customer data more intelligently",
-            "cite": "Director of Marketing, **Virgin Limited Edition**"
+            "body": "DADI 已成为我们成长战略的必要部分，不仅构建我们的“店前窗口”网站，还帮助我们更加智能地管理客户数据",
+            "cite": "Virgin Limited Edition 营销主管"
           },
           "captions": [
-            "A single design system which adapts to each of the nine properties.",
-            "Small interative additions are scattered throughout the site.",
-            "High-resolution image galleries showcase the luxury experiences.",
-            "The Virgin Limited Edition blog lets vistors learn about the personality of each location."
+            "单一设计系统，可分别适应九处物业",
+            "少量互动添加内容散落在整个网站",
+            "高分辨率图像图库展示奢华体验",
+            "通过 Virgin Limited Edition 博客，访问者可以了解每个地方的特色"
           ]
         },
         {
@@ -1164,24 +1164,24 @@
           "handle": "lifestyle-one",
           "title": "Lifestyle.one",
           "color": "#9530bd",
-          "summary": "An ambitious project to combine multiple titles and editorial teams into a single solution with enhanced revenue streams.",
+          "summary": "这是一个宏大的项目，要将多个出版物和编辑团队组合到一个解决方案中，增强收入能力",
           "components": [
             "Content management",
             "API first",
             "Create Once Publish Anywhere"
           ],
-          "requirements": "Grazia, Closer and Heat magazines were a disjointed digital portfolio using multiple content management and advertising delivery systems. Lifestyle.one sought to bring together these products into a single streamlined package.",
-          "results": "DADI technology drives all three titles from a single codebase, making small presentational adjustments for each brand requirement. Years of content was migrated into a single location with both advertising and editorial workstreams significantly enhanced.",
-          "detail": "Another end-to-end build using the suite of DADI technology, Lifestyle.one is a single front-end presentation that accommodates various commercial and editorial requirements across a mix of titles – and dovetails workflow requirements across multiple editorial teams.\n\nThe build extended the Publish content management solution built for Empire magazine, bringing advantages in combined releases and updates across four titles in the wider portfolio.\n\nThe result is a leaner digital product that is less hungry for resource in technical, commercial and editorial maintenance. It fosters cross-promotion and gathers an audience around the content portfolio with greater revenue opportunity.",
+          "requirements": "《Grazia》、《Closer》和《Heat》杂志曾是不相关的数字内容组合，采用多个内容管理和广告交付系统。Lifestyle.one 希望将这些产品集中成一个精简的产品包",
+          "results": "DADI 技术通过一个代码库来促成全部三个出版物，针对各个品牌的要求做了少量的表现形式的调整。多年的内容迁移到一个地方，广告和编辑工作流程都得到了显著的改进",
+          "detail": "Lifestyle.one 是采用成套 DADI 技术的另一个全程构造项目；这是单一的前端展示，可以满足各种出版物的各种商业和编辑要求，可满足多个编辑团队的工作流程要求。\n\n该构造项目扩展了为 Empire 杂志构建的 Publish 内容管理解决方案，在更广泛的组合中实现了四种出版物的组合发布和更新。\n\n结果是提高了数字产品的精益水平，在技术、商业和编辑维护方面减少了资源需求。它促成了交叉推广，围绕内容组合汇聚受众，增加了创收机会",
           "quote": {
-            "body": "Products built with DADI are delivered in days and weeks, not weeks and months",
-            "cite": "Chief Technology Officer, **Bauer Media**"
+            "body": "采用 DADI 技术构建的产品的交付时间按天或周算，而不是按月算",
+            "cite": "Bauer Media 首席技术官"
           },
           "captions": [
-            "Each magazine site is derived from a unified codebase. (Grazia)",
+            "每个杂志网站都派生于一个统一的代码库。(Grazia)",
             "Heat World.",
             "Closer.",
-            "Cross-site integrated search, tagging and celebrity database."
+            "跨站点集成式搜索、标记和名人数据库"
           ]
         }
       ]
