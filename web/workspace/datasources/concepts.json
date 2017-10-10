@@ -210,6 +210,62 @@
           "title": "Machine Learning",
           "overview": " Machine Learning não é propriamente uma máquina. É um modelo matemático capaz de aprender padrões em grandes conjuntos de dados, para depois prever padrões semelhantes em novos dados.",
           "body": "## Visão geral\n\nDADI é única na sua abordagem aos dados: toda a plataforma é construída de forma a facilitar Experiências Orientadas a Dados.\nNo centro de tudo isto está uma série de aplicações cognitivas que oferecem previsões analíticas, permitindo a criação de experiências únicas focadas no indivíduo.\n\n## Conhecimento cognitivo com DADI Predict\n\nDADI Predict é a primeira das nossas aplicações de machine learning. É um API que simplifica previsões baseadas na audiência usando técnicas de machine learning.\n\nBasicamente, DADI Predict recebe eventos e devolve previsões sobre eventos futuros.\n\n## Um exemplo prático\n\nDADI Predict usa o conceito de eventos – conhecido de quem usa GA – que permite uma simples colheita de pontos de dados para modelagem.\n\nUm evento é um agrupamento de quatro tipos:\n\n* Pessoa\n* Acção\n* Objecto\n* Peso\n\nPor exemplo: utilizador A (a pessoa) pode adicionar um Porsche 911 (o objecto) à sua lista de desejos (a acção).\nPredict usa as nossas ferramentas de identidade – especificamente a garantia de um indivíduo e um UUID gerado – para popular o identificador da pessoa no evento.\n\nAs acções e os objectos são baseados nas previsões do que queremos fazer dentro de um produto.\n\nVoltando ao exemplo:\n\n* Utilizador A acrescenta um Porsche 911 à sua lista de desejos\n* Utilizador B acrescenta um Porsche 911 e um Mercedes S-Class à sua lista de desejos\n\nIsto permite-nos prever que o há maior probabilidade de o Utilizador A estar interessado num Mercedes S-Class do que noutro modelo escolhido aleatoriamente.\n\nEsta abordagem analítica chama-se filtragem colaborativa: a previsão dos interesses de um dado utilizador (filtragem), calculada através dos interesses de vários utilizadores (colaborativa).\n\nEste sistema funciona melhor em escala. De forma geral, são necessários 20x pontos de dados do que variáveis.\n\nQuantos mais dados lhe deres, melhor ele funciona."
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "data-driven-experiences",
+          "title": "數據驅動體驗",
+          "overview": "為傳遞跨多觸點客製化個人體驗設計的即時用戶、環境數據的了解處理能力",
+          "body": "## 簡介\n\nDADI 因其資料處理的方式而獨特：整體平台是皆是為傳遞數據驅動的使用者經驗架構而成。\n\n數據驅動的體驗是因個人層次資訊背後的決策所致、對個人具獨特性的任何產品互動（網站、應用程式或任何其他數位通路）。\n\nDADI 將個人作為平台的核心概念，建立即時、個人層次的興趣分類並提供多重可行的資料點來創造個人化的特殊體驗。\n\n## 數據驅動體驗範例\n\n數據驅動體驗的涵蓋範圍從簡單到高度複雜都有，也可以同時創建在匿名與具名的使用者空間內。\n\n一個基本舉例便是可根據頁面請求時的使用者所在地點來傳送符合地區禁運規定的相關電影評論。另一個例子則是能知道使用者已讀的內容來確保每次造訪都能接收新訊息的最新影評系列。\n\n而一個更複雜的例子是可根據個人層次的興趣分類以及透過機器學習方法和與其他用戶之間的相似度來權衡呈現一系列的精選文章。\n\n另一個複雜的例子則是在使用者初次與一個汽車評論網站互動時提供關於新車的建議資訊，透過使用近似度對應和隨著使用者的互動過程來強化機器學習演算；獲得的資訊可接著提供給現有的電話客服中心來傳遞資訊充分且相關的私人專屬服務，引導使用者直到收到他們的新車。\n\n## 如何運作？\n\nDADI 平台的核心概念是匿名 UUID：一種可跨產品、持久且匿名的使用者紀錄。這是由 DADI Identity 來提供服務。\n\n與 DADI Track 同時進行的 Identity 服務能監控產品內進行的所有動作，也可以在使用者登入或登出時將此資訊轉移到已具名的空間裡。\n\n藉由將 DADI Match 應用至內容，可透過比對我們所提供的通用分類標準架構（這是目前最廣泛的可用架構）來自動分類內容。Match 服務是一種可理解行動意義的機器學習層級；在符合內容且綁定至特定 UUID 時，可允許即時創造及發展個人層次的分類。\n\n接著所有這些資訊將會在資料來源執行之前輸送到為產品開發所設置的前端產生器，讓系統能根據對個人使用者所知資訊來操作內容。\n\n隨著平台不斷學習，即可增加準確度來提供具更高理解能力的個人服務。\n\n當同時與 Moment Map 一起使用時——我們的傳播與互動策略——DADI 能提供創造有意義的客戶關係並採取行動來進一步建立忠誠度、增加互動和提升轉換率。"
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "api-first-and-cope",
+          "title": "API 優先與 COPE 原則",
+          "overview": "API 優先開發模式的概念是無論你何時為你的組織開發一部分的共享功能，都應為所有其他開發人員開放為 RESTful HTTP(S) API。",
+          "body": "## 簡介\n\n傳統產品設計是以通路和裝置為中心構想的，但使用者所身處的卻是一個多通路與多裝置的世界。\n\n以通路和／或裝置為中心的產品設計會造成工作重複及不必要的工程作業，而 API 優先的開發模式正是著重透過分離已備份與使用於前端的資訊來解決這樣的技術負債問題。\n\nAPI 優先開發模式的概念在於無論你何時為你的組織開發一部分的共享功能，都應為所有其他開發人員開放為 RESTful HTTP(S) API。與其創建函式庫或模組——還得新增所有需要該功能的編碼庫，開發人員可輕鬆透過 API 來享用所有必需的功能。讓開發人員能經由 API 來利用所有功能可強化關注點分離且隱藏內部複雜性。\n\nCOPE 代表的是一次創建，多次出版。這是關於藉由開放內容在多種不同配置情境裡使用來減輕編輯工作的額外負荷。簡單來說，COPE 將資料從設計中分離，可讓你的內容可為新裝置或平台使用也能提供具未來面向的設計。\n採用 API 優先開發模式可啟動 COPE 並帶來多種額外優勢：\n\n## 1. 關注點分離\nAPI 優先開發模式是將前端從後端分離的正式契機。\n與模型—視圖—控制器 (Model-view-controller) 架構模式相似的是可藉由從邏輯和展示將資料去耦合來驅動更穩固的編碼架構，長期來看能減輕更多你的技術負債。因此無論大小或功能，API 優先開發可讓跨多種瀏覽的資訊推送更加輕鬆。\n\n## 2. 延展性\n完整分隔你的前端和後端程式碼庫可幫你藉由獨立各自拓展平台元件來簡化未來延展性。這能讓用戶端及伺服器架設在各自的負載平衡器後方及架構之內，賦予你微視層面的開發能力（譬如你的資料可被集中儲存而你的用戶端主機可同時從多個不同地理位置存取）來更加彈性靈活及節省花費。\n\n## 3. 減少語言隔閡\n你的 API 應該用來反映你的商業邏輯。將其分離能給你拓展至不同通路的能力並可在使用相同後端時支援不同裝置。\n你的 API 可作為一種讓你所有客戶都可用來進行互動的通用語言。即使你努力推懬來讓每個團隊都能使用理解相同語言，預期結果都是一樣的：相同的成功，相同的錯誤。幸好的是，無人不知 JSON 且幾乎所有人都選擇使用 REST 架構風格來加速服務，因此你的 API 可以全球通用。\n\n## 4. 開發人員解放及專業領域分工\nAPI 優先的產品開發模式可賦予開發人員更大的自由。而應用程式開發者唯一需要知道的就是每個 API 端點的請求／回應序列和任何潛在的錯誤程式碼。這對行動開發者及任何類型的相關開發人員都一樣。\n當知識可用「黑盒子」來記錄保存時，產業便可持續向前發展。想像如果你必須得從頭開始學習如何製作晶片來架構一個網路應用程式。幸好目前所有行業都是專業領域分工，所以你只要專注在程式碼上就行了。這就是 API 優先開發模式的優勢。\n這種方法不但可鬆綁前端開發團隊來使他們專心在資料互動的少量特定方法，也可讓後端團隊專注以 RESTful 風格提供服務。\n\n## 5. 開放性及未來顧客可用性\nAPI 優先能讓開啟你的 API 公共消費變得簡單。而身為我們 API 的使用客戶，當你增加越多功能，你將能免除其他額外花費便能有能力轉而為你的客群提供更多服務。\n\n## 6. 模組化\n為何把自己限制在單一資訊來源呢？如今的網路應用發展已能讓你輕鬆結合多個 API 來快速創立強大的產品。如果你的需求會隨時間改變，你的平台也是如此，因此你只需進行增加或移除 API。"
+        },
+        {
+          "lang": "zh_hant",
+          "handle": "microservices",
+          "title": "微服務",
+          "overview": "微服務描述的是一種將複雜應用程式如一系列使用與語言無關 (language-agnostic) 的 API 互相溝通、如同小型獨立流程般架構起來的模式",
+          "body": "## 簡介\n「微服務架構」描述的是一種將軟體應用程式設計成多組獨立可部屬服務的方式。目前雖然尚無對這種架構風格的精確定義，但微服務架構包含了像是對商業能力的組織、自動部屬、端點智慧及去中心的語言及資訊控制等共同特性。\n我們將微服務視為 API 優先開發方法的理想夥伴——複雜的應用程式皆是由可以與語言無關 ( language-agnostic) 的 API 互相溝通的小型獨立流程所組成。這些服務都是小型、高度去耦合的並可專注於執行小型任務。\n\n微服務架構特性：\n\n* 每個服務皆容易替代\n* 每個服務皆以能力來組織分類：例如使用者介面、前端、推薦系統、物流、帳務等。\n\n以微服務為基礎的架構：\n\n* 適用於持續交付 (Continuous Delivery) 的軟體開發流程\n* 與服務導向架構 (Service-Oriented Architecture) 不同的是後者是整合各種（商業）應用程式，而微服務只屬於一個應用程式\n\n## 產品並非專案計畫\n\n我們所見過大部分使用專案模式來進行的應用程式開發工作，目標都只是交付一部份的軟體內容就認為已經完成了。軟體在完成後就轉由某個維護組織負責，而整個專案團隊就解散了。\n\n微服務提倡者則傾向避免這種模式，偏好開發團隊應該對產品完整的生命週期全程負責。這個想法的一個啟發來源是亞馬遜所提出「一創造，就持續完善」(you build, you run it) 的持續交付開發流程，意味開發團隊應對其所生產的軟體產品負起全責。這為開發人員帶來了關於產品在生產過程中相關表現的日常接觸並提升了與使用者的接觸機會——也由於他們本身也得負責一些相關技術支援。\n\n產品感質與商業能力之間的連繫是彼此配合的。與其將軟體視為待完成的一套功能組合而已，這種可持續發展的長久關係正是能用來思索軟體如何協助使用者來提升商業能力的契機。\n\n## 微服務有多大？\n\n雖然「微服務」描述的是一種軟體架構風格，但它的名稱並不關於一個服務的實際大小或者何謂「微型」的爭論。\n\n我們所見過最大的類型是亞馬遜公司所謂的「兩個披薩」原則（意即兩個披薩就應足以餵飽整個團隊），代表不超過十來多人的精小團隊。在另一方面，開發人員也可以更簡單地單獨負責多項服務。"
+        },  
+        {
+          "lang": "zh_hant",
+          "handle": "machine-learning",
+          "title": "機器學習",
+          "overview": "機器學習並不是真的機器，而是一種能在大型資料集裡學習規律模式且能在新資料裡預測相似規律的的數學模型",
+          "body": "## 簡介\n\nDADI 因其資料處理的方式而獨特：整體平台是皆是為傳遞數據驅動的使用者經驗架構而成。\n\n我們的核心是一系列提供預測分析技術來創造個人化獨特使用精驗的智慧辨識應用程式。\n\n## DADI Predict 的認知洞察技術\n\nDADI Predict 是我們開發的第一款機器學習應用程式，是一個可使用特定機器學習技術來簡化使用者預測的應用程式介面 (API)。\n基本上，事件將會進入我們的 DADI Predict 系統並分析出有關未來事件的預測。\n\n## 工作示範\n\nDADI Predict 採用事件概念——對任何使用過 Google Analytics 都熟悉的方法——來允許對簡單集合的資料點進行模組分析。\n事件包含四種要素類型：\n\n* 對象\n* 動作\n* 物件\n* 權重\n\n例如：使用者 A（對象）可能會將一輛 Porsche 911（物件）加到他們的願望清單（動作）。\n\nPredict 便會使用我們的身分辨識工具——專門確保個人身分及已發行的 UUID——來為事件中的對象填入辨識碼。\n\n動作和物件皆是根據我們想在產品內進行的預測分析。\n回到剛才的例子：\n\n* 使用者 A 將一輛保時捷 911 增加到願望清單\n* 使用者 B 將一輛保時捷 911 和賓士 S-Class 增加到願望清單\n這讓我們能預測出使用者 A 比起隨機挑選的型號，更有可能對賓士 S-Class 感到興趣。\n\n這種採用的分析方式稱為協同過濾：可根據許多使用者（協同合作）的興趣來為個人使用者進行興趣資訊分析的預測。\n\n本系統在大規模運作下成效最佳。一般來說，至少需要比變數大 20 倍以上的資料點。\n\n因此提供越多資料，獲得的成效也越高。"
+        },
+        {
+          "lang": "zh_hans",
+          "handle": "data-driven-experiences",
+          "title": "数据驱动型体验",
+          "overview": "The ability to process and understand user and environmental data in real time in order to provide a customized experience for the individual across multiple touch-points.",
+          "body": "## 概览\n\nDADI 拥有独特的数据处理方式：整个平台都是为促成数据驱动型体验而建的。\n数据驱动型体验是与产品（网站、应用程序或任何其他数字渠道）的某种互动；因为这种互动是根据个人层面的数据决定的，因此具备个人唯一性。\n\nDADI 将个体的概念置于平台的核心，以此创建个人层面的实时兴趣分类，提供多个可操作的数据点来营造特定于个人的体验。\n\n## 数据驱动型体验实例\n\n数据驱动型体验可以很简单，也可以极其复杂；可以在匿名空间中营造，也可以在已知用户空间中营造。\n\n一个基本实例：根据用户发出页面请求的位置，提供遵守地区禁令的电影评论。另一个基本实例：根据用户已经阅读的评论来选择新的电影评论，确保他们每次访问时收到新的内容。\n一个较复杂的实例：根据个人层面的兴趣分类为个人选择文章，并通过使用机器学习及与其他用户的亲近程度做出权衡。\n\n另一个复杂实例：在用户首次访问汽车评论网站时向其推荐新车，通过利用亲近度对应功能做出选择，并借助机器学习在用户参与流程时做出改进。然后，可以将此数据馈送到某个现有的呼叫中心，实现相关的知情专人服务，引领用户前往其新车交付点。\n\n## 这是如何实现的？\n\nDADI 平台的核心是匿名 UUID 概念：可跨产品使用的持久匿名化用户记录。这是由 DADI Identity 提供的。\n\n与 DADI Track 配合使用时，Identity 支持监测产品中发生的每个操作，并可在用户注册/登录将时此数据转传递到已知空间。\n\n通过将 DADI Match 应用于内容，可以依据我们的公用分类框架（现有的最全面的框架）自动对内容分类。Match 是一个机器学习层，可以理解操作的意义。在与内容匹配并且与 UUID 关联的情况下，这可以在个人层面创建分类并实时演变。\n然后，所有这类数据会在数据源执行前传输到产品的前端生成器，实现依据对个人的了解来操作内容。\n\n平台在学习过程中会提高精确度，从而更好地了解个人。\n与 Moment Map（我们的通信和参与策略）结合使用时，DADI 支持创建有意义的关系，从而有助于建立忠诚度、提高参与度以及提高转换率。"
+        },
+        {
+          "lang": "zh_hans",
+          "handle": "api-first-and-cope",
+          "title": "API 优先和 COPE",
+          "overview": "API 优先开发是指这样一种理念：只要是为组织开发某个共享功能，就应该将该功能作为 RESTful HTTP(S) API 向组织的其他所有开发人员公开",
+          "body": "## 概览\n\n传统的产品设计以渠道和设备为中心。但是，用户所处的是一个多渠道、多设备的世界。\n\n以渠道和/或设备为中心的产品设计会导致重复的工作，造成工程浪费。API 优先开发侧重于通过分离数据后端和数据消费前端，消除这种技术负担。\n\nAPI 优先开发是指这样一种理念：只要是为组织开发某个共享功能，就应该将该功能作为 RESTful HTTP(S) API 向组织的其他所有开发人员公开。。开发人员不必创建需要添加到所有功能基础代码中的库或模块，可以通过 API 来使用所有必要的功能。让开发人员通过 API 使用所有功能，可以分离问题，隐藏内部复杂性。\n\nCOPE 是指 Create Once, Publish Everywhere（一次创建，随处发布）。其意义在于，使内容可以在多种不同的上下文中自由使用，从而降低编辑开销。简言之，COPE 将数据与设计分开，使内容可重复使用，并保证其将来可用于新的设备或平台。\n采用 API 优先开发方法可实现 COPE，同时还可带来其他几项优势：\n\n* 分离问题\n* 可扩展性\n* 减少语言障碍\n* 开发人员自由化、专业化\n* 开放性和未来可用性\n* 模块化\n\n## 1.分离问题\n\nAPI 优先开发从形式上将前端与后端分开。\n\n与 Model View Controller 范式类似，通过将逻辑数据与演示分离，强制采用更好的代码架构，因此从长远来看可以减轻技术负担。API 优先开发可以轻松将数据推送到多个视图，无需考虑规模或功能。\n\n## 2.可扩展性\n\n前端与后端基础代码完全分离后，可以互相独立地扩展平台组件，从而简化将来的可扩展性。这就使客户端与服务器可以独自控制负载平衡，有自己的基础设施，从而使用户可以在微层次上进行扩展，从而实现灵活性（例如，数据可以集中存储，而客户端位于多个地理位置）和节约成本。\n\n## 3.减少语言障碍\n\n您的 API 应该反映您的业务逻辑。将其分离出来之后，您可以扩展到不同的渠道，并可利用同一个后端支持不同的设备。\n\n您的 API 相当于一种通用语言，任何客户端均可与其交互。即使在扩展的时候，每个团队都会讲同一种语言，互相可以理解。预期始终是一样的：成功一样，错误也一样。更大的好处是，每个人都知道 JSON，并且几乎每个人都了解 REST，因此普遍了解 API。\n\n## 4.开发人员自由化、专业化\n\nAPI 优先开发让开发人员获得自由。应用程序开发人员需要了解的唯一事情是每个 API 端点的请求/响应序列，以及潜在的错误代码。该事项的移动开发人员的情况，以及其他任何类型的开发人员，情况都一样。\n如果知识可以“黑箱化”，行业就会进步。请想象一下这种情形：要构建一个 Web 应用程序，您得了解如何从头开始建造微芯片。感谢专业化和分工，您需要关注的只有代码。这正是 API 优先开发的优势。\n这种方式解放了前端开发团队，使其专注于少数特定的数据交互方法，而后端开发团队可以专注于以 RESTful 方式提供数据。\n\n## 5.开放性和未来可用性\n\nAPI 优先使得开放 API 供公共使用变得简单。作为您自己的 API 的一个客户，在您增加功能时，您所处的位置就是将其提供给用户，不增加任何开销。\n\n## 6.模块化\n\n为什么要将您自己局限于一个数据源？在现代化的 Web 实践中，可以轻松组合多个 API 快速制造强大的产品。如果需要更改，平台也支持，添加或移除 API 即可。"
+        },
+        {
+          "lang": "zh_hans",
+          "handle": "microservices",
+          "title": "Microservices",
+          "overview": "微服务将构建复杂应用程序的某种方法描述成一系列独立的小流程，可以使用与语言无关的 API 互相通信",
+          "body": "## 概览\n\n“微服务架构”(Microservice Architecture) 将一种特定的软件应用程序设计方式描述为可独立部署的成套服务。虽然这种架构风格没有准确的定义，但有一些共同的特征，其中包括围绕业务能力的组织、自动部署、端点智能以及去中心化的语言和数据控制。\n\n我们将微服务视为 API 优先开发方式的逻辑补充，其中的复杂应用程序由独立的小流程组成，这些流程使用与语言无关的 API 互相通信。这些服务是高度分离的小服务，侧重于执行小任务。\n\n## 微服务架构的属性：\n\n* 这些服务易于替换\n* 围绕功能组织服务，例如用户界面前端、推荐、物流、开单等功能。\n\n## 基于微服务的架构：\n\n* 用于连续交付软件开发过程\n* 不同于面向服务的架构 (SOA)，后者的目的是集成各种（业务）应用程序，而多个微服务仅属于一个应用程序\n\n## 是产品，而不是项目\n\n我们看到的大多数应用程序开发工作采用项目模型，目的是交付一些软件，然后便可视为完工。完工时，软件会转交给维护组织，项目团队解散。\n\n微服务支持者一般会避免这种模式，而倾向于团队在整个产品生命周期内负责的观念。这种观念通常是受到 Amazon 的“谁建谁经营”观念的启发，由开发团队全面负责投产的软件。这需要开发人员不断了解其软件在生产中的表现，增加与用户的联系，因为他们必须至少承担部分支持工作。\n\n产品表现的关键在于业务功能的关联。不再将软件视为一组要完成的功能，而是存在持续的关系，其中的问题在于软件如何帮助其用户提升业务能力。\n\n## 微服务有多大？\n\n虽然“微服务”描述的是架构风格，但其名称会不恰当地导致对服务规模的关注，在“微”字上起争议。\n\n我们看到的最大规模遵循 Amazon 的“两个披萨团队”（Two Pizza Team，即整个团队吃两个披萨就够了）观念，即不超过 12 人。另一方面，一个开发人员即可轻松负责多项服务。"
+        },  
+        {
+          "lang": "zh_hans",
+          "handle": "machine-learning",
+          "title": "机器学习",
+          "overview": "机器学习并非真的指机器。这是一种数学模型，可以在大数据集中掌握模式，然后在新数据中预测类似的模式",
+          "body": "## 概览\n\nDADI 拥有独特的数据处理方式：整个平台都是为促成数据驱动型体验而建的。\n\n其中的核心是一系列认知应用程序，它们提供预测性分析以支持营造针对个人的独特体验。\n\n## 通过 DADI Predict 获得认知见解\n\nDADI Predict 是我们的首个机器学习应用程序。它是一个 API，使用特定的机器学习技术来简化基于受众的预测。\n\n简单地说，将事件输入 DADI Predict，就会出来对未来事件的预测。\n\n## 有效实例\n\nDADI Predict 使用事件概念（类似于使用了 GA 的 API），实现简单的根据模型收集数据点。\n\n一个事件包含四种类型数据：\n\n* 人员\n* 操作\n* 对象\n* 权重\n* \n例如：用户 A（人员）可以将 Porsche 911（对象）添加到其欲购清单中（操作）。\n\nPredict 使用我们的标识工具（具体指个人保证书及颁发的 UUID）来填写事件中人员的标识符。\n\n操作和对象以我们要在产品中做出的预测为根据。\n回到实例：\n\n1. 用户 A 将 Porsche 911 添加到其欲购清单\n2. 用户 B 将 Porsche 911 和 Mercedes S-Class 添加到其欲购清单\n\n我们可以据此预测，相对于随机选择的车型，用户 A 更可能还对 Mercedes S-Class 感兴趣。\n\n所用的分析方法称为协作筛选：对单个用户的兴趣的预测（筛选），根据对许多用户的兴趣计算得出（协作）。\n\n该系统在规模大时效果最好。一般而言，所需的数据点数量至少是变量的 20 倍。投入的数据越多，得到的结果越好。"
         }
       ]
     }

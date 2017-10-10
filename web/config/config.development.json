@@ -18,5 +18,6 @@
     "forceTrailingSlash": true,
     "path": "./workspace/routes/rewrites.txt"
   },
-  "allowJsonView": true
+  "allowJsonView": true,
+  "debug": true
 }
