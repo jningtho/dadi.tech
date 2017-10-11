@@ -1,6 +1,12 @@
 {>"partials/header" /}
 
-{<title}{i18n.results[0].support}{/title}
+{<title}
+  {^params.client}
+    {i18n.results[0].support}
+  {:else}
+    {successes.results[0].title} / {i18n.results[0].support}
+  {/params.client}
+{/title}
 
 {<header}
   {^params.client}

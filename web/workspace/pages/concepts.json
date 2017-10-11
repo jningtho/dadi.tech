@@ -3,6 +3,9 @@
     "key": "Concepts",
     "description": "How DADI technology supports concepts of data driven experiences, API-first, COPE and machine learning with its web services stack built around microservices architecture"
   },
+  "events": [
+    "globals"
+  ],
   "datasources": [
     "i18n",
     "concepts",

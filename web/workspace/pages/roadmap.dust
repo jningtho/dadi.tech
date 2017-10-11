@@ -1,5 +1,9 @@
 {>"partials/header" /}
 
+{<title}
+  {i18n.results[0].roadmap}
+{/title}
+
 <div class="container container--pad">
   <h1 class="no-marg-i kilo txt--green marg__bottom">{i18n.results[0].roadmap}</h1>
 

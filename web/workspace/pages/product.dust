@@ -3,7 +3,7 @@
 {<bodyClass}home{/bodyClass}
 
 {<title}
-  {products.results[0].title} / Platform
+  {products.results[0].title}
 {/title}
 
 {<header}

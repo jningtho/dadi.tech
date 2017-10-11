@@ -3,6 +3,12 @@
     "key": "Latest",
     "color": "#191502"
   },
+  "events": [
+    "globals"
+  ],
+  "requiredDatasources": [
+    "latest"
+  ],
   "datasources": [
     "i18n",
     "latest",

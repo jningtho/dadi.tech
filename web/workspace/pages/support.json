@@ -4,6 +4,9 @@
     "color": "#15313A",
     "description": "Engineering support for DADI technology, an enterprise-grade, deployment-ready web services stack, built around a microservices architecture"
   },
+  "events": [
+    "globals"
+  ],
   "datasources": [
     "i18n",
     "successes",

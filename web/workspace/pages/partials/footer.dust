@@ -36,6 +36,7 @@
           <li><a href="/{params.lang}/how-we-work/">{i18n.results[0].howwework}</a>
           <li><a href="/{params.lang}/faq/">{i18n.results[0].faq}</a>
           <li><a href="/{params.lang}/privacy/">{i18n.results[0].privacy}</a></li>
+          <li><a href="/en/bounty/">Bug bounty</a></li>
         </ul>
       </div>
       <div class="col w-1-3 pad__bottom">

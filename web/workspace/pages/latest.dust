@@ -7,10 +7,10 @@
 
 {<title}
   {^params.article}
-    Latest
+    {i18n.results[0].latest}
   {:else}
     {#latest.results[0]}
-      {attributes.title} / Latest
+      {@eq key=attributes.category value="roadmap"}{@formatDate data=attributes.date parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM" /}{/eq} {attributes.title} / {i18n.results[0].latest}
     {/latest.results[0]}
   {/params.article}
 {/title}

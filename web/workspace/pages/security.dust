@@ -1,5 +1,7 @@
 {>"partials/header" /}
 
+{<title}{i18n.results[0].security}{/title}
+
 <div class="container container--pad">
   <div class="grid alignc">
     <h1 class="no-marg-i kilo txt--red marg__bottom">{i18n.results[0].security_header}</h1>

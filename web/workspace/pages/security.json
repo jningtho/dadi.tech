@@ -1,6 +1,7 @@
 {
   "page": {
-    "key": "Security"
+    "key": "Security",
+    "description": "Our microservices are designed from the ground up with security front and center."
   },
   "datasources": [
     "i18n",
