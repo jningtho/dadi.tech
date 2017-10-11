@@ -219,6 +219,66 @@
           "lang": "pt",
           "title": "Mitigando Ataques Denial of Service (DoS)",
           "body": "DADI suporta caching completo em todas as camadas da tua plataforma. Partilha de suporte de cache via Redis, cache local e cache no cliente são todas abordagens disponíveis, parte do núcleo de aplicações.\n\nEsta arquitectura multi-cache é extremamente resistente a altos volumes de tráfego, e torna DADI o sistema escolhido para algumas das propriedades com maior tráfego no mundo."
+        },
+        {
+          "lang": "zh_hant",
+          "title": "安全的資料存取",
+          "body": "DADI 提供開箱即用功能，所有存取的密碼皆會經加密、加料並重覆雜湊。"
+        },
+        {
+          "lang": "zh_hant",
+          "title": "精細用戶存取控制",
+          "body": "DADI 提供管理者對瀏覽和修改任何產品部分的完整權限控制。DADI 的作業基礎是一座可延伸使用者角色和存取權限的系統。\n\n管理者可建立使用者角色並授予特定及有限的權限。舉例來說，你的編輯工作介面可能需要的是一名可以創作和更新內容的作者角色，而非發表或刪除內容（此權限保留給編輯），而管理設定權限則完整保留給另外一個不同角色。已驗證的使用者可進行分配任何數量的角色，且擁有累進式的權限。選單連結和功能則可對無相關存取權限的使用者自動隱藏。"
+        },
+        {
+          "lang": "zh_hant",
+          "title": "資料加密技術",
+          "body": "在高度安全等級的應用程式，DADI 能用來配置安全性極強的資料加密。\n\n當整個"
+        },
+        {
+          "lang": "zh_hant",
+          "title": "防止跨站指令碼 (XSS)、跨站偽造請求 (CSRF) 及其他惡意程式入侵",
+          "body": "DADI 的事件層級能確保資料在進入你的資料層級之前經過驗證及洗滌。系統將全面測試所有資料來確保能符合指定及預期的格式和數值。符記在生成的同時將會被注入字型和前端模型來防禦潛在的跨站請求偽造攻擊。\n\nDADI 系統內的完整關注點分離可啟動你平台內的每一層級——你的 API、模板系統、編輯介面、追蹤工具等——來獨立執行處理適合各個不同關注點的安全性檢查"
+        },
+        {
+          "lang": "zh_hant",
+          "title": "暴力攻擊偵測",
+          "body": "DADI 能藉由限制同一 IP 地址和用戶名稱在預設時間內的登入嘗試次數來防禦暴力密碼攻擊"
+        },
+        {
+          "lang": "zh_hant",
+          "title": "防禦 DoS 阻斷服務攻擊",
+          "body": "DADI 能全面支援你所有平台層級的快取。經由 Redis、本地快取和用戶端快取方式的共享快取支援皆在我們核心應用程式組合中提供的服務內容。\n\n這項多層的快取架構不但可強力抵抗高資料流量，也讓 DADI 成為世界上具高流量性能的最佳系統選擇之一。"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "安全访问",
+          "body": "DADI 自带访问密码加密、强化和反复离散处理。\n\n全面支持行业标准身份验证实践，包括 SSL 和双因素身份验证"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "精细用户访问控制",
+          "body": "DADI 允许管理员完全控制谁可以看到以及谁可以修改产品的每个部分。DADI 基于可扩展用户角色和访问权限的系统运行。\n\n管理员可以创建用户角色并授予他们受限制的特定权限。例如，编辑界面可能需要作者角色，可以创建和更新内容，但不能发布或删除内容（这是为编辑人员角色保留的权限），而管理设置是完全为某个单独的角色保留的。可以向经过身份验证的用户分配任意数量的角色，这些角色的权限可以累加。系统会自动向没有相应访问权限的用户隐藏菜单链接和功能。"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "数据加密",
+          "body": "在高安全性应用程序中，可以配置 DADI 以获得极强的数据加密。\n\n如果不需要全数据库加密，则可使用很高的粒度来保护更具体的信息、用户帐户、特定表单，甚至可以为特定字段的值加密。可以配置加密系统以遵守最严格的 PCI、HIPAA 及州隐私法律，包括站外加密密钥管理。"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "阻止 XSS、CSRF 及其他恶意数据进入",
+          "body": "DADI 的事件层可确保数据在进入数据层之前经过验证和净化。系统会测试所有提供的数据，确保其符合规定的预期格式和值。\n\n在前端表单生成时，会向表单中注入令牌以防御潜在的 CSRF 攻击。\n\nDADI 内部对问题进行完全分离，使平台中的每个层（API、模板系统、编辑界面、跟踪工具等）都能独立执行和处理对应于问题的安全检查"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "强力检测",
+          "body": "DADI 可以限制从单个 IP 地址和用户名在预定时间段的登录尝试次数，以此防御强力密码破解攻击"
+        },
+        {
+          "lang": "zh_hans",
+          "title": "缓解拒绝服务 (DoS) 攻击",
+          "body": "DADI 在平台的每个层中都支持全面缓存。在核心应用程序集中，可以使用通过 Redis 实现的共享缓存支持以及本地缓存和客户端缓存方法。\n\n这种多层缓存架构对大流量有极强的承受力，使 DADI 成为世界上流量最大的一些物业的首选系统。"
         }
       ]
     }
