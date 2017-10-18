@@ -18,6 +18,10 @@
     {
       "path": "/:lang/:product",
       "fetch": "products"
+    },
+    {
+      "path": "/:product(api|publish|cdn|web|track|visualize|identity|match|predict|queue|store)",
+      "fetch": "products"
     }
   ]
 } 
