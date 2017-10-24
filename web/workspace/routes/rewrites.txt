@@ -1,3 +1,4 @@
+\/(.*)$ https://dadi.tech/$1 [H=www\.dadi\.tech, R=302,NC,L]
 \/success-stories/(.*)$ /support/ [R=302,NC,L]
 \/the-feed/(.*)$ /latest/ [R=302,NC,L]
 \/latest\/roadmap-update-090117\/? /latest/roadmap/roadmap-update-090117/ [R=302,L]
