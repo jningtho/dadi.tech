@@ -6,7 +6,7 @@
   "datasources": [
     "i18n",
     "faq",
-    "latest-footer"
+    "forum"
   ],
   "routes": [
     {

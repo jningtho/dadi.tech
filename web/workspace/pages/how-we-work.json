@@ -5,7 +5,7 @@
   "datasources": [
     "i18n",
     "how-we-work",
-    "latest-footer"
+    "forum"
   ],
   "routes": [
     {

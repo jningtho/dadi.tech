@@ -5,7 +5,7 @@
   "datasources": [
     "i18n",
     "supporting",
-    "latest-footer"
+    "forum"
   ],
   "requiredDatasources": [
     "supporting"

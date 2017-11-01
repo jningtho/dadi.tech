@@ -12,7 +12,7 @@
   "datasources": [
     "i18n",
     "latest",
-    "latest-footer",
+    "forum",
     "github-api",
     "github-cdn",
     "github-web",

@@ -10,7 +10,7 @@
   "datasources": [
     "i18n",
     "successes",
-    "latest-footer"
+    "forum"
   ],
   "routes": [
     {

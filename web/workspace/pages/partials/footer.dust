@@ -14,6 +14,16 @@
           </form>
         </div>
       </div>
+      <div class="grid marg__top">
+        {@iter items=forum from=0 to=3}
+          <div class="col w-1-3 pad__bottom">
+            <p class="txt--grey hdr">{@formatDate data=pubDate parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
+            <p class="hdr large txt--blue"><a href="{link}">{title}</a></p>
+            <p class="small">{@soberMarkdown}{@htmlstrip}{@Truncate data="{description|s}" length="110" ellipsis="true"/}{/htmlstrip}{/soberMarkdown}</p>
+            <p class="small"><a href="{link}" class="btn btn--blue">{i18n.results[0].learn_more}</a></p>
+          </div>
+        {/iter}
+      </div>
     </div>
     <div class="grid">
       <div class="col w-1-3 pad__bottom">

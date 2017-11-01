@@ -6,7 +6,7 @@
     "i18n",
     "successes",
     "products-list",
-    "latest-footer"
+    "forum"
   ],
   "routes": [
     {

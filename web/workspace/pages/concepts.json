@@ -9,7 +9,7 @@
   "datasources": [
     "i18n",
     "concepts",
-    "latest-footer"
+    "forum"
   ],
   "routes": [
     {

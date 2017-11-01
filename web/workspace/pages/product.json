@@ -9,7 +9,7 @@
     "i18n",
     "products",
     "products-list",
-    "latest-footer"
+    "forum"
   ],
   "requiredDatasources": [
     "products"
