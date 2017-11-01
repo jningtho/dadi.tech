@@ -155,7 +155,7 @@
 
   <div class="explainer__window w-cdn">
     <div class="w-cdn__header">
-      <div class="url txt--grey"><span style="color:#000">https://cdn.dadi.cloud/samples/mountain.png</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">saturate</span>=<span style="color:#E02975">-0.8</span>
+      <div class="url txt--grey"><span style="color:#000">https://cdn.somedomain.tech/samples/mountain.png</span>?<span style="color:#000">width</span>=<span style="color:#E02975">700</span>&amp;<span style="color:#000">ratio</span>=<span style="color:#E02975">16-9</span>&amp;<span style="color:#000">resizeStyle</span>=<span style="color:#E02975">aspectfill</span>&amp;<span style="color:#000">saturate</span>=<span style="color:#E02975">-0.8</span>
       </div>
     </div>
 
