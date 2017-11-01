@@ -9,7 +9,7 @@
     </li>
     <li><a href="https://forum.dadi.tech/" onclick="ga('send','event','Forum','Click','Header');">Forum</a>
     </li>
-    <li><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
+    <li class="ico-link"><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">DADI ICO</a>
     </li>    
   </ol>
   <ul>

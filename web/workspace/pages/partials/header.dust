@@ -7,6 +7,72 @@
 </head>
 <body class="{+bodyClass/}">
 
+{@eq key=page.key value="home"}
+<div class="ico cf">
+  <p class="hdr">Announcing the DADI ICO – opens January 2018</p>
+  <a href="https://dadi.cloud/register" class="btn small">Register for the pre-sale</a>
+  <a href="http://dadi.link/id" class="btn small">Read the whitepaper now</a>
+</div>
+
+<style type="text/css">
+.ico {
+  background: #21262d;
+  color: #fff;
+  padding: 25px 3% 15px;
+  clear: both;
+}
+.ico p {
+  margin: 0;
+  display: inline-block;
+  font-size: 22px;
+}
+.ico a {
+  background: #0FCB5F;
+  border-color: transparent;
+  color: #21262d;
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.ico a:hover {
+  border-color: #0FCB5F;
+  background: #0FCB5F;
+  color: #000;
+}
+.ico-link {
+  position: relative;
+}
+.ico-link:before {
+  top: -40px;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: #21262d;
+  border-width: 13px;
+  margin-left: -13px;
+}
+@media handheld, only screen and (max-width: 50em) {
+  .ico {
+  	text-align: center;
+  }
+  .ico p {
+  	margin-bottom: 15px;
+  }
+  .ico a {
+  	float: none;
+  }
+  .ico-link:before {
+    display: none;
+  }
+}
+</style>
+{/eq}
+
 <header class="alignc pad__top--x2 small cf">
   {>"partials/navigation" /}
   {+header/}
