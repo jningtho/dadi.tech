@@ -15,7 +15,10 @@
     "latest-footer",
     "github-api",
     "github-cdn",
-    "github-web"
+    "github-web",
+    "github-publish",
+    "github-queue",
+    "forum"
   ],
   "routes": [
     {

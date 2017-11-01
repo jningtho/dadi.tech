@@ -1,0 +1,10 @@
+{
+  "datasource": {
+    "key": "github-queue",
+    "name": "RSS",
+    "source": {
+      "type": "rss",
+      "endpoint": "https://github.com/dadi/queue/releases.atom"
+    }
+  }
+}

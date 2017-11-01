@@ -1,10 +1,3 @@
-<ul class="list--line medium pad__bottom">
-  <li><a href="/{params.lang}/latest/" {^params.category}class="txt--green"{/params.category}>All</a></li>
-  <li><a href="/{params.lang}/latest/articles/" {@eq key=params.category value="articles"}class="txt--green"{/eq}>Articles</a></li>
-  <li><a href="/{params.lang}/latest/roadmap/" {@eq key=params.category value="roadmap"}class="txt--green"{/eq}>Roadmap updates</a></li>
-  <li><a href="/{params.lang}/latest/releases/" {@eq key=params.category value="releases"}class="txt--green"{/eq}>Releases</a></li>
-</ul>
-
 <div class="bg--light-grey pad pad__top--half pad__bottom--half">
   <h2 class="hdr medium">Latest platform releases</h2>
 
@@ -37,6 +30,28 @@
         <div class="col w-3-4">
           <img src="/assets/products/dadi-cdn.png" class="alignv float--right" width="15">
           {@iter items=github-cdn from=0 to=1}
+            {title}
+          {/iter}
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/{github-publish[0].link}" class="cf">
+        <div class="col w-1-4 fwb">Publish</div>
+        <div class="col w-3-4">
+          <img src="/assets/products/dadi-publish.png" class="alignv float--right" width="15">
+          {@iter items=github-publish from=0 to=1}
+            {title}
+          {/iter}
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/{github-queue[0].link}" class="cf">
+        <div class="col w-1-4 fwb">Queue</div>
+        <div class="col w-3-4">
+          <img src="/assets/products/dadi-queue.png" class="alignv float--right" width="15">
+          {@iter items=github-queue from=0 to=1}
             {title}
           {/iter}
         </div>

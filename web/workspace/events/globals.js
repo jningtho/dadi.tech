@@ -19,7 +19,7 @@ var Event = function (req, res, data, callback) {
   }
 
   // Microservices
-  if (data.params && data.params.product && data.products && data.products.results) {
+  if (data.params && data.params.product && data.products && data.products.results && data.products.results[0]) {
     data.page.description = data.products.results[0].overview
     data.page.og_image = `dadi-${data.products.results[0].product}-og.jpg`
   }
