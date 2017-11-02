@@ -10,7 +10,7 @@
 {@eq key=page.key value="home"}
 <div class="ico cf">
   <p class="hdr">Announcing the DADI ICO – opens January 2018</p>
-  <a href="https://dadi.cloud/" class="btn small">Register for the pre-sale</a>
+  <a href="https://dadi.cloud/" class="btn small">Register for the presale</a>
   <a href="http://dadi.link/id" class="btn small">Read the whitepaper now</a>
 </div>
 
