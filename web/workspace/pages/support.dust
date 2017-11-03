@@ -41,7 +41,7 @@
 {^params.client}
   <div class="bg--light-grey alignc pad__top pad__bottom" style="margin-top:-40px">
       <span class="pad__right hdr normal inline-block">{i18n.results[0].support_options}</span>
-      <a href="http://chat.dadi.tech/" class="btn">{i18n.results[0].discord}</a>
+      <a href="https://discord.gg/3sEvuYJ" class="btn">{i18n.results[0].discord}</a>
       <a href="https://github.com/dadi/" class="btn marg__left">{i18n.results[0].github_issues}</a>
   </div>
 
