@@ -334,3 +334,16 @@ abbr {
 	display: inline-block;
 	border-radius: 6px;
 }
+
+.badge {
+	border-color: #ccc;
+	-webkit-box-shadow: 1px 1px 3px #ddd;
+	box-shadow: 1px 1px 3px #ddd;
+	padding: 3px 5px;
+	border-radius: 2px;
+	background: #88c24c;
+	color: #fff;
+	font-size: 12px;
+	vertical-align: middle;
+	margin-left: 6px;
+}

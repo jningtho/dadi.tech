@@ -22,7 +22,7 @@
     <div class="col w-1-2 normal">
       <style type="text/css">.roadmap h2 { color: #88c24c; }</style>
       <div class="read roadmap">
-        {@markdown}{roadmap.results[0].body}{/markdown}
+        {@markdown}{roadmap.results[0].body|s}{/markdown}
       </div>
     </div> 
   </div>
