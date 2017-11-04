@@ -7,10 +7,10 @@
     </li>
     <li><a href="/{params.lang}/support" onclick="ga('send','event','Support','Click','Header');" {@eq key=page.key value="Support"}class="on"{/eq}>{i18n.results[0].support}</a>
     </li>
-    <li><a href="https://forum.dadi.tech/" onclick="ga('send','event','Forum','Click','Header');">Forum</a>
+    <li><a href="https://forum.dadi.tech/" onclick="ga('send','event','Forum','Click','Header');">{i18n.results[0].forum}</a>
     </li>
     <li class="ico-link"><a href="https://dadi.cloud/" onclick="ga('send','event','DADI ICO','Click','Header');">Crowdsale</a>
-    </li>    
+    </li>
   </ol>
   <ul>
     <li><a href="https://github.com/dadi/" onclick="ga('send','event','Github','Click','Header');">{i18n.results[0].github_find}</a>
