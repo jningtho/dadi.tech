@@ -1,4 +1,4 @@
-<img src="http://52.209.207.148/assets/img/dadi-colour.svg" width="200">
+<img src="/web/workspace/public/assets/img/dadi-colour.svg" width="200">
 
 As a simple demonstration of the **DADI** platform, we're building our new website in the open.
 
