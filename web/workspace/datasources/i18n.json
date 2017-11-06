@@ -200,9 +200,9 @@
         },
         {
           "lang": "jp",
-          "announcement": "Announcing the DADI Crowdsale – opens January 2018",
-          "announcement_register": "Register for the presale",
-          "announcement_whitepaper": "Read the whitepaper now",
+          "announcement": "DADIクラウドセールの発表 – 2018年1月開始",
+          "announcement_register": "今すぐホワイトペーパーをご覧ください",
+          "announcement_whitepaper": "プリセールに登録",
           "tagline": "オープンソースWebサービス",
           "about": "DADIはマイクロサービスアーキテクチャー中心として構成されたエンタープライズ品質ですぐにも配備可能なWebサービススタックです。",
           "infographic_api": "開発者はNPMを使って30秒でAPIを開始できます。",
