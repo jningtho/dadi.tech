@@ -1,66 +1,46 @@
-// You need a Sendgrid.com API key for this
-// For this script to work DADI Web should be started with an ENV variable for the SendGrid API key
-// The IP address of the box it is hosted on also needs to be whitelisted within SendGrid's dashboard
+// You need a Mailgun API key for this to work
+// For this script to work DADI Web should be started with an ENV variable for the Mailgun API key
+const mailgun = require('mailgun-js')({
+  apiKey: process.env['MAILGUN_API'], 
+  domain: 'mg.dadi.tech'
+})
 
-var sg = require('sendgrid')(process.env['SENDGRID_API'])
-
-var Event = function (req, res, data, callback) {
+const Event = function (req, res, data, callback) {
 
   // On form post
-  switch (req.method.toLowerCase()) {
-    case 'post':
+ if (req.method.toLowerCase() === 'post') {
 
-      // Validate out inputs
-      if (req.body.email && isEmail(req.body.email) && req.body.message) {
+    // Validate out inputs
+    if (!req.body.email && !isEmail(req.body.email) && !req.body.message) {
+      data.mailResult = 'All fields are required.'
+      return callback()
+    }
 
-        var message = "Name: "+req.body.name+"\n\nEmail: "+req.body.email+"\n\nPhone: "+req.body.phone+"\n\nMessage:\n\n"+req.body.message
+    const message = "Name: "+req.body.name+"\n\nEmail: "+req.body.email+"\n\nPhone: "+req.body.phone+"\n\nMessage:\n\n"+req.body.message
 
-        var request = sg.emptyRequest({
-          method: 'POST',
-          path: '/v3/mail/send',
-          body: {
-            personalizations: [{
-              to: [{
-                email: 'hello@dadi.tech',
-              }],
-              subject: '[dadi.tech] Contact form message',
-            }],
-            from: {
-              email: 'hello@dadi.tech',
-            },
-            content: [{
-              type: 'text/plain',
-              value: message,
-            }],
-          }
-        })
-
-        sg.API(request, function(error, response) {
-          if (error) {
-            data.mailResult = 'There was a problem sending the email.'
-          } else {
-            data.mailResult = 'Thank you for your message, you will hear back from us soon.'
-          }
-
-          callback()
-        })
-
+    mailgun.messages().send({
+      from: 'DADI <hello@dadi.tech>',
+      to: 'hello@dadi.tech',
+      subject: '[dadi.tech] Contact form message',
+      text: message
+    }, (err, body) => {
+      if (err) {
+        data.mailResult = 'There was a problem sending the email.'
       } else {
-        data.mailResult = 'All fields are required.'
-        callback()
+        data.mailResult = 'Thank you for your message, you will hear back from us soon.'
       }
 
-    break
-  default:
-      return callback()
+      callback()
+    })
+
+  } else {
+    return callback()
   }
-  
 }
 
 // Taken from: http://stackoverflow.com/a/46181/306059
 function isEmail(email) {
-  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-  
+  const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
   return re.test(email)
 }
 

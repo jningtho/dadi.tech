@@ -5,7 +5,7 @@
 {<header}<h1 class="txt--white kilo">{i18n.results[0].contact_header}</h1>{/header}
 
 <div class="container pad__bottom--x2">
-  {! {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
+  {?mailResult}<div class="fwb medium txt--white bg--blue pad marg__bottom--x2">{mailResult}</div>{/mailResult}
 
   <form action="/en/contact/" method="post" class="grid">
     <ul class="list--no-style col w-1-2">
@@ -32,7 +32,7 @@
       </li>
     </ul>
   </form>
-</div> !}
+</div>
 
 <div class="container container--divider normal">
   <div class="grid">
