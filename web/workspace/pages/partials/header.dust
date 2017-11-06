@@ -9,9 +9,9 @@
 
 {@eq key=page.key value="home"}
 <div class="ico cf">
-  <p class="hdr">Announcing the DADI Crowdsale – opens January 2018</p>
-  <a href="https://dadi.cloud/" class="btn small">Register for the presale</a>
-  <a href="http://dadi.link/id" class="btn small">Read the whitepaper now</a>
+  <p class="hdr">{i18n.results[0].announcement}</p>
+  <a href="https://dadi.cloud/" class="btn small">{i18n.results[0].announcement_register}</a>
+  <a href="http://dadi.link/id" class="btn small">{i18n.results[0].announcement_whitepaper}</a>
 </div>
 
 <style type="text/css">

@@ -12,6 +12,9 @@
       "data": [
         {
           "lang": "en",
+          "announcement": "Announcing the DADI Crowdsale – opens January 2018",
+          "announcement_register": "Register for the presale",
+          "announcement_whitepaper": "Read the whitepaper now",
           "tagline": "Open Source web services",
           "about": "DADI is an enterprise-grade, deployment-ready web services stack, built around a microservices architecture.",
           "infographic_api": "Developers can start an API in 30 seconds via NPM.",
@@ -103,6 +106,9 @@
         },
         {
           "lang": "de",
+          "announcement": "Ankündigung des DADI Crowdsale - beginnt im Januar 2018",
+          "announcement_register": "Lesen Sie jetzt das Whitepaper",
+          "announcement_whitepaper": "Registrieren Sie sich für den Vorverkauf",
           "tagline": "Open Source Web Service",
           "about": "DADI ist ein für Unternehmen geeignetes, einsatzbereites Web Service System, das auf Microservice Architektur basiert.",
           "infographic_api": "Entwickler können eine API in 30 Sekunden durch NPM starten.",
@@ -194,6 +200,9 @@
         },
         {
           "lang": "jp",
+          "announcement": "Announcing the DADI Crowdsale – opens January 2018",
+          "announcement_register": "Register for the presale",
+          "announcement_whitepaper": "Read the whitepaper now",
           "tagline": "オープンソースWebサービス",
           "about": "DADIはマイクロサービスアーキテクチャー中心として構成されたエンタープライズ品質ですぐにも配備可能なWebサービススタックです。",
           "infographic_api": "開発者はNPMを使って30秒でAPIを開始できます。",
@@ -285,6 +294,9 @@
         },
         {
           "lang": "fr",
+          "announcement": "Annonce de la vente publique de DADI, ouverture en janvier 2018",
+          "announcement_register": "Lisez le livre blanc maintenant",
+          "announcement_whitepaper": "S'inscrire à la prévente",
           "tagline": "Services Web à source ouverte",
           "about": "DADI est une plate-forme de services Web de qualité professionnelle, déployée pour le développement, construite autour d'une architecture de microservices",
           "infographic_api": "Les développeurs peuvent lancer une API en 30 secondes via NPM",
@@ -376,6 +388,9 @@
         },
         {
           "lang": "es",
+          "announcement": "Presentación de la Crowdsale de DADI: enero de 2018",
+          "announcement_register": "Lee el artículo ahora",
+          "announcement_whitepaper": "Registro para la preventa",
           "tagline": "Servicios web de código abierto",
           "about": "DADI es un conjunto de servicios web de nivel empresarial, listos para ser implementados, creados en torno a una arquitectura de microservicios.",
           "infographic_api": "Los desarrolladores pueden iniciar una API en 30 segundos a través de NPM.",
@@ -467,6 +482,9 @@
         },
         {
           "lang": "ru",
+          "announcement": "Объявление о DADI Crowdsale – открывается в январе 2018 г.",
+          "announcement_register": "Читать официальное описание сейчас",
+          "announcement_whitepaper": "Зарегистрироваться на предварительную продажу",
           "tagline": "Веб-сервисы с открытым исходным кодом",
           "about": "DADI — это пакет готовых к внедрению веб-сервисов корпоративного класса, основанный на базе архитектуры микросервисов.",
           "infographic_api": "Разработчики с помощью NPM могут запустить API за 30 секунд.",
@@ -558,6 +576,9 @@
         },
         {
           "lang": "pt",
+          "announcement": "Anunciamos a Venda colaborativa da DADI – começa em janeiro de 2018",
+          "announcement_register": "Leia o relatório agora",
+          "announcement_whitepaper": "Registe-se para a pré-venda",
           "tagline": "Web services open source",
           "about": "DADI é um conjunto de web services, para utilização empresarial e prontos para produção, construídos sobre uma arquitectura de microservices.",
           "infographic_api": "Um programador consegue iniciar um API em 30 segundos via NPM.",
@@ -649,6 +670,9 @@
         },
         {
           "lang": "zh_hant",
+          "announcement": "宣佈 DADI 代幣眾籌活動：2018 年一月正式啟動",
+          "announcement_register": "立即閱讀白皮書",
+          "announcement_whitepaper": "預售免費註冊",
           "tagline": "開放原始碼網路服務",
           "about": "DADI 是根據微服務架構建立、隨時可部署的企業級網路服務架構堆疊",
           "infographic_api": "開發者可透過 NPM 套件管理工具在 30 秒內開始新的 API.",
@@ -740,6 +764,9 @@
         },
         {
           "lang": "zh_hans",
+          "announcement": "宣布 DADI 众筹（Crowdsale）-  于 2018 年 1 月开始",
+          "announcement_register": "立即阅读白皮书",
+          "announcement_whitepaper": "注册预售",
           "tagline": "开源 Web 服务",
           "about": "DADI 是一种企业级的可部署 Web 服务堆栈，以微服务架构为中心构建",
           "infographic_api": "通过 NPM，开发人员可以在 30 秒内启动 API",
