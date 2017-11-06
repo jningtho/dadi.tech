@@ -20,7 +20,7 @@
     <div class="grid">
       <div class="col w-2-3">
         {#forum}
-          <p class="txt--grey hdr normal">{@formatDate data=pubDate parseFormat="YYYY-DD-MMMTh:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
+          <p class="txt--grey hdr normal">{@formatDate data=pubDate parseFormat="YYYY-MMM-DD-Th:mm:ss.ZZ" format="Do MMMM YYYY" /}</p>
           <p class="hdr larger txt--green"><a href="{link}">{title}</a></p>
           <p class="normal">{@soberMarkdown}{@htmlstrip}{@Truncate data="{description|s}" length="200" ellipsis="true"/}{/htmlstrip}{/soberMarkdown}</p>
           <p class="small pad__bottom--x2"><a href="{link}" class="btn btn--green">Read more</a></p>
