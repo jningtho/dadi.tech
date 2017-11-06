@@ -33,6 +33,8 @@
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
+  max-width: 220px;
+  text-align: center;
 }
 .ico a:hover {
   border-color: #0FCB5F;
