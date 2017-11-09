@@ -199,14 +199,6 @@
 <url>
   <loc>https://dadi.tech/en/latest/</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://dadi.tech/en/latest"/>
-  <xhtml:link rel="alternate" hreflang="de" href="https://dadi.tech/de/latest"/>
-  <xhtml:link rel="alternate" hreflang="jp" href="https://dadi.tech/jp/latest"/>
-  <xhtml:link rel="alternate" hreflang="fr" href="https://dadi.tech/fr/latest"/>
-  <xhtml:link rel="alternate" hreflang="es" href="https://dadi.tech/es/latest"/>
-  <xhtml:link rel="alternate" hreflang="ru" href="https://dadi.tech/ru/latest"/>
-  <xhtml:link rel="alternate" hreflang="pt" href="https://dadi.tech/pt/latest"/>
-  <xhtml:link rel="alternate" hreflang="zh_hant" href="https://dadi.tech/zh_hant/latest"/>
-  <xhtml:link rel="alternate" hreflang="zh_hans" href="https://dadi.tech/zh_hans/latest"/>
 </url>
 <url>
   <loc>https://dadi.tech/en/contact/</loc>
