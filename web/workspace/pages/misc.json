@@ -2,6 +2,10 @@
   "page": {
     "key": "supporting"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "supporting",
@@ -16,4 +20,4 @@
       "in": "supporting"
     }
   ]
-}   
+}

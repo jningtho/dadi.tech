@@ -1,8 +1,12 @@
 {
   "page": {
-  	"key": "roadmap",
+    "key": "roadmap",
     "description": "An overview of the roadmap and upcoming development for DADI technology, an enterprise-grade, deployment-ready web services stack, built around a microservices architecture"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "forum",
@@ -10,7 +14,7 @@
   ],
   "routes": [
     {
-    	"path": "/:lang/roadmap/"
+      "path": "/:lang/roadmap/"
     }
   ]
-}	
+}

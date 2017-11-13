@@ -2,6 +2,10 @@
   "page": {
     "key": "home"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "successes",

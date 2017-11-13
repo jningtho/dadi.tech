@@ -1,4 +1,4 @@
-var Event = function (req, res, data, callback) {
+const Event = function (req, res, data, callback) {
   // Date and time to play with
   data.global.timestamp = new Date().getTime()
 

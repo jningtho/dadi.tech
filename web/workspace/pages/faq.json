@@ -3,6 +3,10 @@
     "key": "FAQ",
     "description": "Frequently asked questions about DADI, an enterprise-grade, deployment-ready web services stack, built around a microservices architecture"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "faq",
@@ -13,4 +17,4 @@
       "path": "/:lang/faq/"
     }
   ]
-}   
+}

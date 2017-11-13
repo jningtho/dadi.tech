@@ -4,6 +4,10 @@
     "color": "#031A07",
     "description": "How DADI works, remote working to achieve work-life balance and improve office productivity"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "about",
@@ -14,4 +18,4 @@
       "path": "/:lang/about/"
     }
   ]
-}   
+}

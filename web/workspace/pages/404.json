@@ -3,8 +3,12 @@
     "key": "404",
     "color": "#031A07"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
-  	"i18n",
+    "i18n",
     "forum"
   ]
-}   
+}

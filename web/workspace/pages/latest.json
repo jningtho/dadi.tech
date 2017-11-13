@@ -4,7 +4,8 @@
     "color": "#191502"
   },
   "events": [
-    "globals"
+    "globals",
+    "sortLatest"
   ],
   "requiredDatasources": [
     "latest"

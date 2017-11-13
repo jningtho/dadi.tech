@@ -3,6 +3,10 @@
     "key": "Security",
     "description": "Our microservices are designed from the ground up with security front and center."
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "security",
@@ -13,4 +17,4 @@
       "path": "/:lang/security/"
     }
   ]
-} 
+}

@@ -3,6 +3,10 @@
     "key": "Bug bounty",
     "color": "#031A07"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "forum"
@@ -12,4 +16,4 @@
       "path": "/:lang/bounty/"
     }
   ]
-}   
+}

@@ -5,7 +5,8 @@
     "description": "Engineering support for DADI technology, an enterprise-grade, deployment-ready web services stack, built around a microservices architecture"
   },
   "events": [
-    "globals"
+    "globals",
+    "sortLatest"
   ],
   "datasources": [
     "i18n",
@@ -26,4 +27,4 @@
       ]
     }
   ]
-} 
+}

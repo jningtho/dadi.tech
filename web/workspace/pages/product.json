@@ -3,7 +3,8 @@
     "key": "Products"
   },
   "events": [
-    "globals"
+    "globals",
+    "sortLatest"
   ],
   "datasources": [
     "i18n",

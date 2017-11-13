@@ -3,16 +3,18 @@
     "key": "Contact",
     "description": "Contact DADI, the team behind an enterprise-grade, deployment-ready web services stack, built around a microservices architecture"
   },
+  "events": [
+    "globals",
+    "contact",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "forum"
-  ],
-  "events": [
-    "contact"
   ],
   "routes": [
     {
       "path": "/:lang/contact/"
     }
   ]
-}   
+}

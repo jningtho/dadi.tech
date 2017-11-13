@@ -1,7 +1,11 @@
 {
   "page": {
-  	"key": "How we work"
+    "key": "How we work"
   },
+  "events": [
+    "globals",
+    "sortLatest"
+  ],
   "datasources": [
     "i18n",
     "how-we-work",
@@ -12,4 +16,4 @@
     	"path": "/:lang/how-we-work/"
     }
   ]
-}	
+}
