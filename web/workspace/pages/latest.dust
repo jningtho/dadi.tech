@@ -21,7 +21,7 @@
       <div class="col w-2-3">
         {#forum}
           <p class="txt--grey hdr normal">{@formatDate data=pubDate parseFormat="YYYY-MM-DD-Tkk:mm:ss+0" format="Do MMMM YYYY" /}</p>
-          <p class="hdr larger txt--green"><a href="{link}">{title}</a></p>
+          <p class="hdr larger txt--green"><a href="{link}">{title|s}</a></p>
           <p class="normal">{@soberMarkdown}{@htmlstrip}{@Truncate data="{description|s}" length="200" ellipsis="true"/}{/htmlstrip}{/soberMarkdown}</p>
           <p class="small pad__bottom--x2"><a href="{link}" class="btn btn--green">Read more</a></p>
         {/forum}

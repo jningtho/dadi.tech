@@ -4,7 +4,7 @@
     "name": "RSS",
     "source": {
       "type": "rss",
-      "endpoint": "https://forum.dadi.tech/category/1.rss?uid=5&token=d17be856-14fa-4b1b-9b43-26828d55415c"
+      "endpoint": "https://forum.dadi.tech/recent.rss"
     }
   }
 }
