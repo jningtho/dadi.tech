@@ -4,7 +4,8 @@
   },
   "events": [
     "globals",
-    "sortLatest"
+    "sortLatest",
+    "hidePromo"
   ],
   "datasources": [
     "i18n",

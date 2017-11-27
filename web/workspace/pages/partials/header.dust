@@ -10,7 +10,7 @@
 {@eq key=page.key value="home"}
 <div class="ico cf">
   <p class="hdr">{i18n.results[0].announcement}</p>
-  <a href="https://dadi.cloud/" class="btn small">{i18n.results[0].announcement_register}</a>
+  <a href="https://dadi.cloud/en/?hidepromo" class="btn small">{i18n.results[0].announcement_register}</a>
   <a href="http://dadi.link/id" class="btn small">{i18n.results[0].announcement_whitepaper}</a>
 </div>
 

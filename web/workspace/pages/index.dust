@@ -1,5 +1,7 @@
 {>"partials/header" /}
 
+{^hidePromo}{>"partials/promo" /}{/hidePromo}
+
 {<bodyClass}home{/bodyClass}
 
 {>"partials/infographic" /}
