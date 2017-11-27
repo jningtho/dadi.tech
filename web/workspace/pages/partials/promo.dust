@@ -12,6 +12,7 @@
     .csp {
       z-index: 12;
       display: none;
+      background: rgba(0,0,0,.73);
     }
     .csp.active {
       display: block;
