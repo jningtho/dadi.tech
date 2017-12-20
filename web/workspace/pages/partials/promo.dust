@@ -2,7 +2,7 @@
   <div class="overlay__inner">
     <div class="open-overlay close" onclick="closeOverlays()">×</div>
     <p class="hdr" style="color:#0ecc5f">DADI Crowdsale:<br>pre-registration now open.</p>
-    <p class="hdr ">50% token bonus.</p>
+    <p class="hdr ">20% token bonus.</p>
     <div class="grid">
       <div class="col w-1-2"><a href="https://dadi.cloud/en/?hidepromo">Learn more</a></div>
       <div class="col w-1-2"><a class="open-overlay" onclick="closeOverlays()" href="#">No thanks</a></div>
